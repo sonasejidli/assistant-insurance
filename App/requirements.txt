@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+langchain-core
+langchain-openrouter
+numpy
+faiss-cpu
+sentence-transformers
+rank_bm25
+python-dotenv

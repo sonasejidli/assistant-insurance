@@ -1,0 +1,15 @@
+name: app
+
+services:
+  api:
+    image: insurance-assistant-english:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        EMBED_MODEL: ${EMBED_MODEL:-intfloat/multilingual-e5-base}
+    env_file:
+      - App/.env
+    ports:
+      - "8000:8000"
+    restart: unless-stopped

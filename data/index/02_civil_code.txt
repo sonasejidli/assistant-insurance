@@ -1,0 +1,24 @@
+The Civil Code and the Insurance Contract
+=========================================
+
+The Civil Code regulates the insurance contract as a specific type of obligation. Key elements:
+
+- Parties: the insurer and the person concluding the contract (policyholder / insured). Contracts may also be concluded in favour of third parties.
+- Subject: the insurer's obligation to make an insurance payment if an insured event occurs, in return for payment of the premium.
+- Key concepts: insured event, sum insured, premium, insurance period, insurance payment.
+- Insurable interest: there must be a lawful interest in the insured property or risk.
+- Subrogation: after paying, the insurer may acquire a claim against the person who caused the loss (in cases and to the extent provided by law).
+- Disclosure: the policyholder must correctly report material circumstances affecting the risk.
+
+The Civil Code was aligned with amendments to the Law "On Insurance Activity" in 2019 (1637-VQD, 9 July 2019).
+
+REVIEW QUESTIONS
+----------------
+1. Who are the two main parties to an insurance contract?
+2. What does the insurer undertake to do?
+3. What does the policyholder pay in return?
+4. What is subrogation?
+5. Which 2019 act aligned the Civil Code with the insurance law amendments?
+
+---
+Note: This text is general information and not legal advice. Check the current wording of legal acts at e-qanun.az and cbar.az.

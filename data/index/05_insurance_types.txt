@@ -1,0 +1,27 @@
+Insurance Types and Classification
+==================================
+
+Legislation divides insurance into two main groups:
+
+1. Life insurance: risks tied to a person's life, health and capacity to work (savings, risk cover, etc.).
+2. Non-life insurance: property insurance, civil liability, accident, medical expenses, cargo, transport, financial risks, etc.
+
+Other classifications:
+- compulsory and voluntary insurance;
+- personal, property and liability insurance;
+- insurance classes: Article 14.3.2.6-4 of the Law "On Insurance Activity" defines the agricultural insurance class separately.
+
+Practical example: insurance of a borrower's life against death and loss of working capacity under loan contracts is governed by a special Central Bank Rule (under Article 16.5 of the Law).
+
+An insurer may operate in a given type only if it holds a licence for that type.
+
+REVIEW QUESTIONS
+----------------
+1. Name the two main groups of insurance.
+2. Give two other ways of classifying insurance.
+3. Which article defines the agricultural insurance class?
+4. What does a Central Bank Rule govern in loan contracts?
+5. When may an insurer operate in a given insurance type?
+
+---
+Note: This text is general information and not legal advice. Check the current wording of legal acts at e-qanun.az and cbar.az.
