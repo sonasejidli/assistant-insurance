@@ -1,6 +1,6 @@
 # Insurance Assistant
 
-An Azerbaijani-, Russian-, and English-language question-answering application for exploring insurance documents. It searches local text and PDF files for relevant passages and uses an OpenRouter language model to generate answers based on those passages.
+An Azerbaijani question-answering application for exploring insurance documents. It searches local text and PDF files for relevant passages and uses an OpenRouter language model to generate answers based on those passages.
 
 The included documents describe insurance legislation in Azerbaijan and are intended for testing. **This project is not a source of legal advice.** Check answers against authoritative, up-to-date sources.
 
