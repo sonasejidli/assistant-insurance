@@ -1,0 +1,471 @@
+{
+  "schema_version": 1,
+  "documents": {
+    "4e3b2353-e051-58b1-a63b-b4f0a785941e": {
+      "source_type": "law_or_code",
+      "version_id": "bc54389736257750be63a6b640521c5519606fd055789ccc09bcb048d8aa0c4a",
+      "anchors": [
+        {
+          "passage_id": "48e33abf-da77-59db-afe5-5560ad2aece4",
+          "text_sha256": "bf5779c3e09ee9138020871b6b3a8e98a3057ed07c45f5ef4389e2abf6f87d9a",
+          "page": 1
+        },
+        {
+          "passage_id": "2557ad80-b62c-5183-8183-33fe46b87df8",
+          "text_sha256": "e8c0b002609afa9e1ae612d3c3d56417593a4541945344c8b083344df4658e74",
+          "page": 83
+        }
+      ],
+      "source_url": null,
+      "issuing_authority": "Azərbaycan Respublikası",
+      "dates": {
+        "signed_act_date": "2007-12-25"
+      },
+      "basis": "Statutory opening and enacted act number with signed date."
+    },
+    "6e1749d4-db74-57f0-b220-9d807f376771": {
+      "source_type": "law_or_code",
+      "version_id": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "anchors": [
+        {
+          "passage_id": "2b938c63-72a3-578c-952a-3ede8abed74f",
+          "text_sha256": "6f62ec8f8e5196f3894c9e9818d5b2d75e2e432357f1353cd8585f2ad9bd6839",
+          "page": 1
+        },
+        {
+          "passage_id": "d5b55d99-83b3-568d-9080-6dcaca89b0c6",
+          "text_sha256": "5c0ac7c3dccc07f4dda141930778aefd03357f76cbf449e0435674d5f2b36cf7",
+          "page": 45
+        }
+      ],
+      "source_url": null,
+      "issuing_authority": "Azərbaycan Respublikası",
+      "dates": {
+        "adoption_date": "2011-06-24"
+      },
+      "basis": "Statutory opening and enacted act number with signed date."
+    },
+    "7da056dd-d9f8-501d-9a06-556083e2a0ed": {
+      "source_type": "law_or_code",
+      "version_id": "037ae7b144e76d87a5e7c6a3b0bf330fbd66a8a1518241159c079ede1ca5f535",
+      "anchors": [
+        {
+          "passage_id": "c7cd9193-c832-58b1-a08a-969ffd01eabf",
+          "text_sha256": "01e971a9afd590435d46b0441f277b7218ae9924b369abb5df4c27612976b913",
+          "page": 1
+        },
+        {
+          "passage_id": "03c2df3b-f802-5dd2-9161-f38c9cab1445",
+          "text_sha256": "019dbe19c043bb85f1308408786c7c721aa63b879143579456882b3eb4edd1c7",
+          "page": 15
+        }
+      ],
+      "source_url": null,
+      "issuing_authority": "Azərbaycan Respublikası",
+      "dates": {
+        "adoption_date": "2010-05-11"
+      },
+      "basis": "Statutory opening and enacted act number with signed date."
+    },
+    "c86009bc-5e6d-547f-8768-aca1af76916b": {
+      "source_type": "law_or_code",
+      "version_id": "be54fff4de0e5ea3010669da2b6a0a95e2dd1303d053a5821e815308205cec99",
+      "anchors": [
+        {
+          "passage_id": "df0717b5-e003-514b-9a68-e1c3e419728b",
+          "text_sha256": "f573a2b56315b7682d30f2a8078e90601600485fe3200555e5001ecc17cca226",
+          "page": 1
+        },
+        {
+          "passage_id": "bc1d352d-485d-51b9-9753-4a6342e759f8",
+          "text_sha256": "11ef7aad7b25719f4374d6c5e25f00409b0292d7e9c4701784290daae5930059",
+          "page": 7
+        }
+      ],
+      "source_url": null,
+      "issuing_authority": "Azərbaycan Respublikası",
+      "dates": {
+        "signed_act_date": "2007-05-22"
+      },
+      "basis": "Statutory opening and enacted act number with signed date."
+    },
+    "6fc38705-030d-5871-82c4-4f17ea44559c": {
+      "source_type": "law_or_code",
+      "version_id": "aa654768373ad35e31bbbb556f849a1778bebf0f6266f8d18f1e40d3deaa0424",
+      "anchors": [
+        {
+          "passage_id": "1bd0da51-905d-584c-8cdf-777023346886",
+          "text_sha256": "ed17397f9f83b740b11c1dcdbc82ac3ccca4a6898f74f32ee98f079985c4a8e2",
+          "page": 1
+        },
+        {
+          "passage_id": "5fa8f271-b2d8-5273-a7f4-6df51ec37b84",
+          "text_sha256": "0cc53338c1238d4dc8b75bb108bd747f905ae9843d2c3b885375fdae393ab671",
+          "page": 8
+        }
+      ],
+      "source_url": null,
+      "issuing_authority": "Azərbaycan Respublikası",
+      "dates": {
+        "adoption_date": "1997-05-20"
+      },
+      "basis": "Statutory opening and enacted act number with signed date."
+    },
+    "e90086e8-2d04-5eab-9620-7ce769aca005": {
+      "source_type": "law_or_code",
+      "version_id": "80d6304de0d44f2be5a35501d20fe1f150b77319af2379614cb5d6bb79eb8e9d",
+      "anchors": [
+        {
+          "passage_id": "cb496abb-e637-5ddc-8bdc-c64c3e4050a7",
+          "text_sha256": "34e31f8bc445fe263ab443ace4cb7bbcf7b1604a1bb8a21bc5c32334be1e108e",
+          "page": 1
+        },
+        {
+          "passage_id": "6d802bc3-220d-5cdf-be13-a79eb954d13e",
+          "text_sha256": "308ae1b809ce6fb561abb5498a2e70e462edcdf71ba3019249fea695ac2b939a",
+          "page": 21
+        }
+      ],
+      "source_url": null,
+      "issuing_authority": "Azərbaycan Respublikası",
+      "dates": {
+        "adoption_date": "1997-02-18"
+      },
+      "basis": "Statutory opening and enacted act number with signed date."
+    },
+    "1248340c-65bf-5254-875a-36c09b8300f4": {
+      "source_type": "law_or_code",
+      "version_id": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "anchors": [
+        {
+          "passage_id": "9e9c3c55-0d45-5b30-841a-834f2c0395d1",
+          "text_sha256": "05801a75bd4a4ee65209242708487080c088a04de4d519c833ba0667d3f056f1",
+          "page": 1
+        },
+        {
+          "passage_id": "df217e0c-7de9-5c86-aa24-9a9d89a213e3",
+          "text_sha256": "7e1e80e5b2c62ca3c3a040bf08c62629310c305fa46ff6b64d93f44b29a42902",
+          "page": 25
+        }
+      ],
+      "source_url": null,
+      "issuing_authority": "Azərbaycan Respublikası",
+      "dates": {
+        "adoption_date": "1999-10-28"
+      },
+      "basis": "Statutory opening and enacted act number with signed date."
+    },
+    "b98bfaad-71ef-5791-b253-a9c7c6c3cefd": {
+      "source_type": "government_resolution_or_regulation",
+      "version_id": "6166952f0d89038aea39ffcf77a51f14b98ec5ec060393a0795abbd0ca35e81f",
+      "anchors": [
+        {
+          "passage_id": "5fee598e-ddaa-540f-b529-75923268f521",
+          "text_sha256": "14c8049acc10bc1b9fb5da9066237e72596460b4cbc38f1fa35375da56964073",
+          "page": 1
+        },
+        {
+          "passage_id": "172b9559-2015-553f-9794-5746e1420ffd",
+          "text_sha256": "ac1c2f2f700a75977b6567b277332baf529f7cede75f95a0756e95805141bf4c",
+          "page": 1
+        },
+        {
+          "passage_id": "1669fe1c-6239-5936-aee3-bd3b9aef425c",
+          "text_sha256": "1eb83bb64b0508526d997af29e8e46b083fd7893119d817117b263bd261b4424",
+          "page": 1
+        }
+      ],
+      "source_url": "https://nk.gov.az/uploads/doc/docs/old/377574a1fac4aa03c39f3056c40a3421.pdf",
+      "issuing_authority": "Azərbaycan Respublikasının Nazirlər Kabineti",
+      "dates": {
+        "adoption_date": "2022-04-08"
+      },
+      "basis": "Cabinet heading and signed date and resolution number."
+    },
+    "7283e2b5-a63e-5a4c-b648-32ec0118e2ce": {
+      "source_type": "government_resolution_or_regulation",
+      "version_id": "f3cc13c064131dcc9abcf549bf7f2800afcac3d7a12649bed5896cb184a1d828",
+      "anchors": [
+        {
+          "passage_id": "6676baa0-6c11-515a-a7da-1ed397514c4a",
+          "text_sha256": "b8d5a49a0f53f574563a5a05b4a7bde584369c47daee52fedab41b7857c31666",
+          "page": 1
+        },
+        {
+          "passage_id": "5079dfa7-04be-55e1-8a58-6cbaa577087e",
+          "text_sha256": "c1449367dfc072ca7ab30ff219a78f8248f514d95d0aadfae9d6d97440521719",
+          "page": 5
+        },
+        {
+          "passage_id": "5f37dede-9028-5bac-89fc-868b3fdc1a2a",
+          "text_sha256": "059f5162e1a20812423c6214814bcc3346a2fe58392bd7c7a6040cdf97a37a6d",
+          "page": 5
+        }
+      ],
+      "source_url": "https://nk.gov.az/uploads/doc/docs/646341e8f146d.pdf",
+      "issuing_authority": "Azərbaycan Respublikasının Nazirlər Kabineti",
+      "dates": {
+        "adoption_date": "2023-05-15"
+      },
+      "basis": "Cabinet heading and signed date and resolution number."
+    },
+    "01a4a500-13dd-5068-8890-b921643bf99a": {
+      "source_type": "academic_textbook",
+      "version_id": "272e7cdbd9cd74e3dd7cf1574c40913ccc4e504a961bd846abd99b94bf1d00f9",
+      "anchors": [
+        {
+          "passage_id": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+          "text_sha256": "25a1fefbc41e2f5d4ba5aee1616c06ff60e2f43af28c9ce20a15164a46b8ae96",
+          "page": 1
+        },
+        {
+          "passage_id": "f379f739-9af6-5514-b5b4-56259083411a",
+          "text_sha256": "3b94df4a6b0e14a98fea452149e36bfb5744a4ceb3e84767d30a52c11db400af",
+          "page": 1
+        },
+        {
+          "passage_id": "bc554d25-01eb-5ea8-a2e2-4d54272b298b",
+          "text_sha256": "b74c5ea6ae99cce7f5b34ce608c8b60d0028ae6733a89618a25faedb81c5e729",
+          "page": 1
+        }
+      ],
+      "source_url": null,
+      "publisher": "Kooperasiya",
+      "dates": {
+        "publication_year": 2018
+      },
+      "basis": "Textbook designation, academic approval and publisher imprint."
+    },
+    "d2714228-7dd4-536f-b244-7837533f5724": {
+      "source_type": "news_or_general_information",
+      "version_id": "ffdf458a2fc831ffff3b86312e8f8c9ad66edff395a15a993433b772277c41c9",
+      "anchors": [
+        {
+          "passage_id": "05ca25b0-f931-5ff7-8977-6879c9019e70",
+          "text_sha256": "1d65856339b4d6d6f0932e0d0b69694f1ae2bb32a60de3481d879f6414cece02",
+          "page": null
+        }
+      ],
+      "source_url": "https://az.trend.az/business/4197840.html",
+      "publisher": "Trend",
+      "dates": {
+        "publication_date": "2026-06-16"
+      },
+      "basis": "Indexed text explicitly identifies itself as a dated news summary."
+    },
+    "f528c2f5-3ae6-5bc1-b572-f483f2954417": {
+      "source_type": "news_or_general_information",
+      "version_id": "d2c79654ee04dd2a874a8765ad818220fb2f60ec2db3fa1fca1714456ea14c0b",
+      "anchors": [
+        {
+          "passage_id": "0b8c41ca-1e30-50e2-8297-914234e2f8a9",
+          "text_sha256": "5f7c550978ec6106ce13a37d7fbb9c511293c06adebc07d0c576fe03de8ccda6",
+          "page": null
+        }
+      ],
+      "source_url": "https://az.trend.az/business/4201157.html",
+      "publisher": "Trend",
+      "dates": {
+        "publication_date": "2026-06-24"
+      },
+      "basis": "Indexed text explicitly identifies itself as a dated news summary."
+    }
+  },
+  "provisions": {
+    "8ecdc47b-20a4-54d1-9078-1ba02841810d": {
+      "text_sha256": "8196293d663df57d634e5a04cb3c40904fdd2e4393bf9d9ef75502e69cda1bdb",
+      "anchors": [
+        {
+          "passage_id": "6aadd683-e043-5a9c-9fdb-ba55f67afb42",
+          "text_sha256": "f787fcba99a336a8cb5bf4ad23125f1a7ce5cecec14283b1bb799f8aaf66a464",
+          "page": 87
+        }
+      ],
+      "amendment_adoption_date": "2019-06-27",
+      "amendment_publication_date": "2019-08-21",
+      "effective_date": "2020-01-01",
+      "amendment_act": "1618-VQD",
+      "basis": "Indexed amendment footnote names these clauses and the commencement date."
+    },
+    "cb1c64f8-875f-5ced-9d4c-13d2fdf86f72": {
+      "text_sha256": "04e401dadab5c893c6681bd70b29bd65222c43926b8acdb9832c1b1ad63c91f2",
+      "anchors": [
+        {
+          "passage_id": "6aadd683-e043-5a9c-9fdb-ba55f67afb42",
+          "text_sha256": "f787fcba99a336a8cb5bf4ad23125f1a7ce5cecec14283b1bb799f8aaf66a464",
+          "page": 87
+        }
+      ],
+      "amendment_adoption_date": "2019-06-27",
+      "amendment_publication_date": "2019-08-21",
+      "effective_date": "2020-01-01",
+      "amendment_act": "1618-VQD",
+      "basis": "Indexed amendment footnote names these clauses and the commencement date."
+    },
+    "351484d2-e2ea-5fbf-94f2-973944ba732f": {
+      "text_sha256": "d28b4db2f24b36655801eadf26452169419158a654af7cc2170bf92c9e23bc9e",
+      "anchors": [
+        {
+          "passage_id": "6aadd683-e043-5a9c-9fdb-ba55f67afb42",
+          "text_sha256": "f787fcba99a336a8cb5bf4ad23125f1a7ce5cecec14283b1bb799f8aaf66a464",
+          "page": 87
+        }
+      ],
+      "amendment_adoption_date": "2019-06-27",
+      "amendment_publication_date": "2019-08-21",
+      "effective_date": "2020-01-01",
+      "amendment_act": "1618-VQD",
+      "basis": "Indexed amendment footnote names these clauses and the commencement date."
+    },
+    "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5": {
+      "text_sha256": "a6ed19d3d12ecd9c7d1d18d826b129d88596e8ac8ef73f64ad16aced85d05fb1",
+      "anchors": [],
+      "repeal_directive_adoption_date": "2023-05-15",
+      "repeal_effective_date": null,
+      "repeal_target": "Decision No. 196 annex, subparagraph 1.1.1",
+      "basis": "Resolution No. 156 directs repeal of this item. The selected text supplies no effective date."
+    },
+    "408840aa-b5ca-50b7-ba73-3cd0b289a405": {
+      "text_sha256": "bf7df40c812ff3ecec5f9e71cbbd29c4f4b3c6efec7ee3868ba0a81c0bdb128c",
+      "anchors": [],
+      "rule_family": "area_bands",
+      "insurance_type": "mandatory state social insurance",
+      "person_group": "agricultural owner-users and qualified family-farm members",
+      "issue": "agricultural_land_contribution_rate"
+    },
+    "c1891f72-bb0d-5345-8f1e-81b8704eda12": {
+      "text_sha256": "a6b644455b9d0a6d68ab59798cd0de275d40d636d2e1680b22017e1a65a4a4d8",
+      "anchors": [],
+      "historical_text": true,
+      "repeal_effective_date": null,
+      "rule_family": "historical_flat_rate",
+      "basis": "PDF pages 10–11 show strike-through confirmed in the prior claim audit. Repeal date unverified.",
+      "insurance_type": "mandatory state social insurance",
+      "person_group": "agricultural owner-users and qualified family-farm members",
+      "issue": "agricultural_land_contribution_rate"
+    },
+    "9b926dd1-3311-593f-8ae4-35fe3bf13de0": {
+      "text_sha256": "4ed02d337c859f6874b67dd5983c08f075c5ec94840f0ec7357738394b6e1a35",
+      "anchors": [],
+      "historical_text": true,
+      "repeal_effective_date": null,
+      "rule_family": "historical_flat_rate",
+      "basis": "PDF pages 10–11 show strike-through confirmed in the prior claim audit. Repeal date unverified.",
+      "insurance_type": "mandatory state social insurance",
+      "person_group": "agricultural owner-users and qualified family-farm members",
+      "issue": "agricultural_land_contribution_rate"
+    },
+    "1a14f9e2-7510-5b64-90d6-2c89f14bc426": {
+      "text_sha256": "7bb3ee5fc8ed51066809616de465cf754cc8581f788f3aa69882668dbdf4e568",
+      "anchors": [
+        {
+          "passage_id": "344dbaa8-f0b8-5022-972c-dcd6a7a332d9",
+          "text_sha256": "d892f83431675e53b9fc3be000715d45e184d2bf56bbfa911e481c480c783fcd",
+          "page": 11
+        },
+        {
+          "passage_id": "534ab0d1-cd91-547b-8958-be7f3c5a7178",
+          "text_sha256": "ba9ebfcd6fffc585e108102b6aba4d6a6c9590ac05a6b34baaf9fb172a5d06d5",
+          "page": 12
+        }
+      ],
+      "issue": "transitional_employer_subsidy",
+      "insurance_type": "mandatory state social insurance",
+      "person_group": "qualifying employers under §14-1.1.1",
+      "rule_family": "first_band",
+      "rule_period": [
+        "2023-01-01",
+        "2026-01-01"
+      ],
+      "basis": "Explicit subsidy period for the named group. This is a rule period, not publication or commencement of the act."
+    },
+    "73be3c3c-e3c4-5021-8455-048cea173513": {
+      "text_sha256": "63bfaa01e1df93c282320d834bf4c8747ad652ac3b2073dae597cdce122526b1",
+      "anchors": [
+        {
+          "passage_id": "344dbaa8-f0b8-5022-972c-dcd6a7a332d9",
+          "text_sha256": "d892f83431675e53b9fc3be000715d45e184d2bf56bbfa911e481c480c783fcd",
+          "page": 11
+        },
+        {
+          "passage_id": "534ab0d1-cd91-547b-8958-be7f3c5a7178",
+          "text_sha256": "ba9ebfcd6fffc585e108102b6aba4d6a6c9590ac05a6b34baaf9fb172a5d06d5",
+          "page": 12
+        }
+      ],
+      "issue": "transitional_employer_subsidy",
+      "insurance_type": "mandatory state social insurance",
+      "person_group": "qualifying employers under §14-1.1.1",
+      "rule_family": "second_band",
+      "rule_period": [
+        "2026-01-01",
+        "2029-01-01"
+      ],
+      "basis": "Explicit subsidy period for the named group. This is a rule period, not publication or commencement of the act."
+    },
+    "b3750c0b-8a72-510d-a9aa-af310b4d9d35": {
+      "text_sha256": "15f9cce355279941f0bde90ad4f5ee5a875f5837cbbad34c5e9bd4e9996f5226",
+      "anchors": [
+        {
+          "passage_id": "b3750c0b-8a72-510d-a9aa-af310b4d9d35",
+          "text_sha256": "15f9cce355279941f0bde90ad4f5ee5a875f5837cbbad34c5e9bd4e9996f5226",
+          "page": 25
+        }
+      ],
+      "insurance_type": "medical",
+      "effective_date": "2024-01-01",
+      "commencement_target": "15-10.1.5",
+      "commencement_exceptions": [],
+      "date_evidence": {
+        "effective_date": {
+          "type": "provision_commencement",
+          "value": "2024-01-01",
+          "status": "verified_from_indexed_text",
+          "provenance": "explicit_commencement_clause",
+          "reference": {
+            "passage_id": "b3750c0b-8a72-510d-a9aa-af310b4d9d35",
+            "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+            "document": "sığorts 4.pdf",
+            "article": "16-4",
+            "clause": "16-4.5",
+            "page": 25
+          }
+        }
+      }
+    },
+    "8b9e9bda-28ee-5dcb-813b-118941d66dbe": {
+      "text_sha256": "42fdb13adc79956e2d5f1338cb604fddd0c79d059fbca415d7c62444a856d897",
+      "anchors": [
+        {
+          "passage_id": "8b9e9bda-28ee-5dcb-813b-118941d66dbe",
+          "text_sha256": "42fdb13adc79956e2d5f1338cb604fddd0c79d059fbca415d7c62444a856d897",
+          "page": 25
+        }
+      ],
+      "insurance_type": "medical",
+      "effective_date": "2020-01-01",
+      "commencement_target": "general commencement under clause 16-4.6",
+      "commencement_exceptions": [
+        "16-4.4",
+        "16-4.4-1",
+        "16-4.5"
+      ],
+      "date_evidence": {
+        "effective_date": {
+          "type": "provision_commencement",
+          "value": "2020-01-01",
+          "status": "verified_from_indexed_text",
+          "provenance": "explicit_commencement_clause",
+          "reference": {
+            "passage_id": "8b9e9bda-28ee-5dcb-813b-118941d66dbe",
+            "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+            "document": "sığorts 4.pdf",
+            "article": "16-4",
+            "clause": "16-4.6",
+            "page": 25
+          }
+        }
+      }
+    }
+  }
+}

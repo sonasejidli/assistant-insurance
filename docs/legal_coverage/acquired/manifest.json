@@ -1,0 +1,185 @@
+[
+  {
+    "file": "nk-189-consolidated.html",
+    "source_url": "https://frameworks.e-qanun.az/3/f_3468.html",
+    "state": "archived_unverified",
+    "resolved_url": "https://frameworks.e-qanun.az/3/f_3468.html",
+    "sha256": "443d81e14df7033c1cc941dfc032cb65edb04d902b1c17da5e167e70a3fc72a0",
+    "bytes": 5514866,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:21.027779+00:00",
+    "last_modified": "Wed, 30 Sep 2026 06:39:52 GMT"
+  },
+  {
+    "file": "social-benefits-consolidated.html",
+    "source_url": "https://frameworks.e-qanun.az/11/f_11508.html",
+    "state": "archived_unverified",
+    "resolved_url": "https://frameworks.e-qanun.az/11/f_11508.html",
+    "sha256": "f2b983487a18a9498fd75bb2b2e416c818021f9afa9ff68df6007a18eeeac2be",
+    "bytes": 667630,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:20.103023+00:00",
+    "last_modified": "Mon, 29 Jun 2026 13:12:59 GMT"
+  },
+  {
+    "file": "social-benefits-amount-decree.html",
+    "source_url": "https://president.az/az/articles/view/69168/print",
+    "state": "archived_unverified",
+    "resolved_url": "https://president.az/az/articles/view/69168/print",
+    "sha256": "13a9d2b2c38b4cd218d24bf4a26021b76cbedac81eb384aed6ca744219b6d7a8",
+    "bytes": 16483,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:19.881112+00:00",
+    "last_modified": null
+  },
+  {
+    "file": "nk-187-register.html",
+    "source_url": "https://e-qanun.az/framework/49623",
+    "state": "archived_unverified",
+    "resolved_url": "https://e-qanun.az/framework/49623",
+    "sha256": "0b9dc5748f1472efb871a89f1c14262487f6d4106f85815a4004cff50e743d62",
+    "bytes": 17701,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:19.845075+00:00",
+    "last_modified": null
+  },
+  {
+    "file": "nk-187-original-criteria.pdf",
+    "source_url": "https://nk.gov.az/uploads/doc/docs/old/dc0997e93360c021cfd4cfbca957947e.pdf",
+    "state": "archived_unverified",
+    "resolved_url": "https://nk.gov.az/uploads/doc/docs/old/dc0997e93360c021cfd4cfbca957947e.pdf",
+    "sha256": "f66cffcc7f483652a964513c4204ada74a49ba813fb269130487b7933890f0ae",
+    "bytes": 750648,
+    "media_type": "application/pdf",
+    "acquired_utc": "2026-11-24T16:50:20.645554+00:00",
+    "last_modified": "Tue, 17 May 2022 15:24:00 GMT"
+  },
+  {
+    "file": "nk-187-amendment-64bfc27821313.pdf",
+    "source_url": "https://nk.gov.az/uploads/doc/docs/64bfc27821313.pdf",
+    "state": "archived_unverified",
+    "resolved_url": "https://nk.gov.az/uploads/doc/docs/64bfc27821313.pdf",
+    "sha256": "2badf981f11c8de9f9564c6af82fff8c91c46984cb7acf23c7317eadc4fecdf0",
+    "bytes": 803930,
+    "media_type": "application/pdf",
+    "acquired_utc": "2026-11-24T16:50:21.153136+00:00",
+    "last_modified": "Tue, 25 Jul 2023 12:39:20 GMT"
+  },
+  {
+    "file": "nk-187-amendment-64edc8d6988f3.pdf",
+    "source_url": "https://nk.gov.az/uploads/doc/docs/64edc8d6988f3.pdf",
+    "state": "archived_unverified",
+    "resolved_url": "https://nk.gov.az/uploads/doc/docs/64edc8d6988f3.pdf",
+    "sha256": "27e90338a70f40a838d7ebdda6c10a631e4936cb62cf427bc7b4cba6ff13f9ac",
+    "bytes": 804436,
+    "media_type": "application/pdf",
+    "acquired_utc": "2026-11-24T16:50:20.639608+00:00",
+    "last_modified": "Tue, 29 Aug 2023 10:30:46 GMT"
+  },
+  {
+    "file": "nk-269-injury-severity.html",
+    "source_url": "https://frameworks.e-qanun.az/28/f_28241.html",
+    "state": "archived_unverified",
+    "resolved_url": "https://frameworks.e-qanun.az/28/f_28241.html",
+    "sha256": "afb2fa098bea8a2fdbca8be2b686253d3f86832cee08765241353c7e299a5ebb",
+    "bytes": 86882,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:20.351919+00:00",
+    "last_modified": "Fri, 15 May 2026 10:11:12 GMT"
+  },
+  {
+    "file": "nk-27-accident-procedure.html",
+    "source_url": "https://frameworks.e-qanun.az/0/f_232.html",
+    "state": "archived_unverified",
+    "resolved_url": "https://frameworks.e-qanun.az/0/f_232.html",
+    "sha256": "110cc7fcb7b844407a5bcfb7e851048ead6d251b9a985e20fed059df9fb218b9",
+    "bytes": 373344,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:20.586990+00:00",
+    "last_modified": "Tue, 18 Nov 2025 05:20:49 GMT"
+  },
+  {
+    "file": "workplace-insurance-register.html",
+    "source_url": "https://e-qanun.az/framework/19789",
+    "state": "archived_unverified",
+    "resolved_url": "https://e-qanun.az/framework/19789",
+    "sha256": "0b9dc5748f1472efb871a89f1c14262487f6d4106f85815a4004cff50e743d62",
+    "bytes": 17701,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:20.590080+00:00",
+    "last_modified": null
+  },
+  {
+    "file": "workplace-insurance-legacy-consolidation.html",
+    "source_url": "https://frameworks.e-qanun.az/19/c_f_19789.html",
+    "state": "archived_unverified",
+    "resolved_url": "https://frameworks.e-qanun.az/19/c_f_19789.html",
+    "sha256": "61d0299da354c48de26036a00ef2c9d70deab49326f0e256f79f6789086976bc",
+    "bytes": 291669,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:21.035718+00:00",
+    "last_modified": "Sat, 27 Mar 2021 09:47:20 GMT"
+  },
+  {
+    "file": "compulsory-insurance-consolidated.html",
+    "source_url": "https://frameworks.e-qanun.az/22/f_22228.html",
+    "state": "archived_unverified",
+    "resolved_url": "https://frameworks.e-qanun.az/22/f_22228.html",
+    "sha256": "160fc62fed630a0fccba91119e1981c118684a265bbcbc4945edad80b5ca856b",
+    "bytes": 1218241,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:21.243120+00:00",
+    "last_modified": "Wed, 14 Oct 2026 05:24:22 GMT"
+  },
+  {
+    "file": "civil-code-version-locator.html",
+    "source_url": "https://e-qanun.az/version/18593",
+    "state": "archived_unverified",
+    "resolved_url": "https://e-qanun.az/version/18593",
+    "sha256": "18eef16cfa39aacf81f5605fbf3a6cbe52e059f9cb3de2cb3856009fd6afdfa8",
+    "bytes": 4807,
+    "media_type": "text/html",
+    "acquired_utc": "2026-11-24T16:50:20.805271+00:00",
+    "last_modified": null
+  },
+  {
+    "file": "civil-code-consolidated.html",
+    "source_url": "https://frameworks.e-qanun.az/46/f_46944.html",
+    "resolved_url": "https://frameworks.e-qanun.az/46/f_46944.html",
+    "bytes": 10062467,
+    "sha256": "f7a1b9fe7b26495ad3fa7377b0fce173ca48858a26950ccfb00ea72c504488c1",
+    "acquired_utc": "2026-11-24T16:51:31.638773+00:00",
+    "media_type": "text/html",
+    "state": "archived_unverified"
+  },
+  {
+    "file": "labour-code-consolidated.html",
+    "source_url": "https://frameworks.e-qanun.az/46/f_46943.html",
+    "resolved_url": "https://frameworks.e-qanun.az/46/f_46943.html",
+    "bytes": 4925325,
+    "sha256": "be00854efccbb8bc051b8253b6ebd35134a6c6572af11bd36593a213b6c07f77",
+    "acquired_utc": "2026-11-24T16:51:33.143827+00:00",
+    "media_type": "text/html",
+    "state": "archived_unverified"
+  },
+  {
+    "file": "social-insurance-consolidated.html",
+    "source_url": "https://frameworks.e-qanun.az/3/f_3813.html",
+    "resolved_url": "https://frameworks.e-qanun.az/3/f_3813.html",
+    "bytes": 1055851,
+    "sha256": "a86a4b7d2354357a0b4c97f6ee7c8fe01aeb53199d91f8030c3edd7463771faa",
+    "acquired_utc": "2026-11-24T16:51:33.642337+00:00",
+    "media_type": "text/html",
+    "state": "archived_unverified"
+  },
+  {
+    "file": "military-insurance-consolidated.html",
+    "source_url": "https://frameworks.e-qanun.az/3/f_3896.html",
+    "resolved_url": "https://frameworks.e-qanun.az/3/f_3896.html",
+    "bytes": 504183,
+    "sha256": "4d0ef0f560b5968cef5f7b4557f2e95bf85d5856bf5165c2151fa128d043c813",
+    "acquired_utc": "2026-11-24T16:51:33.836483+00:00",
+    "media_type": "text/html",
+    "state": "archived_unverified"
+  }
+]

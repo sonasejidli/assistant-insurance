@@ -5,3 +5,5 @@
 **/.env.*
 *.pyc
 .pytest_cache
+data/staged_legal/scanned-source-ocr.pdf
+data/staged_legal/*.html

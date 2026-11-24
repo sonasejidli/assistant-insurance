@@ -1,0 +1,48 @@
+{
+  "chunks": [
+    {"doc": "premium", "text": "Sığorta haqqı müqavilə bağlandıqda sığortalı tərəfindən ödənilir. Haqqın hesablanması sığorta tarifi və risk dərəcəsi əsasında aparılır."},
+    {"doc": "payout", "text": "Sığorta hadisəsi baş verdikdə zərər qiymətləndirilir və sığortaçı sığorta ödənişi barədə qərar verir. Zərər təsdiqləndikdən sonra ödəniş faydalanan şəxsə köçürülür."},
+    {"doc": "motor-property", "text": "Avtonəqliyyat vasitəsinin sığortası üzrə üçüncü şəxsin əmlakına dəyən zərər üçün məsuliyyət limiti 5 000 manatdır.", "metadata": {"article": "56", "clause": "56.1.2", "law_number": "123-IVQ"}},
+    {"doc": "motor-injury", "text": "Avtonəqliyyat vasitəsinin sığortası üzrə üçüncü şəxsin sağlamlığına dəyən zərər üçün məsuliyyət limiti 50 000 manatdır.", "metadata": {"article": "56", "clause": "56.1.20", "law_number": "123-IVQ"}},
+    {"doc": "wage-threshold", "text": "Əməkhaqqının 8 000 manatadək hissəsinə bir tarif tətbiq edilir. Əməkhaqqının bu həddən yuxarı olan hissəsi üçün sığorta haqqının hesablanma qaydası ayrıca göstərilir."},
+    {"doc": "wage-rate", "text": "Əməkhaqqından tutulan sığorta haqqı 2,5 faiz dərəcəsi ilə hesablanır."},
+    {"doc": "other-rate", "text": "Əməkhaqqından tutulan sığorta haqqı 25 faiz dərəcəsi ilə hesablanır."},
+    {"doc": "deductible", "text": "Azadolma məbləği 250 manat təşkil edir. Franşiza ödənişi hesablayarkən nəzərə alınır."},
+    {"doc": "large-deductible", "text": "Azadolma məbləği 2 500 manat təşkil edir."},
+    {"doc": "sum-insured", "text": "Əmlakın dəyəri əsasında sığorta məbləği müəyyən edilir. Müqavilədə göstərilən sığorta məbləği sığortanın şərtlərinə uyğun olaraq dəyişdirilə bilər."},
+    {"doc": "notice", "text": "Sığortalı sığorta hadisəsi barədə sığortaçıya məlumat verməlidir. Bildiriş hadisədən sonra 10 gün ərzində təqdim edilir.", "metadata": {"article": "20", "clause": "20.0.2", "law_number": "321-IIIQ"}},
+    {"doc": "claim-documents", "text": "Sığorta tələbi üzrə tələb olunan sənədlər: yazılı ərizə, müqavilənin surəti və zərərin qiymətləndirilməsi haqqında sənəd. Sığortalı sənədləri sığortaçıya təqdim edir.", "metadata": {"article": "20", "clause": "20.0.20", "law_number": "321-IIIQ"}},
+    {"doc": "exclusion", "text": "Sığorta müqaviləsinin istisnalarına qəsdən törədilmiş zərər daxildir."},
+    {"doc": "reinsurance", "text": "Təkrar sığorta sığortaçının qəbul etdiyi riskin bir hissəsinin başqa sığortaçıya ötürülməsini nəzərdə tutur."},
+    {"doc": "subrogation", "text": "Subroqasiya hüququ sığorta ödənişindən sonra zərərə görə məsul şəxsə qarşı tələb irəli sürməyə imkan verir."},
+    {"doc": "beneficiary", "text": "Faydalanan şəxs müqavilədə göstərilən sığorta ödənişini almaq hüququna malikdir."},
+    {"doc": "medical", "text": "Tibbi sığorta həkim müayinəsi xərclərini əhatə edir. Müayinə üçün göndəriş tibbi xidmətə müraciət zamanı təqdim edilir."},
+    {"doc": "long-notice-distractor", "text": "Sığorta tələbi və sığorta ödənişi ilə bağlı bildiriş, bildirişin surəti, bildirişin qəbul tarixi və bildiriş nömrəsi qeydiyyat kitabına daxil edilir. Sığorta hadisəsi barədə bildiriş qeydiyyata alındıqdan sonra məsul işçi bildiriş üzrə müqaviləni, ərizəni, sənədləri, sığortaçının qərarını və sonrakı yazışmaları arxivə göndərir."},
+    {"doc": "rate-note", "text": "Sığorta haqqı tarif əsasında hesablanır. Tarif cədvəldə göstərilir."},
+    {"doc": "income-note", "text": "Digər gəlirlərin mənbəyi ərizədə göstərilir. Ümumi gəlir barədə məlumat əməkhaqqından başqa əldə edilmiş gəlirləri də əhatə edir."}
+  ],
+  "tuning": [
+    {"question": "Sığorta pulunu ödəyəcəyəm, haqq necə müəyyən olunur?", "relevant_docs": ["premium"]},
+    {"question": "Sığorta pulunu nə vaxt alacağam, zərərimi kim qiymətləndirir?", "relevant_docs": ["payout"]},
+    {"question": "Üçüncü şəxs üçün 5000 AZN ödəniş limiti", "relevant_docs": ["motor-property"]},
+    {"question": "Əməkhaqqından 2.50% tutulması", "relevant_docs": ["wage-rate"]},
+    {"question": "2500 manat franşiza", "relevant_docs": ["large-deductible"]},
+    {"question": "Müqavilədə əmlakın dəyəri əsasında ödəniş limiti", "relevant_docs": ["sum-insured"]},
+    {"question": "Sığorta hadisəsi barədə 10 gün ərzində bildiriş", "relevant_docs": ["notice"]},
+    {"question": "Sığorta tələbi üçün sənədlər və yazılı ərizə", "relevant_docs": ["claim-documents"]},
+    {"question": "Müqavilənin istisnalarından qəsdən törədilmiş zərər", "relevant_docs": ["exclusion"]},
+    {"question": "Riskin bir hissəsinin başqa sığortaçıya ötürülməsi", "relevant_docs": ["reinsurance"]},
+    {"question": "Sığorta pulu nə qədərdir?", "relevant_docs": ["premium", "payout"]},
+    {"question": "Maaşım yüksəkdirsə, haqq hesablanmasında həddin təsiri nədir?", "relevant_docs": ["wage-threshold"]}
+  ],
+  "holdout": [
+    {"question": "50 000 manat üçüncü şəxsin sağlamlığı", "relevant_docs": ["motor-injury"]},
+    {"question": "Əməkhaqqından 25% sığorta haqqı", "relevant_docs": ["other-rate"]},
+    {"question": "Azadolma 250 AZN", "relevant_docs": ["deductible"]},
+    {"question": "Sığorta 321–IIIQ 20.0.20 sənədlər", "relevant_docs": ["claim-documents"]},
+    {"question": "Sığorta 56.1.2 üzrə əmlak", "relevant_docs": ["motor-property"]},
+    {"question": "Faydalananın ödənişlərdən yararlanması", "relevant_docs": ["beneficiary"]},
+    {"question": "Zərərə görə məsul şəxsə qarşı subroqasiya tələbi", "relevant_docs": ["subrogation"]},
+    {"question": "TİBBİ SIĞORTA həkim müayinəsi", "relevant_docs": ["medical"]}
+  ]
+}

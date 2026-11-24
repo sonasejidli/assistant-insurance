@@ -1,0 +1,109 @@
+id	category	query	relevance
+AZ001	formal	Sığorta müqaviləsi bağlandıqda sığorta haqqını kim ödəyir?	premium:3
+AZ002	formal	Sığortaçı zərər qiymətləndirildikdən sonra hansı qərarı verir?	payout:3,decision-10:1
+AZ003	formal	Sığortaçı sığorta hadisəsi barədə məlumatı hansı müddətdə almalıdır?	notice:3,notice-10:3
+AZ004	formal	Sığorta tələbi üzrə təqdim edilən sənədlər hansılardır?	claim-documents:3
+AZ005	formal	Təkrar sığorta müqaviləsinin əsas funksiyası nədir?	reinsurance:3
+AZ006	formal	Faydalanan şəxsin sığorta ödənişinə dair hüququ nədən ibarətdir?	beneficiary:3,payout:1
+AZ007	formal	Tibbi sığorta həkim müayinəsinin xərclərini əhatə edirmi?	medical:3
+AZ008	formal	Sığorta məbləği müəyyən edilərkən əmlakın dəyəri necə nəzərə alınır?	sum-insured:3
+AZ009	formal	Sığorta hadisəsi təsdiqləndikdə ödəniş hansı üsulla verilir?	cash-payment:3,payout:1
+AZ010	formal	Subroqasiya hüququ kimə qarşı tələb irəli sürməyə imkan verir?	subrogation:3,third-party-intent:2
+AZ011	formal	Sığorta haqqının hesablanmasında risk dərəcəsinin rolu nədir?	premium:3,rate-note:2
+AZ012	formal	Gəlir barədə ərizədə əməkhaqqından başqa hansı məlumatlar göstərilir?	income-note:3
+AZ013	informal	Sığortaçıya qəzanı nə vaxt xəbər eləməliyəm?	notice:3,notice-10:3
+AZ014	informal	Maşınla başqasının malına ziyan vursam, ən çox nə qədər qarşılanır?	property-limit:3,motor-property:3
+AZ015	informal	Həkimə getməyin xərcini kim qarşılayır?	medical:3
+AZ016	informal	Mənə dəyən ziyanı şirkət nə vaxt qaytaracaq?	payment-30:3,payout:2,decision-10:1
+AZ017	informal	Pulu əlimə verəcəklər, yoxsa hesaba atacaqlar?	cash-payment:3,payout:2
+AZ018	informal	Evi özüm yandırmışamsa yenə pul düşür?	intentional-fire:3,exclusion:2
+AZ019	informal	Boru birdən partladı, ev su içində qaldı, bunu ödəyirlər?	water-exception:3
+AZ020	informal	Sənədləri verəndən sonra şirkət nə vaxta kimi cavab verməlidi?	decision-10:3
+AZ021	informal	Qəza olanda qarşı tərəf xəsarət alsa neçəyə kimi ödəyirlər?	injury-limit:3,motor-injury:3
+AZ022	informal	Maaşımın yuxarıdakı hissəsindən çox tutacaqlar, yoxsa az?	worker-excess:3,worker-rate:2,wage-threshold:2
+AZ023	informal	Sığorta pulu çıxandan sonra günahkardan onu kim istəyə bilər?	subrogation:3,third-party-intent:2
+AZ024	informal	Faydalanan adam pulu götürə bilər, eləmi?	beneficiary:3,payout:2
+AZ025	morphology	Hadisələrimizdən xəbər tutduğumuzda bildirişin müddəti necə hesablanır?	notice-10:3,notice:2
+AZ026	morphology	Sığortalılarımızın sığortaçılarımıza təqdim etməli olduqları sənədlər hansılardır?	claim-documents:3
+AZ027	morphology	Ödənişlərdən sonra zərərvuranlara qarşı tələblər irəli sürülə bilərmi?	subrogation:3,third-party-intent:2
+AZ028	morphology	Faydalananların ödənişlərdən yararlanmaq hüququ necə göstərilib?	beneficiary:3,payout:2
+AZ029	morphology	Müqavilələrimizdəki istisnalardan hansı qəsdən törədilmiş zərərə aiddir?	exclusion:3,intentional-fire:2
+AZ030	morphology	Tariflərə əsasən haqqın hesablanmasında risk nəzərə alınırmı?	premium:3,rate-note:2
+AZ031	morphology	Sığortanın əmlakdan ötrü müəyyənləşdirdiyi sığorta məbləğlərinin əsası nədir?	sum-insured:3
+AZ032	morphology	Müddətlərdən hansısı qərarın qəbulundan sonrakı ödənişə aiddir?	payment-30:3,decision-10:1
+AZ033	morphology	Sığortaçının məsuliyyətinin həddini sağlamlığa vurulan zərər halında necə müəyyən edirlər?	injury-limit:3,motor-injury:3
+AZ034	morphology	Azadolmaların şərtli olanında zərərin həddi keçməsindən sonra məbləğ çıxılırmı?	deductible-conditional:3,deductible-subtract:1
+AZ035	morphology	Əməkhaqqımızın yuxarı hissəsindən haqların tutulmasının dərəcəsi nədir?	worker-excess:3,wage-threshold:2
+AZ036	morphology	Müayinələrimizin xərclərinin sığortalanmasının şərtləri və göndəriş tələbi nədir?	medical:3
+AZ037	incomplete	SIGORTA HAQQI TARIF risk?	premium:3,rate-note:2
+AZ038	incomplete	sigorta odenisi hesab pulu harda	cash-payment:3,payout:2
+AZ039	incomplete	2.5 faizz isci tutulan	wage-rate:3
+AZ040	incomplete	10 gun senedler sonra qerar	decision-10:3
+AZ041	incomplete	bildiris hadise gec nece gun	notice:3,notice-10:3
+AZ042	incomplete	masin ziyan 5min basqa emlak	motor-property:3,property-limit:3
+AZ043	incomplete	boru sizma yavas odemir?	water-excluded:3
+AZ044	incomplete	fransiza 2500 hansidi	large-deductible:3
+AZ045	incomplete	tibbi hekim muayine gonderis	medical:3
+AZ046	incomplete	qesden yangn ozum odenis	intentional-fire:3,exclusion:2
+AZ047	incomplete	subroqasiya kimden geri	subrogation:3,third-party-intent:2
+AZ048	incomplete	muqavile taleb erize surret	claim-documents:3
+AZ049	terminology	Ödəyəcəyim pul sığorta üçün hansı tarifə əsasən müəyyən edilir?	premium:3,rate-note:2
+AZ050	terminology	Zərərimin ödənilməsi üçün sığortaçı necə qərar verir?	payout:3,decision-10:2
+AZ051	terminology	Şərtsiz franşiza olduqda zərərdən nə qədər çıxılır?	deductible-subtract:3,deductible:2
+AZ052	terminology	Ödəniş limiti əmlakın dəyərinə bağlıdırmı?	sum-insured:3
+AZ053	terminology	Üçüncü şəxs üçün ödəniş limiti əmlak və sağlamlıq üzrə necə fərqlənir?	property-limit:3,injury-limit:3,motor-property:3,motor-injury:3
+AZ054	terminology	Maşının sığortası başqasının əşyasına vurulan zərəri hansı həddədək qarşılayır?	property-limit:3,motor-property:3
+AZ055	terminology	Sığorta hadisəsindən sonra alacağım sığorta puluna kim qərar verir?	payout:3,decision-10:2
+AZ056	terminology	Riskin başqa sığortaçı ilə bölüşdürülməsi necə adlandırılır?	reinsurance:3
+AZ057	terminology	Zərərvuran şəxsdən geri tələb etmək hüququ sığortaçıya nə vaxt keçir?	subrogation:3,third-party-intent:2
+AZ058	terminology	İşəgötürənin öz hesabına verdiyi sığorta töhfəsi neçə faizdir?	employer-rate:3
+AZ059	terminology	Zərərçəkənə pul köçürməsi müsbət qərardan sonra neçə günə edilir?	payment-30:3,cash-payment:1
+AZ060	terminology	Maaş və başqa qazanc mənbələri ərizədə necə göstərilir?	income-note:3
+AZ061	numbers	5 000 AZN üçüncü şəxsin əmlakı üzrə bir hadisənin limitidirmi?	property-limit:3,motor-property:3
+AZ062	numbers	50 000 manatlıq hədd sağlamlığa vurulan zərərə tətbiq edilirmi?	injury-limit:3,motor-injury:3
+AZ063	numbers	Əməkhaqqından 2.50% tutulması hansı sığorta haqqına aiddir?	wage-rate:3
+AZ064	numbers	Əməkhaqqından 25 faiz tutulan haqq hansı bənddə göstərilir?	other-rate:3
+AZ065	numbers	250 AZN şərtsiz azadolma zərərdən çıxılırmı?	deductible-subtract:3,deductible:2
+AZ066	numbers	Azadolma məbləği 2 500 AZN göstərilən şərt hansıdır?	large-deductible:3
+AZ067	numbers	Maaşın 8000 manatdan yuxarı hissəsindən 0,5% tutulması necə göstərilib?	worker-excess:3
+AZ068	numbers	Müsbət qərardan sonrakı 30 gün hansı öhdəliyə aiddir?	payment-30:3
+AZ069	numbers	10 gün ərzində verilən qərar üçün hansı sənədlər əvvəlcə alınmalıdır?	decision-10:3,claim-documents:2
+AZ070	numbers	56.1.2-ci maddə üzrə üçüncü şəxsin əmlakına aid limit nədir?	motor-property:3,property-limit:2
+AZ071	numbers	321-IIIQ, 20.0.20: yazılı ərizə tələbi harada göstərilir?	claim-documents:3
+AZ072	numbers	250 manat həddi keçildikdə tam məbləğin qarşılanması hansı franşizaya aiddir?	deductible-conditional:3
+AZ073	conditions	Sığortalı yanğını qəsdən törədikdə təminatdan kənar qalırmı?	intentional-fire:3,exclusion:2
+AZ074	conditions	Üçüncü şəxs yanğını qəsdən törədirsə, sığortaçının sonrakı tələbi hansı şərtdən asılıdır?	third-party-intent:3,subrogation:2
+AZ075	conditions	Tədricən yaranan sızmaya görə hansı hallarda ödəniş istisna edilir?	water-excluded:3,water-exception:1
+AZ076	conditions	Borunun qəfil partlaması ümumi sızma istisnasından çıxarılırmı?	water-exception:3,water-excluded:1
+AZ077	conditions	Sel təminatı ayrıca alınmayıbsa, sel suyu zərərinə ödəniş verilirmi?	water-flood:3
+AZ078	conditions	Qərardan əvvəl ödəniş müddəti başlayırmı, yoxsa yalnız müsbət qərar olduqda?	payment-30:3,decision-10:2
+AZ079	conditions	Hadisə barədə bildiriş müddəti hadisənin baş verməsindən, yoxsa xəbər tutduqdan sonra başlayır?	notice-10:3,notice:2
+AZ080	conditions	Şərtli azadolmada zərər həddi aşdıqda hansı tutulma tətbiq edilir?	deductible-conditional:3,deductible-subtract:1
+AZ081	conditions	Sığortalının öz maşınına dəyən zərərin məbləği üçüncü şəxsin məsuliyyət limitindən fərqlənirmi?	own-limit:3,property-limit:3,motor-property:3
+AZ082	conditions	İşçinin 8 000 manatadək maaş hissəsinə tətbiq edilən dərəcə hansıdır?	worker-rate:3,wage-threshold:2
+AZ083	conditions	Göndəriş hansı tibbi xidmətə müraciət zamanı təqdim edilir?	medical:3
+AZ084	conditions	Qəsd sübuta yetəndə ümumi müqavilə istisnası zərərə necə təsir edir?	exclusion:3,intentional-fire:2
+AZ085	multi_section	Hadisə barədə bildiriş, sənədlərin verilməsi və sığortaçının qərarı üzrə mərhələləri izah edin.	notice-10:3,notice:3,claim-documents:3,decision-10:3
+AZ086	multi_section	Bildiriş müddətini, sənədlərdən sonrakı qərar müddətini və müsbət qərardan sonrakı ödəniş müddətini müqayisə edin.	notice-10:3,notice:3,decision-10:3,payment-30:3
+AZ087	multi_section	Yanğın təminatını, sığortalının qəsdi halında istisnanı və üçüncü şəxsə qarşı sonrakı tələbi birlikdə izah edin.	fire-covered:3,intentional-fire:3,third-party-intent:3,subrogation:2
+AZ088	multi_section	Boru qəfil partladıqda, tədrici sızmada və sel olduqda hansı ayrı qaydalar tətbiq edilir?	water-exception:3,water-excluded:3,water-flood:3
+AZ089	multi_section	Üçüncü şəxsin əmlakı, sağlamlığı və öz avtomobilim üzrə məbləğləri ayrı göstərin.	property-limit:3,injury-limit:3,own-limit:3,motor-property:3,motor-injury:3
+AZ090	multi_section	İşçi və işəgötürən üçün həddədək dərəcələri, işçinin həddən yuxarı hissəsini müqayisə edin.	worker-rate:3,employer-rate:3,worker-excess:3,wage-threshold:2
+AZ091	multi_section	Şərtli və şərtsiz azadolma 250 manat olduqda ödənilən məbləğə fərqli təsiri nədir?	deductible-conditional:3,deductible-subtract:3,deductible:2
+AZ092	multi_section	Sığorta haqqının tarifi ilə əmlaka görə sığorta məbləğinin müəyyən edilməsinin fərqi nədir?	premium:3,rate-note:2,sum-insured:3
+AZ093	multi_section	Sığorta ödənişini kimin ala bildiyini və onun hansı üsulla verildiyini göstərin.	beneficiary:3,cash-payment:3,payout:2
+AZ094	multi_section	Zərər ödənildikdən sonra sığortaçının subroqasiya hüququ ilə təkrar sığortanın məqsədi necə fərqlənir?	subrogation:3,reinsurance:3
+AZ095	multi_section	Ərizədə tələb olunan sığorta sənədləri ilə ümumi gəlirin göstərilməsi hansı ayrı mətnlərdədir?	claim-documents:3,income-note:3
+AZ096	multi_section	Sığorta tələbi, ödəniş qərarı və bank hesabına köçürmə arasında hansı fərq var?	claim-documents:3,decision-10:3,cash-payment:3,payout:2
+AZ097	ambiguous	Maaşım yüksəkdirsə, haqq hesablanmasında həddin təsiri nədir?	salary-law:3,wage-threshold:3,worker-excess:3,worker-rate:2,premium:2,sum-insured:2
+AZ098	ambiguous	Sığorta pulu nə qədərdir?	premium:3,payout:3,rate-note:1
+AZ099	ambiguous	Ödəniş limiti nədir?	sum-insured:3,property-limit:3,injury-limit:3,motor-property:2,motor-injury:2
+AZ100	ambiguous	Maaş və ümumi gəlir sığorta üçün necə nəzərə alınır?	income-note:3,wage-threshold:3,salary-law:3
+AZ101	ambiguous	Qəzaya görə nə vaxt məlumat verilir və cavab gəlir?	notice-10:3,notice:3,decision-10:3,payment-30:1
+AZ102	ambiguous	Maşının sığortası nə qədər qarşılayır?	own-limit:3,property-limit:3,injury-limit:3,motor-property:2,motor-injury:2
+AZ103	ambiguous	250 manat tutulurmu?	deductible-subtract:3,deductible-conditional:3,deductible:2
+AZ104	ambiguous	Su ziyanına görə sığorta ödənişi verilirmi?	water-exception:3,water-excluded:3,water-flood:3
+AZ105	ambiguous	Hadisədən sonra 10 gün müddət kimə aiddir?	notice:3,notice-10:3,decision-10:3
+AZ106	ambiguous	Yanğın olanda ödəniş düşür?	fire-covered:3,intentional-fire:3,third-party-intent:2
+AZ107	ambiguous	İşçinin maaşına görə 2 faiz kimin payıdır?	worker-rate:3,employer-rate:3,salary-law:2
+AZ108	ambiguous	Sığortalı, sığortaçı, faydalanan — pulu kim verir, kim alır?	premium:3,payout:3,beneficiary:3,cash-payment:2

@@ -1,0 +1,1171 @@
+{
+  "schema_version": 2,
+  "base_expected_sha256": "96ce8a8c1e97972101deaf8898488acc8cde9e11eaa2a9397228daf53e6ab614",
+  "revisions": {
+    "T11": {
+      "fixture": {
+        "timeline": {
+          "contract_start": "2025-01-01",
+          "insured_event_date": "2025-05-01",
+          "contract_termination": "2025-06-30",
+          "claim_date": "2025-07-03"
+        }
+      },
+      "checks": [
+        {
+          "metric": "unknown_date_preservation",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_notification_date"
+          ],
+          "expected": null,
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "unknown_date_preservation",
+          "path": [
+            "timeline",
+            "date_provenance",
+            "claim_date",
+            "verified"
+          ],
+          "expected": false,
+          "explanation": "A date asserted in the request is not verified case evidence.",
+          "failure_type": "mechanical"
+        }
+      ]
+    },
+    "T13": {
+      "checks": [
+        {
+          "metric": "amendment_relationship_accuracy",
+          "path": [
+            "sources",
+            0,
+            "provision",
+            "date_evidence",
+            "effective_date",
+            "reference",
+            "clause"
+          ],
+          "expected": "16-4.5",
+          "explanation": "Commencement date is anchored to the exact indexed medical clause.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "amendment_relationship_accuracy",
+          "path": [
+            "sources",
+            1,
+            "provision",
+            "date_evidence",
+            "effective_date",
+            "reference",
+            "clause"
+          ],
+          "expected": "16-4.6",
+          "explanation": "Commencement date is anchored to the exact indexed medical clause.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "amendment_relationship_accuracy",
+          "path": [
+            "sources",
+            0,
+            "provision",
+            "date_evidence",
+            "effective_date",
+            "reference",
+            "page"
+          ],
+          "expected": 25,
+          "explanation": "Commencement date is anchored to the exact indexed medical clause.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "amendment_relationship_accuracy",
+          "path": [
+            "sources",
+            1,
+            "provision",
+            "date_evidence",
+            "effective_date",
+            "reference",
+            "page"
+          ],
+          "expected": 25,
+          "explanation": "Commencement date is anchored to the exact indexed medical clause.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "amendment_relationship_accuracy",
+          "path": [
+            "sources",
+            1,
+            "provision",
+            "commencement_exceptions"
+          ],
+          "expected": [
+            "16-4.4",
+            "16-4.4-1",
+            "16-4.5"
+          ],
+          "explanation": "Retain the explicit statutory exceptions.",
+          "failure_type": "mechanical"
+        }
+      ]
+    },
+    "C03": {
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "no_temporal_overlap",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        }
+      ]
+    },
+    "C06": {
+      "remove_paths": [
+        [
+          "conflicts",
+          0,
+          "missing_information"
+        ]
+      ],
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "unknown",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            0,
+            "field"
+          ],
+          "expected": "effective_date",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            1,
+            "field"
+          ],
+          "expected": "repeal_effective_date",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            2,
+            "field"
+          ],
+          "expected": "repeal_effective_date",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "conflicting_information"
+          ],
+          "expected": [],
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        }
+      ]
+    }
+  },
+  "new_cases": [
+    {
+      "id": "V2-T01",
+      "split": "v2_extension",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Synthetic event and claims chronology. Legal timeliness not assessed.",
+      "requires_expert_review": false,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_date"
+          ],
+          "expected": "2025-07-01",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_notification_date"
+          ],
+          "expected": "2025-04-13",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "insured_event_date"
+          ],
+          "expected": "2025-04-12",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "contract_event_relationship"
+          ],
+          "expected": "inside_asserted_contract_period",
+          "explanation": "Filing or notification must not replace the insured event in the contract comparison.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "timeline": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-30",
+        "insured_event_date": "2025-04-12",
+        "claim_date": "2025-07-01",
+        "claim_notification_date": "2025-04-13"
+      }
+    },
+    {
+      "id": "V2-T02",
+      "split": "v2_extension",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Synthetic event and claims chronology. Legal timeliness not assessed.",
+      "requires_expert_review": false,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_date"
+          ],
+          "expected": "2025-04-12",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "unknown_date_preservation",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_notification_date"
+          ],
+          "expected": null,
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "insured_event_date"
+          ],
+          "expected": "2025-04-12",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "contract_event_relationship"
+          ],
+          "expected": "inside_asserted_contract_period",
+          "explanation": "Filing or notification must not replace the insured event in the contract comparison.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "timeline": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-30",
+        "insured_event_date": "2025-04-12",
+        "claim_date": "2025-04-12"
+      }
+    },
+    {
+      "id": "V2-T03",
+      "split": "v2_extension",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Synthetic event and claims chronology. Legal timeliness not assessed.",
+      "requires_expert_review": false,
+      "checks": [
+        {
+          "metric": "unknown_date_preservation",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_date"
+          ],
+          "expected": null,
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_notification_date"
+          ],
+          "expected": "2025-04-13",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "insured_event_date"
+          ],
+          "expected": "2025-04-12",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "contract_event_relationship"
+          ],
+          "expected": "inside_asserted_contract_period",
+          "explanation": "Filing or notification must not replace the insured event in the contract comparison.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "timeline": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-30",
+        "insured_event_date": "2025-04-12",
+        "claim_notification_date": "2025-04-13"
+      }
+    },
+    {
+      "id": "V2-T04",
+      "split": "v2_extension",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Synthetic event and claims chronology. Legal timeliness not assessed.",
+      "requires_expert_review": false,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_date"
+          ],
+          "expected": "2025-05-10",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "unknown_date_preservation",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_notification_date"
+          ],
+          "expected": null,
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "insured_event_date"
+          ],
+          "expected": "2025-04-12",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "contract_event_relationship"
+          ],
+          "expected": "inside_asserted_contract_period",
+          "explanation": "Filing or notification must not replace the insured event in the contract comparison.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "timeline": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-30",
+        "insured_event_date": "2025-04-12",
+        "claim_date": "2025-05-10"
+      }
+    },
+    {
+      "id": "V2-T05",
+      "split": "v2_extension",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Synthetic event and claims chronology. Legal timeliness not assessed.",
+      "requires_expert_review": false,
+      "checks": [
+        {
+          "metric": "unknown_date_preservation",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_date"
+          ],
+          "expected": null,
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "unknown_date_preservation",
+          "path": [
+            "timeline",
+            "dates",
+            "claim_notification_date"
+          ],
+          "expected": null,
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "dates",
+            "insured_event_date"
+          ],
+          "expected": "2025-04-12",
+          "explanation": "Preserve this scenario date independently.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "timeline",
+            "contract_event_relationship"
+          ],
+          "expected": "inside_asserted_contract_period",
+          "explanation": "Filing or notification must not replace the insured event in the contract comparison.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "timeline": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-30",
+        "insured_event_date": "2025-04-12"
+      }
+    },
+    {
+      "id": "V2-C01",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic metadata comparison: disjoint effective periods. No legal conflict asserted for the source passages.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "no_temporal_overlap",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "conflict_false_positive_rate",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 0,
+          "explanation": "Only flag unresolved potential simultaneous conflicts.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2024-12-31"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2025-01-01",
+          "repeal_effective_date": "2027-01-01"
+        }
+      }
+    },
+    {
+      "id": "V2-C02",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic metadata comparison: overlapping effective periods. No legal conflict asserted for the source passages.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "potential_temporal_overlap",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "conflict_detection_recall",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 1,
+          "explanation": "Only flag unresolved potential simultaneous conflicts.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2024-12-31"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2024-01-01",
+          "repeal_effective_date": "2027-01-01"
+        }
+      }
+    },
+    {
+      "id": "V2-C03",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic metadata comparison: unknown effective date. No legal conflict asserted for the source passages.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "unknown",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "conflict_detection_recall",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 1,
+          "explanation": "Only flag unresolved potential simultaneous conflicts.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            0,
+            "field"
+          ],
+          "expected": "effective_date",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2024-12-31"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "publication_date": "2023-06-01",
+          "amendment_date": "2024-01-01",
+          "repeal_effective_date": "2027-01-01"
+        }
+      }
+    },
+    {
+      "id": "V2-C04",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic metadata comparison: unknown repeal date. No legal conflict asserted for the source passages.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "unknown",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "conflict_detection_recall",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 1,
+          "explanation": "Only flag unresolved potential simultaneous conflicts.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            0,
+            "field"
+          ],
+          "expected": "repeal_effective_date",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2024-12-31"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2023-01-01"
+        }
+      }
+    },
+    {
+      "id": "V2-C05",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic metadata comparison: shared boundary date. No legal conflict asserted for the source passages.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "boundary_time_unknown",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "conflict_detection_recall",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 1,
+          "explanation": "Only flag unresolved potential simultaneous conflicts.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            0,
+            "field"
+          ],
+          "expected": "transition_boundary",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2024-12-31"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2024-12-31",
+          "repeal_effective_date": "2027-01-01"
+        }
+      }
+    },
+    {
+      "id": "V2-C06",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic metadata comparison: inconsistent documented period. No legal conflict asserted for the source passages.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "unknown",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "conflict_detection_recall",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 1,
+          "explanation": "Only flag unresolved potential simultaneous conflicts.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "conflicting_information",
+            0,
+            "reference_index"
+          ],
+          "expected": 1,
+          "explanation": "Inconsistent known dates are not reported as missing.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information"
+          ],
+          "expected": [],
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2024-12-31"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2027-01-01",
+          "repeal_effective_date": "2025-01-01"
+        }
+      }
+    },
+    {
+      "id": "V2-C07",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic metadata comparison: same insurance type and disjoint rule periods. No legal conflict asserted for the source passages.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "temporal_relationship_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "temporal_relationship"
+          ],
+          "expected": "no_temporal_overlap",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "conflict_false_positive_rate",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 0,
+          "explanation": "Only flag unresolved potential simultaneous conflicts.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "resolution"
+          ],
+          "expected": null,
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "rule_period": [
+            "2022-01-01",
+            "2025-01-01"
+          ]
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "rule_period": [
+            "2026-01-01",
+            "2027-01-01"
+          ]
+        }
+      }
+    },
+    {
+      "id": "V2-C08",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic identical passage text with different personal scopes.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "conflict_false_positive_rate",
+          "path": [
+            "potential_conflicts"
+          ],
+          "expected": 0,
+          "explanation": "Identical wording does not override confirmed distinct person groups.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "scope_distinction_accuracy",
+          "path": [
+            "conflicts"
+          ],
+          "expected": [],
+          "explanation": "Known distinct groups are not compared as conflicting.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "synthetic_same_text": true,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": "insured worker"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "other beneficiary"
+        }
+      }
+    },
+    {
+      "id": "V2-C09",
+      "split": "v2_extension",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic shared issue with unverified beneficiary scope and partial case facts.",
+      "requires_expert_review": true,
+      "checks": [
+        {
+          "metric": "scope_distinction_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "scope_relationship"
+          ],
+          "expected": "unknown",
+          "explanation": "Compare independent temporal and scope evidence without resolving legal priority.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            0,
+            "field"
+          ],
+          "expected": "person_group",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            1,
+            "field"
+          ],
+          "expected": "insured_event_date",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        },
+        {
+          "metric": "expert_review_escalation_accuracy",
+          "path": [
+            "conflicts",
+            0,
+            "missing_information",
+            2,
+            "field"
+          ],
+          "expected": "contract_termination",
+          "explanation": "Identify the exact missing input for review.",
+          "failure_type": "mechanical"
+        }
+      ],
+      "timeline": {
+        "contract_start": "2025-01-01"
+      },
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic scope test",
+          "rule_family": "a",
+          "insurance_type": "occupational",
+          "person_group": null,
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2024-12-31"
+        },
+        "1": {
+          "issue": "synthetic scope test",
+          "rule_family": "b",
+          "insurance_type": "occupational",
+          "person_group": "worker",
+          "effective_date": "2023-01-01",
+          "repeal_effective_date": "2027-01-01"
+        }
+      }
+    }
+  ]
+}

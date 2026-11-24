@@ -1,0 +1,148 @@
+{
+  "İstehsalat üzrə icbari müqaviləyə xitamdan əvvəlki sığorta hadisəsi faydalanana ödəniş öhdəliyini saxlayırmı?": {
+    "id": "E2E-B01",
+    "temporal_kind": "general_rule",
+    "complete_parts": [
+      "Q1"
+    ],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+        ],
+        "unresolved": []
+      }
+    }
+  },
+  "İcbari istehsalat sığortasını bağlamayan sığortalının hadisə baş verəndə qanuni təminat həcmində öhdəliyi nədir?": {
+    "id": "E2E-B02",
+    "temporal_kind": "general_rule",
+    "complete_parts": [],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "b3845218-4ab9-57d4-93ca-9371f1e70c9b"
+        ],
+        "unresolved": [
+          "Specific compensation procedure not established by ?7.3"
+        ]
+      }
+    },
+    "missing_information": [
+      {
+        "code": "remedy_procedure_unestablished",
+        "az": "7.3-cü bənd öhdəliyi göstərir. Müraciət qaydası bu dəlillə müəyyən edilmir.",
+        "en": "Clause 7.3 sets out the obligation. This evidence does not establish the filing procedure."
+      }
+    ]
+  },
+  "Məcburi dövlət sosial sığorta haqqının ümumi ödəniş qaydası və xüsusi qrupların qəbz və nişan qaydası necə fərqlənir?": {
+    "id": "E2E-B03",
+    "temporal_kind": "general_rule",
+    "complete_parts": [
+      "Q1"
+    ],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "6a499933-0d44-5415-94d3-f6c519f4f6c9",
+          "d4096dce-cfb5-5545-9b35-c52198767f26"
+        ],
+        "unresolved": []
+      }
+    }
+  },
+  "Torpaq sahəsinə görə sosial sığorta faizi hesablananda kimlər nəzərə alınır?": {
+    "id": "E2E-S01",
+    "temporal_kind": "general_rule",
+    "complete_parts": [],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "408840aa-b5ca-50b7-ba73-3cd0b289a405"
+        ],
+        "unresolved": []
+      }
+    },
+    "missing_information": [
+      {
+        "code": "eligibility_scope_unestablished",
+        "az": "Mülkiyyət və ailə kəndli təsərrüfatı üzvünün uyğunluğu müəyyən edilməyib. Haqqın kimə şamil edildiyi barədə ümumi nəticə vermək olmur.",
+        "en": "Ownership and eligibility of family-farm members have not been established. A universal conclusion about who must pay cannot be made."
+      }
+    ]
+  },
+  "Sığorta müqaviləsinə xitamdan sonra əvvəlki hadisəyə ödəniş qalırmı? Sığortalanmamış işçi üçün işəgötürən hansı öhdəliyi daşıyır?": {
+    "id": "E2E-S04",
+    "temporal_kind": "general_rule",
+    "complete_parts": [],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+        ],
+        "unresolved": []
+      },
+      "Q2": {
+        "required_passage_ids": [
+          "b3845218-4ab9-57d4-93ca-9371f1e70c9b"
+        ],
+        "unresolved": [
+          "Second question not answered by the scripted response"
+        ]
+      }
+    },
+    "missing_information": [
+      {
+        "code": "employer_part_unestablished",
+        "az": "İkinci hissə üzrə işəgötürənin öhdəliyini müəyyən edən təsdiqlənmiş cavab yoxdur. Xitam üzrə cavab həmin öhdəliyi müəyyən etmir.",
+        "en": "The second part on employer liability lacks a verified answer. The termination rule does not establish that obligation."
+      }
+    ]
+  },
+  "İstehsalat sığortasında xitam varsa, faydalanan hər dəfə ödəniş alırmı?": {
+    "id": "E2E-S05",
+    "temporal_kind": "general_rule",
+    "complete_parts": [],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+        ],
+        "unresolved": [
+          "Unconditional payment is not established by §11.8"
+        ]
+      }
+    }
+  },
+  "Tibbi sığorta üzrə xüsusi keçid bəndində göstərilən 15-10.1.5-ci qayda nə vaxt qüvvəyə minir?": {
+    "id": "E2E-B05",
+    "temporal_kind": "general_rule",
+    "complete_parts": [],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "b3750c0b-8a72-510d-a9aa-af310b4d9d35"
+        ],
+        "unresolved": [
+          "No bounded exact-answer witness for these output words; do not infer additional application dates."
+        ]
+      }
+    }
+  },
+  "Nazirlər Kabinetinin qərarında istehsalat sığortası ödənişi üzrə sənədlərin siyahısının hansı yarımbəndi ləğv edilir?": {
+    "id": "E2E-B06",
+    "temporal_kind": "general_rule",
+    "complete_parts": [],
+    "parts": {
+      "Q1": {
+        "required_passage_ids": [
+          "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5"
+        ],
+        "unresolved": [
+          "No bounded exact-answer witness for these output words; do not infer additional application dates."
+        ]
+      }
+    }
+  }
+}

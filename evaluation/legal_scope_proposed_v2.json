@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "dataset_revision": 2,
+  "status": "proposed_pending_legal_expert",
+  "base_dataset_sha256": "f20aaa1b211476028b3f24eece68f1139b9a51d892eb147c1286d0ee3e55dffc",
+  "changes": [
+    {
+      "case": "AZ7-04",
+      "previous_required_passage_ids": ["410a4a80-41f7-5cfb-9710-2a62ec3c7e92", "d1395d63-e4bc-5f78-aeff-edfdd8eaab7d", "5a8e5e73-565a-5fb9-b7cd-8de82e3bf284", "2c04505a-eb4f-56b3-bd95-5a4b56e0ca7e", "fdfd4f5b-c48c-5d85-987b-b0359735286a", "1a8d7810-2f3d-543a-a1c3-0dbf5845e5ab"],
+      "previous_part_mode": {"Q1": "FULL", "Q2": "NOT_FOUND"},
+      "additional_by_part": {"Q2": ["b3845218-4ab9-57d4-93ca-9371f1e70c9b"]},
+      "new_passages": [
+        {
+          "passage_id":"b3845218-4ab9-57d4-93ca-9371f1e70c9b",
+          "document":"sığorta 3.pdf",
+          "article":"7",
+          "clause":"7.3",
+          "page":7,
+          "text":"7.3. Bu Qanunla sığorta etdirmək vəzifəsi daşıyan sığortalı həmin vəzifəni yerinə yetirmədikdə və ya icbari sığorta müqaviləsini qanunvericiliklə nəzərdə tutulmuş şərtlərlə müqayisədə sığorta olunanın vəziyyətini pisləşdirən şərtlərlə bağladıqda, sığorta hadisəsinin baş verdiyi halda bu Qanuna uyğun olaraq xeyrinə sığorta müqaviləsi bağlanmalı şəxslər qarşısında azı bu Qanunla müəyyən edilmiş sığorta təminatı həcmində öhdəlik daşıyır."
+        }
+      ],
+      "proposed_part_mode": {"Q1": "FULL", "Q2": "PARTIAL"},
+      "proposed_overall_mode": "PARTIAL",
+      "reason": "Section 7.3 establishes conditional liability of the obligated policyholder in the absence of required insurance or on less favorable terms when an insured event occurs. A specialized filing or compensation procedure and any substitute payer remain unresolved."
+    }
+  ]
+}

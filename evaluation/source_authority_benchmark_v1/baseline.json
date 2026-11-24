@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "fixtures": [
+    {
+      "id": "A01",
+      "category": "authority",
+      "origin": "source_derived",
+      "passages": [
+        "statute",
+        "book"
+      ],
+      "note": "Enacted occupational statute and an academic title page.",
+      "requires_expert_review": false
+    },
+    {
+      "id": "A02",
+      "category": "authority",
+      "origin": "source_derived",
+      "passages": [
+        "cabinet",
+        "book"
+      ],
+      "note": "Resolution issuance and textbook distinction.",
+      "requires_expert_review": false
+    },
+    {
+      "id": "A03",
+      "category": "authority",
+      "origin": "source_derived",
+      "passages": [
+        "ordinary",
+        "news"
+      ],
+      "note": "Social insurance provision alongside news.",
+      "requires_expert_review": false
+    },
+    {
+      "id": "A04",
+      "category": "authority",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Synthetic unknown version with a legal-looking existing filename.",
+      "requires_expert_review": false,
+      "metadata_overrides": {
+        "0": {
+          "version_id": "synthetic-unverified-version"
+        }
+      }
+    },
+    {
+      "id": "T01",
+      "category": "temporal",
+      "origin": "source_derived",
+      "passages": [
+        "old_land",
+        "land"
+      ],
+      "note": "Strike-through history versus operative-looking area bands.",
+      "requires_expert_review": true,
+      "timeline": {
+        "requested_reference_date": "2026-11-23"
+      }
+    },
+    {
+      "id": "T02",
+      "category": "temporal",
+      "origin": "source_derived",
+      "passages": [
+        "amended1"
+      ],
+      "note": "Adoption and publication precede effectiveness of 1618-VQD additions.",
+      "requires_expert_review": false,
+      "timeline": {
+        "requested_reference_date": "2019-10-01"
+      }
+    },
+    {
+      "id": "T03",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "amended2"
+      ],
+      "note": "Hypothetical event precedes the amendment but reference date follows it.",
+      "requires_expert_review": true,
+      "timeline": {
+        "insured_event_date": "2019-12-31",
+        "requested_reference_date": "2020-02-02"
+      }
+    },
+    {
+      "id": "T05",
+      "category": "temporal",
+      "origin": "source_derived",
+      "passages": [
+        "cabinet"
+      ],
+      "note": "Decision 156 repeal directive.",
+      "requires_expert_review": true
+    },
+    {
+      "id": "T07",
+      "category": "temporal",
+      "origin": "source_derived",
+      "passages": [
+        "statute"
+      ],
+      "note": "Current-law wording with missing date basis.",
+      "requires_expert_review": true,
+      "timeline": {
+        "current_requested": true
+      }
+    },
+    {
+      "id": "T12",
+      "category": "temporal",
+      "origin": "source_derived",
+      "passages": [
+        "transition1",
+        "transition2"
+      ],
+      "note": "Successive subsidy windows and an earlier within-window date.",
+      "requires_expert_review": false,
+      "timeline": {
+        "requested_reference_date": "2025-10-01"
+      }
+    },
+    {
+      "id": "C01",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic engineering comparison of overlapping normative issue. Group/rule/date overlays make no claim that these exact passages conflict in law.",
+      "requires_expert_review": true,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic-overlap",
+          "rule_family": "a",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "rule_period": [
+            "2020-01-01",
+            "2028-01-01"
+          ]
+        },
+        "1": {
+          "issue": "synthetic-overlap",
+          "rule_family": "b",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "rule_period": [
+            "2024-01-01",
+            "2029-01-01"
+          ]
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic engineering comparison of distinct beneficiary groups. Group/rule/date overlays make no claim that these exact passages conflict in law.",
+      "requires_expert_review": false,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic-overlap",
+          "rule_family": "a",
+          "person_group": "employee",
+          "insurance_type": "occupational"
+        },
+        "1": {
+          "issue": "synthetic-overlap",
+          "rule_family": "b",
+          "person_group": "carer",
+          "insurance_type": "occupational"
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic engineering comparison of different insurance types. Group/rule/date overlays make no claim that these exact passages conflict in law.",
+      "requires_expert_review": false,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic-overlap",
+          "rule_family": "a",
+          "person_group": "worker",
+          "insurance_type": "occupational"
+        },
+        "1": {
+          "issue": "synthetic-overlap",
+          "rule_family": "b",
+          "person_group": "worker",
+          "insurance_type": "medical"
+        }
+      }
+    },
+    {
+      "id": "C08",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic engineering comparison of different personal and material scopes. Group/rule/date overlays make no claim that these exact passages conflict in law.",
+      "requires_expert_review": false,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic-overlap",
+          "rule_family": "a",
+          "person_group": "employee",
+          "insurance_type": "occupational"
+        },
+        "1": {
+          "issue": "other",
+          "rule_family": "b",
+          "person_group": "insured patient",
+          "insurance_type": "occupational"
+        }
+      }
+    },
+    {
+      "id": "C07",
+      "category": "conflict",
+      "origin": "source_derived",
+      "passages": [
+        "transition1",
+        "transition2"
+      ],
+      "note": "Shared transition boundary in the subsidy schedule.",
+      "requires_expert_review": true,
+      "timeline": {
+        "requested_reference_date": "2026-01-01"
+      }
+    }
+  ]
+}

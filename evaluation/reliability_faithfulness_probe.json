@@ -1,0 +1,20 @@
+{
+  "expert_reviewed": false,
+  "scored": 0,
+  "confusion": {
+    "expected_False_observed_False": 0,
+    "expected_False_observed_True": 0,
+    "expected_True_observed_False": 0,
+    "expected_True_observed_True": 0
+  },
+  "rows": [
+    {
+      "id": "AZR097",
+      "expected_supported": null,
+      "deterministic_pass": true,
+      "semantic_pass": null,
+      "pipeline_pass": null,
+      "provider_error": "TooManyRequestsResponseError"
+    }
+  ]
+}

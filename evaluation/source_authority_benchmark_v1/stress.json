@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "fixtures": [
+    {
+      "id": "A07",
+      "category": "authority",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Synthetic issuer omission with other trusted anchors.",
+      "requires_expert_review": false,
+      "document_overrides": {
+        "0": {
+          "issuing_authority": null
+        }
+      }
+    },
+    {
+      "id": "A08",
+      "category": "authority",
+      "origin": "source_derived",
+      "passages": [
+        "amended1"
+      ],
+      "note": "Signed act date and narrower clause effectiveness are separate.",
+      "requires_expert_review": false
+    },
+    {
+      "id": "T08",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Missing asserted insured_event_date.",
+      "requires_expert_review": true,
+      "timeline": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-11-01"
+      }
+    },
+    {
+      "id": "T09",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Missing asserted contract_start.",
+      "requires_expert_review": true,
+      "timeline": {
+        "insured_event_date": "2025-06-01",
+        "contract_termination": "2025-11-01"
+      }
+    },
+    {
+      "id": "T10",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Missing asserted contract_termination.",
+      "requires_expert_review": true,
+      "timeline": {
+        "insured_event_date": "2025-06-01",
+        "contract_start": "2025-01-01"
+      }
+    },
+    {
+      "id": "T11",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "In-term event and filing after termination. Filing date is a synthetic scenario input.",
+      "requires_expert_review": true,
+      "claim_date": "2025-07-03",
+      "timeline": {
+        "contract_start": "2025-01-01",
+        "insured_event_date": "2025-05-01",
+        "contract_termination": "2025-06-30"
+      }
+    },
+    {
+      "id": "T13",
+      "category": "temporal",
+      "origin": "source_derived",
+      "passages": [
+        "amendment_start",
+        "amendment_general"
+      ],
+      "note": "Medical commencement paragraphs explicitly state different dates. Provision-level anchors are absent from today's catalog.",
+      "requires_expert_review": true,
+      "timeline": {
+        "requested_reference_date": "2021-06-01"
+      }
+    },
+    {
+      "id": "C03",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic engineering comparison of disjoint effective periods with no rule-period fields. Group/rule/date overlays make no claim that these exact passages conflict in law.",
+      "requires_expert_review": true,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic-overlap",
+          "rule_family": "a",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "effective_date": "2019-01-01",
+          "repeal_effective_date": "2022-01-01"
+        },
+        "1": {
+          "issue": "synthetic-overlap",
+          "rule_family": "b",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "effective_date": "2023-01-01",
+          "repeal_effective_date": "2027-01-01"
+        }
+      }
+    },
+    {
+      "id": "C05",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic engineering comparison of general versus special with unverified application. Group/rule/date overlays make no claim that these exact passages conflict in law.",
+      "requires_expert_review": true,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic-overlap",
+          "rule_family": "general",
+          "person_group": "worker",
+          "insurance_type": "occupational"
+        },
+        "1": {
+          "issue": "synthetic-overlap",
+          "rule_family": "special",
+          "person_group": "worker",
+          "insurance_type": "occupational"
+        }
+      }
+    },
+    {
+      "id": "C06",
+      "category": "conflict",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "cabinet"
+      ],
+      "note": "Synthetic engineering comparison of incomplete temporal metadata. Group/rule/date overlays make no claim that these exact passages conflict in law.",
+      "requires_expert_review": true,
+      "provision_overrides": {
+        "0": {
+          "issue": "synthetic-overlap",
+          "rule_family": "a",
+          "person_group": "worker",
+          "insurance_type": "occupational"
+        },
+        "1": {
+          "issue": "synthetic-overlap",
+          "rule_family": "b",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "effective_date": "2024-01-01"
+        }
+      }
+    },
+    {
+      "id": "E02",
+      "category": "eligibility",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "book"
+      ],
+      "note": "Synthetic generation and judge output over exact real passages: textbook-only binding with normative source present.",
+      "requires_expert_review": false,
+      "runner": "pipeline",
+      "question": "İcbari sığorta ödənişi hansı hallarda verilir?",
+      "marker": "S2",
+      "claim": "Sığortaçı hər bir halda sığorta ödənişi verməlidir.",
+      "judge_accepts": true
+    },
+    {
+      "id": "E03",
+      "category": "eligibility",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "news"
+      ],
+      "note": "Synthetic generation and judge output over exact real passages: news-only binding with normative source present.",
+      "requires_expert_review": false,
+      "runner": "pipeline",
+      "question": "İcbari sığorta ödənişi hansı hallarda verilir?",
+      "marker": "S2",
+      "claim": "Sığortaçı hər bir halda sığorta ödənişi verməlidir.",
+      "judge_accepts": true
+    },
+    {
+      "id": "E04",
+      "category": "eligibility",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "book"
+      ],
+      "note": "Synthetic generation and judge output over exact real passages: unsupported output rejected by the faithful-claim handoff.",
+      "requires_expert_review": false,
+      "runner": "pipeline",
+      "question": "İcbari sığorta ödənişi hansı hallarda verilir?",
+      "marker": "S1",
+      "claim": "Sığortaçı hər bir halda sığorta ödənişi verməlidir.",
+      "judge_accepts": false
+    }
+  ]
+}

@@ -7,6 +7,7 @@
   <style>
     :root { font-family: system-ui, sans-serif; color: #17233c; background: #f3f6fa; }
     * { box-sizing: border-box; }
+    [hidden] { display: none !important; }
     body { margin: 0; }
     header { background: #172b4d; color: white; padding: 22px 24px; }
     header div, main { max-width: 800px; margin: auto; }
@@ -19,6 +20,9 @@
     label { display: block; font-weight: 650; margin-bottom: 10px; }
     textarea { width: 100%; min-height: 120px; resize: vertical; font: inherit; border: 1px solid #b9c6d6; border-radius: 8px; padding: 12px; }
     textarea:focus { outline: 2px solid #4276d0; outline-offset: 2px; }
+    .filters { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 16px; }
+    .filters label { flex: 1 1 180px; font-size: 14px; }
+    .filters input, .filters select { display: block; width: 100%; margin-top: 6px; padding: 9px; border: 1px solid #b9c6d6; border-radius: 8px; font: inherit; background: white; }
     .actions { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin-top: 16px; }
     button { font: inherit; cursor: pointer; border: 0; border-radius: 8px; padding: 11px 18px; font-weight: 650; background: #2458a6; color: white; }
     button:disabled { opacity: .6; cursor: wait; }
@@ -26,57 +30,310 @@
     #status { color: #657187; font-size: 14px; }
     #result { margin-top: 20px; }
     #result h2 { font-size: 17px; margin: 0 0 12px; }
-    #answer { line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
-    #sources { margin: 18px 0 0; color: #657187; font-size: 14px; overflow-wrap: anywhere; }
+    .answer { line-height: 1.65; white-space: pre-wrap; overflow-wrap: anywhere; }
+    #source-detail { width: min(700px, 90vw); max-height: 85vh; padding: 24px; border: 1px solid #b9c6d6; border-radius: 12px; overflow-wrap: anywhere; }
+    #source-detail::backdrop { background: #17233c80; }
+    #source-text { white-space: pre-wrap; }
+    .cite { color: #2458a6; text-decoration: none; }
+    .cite:hover, .cite:focus-visible { text-decoration: underline; }
+    .answer-warnings { color: #8a4b08; line-height: 1.5; white-space: pre-wrap; }
+    .turn + .turn { margin-top: 16px; }
+    .source-card { display: block; width: 100%; text-align: left; margin-top: 8px; }
+    .source-card span { display: block; font-size: 0.85em; }
+    .source-card:focus { outline: 2px solid #4276d0; outline-offset: 2px; }
+    .turn p { white-space: pre-wrap; overflow-wrap: anywhere; }
     .footer { margin-top: 20px; color: #728096; font-size: 13px; line-height: 1.5; }
   </style>
 </head>
 <body>
-  <header><div><strong>Insurance Assistant</strong><span>English document explorer</span></div></header>
+  <header><div><strong>Insurance Assistant</strong><span>Insurance document explorer</span></div></header>
   <main>
-    <h1>Ask your documents.</h1>
-    <p class="intro">Explore the insurance text files in this project. Answers are generated from relevant document excerpts.</p>
+    <p id="welcome" class="intro" lang="az">Xoş gəlmisiniz. Mən Azərbaycan sığorta qanunvericiliyi üzrə intellektual axtarış köməkçisiyəm. Cavablarımı konkret qanun, maddə və bəndə istinadla təqdim edirəm.</p>
     <form class="card" id="form">
       <label for="question">Your question</label>
-      <textarea id="question" name="question" minlength="3" maxlength="500" required placeholder="For example: What is subrogation?"></textarea>
+      <textarea id="question" name="question" minlength="2" maxlength="500" required autofocus></textarea>
+      <div class="filters">
+        <label>Answer language<select id="language"><option value="auto">Match question</option><option value="en">English</option><option value="az">Azərbaycan dili</option><option value="ru">Русский</option></select></label>
+        <label>Analysis<select id="mode"><option value="question">Question</option><option value="exclusions">Exclusions</option><option value="tariff">Tariff and premium</option><option value="claims">Claims flow</option><option value="limits">Deadlines and limits</option><option value="rights">Rights and duties</option><option value="comparison">Cross-law comparison</option><option value="scenario">Scenario</option></select></label>
+        <label>Insurance type<select id="insurance-type"><option value="">All types</option><option value="medical">Medical</option><option value="compulsory">Compulsory</option><option value="occupational">Occupational</option><option value="social">Social</option><option value="agricultural">Agricultural</option></select></label>
+        <label>Law name or number<input id="law" maxlength="300" placeholder="e.g. 999-IIIQ"></label>
+        <label>Topic<select id="topic"><option value="">All topics</option><option value="tariff">Tariff</option><option value="exclusion">Exclusion</option><option value="deadline">Deadline</option></select></label>
+      </div>
+      <div class="filters" id="comparison" hidden>
+        <label>First law<input id="first-law" maxlength="300"></label><label>Second law<input id="second-law" maxlength="300"></label>
+      </div>
       <div class="actions">
         <button id="submit" type="submit">Ask a question</button>
-        <button class="example" id="example" type="button">Try an example</button>
         <span id="status" role="status" aria-live="polite"></span>
       </div>
     </form>
     <section class="card" id="result" hidden aria-live="polite">
-      <h2>Answer</h2><div id="answer"></div><p id="sources"></p>
+      <h2>Conversation</h2><div id="history-items"></div>
+      <dialog id="source-detail" aria-labelledby="source-title"><h2 id="source-title"></h2><div id="source-text" aria-live="polite"></div><button id="source-close" type="button">Close</button><p><a id="source-pdf" target="_blank" rel="noopener" hidden></a></p></dialog>
     </section>
-    <p class="footer">For testing only. Retrieved documents are shown as context, not necessarily as verified citations. Check the original texts for important decisions.</p>
+    <button id="clear-history" type="button" hidden>Clear conversation</button>
+    <p class="footer">Answers are based on your documents. Not legal advice.</p>
+    <section class="card"><h2>Percentage calculator</h2><p>Arithmetic only: confirm the rate, base, thresholds, and eligibility in the applicable law.</p><div class="filters"><label>Base (AZN)<input id="base" type="number" min="0" step="0.01"></label><label>Rate (%)<input id="rate" type="number" min="0" max="100" step="0.001"></label></div><button id="calculate" type="button">Calculate</button><p id="calculation"></p></section>
   </main>
+  <script type="application/json" id="bot-templates"><!-- bot-templates --></script>
   <script>
     const form = document.getElementById('form');
     const question = document.getElementById('question');
     const submit = document.getElementById('submit');
     const status = document.getElementById('status');
     const result = document.getElementById('result');
-    document.getElementById('example').addEventListener('click', () => {
-      question.value = 'What is subrogation in insurance?';
+    const history = [];
+    const welcome = document.getElementById('welcome');
+    const clearHistory = document.getElementById('clear-history');
+    const transcript = document.getElementById('history-items');
+    let pending;
+    let nextTurnId = 0;
+    const scopeNotices = {
+      az: 'Bu köməkçi Azərbaycan sığorta qanunvericiliyi ilə bağlı sualları cavablandırır.',
+      en: 'This assistant answers questions about Azerbaijani insurance legislation.',
+      ru: 'Этот помощник отвечает на вопросы о страховом законодательстве Азербайджана.',
+    };
+
+    question.addEventListener('keydown', event => {
+      if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) {
+        event.preventDefault();
+        if (!pending) form.requestSubmit();
+      }
+    });
+
+    function citationLabel(source) {
+      const parts = [source.law_name || source.document || source.doc];
+      if (source.law_number) parts.push(/^(?:No\.?|№)\s*/i.test(source.law_number) ? source.law_number : `No. ${source.law_number}`);
+      if (source.article) parts.push(/^\d/.test(source.article) ? `Article ${source.article}` : source.article);
+      if (source.clause) parts.push(/^\d/.test(source.clause) ? `clause ${source.clause}` : source.clause);
+      return parts.filter(Boolean).join(', ');
+    }
+    function referenceLabel(source) {
+      const title = source.law_name || source.document || source.doc || 'Source';
+      return source.id ? `${source.id} · ${title}` : title;
+    }
+    function sourceIdentity(source, url) {
+      return JSON.stringify([
+        source.document_id || source.doc || source.document,
+        source.passage_id || source.chunk_id || url || source.id,
+        source.article_number || source.article || '',
+        source.clause || '',
+      ]);
+    }
+    const citationToken = /\[(?:S[1-9]\d*|[^\[\]\n]+?,\s*(?:No\.\s*[^,\[\]\n]+,\s*)?Article\s+\d+(?:[.-]\d+)*,\s*clause\s+\d+(?:[.-]\d+)*\s*)\]/gi;
+    const fullCitation = /^\[([^\[\]\n]+?)(?:,\s*No\.\s*[^,\[\]\n]+)?,\s*Article\s+(\d+(?:[.-]\d+)*),\s*clause\s+(\d+(?:[.-]\d+)*)\s*\]$/i;
+    let sourceRequest = 0;
+    document.getElementById('source-close').addEventListener('click', () => document.getElementById('source-detail').close());
+    document.getElementById('source-detail').addEventListener('close', () => { sourceRequest++; });
+    async function openSource(url, source) {
+      const dialog = document.getElementById('source-detail');
+      const title = document.getElementById('source-title');
+      const text = document.getElementById('source-text');
+      const pdf = document.getElementById('source-pdf');
+      const requestId = ++sourceRequest;
+      title.textContent = referenceLabel(source); text.textContent = source.text || 'Loading...'; pdf.hidden = true;
+      if (!dialog.open) dialog.showModal();
+      if (!url) return;
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error();
+        const passage = await response.json();
+        if (requestId !== sourceRequest) return;
+        title.textContent = citationLabel(passage.source);
+        text.textContent = passage.text;
+        const original = passage.pdf_url || passage.original_url;
+        if (original) {
+          pdf.href = original;
+          pdf.textContent = referenceLabel({ ...passage.source, id: source.id });
+          pdf.title = passage.page ? `PDF page ${passage.page}` : 'Original PDF';
+          pdf.hidden = false;
+        }
+      } catch {
+        if (requestId === sourceRequest) text.textContent = 'Could not load the source.';
+      }
+    }
+    async function renderAnswer(turn, text, sources, signal) {
+      const container = document.createElement('div');
+      container.className = 'answer';
+      const groups = new Map();
+      const markers = new Map();
+      const resolved = new Map();
+      function register(source, url, marker) {
+        const identity = sourceIdentity(source, url);
+        if (!groups.has(identity)) groups.set(identity, {source, url, markers: new Set()});
+        const group = groups.get(identity);
+        if (marker) group.markers.add(marker);
+        return group;
+      }
+      for (const source of sources) {
+        const group = register(source, source.url, source.id);
+        markers.set(source.id, markers.has(source.id) && markers.get(source.id) !== group ? null : group);
+      }
+
+      const full = [...new Set([...text.matchAll(citationToken)].map(match => match[0]).filter(token => fullCitation.test(token)))];
+      const bindings = await Promise.all(full.map(async token => {
+        const match = fullCitation.exec(token);
+        const query = new URLSearchParams({title: match[1], article: match[2], clause: match[3]});
+        try {
+          const response = await fetch(`/citations/resolve?${query}`, {signal});
+          if (response.ok) return [token, await response.json()];
+        } catch { }
+        return null;
+      }));
+      if (signal.aborted) return;
+      for (const binding of bindings) {
+        if (!binding) continue;
+        const [token, entry] = binding;
+        resolved.set(token, register(entry.source, entry.url));
+      }
+
+      const details = document.createElement('details');
+      const summary = document.createElement('summary');
+      summary.textContent = `${groups.size} mənbə`;
+      details.append(summary);
+      let index = 0;
+      for (const group of groups.values()) {
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'source-card';
+        card.id = `${turn.id}-source-${index++}`;
+        const title = document.createElement('strong');
+        title.textContent = referenceLabel({...group.source, id: [...group.markers].join(', ')});
+        const provision = document.createElement('span');
+        const article = group.source.article_number || group.source.article;
+        const page = group.source.page_number ?? group.source.page;
+        provision.textContent = [article && `Maddə ${article}`, group.source.clause && `Bənd ${group.source.clause}`, page && `Səhifə ${page}`].filter(Boolean).join(' · ');
+        card.append(title, provision);
+        card.addEventListener('click', () => openSource(group.url, group.source));
+        group.card = card;
+        details.append(card);
+      }
+
+      for (const [partIndex, part] of text.split(/\*\*([^*\n]+)\*\*/g).entries()) {
+        const target = partIndex % 2 ? document.createElement('strong') : container;
+        let previous = 0;
+        for (const match of part.matchAll(citationToken)) {
+          target.append(document.createTextNode(part.slice(previous, match.index)));
+          const token = match[0];
+          const marker = /^\[(S[1-9]\d*)\]$/.exec(token);
+          const group = marker ? markers.get(marker[1]) : resolved.get(token);
+          previous = match.index + token.length;
+          if (!group) { target.append(document.createTextNode(token)); continue; }
+          const link = document.createElement('a');
+          link.href = `#${group.card.id}`;
+          link.className = 'cite';
+          link.textContent = token;
+          link.addEventListener('click', event => {
+            event.preventDefault();
+            details.open = true;
+            group.card.focus();
+          });
+          target.append(link);
+        }
+        target.append(document.createTextNode(part.slice(previous)));
+        if (partIndex % 2) container.append(target);
+      }
+      turn.append(container);
+      if (groups.size) turn.append(details);
+    }
+    document.getElementById('mode').addEventListener('change', event => { document.getElementById('comparison').hidden = event.target.value !== 'comparison'; });
+    clearHistory.addEventListener('click', () => {
+      pending?.abort();
+      pending = undefined;
+      submit.disabled = false;
+      question.readOnly = false;
+      status.textContent = '';
+      document.getElementById('source-detail').close();
+      history.length = 0;
+      transcript.replaceChildren();
+      clearHistory.hidden = true;
+      result.hidden = true;
+      welcome.hidden = false;
+      question.value = '';
       question.focus();
+    });
+    document.getElementById('calculate').addEventListener('click', async () => {
+      const base = document.getElementById('base').value, rate = document.getElementById('rate').value;
+      const output = document.getElementById('calculation');
+      if (!base || !rate) { output.textContent = 'Enter a base and rate.'; return; }
+      try {
+        const response = await fetch('/calculate', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({base_azn: base, rate_percent: rate})});
+        const data = await response.json();
+        output.textContent = response.ok ? `${data.amount_azn} AZN. ${data.warning}` : 'Enter a valid base and rate.';
+      } catch { output.textContent = 'Could not reach the server.'; }
     });
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
+      const text = question.value.trim();
+      if (pending || text.length < 2) return;
+      const controller = new AbortController();
+      pending = controller;
+      welcome.hidden = true;
+      question.readOnly = true;
+      const turn = document.createElement('article');
+      turn.id = `turn-${++nextTurnId}`;
+      turn.className = 'turn';
+      const userMessage = document.createElement('p');
+      userMessage.textContent = `Q: ${text}`;
+      turn.append(userMessage);
+      transcript.append(turn);
+      clearHistory.hidden = false;
       submit.disabled = true;
-      status.textContent = 'Searching documents...';
-      result.hidden = true;
+      result.hidden = false;
+      status.textContent = 'Waiting for a reply…';
       try {
-        const response = await fetch('/ask', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({question: question.value})});
+        const filters = {insurance_type: document.getElementById('insurance-type').value, law: document.getElementById('law').value, topic: document.getElementById('topic').value};
+        for (const key of Object.keys(filters)) if (!filters[key].trim()) delete filters[key];
+        const mode = document.getElementById('mode').value;
+        const compare_laws = mode === 'comparison' ? [document.getElementById('first-law').value, document.getElementById('second-law').value] : [];
+        const requestId = Array.from(crypto.getRandomValues(new Uint32Array(4)), n => n.toString(16).padStart(8, '0')).join('');
+        const response = await fetch('/ask', {method: 'POST', signal: controller.signal, headers: {'Content-Type': 'application/json', 'X-Request-ID': requestId}, body: JSON.stringify({question: text, filters, language: document.getElementById('language').value, mode, compare_laws, history: history.slice(-5)})});
+        const receivedId = response.headers.get('X-Request-ID');
+        const mediaType = response.headers.get('Content-Type')?.split(';')[0].trim().toLowerCase();
+        if (mediaType !== 'application/json' || (receivedId && receivedId !== requestId)) {
+          throw new Error('Could not read the assistant response.');
+        }
         const data = await response.json();
         if (!response.ok) throw new Error(typeof data.detail === 'string' ? data.detail : 'Please check your question and try again.');
-        document.getElementById('answer').textContent = data.answer;
-        document.getElementById('sources').textContent = data.sources.length ? 'Retrieved documents: ' + data.sources.map(source => source.doc).join(', ') : 'No matching documents.';
-        result.hidden = false;
+        if (typeof data?.answer !== 'string' || !Array.isArray(data.sources)) {
+          throw new Error('Could not read the assistant response.');
+        }
+        if (pending !== controller) return;
+        if (data.delivery_status) {
+          const notice = document.createElement('p');
+          notice.className = 'answer-warnings';
+          notice.setAttribute('role', 'status');
+          notice.textContent = data.delivery_message;
+          turn.append(notice);
+        } else {
+          const answer = data.intent === 'out_of_scope' ? (scopeNotices[data.language] || scopeNotices.az) : data.answer;
+          await renderAnswer(turn, answer, data.sources, controller.signal);
+        }
+        if (pending !== controller) return;
+        turn.dataset.answerStatus = data.delivery_status || data.answer_mode || data.evidence_status || data.intent || '';
+        if (data.warnings.length) {
+          const warnings = document.createElement('p');
+          warnings.className = 'answer-warnings';
+          warnings.textContent = data.warnings.join('\n');
+          turn.append(warnings);
+        }
+        history.push(text); if (history.length > 5) history.shift();
+        question.value = '';
         status.textContent = '';
       } catch (error) {
-        status.textContent = error.message || 'Could not reach the server.';
+        if (pending === controller) {
+          status.textContent = error.message || 'Could not reach the server.';
+          welcome.hidden = history.length > 0;
+          turn.remove();
+          result.hidden = history.length === 0;
+          clearHistory.hidden = result.hidden;
+        }
       } finally {
-        submit.disabled = false;
+        if (pending === controller) {
+          pending = undefined;
+          submit.disabled = false;
+          question.readOnly = false;
+        }
       }
     });
   </script>

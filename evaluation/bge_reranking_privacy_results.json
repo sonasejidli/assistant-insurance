@@ -1,0 +1,866 @@
+{
+  "validation_ids": [
+    "AZR107",
+    "AZR162",
+    "AZR157",
+    "AZR105",
+    "AZR108",
+    "AZR156",
+    "AZR079",
+    "AZR080",
+    "AZR083",
+    "AZR102",
+    "AZR044",
+    "AZR045",
+    "AZR149",
+    "AZR037",
+    "AZR088",
+    "AZR052",
+    "AZR053",
+    "AZR075",
+    "AZR015",
+    "AZR031",
+    "AZR034",
+    "AZR087",
+    "AZR151",
+    "AZR074",
+    "AZR064",
+    "AZR065",
+    "AZR124",
+    "AZR161",
+    "AZR084",
+    "AZR145",
+    "AZR040",
+    "AZR014",
+    "AZR120",
+    "AZR055",
+    "AZR112",
+    "AZR113",
+    "AZR139",
+    "AZR071",
+    "AZR072",
+    "AZR125",
+    "AZR099",
+    "AZR070",
+    "AZR061",
+    "AZR043",
+    "AZR116",
+    "AZR060",
+    "AZR147",
+    "AZR010",
+    "AZR007",
+    "AZR078",
+    "AZR032",
+    "AZR033",
+    "AZR128",
+    "AZR104"
+  ],
+  "heldout_ids": [
+    "AZR132",
+    "AZR013",
+    "AZR067",
+    "AZR109",
+    "AZR066",
+    "AZR126",
+    "AZR059",
+    "AZR073",
+    "AZR011",
+    "AZR054",
+    "AZR062",
+    "AZR056",
+    "AZR158",
+    "AZR009",
+    "AZR111",
+    "AZR110",
+    "AZR005",
+    "AZR041",
+    "AZR042",
+    "AZR155",
+    "AZR024",
+    "AZR039",
+    "AZR118",
+    "AZR058",
+    "AZR130",
+    "AZR029",
+    "AZR093",
+    "AZR047",
+    "AZR144",
+    "AZR063",
+    "AZR150",
+    "AZR153",
+    "AZR003",
+    "AZR004",
+    "AZR001",
+    "AZR006",
+    "AZR136",
+    "AZR138",
+    "AZR100",
+    "AZR133",
+    "AZR076",
+    "AZR086",
+    "AZR050",
+    "AZR082",
+    "AZR092",
+    "AZR030",
+    "AZR131",
+    "AZR046",
+    "AZR095",
+    "AZR048",
+    "AZR049",
+    "AZR051",
+    "AZR089",
+    "AZR090",
+    "AZR091",
+    "AZR140",
+    "AZR038",
+    "AZR154",
+    "AZR027",
+    "AZR069",
+    "AZR152",
+    "AZR035",
+    "AZR159",
+    "AZR096",
+    "AZR002",
+    "AZR134",
+    "AZR016",
+    "AZR057",
+    "AZR068",
+    "AZR103",
+    "AZR012",
+    "AZR028",
+    "AZR106",
+    "AZR025",
+    "AZR026",
+    "AZR085",
+    "AZR101",
+    "AZR160",
+    "AZR114",
+    "AZR117",
+    "AZR148",
+    "AZR017",
+    "AZR018",
+    "AZR019",
+    "AZR020",
+    "AZR021",
+    "AZR022",
+    "AZR023",
+    "AZR097",
+    "AZR098",
+    "AZR123",
+    "AZR127",
+    "AZR137",
+    "AZR143",
+    "AZR146",
+    "AZR119",
+    "AZR142",
+    "AZR008",
+    "AZR121",
+    "AZR115",
+    "AZR077",
+    "AZR164",
+    "AZR163",
+    "AZR081",
+    "AZR129",
+    "AZR094",
+    "AZR122",
+    "AZR135",
+    "AZR036",
+    "AZR141"
+  ],
+  "validation_grid": [
+    {
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "pool": 30,
+      "n": 49,
+      "pool_recall": 0.7122448979591837,
+      "recall@5": 0.5217687074829932,
+      "recall@10": 0.6204081632653061,
+      "recall@20": 0.7081632653061225,
+      "recall@50": 0.746938775510204,
+      "mrr@20": 0.46509629825956356,
+      "ndcg@10": 0.454883493115359,
+      "ndcg@5": 0.4190684856781725,
+      "all_required@5": 0.4489795918367347,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "pool": 40,
+      "n": 49,
+      "pool_recall": 0.726530612244898,
+      "recall@5": 0.5217687074829932,
+      "recall@10": 0.6204081632653061,
+      "recall@20": 0.7081632653061225,
+      "recall@50": 0.746938775510204,
+      "mrr@20": 0.46509629825956356,
+      "ndcg@10": 0.454883493115359,
+      "ndcg@5": 0.4190684856781725,
+      "all_required@5": 0.4489795918367347,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "pool": 50,
+      "n": 49,
+      "pool_recall": 0.746938775510204,
+      "recall@5": 0.5217687074829932,
+      "recall@10": 0.6204081632653061,
+      "recall@20": 0.7081632653061225,
+      "recall@50": 0.746938775510204,
+      "mrr@20": 0.46509629825956356,
+      "ndcg@10": 0.454883493115359,
+      "ndcg@5": 0.4190684856781725,
+      "all_required@5": 0.4489795918367347,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "pool": 30,
+      "n": 49,
+      "pool_recall": 0.680952380952381,
+      "recall@5": 0.507482993197279,
+      "recall@10": 0.617687074829932,
+      "recall@20": 0.6462585034013606,
+      "recall@50": 0.763265306122449,
+      "mrr@20": 0.43410342491975146,
+      "ndcg@10": 0.4406980459746193,
+      "ndcg@5": 0.3992153667077324,
+      "all_required@5": 0.42857142857142855,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "pool": 40,
+      "n": 49,
+      "pool_recall": 0.7013605442176871,
+      "recall@5": 0.507482993197279,
+      "recall@10": 0.617687074829932,
+      "recall@20": 0.6462585034013606,
+      "recall@50": 0.763265306122449,
+      "mrr@20": 0.43410342491975146,
+      "ndcg@10": 0.4406980459746193,
+      "ndcg@5": 0.3992153667077324,
+      "all_required@5": 0.42857142857142855,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.6,
+        0.4
+      ],
+      "pool": 50,
+      "n": 49,
+      "pool_recall": 0.763265306122449,
+      "recall@5": 0.507482993197279,
+      "recall@10": 0.617687074829932,
+      "recall@20": 0.6462585034013606,
+      "recall@50": 0.763265306122449,
+      "mrr@20": 0.43410342491975146,
+      "ndcg@10": 0.4406980459746193,
+      "ndcg@5": 0.3992153667077324,
+      "all_required@5": 0.42857142857142855,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "pool": 30,
+      "n": 49,
+      "pool_recall": 0.7142857142857143,
+      "recall@5": 0.4741496598639456,
+      "recall@10": 0.5666666666666667,
+      "recall@20": 0.6585034013605442,
+      "recall@50": 0.726530612244898,
+      "mrr@20": 0.451458385552023,
+      "ndcg@10": 0.4324421187580247,
+      "ndcg@5": 0.3982879419166554,
+      "all_required@5": 0.40816326530612246,
+      "all_required@8": 0.4897959183673469,
+      "all_required@10": 0.4897959183673469
+    },
+    {
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "pool": 40,
+      "n": 49,
+      "pool_recall": 0.7142857142857143,
+      "recall@5": 0.4741496598639456,
+      "recall@10": 0.5666666666666667,
+      "recall@20": 0.6585034013605442,
+      "recall@50": 0.726530612244898,
+      "mrr@20": 0.451458385552023,
+      "ndcg@10": 0.4324421187580247,
+      "ndcg@5": 0.3982879419166554,
+      "all_required@5": 0.40816326530612246,
+      "all_required@8": 0.4897959183673469,
+      "all_required@10": 0.4897959183673469
+    },
+    {
+      "weights": [
+        0.4,
+        0.6
+      ],
+      "pool": 50,
+      "n": 49,
+      "pool_recall": 0.726530612244898,
+      "recall@5": 0.4741496598639456,
+      "recall@10": 0.5666666666666667,
+      "recall@20": 0.6585034013605442,
+      "recall@50": 0.726530612244898,
+      "mrr@20": 0.451458385552023,
+      "ndcg@10": 0.4324421187580247,
+      "ndcg@5": 0.3982879419166554,
+      "all_required@5": 0.40816326530612246,
+      "all_required@8": 0.4897959183673469,
+      "all_required@10": 0.4897959183673469
+    },
+    {
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "pool": 30,
+      "n": 49,
+      "pool_recall": 0.680952380952381,
+      "recall@5": 0.49727891156462584,
+      "recall@10": 0.6278911564625851,
+      "recall@20": 0.6462585034013606,
+      "recall@50": 0.7074829931972789,
+      "mrr@20": 0.45481049562682213,
+      "ndcg@10": 0.4574977173901331,
+      "ndcg@5": 0.4095769407951152,
+      "all_required@5": 0.40816326530612246,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "pool": 40,
+      "n": 49,
+      "pool_recall": 0.7013605442176871,
+      "recall@5": 0.49727891156462584,
+      "recall@10": 0.6278911564625851,
+      "recall@20": 0.6462585034013606,
+      "recall@50": 0.7074829931972789,
+      "mrr@20": 0.45481049562682213,
+      "ndcg@10": 0.4574977173901331,
+      "ndcg@5": 0.4095769407951152,
+      "all_required@5": 0.40816326530612246,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    },
+    {
+      "weights": [
+        0.7,
+        0.3
+      ],
+      "pool": 50,
+      "n": 49,
+      "pool_recall": 0.7421768707482993,
+      "recall@5": 0.49727891156462584,
+      "recall@10": 0.6278911564625851,
+      "recall@20": 0.6462585034013606,
+      "recall@50": 0.7074829931972789,
+      "mrr@20": 0.45481049562682213,
+      "ndcg@10": 0.4574977173901331,
+      "ndcg@5": 0.4095769407951152,
+      "all_required@5": 0.40816326530612246,
+      "all_required@8": 0.5306122448979592,
+      "all_required@10": 0.5306122448979592
+    }
+  ],
+  "selected_weights": [
+    0.7,
+    0.3
+  ],
+  "selected_pool": 50,
+  "threads": 4,
+  "rrf_k": 60,
+  "archive": "insurance_chunks_cf440db13ba21e18d71044eb",
+  "archive_probe_cosines": {
+    "insurance_chunks_64393a257fd78e72bae8ced3": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "insurance_chunks_cf440db13ba21e18d71044eb": [
+      1.0,
+      1.0,
+      0.9999999,
+      1.0
+    ]
+  },
+  "rows": [
+    {
+      "id": "AZR036",
+      "query": "Sığortaçının şəxsi məlumatımı başqa adama verməsi üçün mənim şifahi razılığım kifayətdir?",
+      "category": "personal_medical_data",
+      "covered": true,
+      "standalone": "Sığortaçının şəxsi məlumatımı başqa adama verməsi üçün mənim şifahi razılığım kifayətdir?",
+      "bm25": {
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+        "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+      },
+      "dense": {
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+        "e3efa84e-08f7-5fdc-a87e-de8085781323": 45
+      },
+      "experiments": {
+        "A": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0,
+            "ndcg@5": 0.0
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "top_10": [
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "ab2f7c46-b188-5a33-a1b6-c1f428a22c7c",
+            "b93984ff-ab23-588f-8546-202eef81f6c9",
+            "9ff675a2-7d5e-574d-8fef-cf0cb70f280b",
+            "01d166e0-4b1d-5847-96d3-ad0f515a6c8c",
+            "e403d5c4-420c-5e1c-9b1d-7afef88bdc5e",
+            "730c9cae-8982-5ae0-816c-4578356f910a",
+            "464217ff-645b-5e63-b6f1-92baac659ac8"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 173.26611799944658
+        },
+        "B": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0,
+            "ndcg@5": 0.0
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "top_10": [
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "ab2f7c46-b188-5a33-a1b6-c1f428a22c7c",
+            "b93984ff-ab23-588f-8546-202eef81f6c9",
+            "9ff675a2-7d5e-574d-8fef-cf0cb70f280b",
+            "01d166e0-4b1d-5847-96d3-ad0f515a6c8c",
+            "e403d5c4-420c-5e1c-9b1d-7afef88bdc5e",
+            "730c9cae-8982-5ae0-816c-4578356f910a",
+            "464217ff-645b-5e63-b6f1-92baac659ac8"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 173.2047910008987
+        },
+        "C": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0,
+            "ndcg@5": 0.0
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "top_10": [
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "01d166e0-4b1d-5847-96d3-ad0f515a6c8c",
+            "e403d5c4-420c-5e1c-9b1d-7afef88bdc5e",
+            "730c9cae-8982-5ae0-816c-4578356f910a",
+            "c14bc199-f98a-5008-95ee-cd9213ef8194",
+            "e37719fa-34b7-5df7-9ca1-96ec04688c6c",
+            "7b8f597b-e486-5df5-85e9-ba573a6f6131",
+            "a8de28ce-8626-5353-a301-90fee0c0ba1d"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 173.22732499997073
+        },
+        "D": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0,
+            "ndcg@5": 0.0
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": false
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "top_10": [
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "01d166e0-4b1d-5847-96d3-ad0f515a6c8c",
+            "e403d5c4-420c-5e1c-9b1d-7afef88bdc5e",
+            "730c9cae-8982-5ae0-816c-4578356f910a",
+            "c14bc199-f98a-5008-95ee-cd9213ef8194",
+            "e37719fa-34b7-5df7-9ca1-96ec04688c6c",
+            "7b8f597b-e486-5df5-85e9-ba573a6f6131",
+            "a8de28ce-8626-5353-a301-90fee0c0ba1d"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 172.92788899976586
+        }
+      }
+    },
+    {
+      "id": "AZR141",
+      "query": "Bəs yazılı razılıq nə vaxt lazımdır?",
+      "category": "conversational",
+      "covered": true,
+      "standalone": "Sığorta sirri olan şəxsi məlumatlar kənar şəxslərə mövzusunda yazılı razılıq nə vaxt lazımdır?",
+      "bm25": {
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 10,
+        "e3efa84e-08f7-5fdc-a87e-de8085781323": 16
+      },
+      "dense": {
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 22,
+        "e3efa84e-08f7-5fdc-a87e-de8085781323": 20
+      },
+      "experiments": {
+        "A": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 8,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 2
+          },
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 1.0,
+            "recall@20": 1.0,
+            "recall@50": 1.0,
+            "mrr@20": 0.5,
+            "ndcg@10": 0.5802792108518124,
+            "ndcg@5": 0.38685280723454163
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "top_10": [
+            "a0e4f9ac-521d-5cc6-b737-97e2f09e75e1",
+            "e3efa84e-08f7-5fdc-a87e-de8085781323",
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "81eaa019-0028-56dc-87f4-0c914f626d57",
+            "0f6fa8f7-d562-5cfd-84ae-ef1247bbf243",
+            "ab2f7c46-b188-5a33-a1b6-c1f428a22c7c",
+            "c7f2ba2d-fa5e-56c4-8965-677f5351cc1a",
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "2f7e6407-8736-545e-933b-e0774748bbe1"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 202.61331499932567
+        },
+        "B": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 8,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 2
+          },
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 1.0,
+            "recall@20": 1.0,
+            "recall@50": 1.0,
+            "mrr@20": 0.5,
+            "ndcg@10": 0.5802792108518124,
+            "ndcg@5": 0.38685280723454163
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "top_10": [
+            "a0e4f9ac-521d-5cc6-b737-97e2f09e75e1",
+            "e3efa84e-08f7-5fdc-a87e-de8085781323",
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "81eaa019-0028-56dc-87f4-0c914f626d57",
+            "0f6fa8f7-d562-5cfd-84ae-ef1247bbf243",
+            "ab2f7c46-b188-5a33-a1b6-c1f428a22c7c",
+            "c7f2ba2d-fa5e-56c4-8965-677f5351cc1a",
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "2f7e6407-8736-545e-933b-e0774748bbe1"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 200.38368600035028
+        },
+        "C": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 8,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 2
+          },
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 1.0,
+            "recall@20": 1.0,
+            "recall@50": 1.0,
+            "mrr@20": 0.5,
+            "ndcg@10": 0.5802792108518124,
+            "ndcg@5": 0.38685280723454163
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "top_10": [
+            "a0e4f9ac-521d-5cc6-b737-97e2f09e75e1",
+            "e3efa84e-08f7-5fdc-a87e-de8085781323",
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "81eaa019-0028-56dc-87f4-0c914f626d57",
+            "0f6fa8f7-d562-5cfd-84ae-ef1247bbf243",
+            "ab2f7c46-b188-5a33-a1b6-c1f428a22c7c",
+            "c7f2ba2d-fa5e-56c4-8965-677f5351cc1a",
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "2f7e6407-8736-545e-933b-e0774748bbe1"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 200.06425099927583
+        },
+        "D": {
+          "final_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 8,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 2
+          },
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 1.0,
+            "recall@20": 1.0,
+            "recall@50": 1.0,
+            "mrr@20": 0.5,
+            "ndcg@10": 0.5802792108518124,
+            "ndcg@5": 0.38685280723454163
+          },
+          "survives_top_k": {
+            "5": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": false,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "8": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            },
+            "10": {
+              "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": true,
+              "e3efa84e-08f7-5fdc-a87e-de8085781323": true
+            }
+          },
+          "candidate_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "rrf_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 6,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": 9
+          },
+          "top_10": [
+            "a0e4f9ac-521d-5cc6-b737-97e2f09e75e1",
+            "e3efa84e-08f7-5fdc-a87e-de8085781323",
+            "d7a98d7b-72c4-52e1-8e52-e1b9404d437b",
+            "81eaa019-0028-56dc-87f4-0c914f626d57",
+            "0f6fa8f7-d562-5cfd-84ae-ef1247bbf243",
+            "ab2f7c46-b188-5a33-a1b6-c1f428a22c7c",
+            "c7f2ba2d-fa5e-56c4-8965-677f5351cc1a",
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "2f7e6407-8736-545e-933b-e0774748bbe1"
+          ],
+          "uncached_timings": [],
+          "retrieval_ms": 200.17301000007137
+        }
+      }
+    }
+  ]
+}

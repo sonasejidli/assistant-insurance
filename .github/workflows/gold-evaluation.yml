@@ -1,0 +1,68 @@
+name: Controlled gold evaluation
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 2 * * 1'
+permissions:
+  contents: read
+jobs:
+  gold:
+    if: ${{ vars.GOLD_EVALUATION_READY == 'true' && github.ref_name == github.event.repository.default_branch }}
+    runs-on: [self-hosted, isolated-legal-evaluation]
+    environment: gold-evaluation
+    timeout-minutes: 120
+    env:
+      GOLD_INPUT_DIR: ${{ vars.GOLD_INPUT_DIR }}
+      GOLD_DATASET_VERSION: ${{ vars.GOLD_DATASET_VERSION }}
+      HF_HUB_OFFLINE: '1'
+      QDRANT_URL: ''
+      QDRANT_PATH: ''
+    steps:
+      - uses: actions/checkout@v4
+      - name: Frozen gold framework audit
+        run: |
+          test -n "$GOLD_INPUT_DIR"
+          python -m evaluation.gold_framework audit --snapshot "$GOLD_INPUT_DIR/snapshot.json" --output gold-framework-audit.json
+      - name: Paired gold scoring and calibration
+        if: ${{ vars.GOLD_CALIBRATION_READY == 'true' }}
+        run: |
+          test -n "$GOLD_DATASET_VERSION"
+          adjudicator=()
+          if test -f "$GOLD_INPUT_DIR/adjudicator.json"; then adjudicator=(--adjudication "$GOLD_INPUT_DIR/adjudicator.json"); fi
+          python -m evaluation.expert_review resolve --packet evaluation/gold_framework_review.pending.json \
+            --snapshot "$GOLD_INPUT_DIR/snapshot.json" --annotation "$GOLD_INPUT_DIR/reviewer-a.json" \
+            --annotation "$GOLD_INPUT_DIR/reviewer-b.json" "${adjudicator[@]}" \
+            --output gold-framework-review.json --report gold-adjudication.json
+          python -m evaluation.expert_review freeze --packet evaluation/gold_framework_review.pending.json \
+            --snapshot "$GOLD_INPUT_DIR/snapshot.json" --annotation "$GOLD_INPUT_DIR/reviewer-a.json" \
+            --annotation "$GOLD_INPUT_DIR/reviewer-b.json" "${adjudicator[@]}" --gold-version "$GOLD_DATASET_VERSION" \
+            --output gold-release.json --report gold-adjudication.json
+          python -m evaluation.expert_review splits --packet evaluation/gold_framework_review.pending.json \
+            --snapshot "$GOLD_INPUT_DIR/snapshot.json" --approved gold-framework-review.json \
+            --release gold-release.json --assignment "$GOLD_INPUT_DIR/approved-split-assignment.json" --output gold-splits.json
+          python -m evaluation.gold_framework compare --snapshot "$GOLD_INPUT_DIR/snapshot.json" \
+            --reviews gold-framework-review.json --before "$GOLD_INPUT_DIR/before-run.json" \
+            --after "$GOLD_INPUT_DIR/after-run.json" --policy "$GOLD_INPUT_DIR/approved-calibration.json" \
+            --split-manifest gold-splits.json --output gold-paired.json
+          python -c 'import json; assert json.load(open("gold-paired.json"))["calibration"]["status"] == "evaluated", "Calibration failed its approved criteria"'
+      - name: Review and benchmark gates
+        run: |
+          test -n "$GOLD_INPUT_DIR"
+          python -m evaluation.evaluate_platform ci --output lexical-regression.json
+          python -m evaluation.evaluate_platform answers --reviews "$GOLD_INPUT_DIR/approved-answer-judgments.json" --expected-commit "$GITHUB_SHA" --output answer-validation.json
+          python -m evaluation.evaluate_platform retrieval --rerank --reviews "$GOLD_INPUT_DIR/approved-cases.json" --snapshot "$GOLD_INPUT_DIR/snapshot.json" --vectors "$GOLD_INPUT_DIR/vectors.jsonl" --output gold-results.json
+          python -m evaluation.check_quality_policy --policy "$GOLD_INPUT_DIR/approved-policy.json" --retrieval gold-results.json --answers answer-validation.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: gold-${{ github.run_id }}-${{ github.sha }}
+          path: |
+            lexical-regression.json
+            gold-results.json
+            answer-validation.json
+            gold-framework-audit.json
+            gold-paired.json
+            gold-splits.json
+            gold-adjudication.json
+            gold-release.json
+          retention-days: 90

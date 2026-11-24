@@ -1,0 +1,87 @@
+{
+  "idle_timeout_ms": 20000,
+  "az": {
+    "limited_answer": {
+      "partial": "Tapılan sənədlər bu suala tam cavab vermək üçün kifayət etmir. Onlarda aşağıdakı əlaqəli məlumatlar var.",
+      "none": "Bu suala əsaslandırılmış cavab vermək üçün kifayət qədər dəlil tapa bilmədim.",
+      "refine": "Sığorta növünü və ya maraqlandığınız qanunu dəqiqləşdirə bilərsinizmi?"
+    },
+    "opening": {
+      "greeting": "Xoş gəlmisiniz. Mən Azərbaycan sığorta qanunvericiliyi üzrə intellektual axtarış köməkçisiyəm. Cavablarımı konkret qanun, maddə və bəndə istinadla təqdim edirəm.",
+      "follow_up": "Sizə necə kömək edə bilərəm?",
+      "idle_message": "Kömək məqsədilə bəzi nümunə suallar təqdim edirəm. Birinə klikləyə və ya sualınızı birbaşa yaza bilərsiniz."
+    },
+    "disclaimer_footer": "Cavablar məlumat xarakterlidir, hüquqi məsləhət deyil.",
+    "clarification": "Hansı sığorta növünü, qanunu və ya maddəni nəzərdə tutursunuz?",
+    "intents": {
+      "thanks": "Çox sağ olun! Başqa sualınız varsa yazın.",
+      "goodbye": "Sağ olun! Uğurlar.",
+      "conversation": "Yaxşıyam, təşəkkür edirəm. Sığorta ilə bağlı necə kömək edə bilərəm?",
+      "bot_info": "Mən Azərbaycan sığorta qanunvericiliyi üzrə sualları cavablandırıram və aidiyyəti qanun, maddə və bəndlərə istinad edirəm.",
+      "out_of_scope": "Bu köməkçi yalnız bazada olan Azərbaycan sığorta qanunvericiliyi ilə bağlı sualları cavablandırır. Aşağıdakı nümunələrdən birini soruşa bilərsiniz:"
+    },
+    "examples": [
+      { "label": "Tibbi sığorta", "question": "İcbari tibbi sığorta haqqı necə hesablanır?" },
+      { "label": "İş qəzası", "question": "Sığorta ödənişindən imtina halları hansılardır?" },
+      { "label": "Hərbi qulluqçular", "question": "Həlak olduqda sığorta ödənişi neçə faizdir?" },
+      { "label": "Sosial sığorta", "question": "Əmək qabiliyyətinin müvəqqəti itirilməsinə görə müavinət üçün minimum staj nə qədərdir?" },
+      { "label": "Auditor məsuliyyəti", "question": "Auditor üçün minimum sığorta məbləği nə qədərdir?" }
+    ]
+  },
+  "en": {
+    "limited_answer": {
+      "partial": "The documents I found don’t fully answer this question. They do support these points.",
+      "none": "I didn’t find enough evidence in the available documents to answer this question.",
+      "refine": "Could you specify the type of insurance or the law you’re interested in?"
+    },
+    "opening": {
+      "greeting": "Welcome. I’m an intelligent search assistant for Azerbaijan insurance legislation. I answer with citations to specific laws, articles, and clauses.",
+      "follow_up": "How can I help you?",
+      "idle_message": "Here are some example questions to get you started. You can click one or type your question directly."
+    },
+    "disclaimer_footer": "Answers are for information only, not legal advice.",
+    "clarification": "Could you clarify which type of insurance, law, or article you mean?",
+    "intents": {
+      "thanks": "You’re welcome! Ask anytime.",
+      "goodbye": "Goodbye!",
+      "conversation": "I'm doing well, thank you. How can I help with insurance?",
+      "bot_info": "I answer questions about Azerbaijan’s insurance legislation and cite the relevant laws, articles, and clauses.",
+      "out_of_scope": "This assistant only covers Azerbaijan insurance laws available in the database. You can ask, for example:"
+    },
+    "examples": [
+      { "label": "Medical insurance", "question": "How is the compulsory health insurance premium calculated?" },
+      { "label": "Work accident", "question": "In which cases can an insurance payment be refused?" },
+      { "label": "Military", "question": "If a servicemember dies, what percentage is the insurance payment?" },
+      { "label": "Social insurance", "question": "What is the minimum service period for a temporary incapacity benefit?" },
+      { "label": "Auditor liability", "question": "What is the minimum insurance amount for an auditor?" }
+    ]
+  },
+  "ru": {
+    "limited_answer": {
+      "partial": "В найденных документах недостаточно сведений для полного ответа. В них есть следующая информация по теме.",
+      "none": "В доступных документах мне не удалось найти достаточно сведений для ответа на этот вопрос.",
+      "refine": "Уточните, пожалуйста, вид страхования или закон, который вас интересует."
+    },
+    "opening": {
+      "greeting": "Добро пожаловать. Я — интеллектуальный помощник по поиску в законодательстве Азербайджана о страховании. Отвечаю со ссылками на конкретные законы, статьи и пункты.",
+      "follow_up": "Чем я могу вам помочь?",
+      "idle_message": "Вот несколько примеров вопросов. Нажмите на один из них или напишите свой вопрос."
+    },
+    "disclaimer_footer": "Ответы носят информационный характер и не являются юридической консультацией.",
+    "clarification": "Какой вид страхования, закон или статью вы имеете в виду?",
+    "intents": {
+      "thanks": "Пожалуйста! Если есть ещё вопросы — пишите.",
+      "goodbye": "До свидания!",
+      "conversation": "Спасибо, всё хорошо. Чем могу помочь по вопросам страхования?",
+      "bot_info": "Я отвечаю на вопросы о страховом законодательстве Азербайджана и ссылаюсь на соответствующие законы, статьи и пункты.",
+      "out_of_scope": "Этот помощник отвечает только на вопросы по страховым законам Азербайджана, которые есть в базе. Например:"
+    },
+    "examples": [
+      { "label": "Медицинское", "question": "Как рассчитывается взнос по обязательному медицинскому страхованию?" },
+      { "label": "Несчастный случай", "question": "В каких случаях может быть отказано в страховой выплате?" },
+      { "label": "Военнослужащие", "question": "Какой процент составляет страховая выплата при гибели?" },
+      { "label": "Социальное", "question": "Какой минимальный стаж нужен для пособия по временной нетрудоспособности?" },
+      { "label": "Ответственность аудитора", "question": "Какова минимальная страховая сумма для аудитора?" }
+    ]
+  }
+}

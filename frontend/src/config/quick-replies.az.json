@@ -1,0 +1,7 @@
+﻿[
+  { "label": "Tibbi sığorta", "question": "İcbari tibbi sığorta haqqı necə hesablanır?" },
+  { "label": "İş qəzası", "question": "Sığorta ödənişindən imtina halları hansılardır?" },
+  { "label": "Hərbi qulluqçular", "question": "Həlak olduqda sığorta ödənişi neçə faizdir?" },
+  { "label": "Sosial sığorta", "question": "Əmək qabiliyyətinin müvəqqəti itirilməsinə görə müavinət üçün minimum staj nə qədərdir?" },
+  { "label": "Auditor məsuliyyəti", "question": "Auditor üçün minimum sığorta məbləği nə qədərdir?" }
+]

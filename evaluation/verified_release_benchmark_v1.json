@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "expert_validated": false,
+  "cases": [
+    {"id":"R01","base":"E2E-B01","scenario":"FULL / FULL","generated":"FULL","verified":"FULL","final":"FULL"},
+    {"id":"R02","base":"E2E-B02","scenario":"FULL / PARTIAL","status":"sufficient","generated":"FULL","verified":"PARTIAL","final":"PARTIAL","notice":"remedy_procedure_unestablished"},
+    {"id":"R03","base":"E2E-B05","scenario":"FULL outside the witness catalog","generated":"FULL","verified":null,"final":null},
+    {"id":"R04","base":"E2E-B01","scenario":"PARTIAL / FULL without promotion","status":"partial","generated":"PARTIAL","verified":"FULL","final":"PARTIAL"},
+    {"id":"R05","base":"E2E-B02","scenario":"PARTIAL / PARTIAL","generated":"PARTIAL","verified":"PARTIAL","final":"PARTIAL"},
+    {"id":"R06","base":"E2E-S05","scenario":"Unsupported assertion approved by scripted judge","generated":"FULL","verified":null,"final":null},
+    {"id":"R07","base":"E2E-B01","scenario":"Corrupted packed binding","mutation":"corrupt","generated":"FULL","verified":null,"final":null,"binding":false},
+    {"id":"R08","base":"E2E-B06","scenario":"Empty article and clause canonicalized","generated":"FULL","verified":null,"final":null,"binding":true},
+    {"id":"R09","base":"E2E-S01","scenario":"Overbroad land-user eligibility","generated":"FULL","verified":null,"final":null,"notice":"eligibility_scope_unestablished"},
+    {"id":"R10","base":"E2E-B03","scenario":"Missing exception bounded by verified fragment","mutation":"exception","generated":"FULL","verified":"PARTIAL","final":"PARTIAL","qualified":true},
+    {"id":"R11","base":"E2E-S04","scenario":"Second part incomplete","generated":"PARTIAL","verified":"PARTIAL","final":"PARTIAL","parts":{"Q1":true,"Q2":false},"notice":"employer_part_unestablished"},
+    {"id":"R12","base":"E2E-S03","scenario":"Unverified dates","generated":"FULL","verified":null,"final":null,"notice":"date_applicability_unverified"},
+    {"id":"R13","base":"E2E-B02","scenario":"Synthetic unresolved conflict","mutation":"conflict","generated":null,"verified":null,"final":null,"notice":"unresolved_conflict"},
+    {"id":"R14","base":"E2E-D03","scenario":"Textbook as legal authority","generated":"NOT_FOUND","verified":null,"final":null},
+    {"id":"R15","base":"E2E-B04","scenario":"No sufficient fragment","generated":"NOT_FOUND","verified":null,"final":null}
+  ]
+}

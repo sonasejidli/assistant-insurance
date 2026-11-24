@@ -1,0 +1,1015 @@
+{
+  "status": "pending",
+  "dataset_sha256": "e96dd7782821244749376433884085c52cc7be005cddaf29194482c4d3600182",
+  "evaluated_commit": null,
+  "examples": [
+    {
+      "id": "AZR001",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR017",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR032",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR048",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR063",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR079",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR093",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR109",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR123",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR137",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR151",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR002",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR018",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR033",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR049",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR064",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR080",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR094",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR110",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR124",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR138",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR152",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR003",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR019",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR034",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR050",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR065",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR081",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR095",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR111",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR125",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR139",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR153",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR004",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR020",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    },
+    {
+      "id": "AZR035",
+      "reviewer": null,
+      "answer_sha256": null,
+      "judge_version": null,
+      "human": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      },
+      "automated": {
+        "correctness": null,
+        "faithfulness": null,
+        "relevancy": null,
+        "citation_accuracy": null,
+        "evidence_coverage": null,
+        "qualifications": null,
+        "exceptions": null,
+        "abstention": null,
+        "multi_source_consistency": null
+      }
+    }
+  ]
+}

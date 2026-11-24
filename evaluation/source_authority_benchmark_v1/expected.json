@@ -1,0 +1,4798 @@
+{
+  "schema_version": 1,
+  "source_sha256": "a3f08c42c028669e3081d9839c2c9586cb07ca2beec20a16c162f139d4b33dd9",
+  "split_sha256": {
+    "baseline": "f1ce4035c08533106f3cbf8ff037615e54f52768ca9fa4f72574daf040103dfc",
+    "development": "7e132360c36ace96c4ac1f2029c345a340ecdd433568289ec23c567ff121e15f",
+    "stress": "499133ceb42f47c3a5765076551f1cc1be55886cf9726f1c8f87316fe860b2b8"
+  },
+  "metrics": [
+    "source_classification_accuracy",
+    "normative_eligibility_accuracy",
+    "context_preservation_rate",
+    "temporal_relationship_accuracy",
+    "unknown_date_preservation",
+    "amendment_relationship_accuracy",
+    "repeal_relationship_accuracy",
+    "conflict_detection_recall",
+    "conflict_false_positive_rate",
+    "scope_distinction_accuracy",
+    "exact_reference_preservation",
+    "expert_review_escalation_accuracy"
+  ],
+  "cases": {
+    "A01": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          0,
+          "source_type"
+        ],
+        "expected": "law_or_code",
+        "explanation": "Enacted statutory source.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          1,
+          "source_type"
+        ],
+        "expected": "academic_textbook",
+        "explanation": "Academic title plus catalog anchors.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          0,
+          "eligible_normative"
+        ],
+        "expected": true,
+        "explanation": "General undated explanation may consider a classified statute.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          1,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "Academic provenance does not authorize statutory claims.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "context_preservation_rate",
+        "path": [
+          "sources",
+          1,
+          "educational_excerpt"
+        ],
+        "expected": "СЫЬОРТА ИШИ (Али мяктябляр цчцн дярслик)",
+        "explanation": "Keep the exact educational excerpt.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "01a4a500-13dd-5068-8890-b921643bf99a",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "Sığorta kitab.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 1,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "A02": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          0,
+          "source_type"
+        ],
+        "expected": "government_resolution_or_regulation",
+        "explanation": "Cabinet issuance is anchored.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "sources",
+          1,
+          "evidence_role"
+        ],
+        "expected": "contextual",
+        "explanation": "Academic approval is a different authority category.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          0,
+          "issuing_authority"
+        ],
+        "expected": "Azərbaycan Respublikasının Nazirlər Kabineti",
+        "explanation": "Preserve verified issuer.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "01a4a500-13dd-5068-8890-b921643bf99a",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "Sığorta kitab.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 1,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "A03": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          1,
+          "source_type"
+        ],
+        "expected": "news_or_general_information",
+        "explanation": "Published news summary is contextual.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          1,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "News is ineligible for legal claims.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "context_preservation_rate",
+        "path": [
+          "sources",
+          1,
+          "educational_excerpt"
+        ],
+        "expected": "Trend, 16 iyun 2026. İcbari avtomobil sığortası üzrə sığorta haqqı qaydalarında dəyişikliklər haqqında xəbər xülasəsi. Mənbə: https://az.trend.az/business/4197840.html",
+        "explanation": "Preserve the selected summary.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "d4096dce-cfb5-5545-9b35-c52198767f26",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "14",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "14.6",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 11,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "05ca25b0-f931-5ff7-8977-6879c9019e70",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "d2714228-7dd4-536f-b244-7837533f5724",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "Trend-4197840-avtomobil-sigortasi-2026.txt",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "A04": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          0,
+          "source_type"
+        ],
+        "expected": "unclassified",
+        "explanation": "Filename alone must not verify an unreviewed version.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          0,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "Unknown authority cannot authorize legal claims.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "A05": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          0,
+          "source_type"
+        ],
+        "expected": "other_normative_act",
+        "explanation": "Explicitly cataloged other act is representable.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          0,
+          "eligible_normative"
+        ],
+        "expected": true,
+        "explanation": "Synthetic authority class is eligible for an undated explanation.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "A06": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          0,
+          "source_type"
+        ],
+        "expected": "methodological_or_explanatory",
+        "explanation": "Explicit explanatory type is representable.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          0,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "Explanatory status alone cannot authorize a statutory claim.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "context_preservation_rate",
+        "path": [
+          "sources",
+          0,
+          "educational_excerpt"
+        ],
+        "expected": "14.6. Bu Qanunun 14.5.1-1-ci maddəsində göstərilən fiziki şəxslər istisna olmaqla, məcburi dövlət sosial sığorta haqqı hər ay üçün hesablanır, əməkhaqqı və digər gəlirlər üzrə ödənişlərlə eyni vaxtda, lakin sonrakı ayın 15-dən gec olmayaraq, tam məbləğdə yalnız nağdsız hesablaşma qaydasında ödənilir. [44]",
+        "explanation": "Retain explanatory context.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "d4096dce-cfb5-5545-9b35-c52198767f26",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "14",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "14.6",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 11,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "A07": [
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          0,
+          "issuing_authority"
+        ],
+        "expected": null,
+        "explanation": "Issuer must stay unknown even with a classification.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "sources",
+          0,
+          "source_type"
+        ],
+        "expected": "law_or_code",
+        "explanation": "Missing optional issuer does not erase anchored genre.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "A08": [
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          0,
+          "document_dates",
+          "adoption_date"
+        ],
+        "expected": {
+          "missing_field": true
+        },
+        "explanation": "No formal adoption date supplied for this act.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          0,
+          "document_dates",
+          "effective_date"
+        ],
+        "expected": {
+          "missing_field": true
+        },
+        "explanation": "Subclause commencement is not the act's commencement.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "8ecdc47b-20a4-54d1-9078-1ba02841810d",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 1.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "1.1.2-1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 1,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T01": [
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "temporal_status"
+        ],
+        "expected": "historical_text_effective_period_unverified",
+        "explanation": "Historical wording has no verified repeal date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "sources",
+          1,
+          "temporal_status"
+        ],
+        "expected": "effective_period_unknown",
+        "explanation": "Area bands lack a verified period for this requested date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          0,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "Historical extracted text is blocked.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          1,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "Current applicability cannot be inferred.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "c1891f72-bb0d-5345-8f1e-81b8704eda12",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "14",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "14.5.6",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "408840aa-b5ca-50b7-ba73-3cd0b289a405",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": "14",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": "14.5.1-1.9",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          1,
+          "legal_currency_verified"
+        ],
+        "expected": false,
+        "explanation": "Indexed wording alone must not certify current law.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T02": [
+      {
+        "metric": "amendment_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "provision",
+          "amendment_act"
+        ],
+        "expected": "1618-VQD",
+        "explanation": "Preserve the exact amendment relationship.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "amendment_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "provision",
+          "amendment_adoption_date"
+        ],
+        "expected": "2019-06-27",
+        "explanation": "Adoption is distinct from publication.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "amendment_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "provision",
+          "amendment_publication_date"
+        ],
+        "expected": "2019-08-21",
+        "explanation": "Exact indexed publication date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "temporal_status"
+        ],
+        "expected": "outside_documented_effective_period",
+        "explanation": "The requested date is before effectiveness.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "8ecdc47b-20a4-54d1-9078-1ba02841810d",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 1.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "1.1.2-1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 1,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T03": [
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "timeline",
+          "dates",
+          "insured_event_date"
+        ],
+        "expected": "2019-12-31",
+        "explanation": "Keep event date independently.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "amendment_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "provision",
+          "effective_date"
+        ],
+        "expected": "2020-01-01",
+        "explanation": "Effectiveness follows the asserted event.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "temporal_status"
+        ],
+        "expected": "effective_period_unknown",
+        "explanation": "Reference-date status does not substitute the event date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "cb1c64f8-875f-5ced-9d4c-13d2fdf86f72",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 1.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "1.1.2-2",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 1,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "timeline",
+          "case_facts_verified"
+        ],
+        "expected": false,
+        "explanation": "Assertions must not become verified contract or event facts for the hardened verifier.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T04": [
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "temporal_status"
+        ],
+        "expected": "outside_documented_effective_period",
+        "explanation": "A date after verified repeal is outside.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          0,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "Closed window excludes legal use after repeal.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "d4096dce-cfb5-5545-9b35-c52198767f26",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "14",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "14.6",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 11,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T05": [
+      {
+        "metric": "repeal_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "provision",
+          "repeal_target"
+        ],
+        "expected": "Decision No. 196 annex, subparagraph 1.1.1",
+        "explanation": "Preserve exact linked target.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          0,
+          "provision",
+          "repeal_effective_date"
+        ],
+        "expected": null,
+        "explanation": "The directive does not establish an effective date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T06": [
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          0,
+          "document_dates",
+          "publication_date"
+        ],
+        "expected": {
+          "missing_field": true
+        },
+        "explanation": "Year is not a day-level date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          0,
+          "document_dates",
+          "adoption_date"
+        ],
+        "expected": {
+          "missing_field": true
+        },
+        "explanation": "Academic imprint gives no adoption date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "01a4a500-13dd-5068-8890-b921643bf99a",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "Sığorta kitab.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 1,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T07": [
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "sources",
+          0,
+          "temporal_status"
+        ],
+        "expected": "current_applicability_unverified",
+        "explanation": "Do not substitute machine date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "sources",
+          0,
+          "eligible_normative"
+        ],
+        "expected": false,
+        "explanation": "An explicit current-law claim needs a verified basis.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T08": [
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "timeline",
+          "dates",
+          "insured_event_date"
+        ],
+        "expected": null,
+        "explanation": "Missing scenario date must remain null.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "timeline",
+          "contract_event_relationship"
+        ],
+        "expected": "unknown",
+        "explanation": "The incomplete interval cannot establish applicability.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T09": [
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "timeline",
+          "dates",
+          "contract_start"
+        ],
+        "expected": null,
+        "explanation": "Missing scenario date must remain null.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "timeline",
+          "contract_event_relationship"
+        ],
+        "expected": "unknown",
+        "explanation": "The incomplete interval cannot establish applicability.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T10": [
+      {
+        "metric": "unknown_date_preservation",
+        "path": [
+          "timeline",
+          "dates",
+          "contract_termination"
+        ],
+        "expected": null,
+        "explanation": "Missing scenario date must remain null.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "timeline",
+          "contract_event_relationship"
+        ],
+        "expected": "unknown",
+        "explanation": "The incomplete interval cannot establish applicability.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T11": [
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "timeline",
+          "contract_event_relationship"
+        ],
+        "expected": "inside_asserted_contract_period",
+        "explanation": "Use event rather than filing date.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "timeline",
+          "dates",
+          "claim_date"
+        ],
+        "expected": "2025-07-03",
+        "explanation": "The present layer has no claim filing-date field.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T12": [
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "temporal_status"
+        ],
+        "expected": "inside_documented_rule_period",
+        "explanation": "Preserve the earlier rule window.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "sources",
+          1,
+          "temporal_status"
+        ],
+        "expected": "outside_documented_rule_period",
+        "explanation": "The later rule is outside its stated period.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "conflict_detection_recall",
+        "path": [
+          "conflict_statuses"
+        ],
+        "expected": [
+          "documented_transition"
+        ],
+        "explanation": "The pair is a documented chronology rather than a contradiction.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "1a14f9e2-7510-5b64-90d6-2c89f14bc426",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "14-1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "14-1.1.1.1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 12,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "73be3c3c-e3c4-5021-8455-048cea173513",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": "14-1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": "14-1.1.1.2",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 12,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T13": [
+      {
+        "metric": "amendment_relationship_accuracy",
+        "path": [
+          "sources",
+          0,
+          "provision",
+          "effective_date"
+        ],
+        "expected": "2024-01-01",
+        "explanation": "Explicit date exists in exact §16-4.5 but is uncataloged.",
+        "failure_type": "metadata-related"
+      },
+      {
+        "metric": "amendment_relationship_accuracy",
+        "path": [
+          "sources",
+          1,
+          "provision",
+          "effective_date"
+        ],
+        "expected": "2020-01-01",
+        "explanation": "Exact §16-4.6 has a separate commencement date with exceptions.",
+        "failure_type": "metadata-related"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "b3750c0b-8a72-510d-a9aa-af310b4d9d35",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "1248340c-65bf-5254-875a-36c09b8300f4",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorts 4.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "16-4",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "16-4.5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 25,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "8b9e9bda-28ee-5dcb-813b-118941d66dbe",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "1248340c-65bf-5254-875a-36c09b8300f4",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorts 4.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": "16-4",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": "16-4.6",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 25,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "T14": [
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "timeline_unchanged"
+        ],
+        "expected": true,
+        "explanation": "Machine date must not change supplied legal reference and event dates.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C01": [
+      {
+        "metric": "conflict_detection_recall",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 1,
+        "explanation": "Compare scope and time before reporting an unresolved potential conflict.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "requires_expert_review"
+        ],
+        "expected": true,
+        "explanation": "Potential conflict requires legal review.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "conflicts",
+          0,
+          "references",
+          0,
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Keep first exact reference.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "conflicts",
+          0,
+          "references",
+          1,
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Keep second exact reference.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "resolution"
+        ],
+        "expected": null,
+        "explanation": "The layer cannot pick a prevailing source.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "insurance_type"
+        ],
+        "expected": "occupational",
+        "explanation": "Preserve scope metadata.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "person_group"
+        ],
+        "expected": "worker",
+        "explanation": "Preserve group.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "provisions",
+          1
+        ],
+        "expected": {
+          "anchors": [],
+          "issue": "synthetic-overlap",
+          "rule_family": "b",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "rule_period": [
+            "2024-01-01",
+            "2029-01-01"
+          ],
+          "text_sha256": "a6ed19d3d12ecd9c7d1d18d826b129d88596e8ac8ef73f64ad16aced85d05fb1"
+        },
+        "explanation": "The second rule's exact supplied date metadata remains intact.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C02": [
+      {
+        "metric": "conflict_false_positive_rate",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Compare scope and time before reporting an unresolved potential conflict.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Different applicable scopes or periods are distinguishable.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C03": [
+      {
+        "metric": "conflict_false_positive_rate",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Compare scope and time before reporting an unresolved potential conflict.",
+        "failure_type": "metadata-related"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Different applicable scopes or periods are distinguishable.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C04": [
+      {
+        "metric": "conflict_false_positive_rate",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Compare scope and time before reporting an unresolved potential conflict.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Different applicable scopes or periods are distinguishable.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C05": [
+      {
+        "metric": "conflict_detection_recall",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 1,
+        "explanation": "Compare scope and time before reporting an unresolved potential conflict.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "requires_expert_review"
+        ],
+        "expected": true,
+        "explanation": "Potential conflict requires legal review.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "conflicts",
+          0,
+          "references",
+          0,
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Keep first exact reference.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "conflicts",
+          0,
+          "references",
+          1,
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Keep second exact reference.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "resolution"
+        ],
+        "expected": null,
+        "explanation": "The layer cannot pick a prevailing source.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "insurance_type"
+        ],
+        "expected": "occupational",
+        "explanation": "Preserve scope metadata.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "person_group"
+        ],
+        "expected": "worker",
+        "explanation": "Preserve group.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "provisions",
+          1
+        ],
+        "expected": {
+          "anchors": [],
+          "issue": "synthetic-overlap",
+          "rule_family": "special",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "text_sha256": "a6ed19d3d12ecd9c7d1d18d826b129d88596e8ac8ef73f64ad16aced85d05fb1"
+        },
+        "explanation": "The second rule's exact supplied date metadata remains intact.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C06": [
+      {
+        "metric": "conflict_detection_recall",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 1,
+        "explanation": "Compare scope and time before reporting an unresolved potential conflict.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "requires_expert_review"
+        ],
+        "expected": true,
+        "explanation": "Potential conflict requires legal review.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "conflicts",
+          0,
+          "references",
+          0,
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Keep first exact reference.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "conflicts",
+          0,
+          "references",
+          1,
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Keep second exact reference.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "resolution"
+        ],
+        "expected": null,
+        "explanation": "The layer cannot pick a prevailing source.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "insurance_type"
+        ],
+        "expected": "occupational",
+        "explanation": "Preserve scope metadata.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "person_group"
+        ],
+        "expected": "worker",
+        "explanation": "Preserve group.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "temporal_relationship_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "provisions",
+          1
+        ],
+        "expected": {
+          "anchors": [],
+          "issue": "synthetic-overlap",
+          "rule_family": "b",
+          "person_group": "worker",
+          "insurance_type": "occupational",
+          "effective_date": "2024-01-01",
+          "text_sha256": "a6ed19d3d12ecd9c7d1d18d826b129d88596e8ac8ef73f64ad16aced85d05fb1"
+        },
+        "explanation": "The second rule's exact supplied date metadata remains intact.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "missing_information"
+        ],
+        "expected": [
+          "effective_period"
+        ],
+        "explanation": "Conflict should explicitly list missing information. Existing output retains raw date fields only.",
+        "failure_type": "metadata-related"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C08": [
+      {
+        "metric": "conflict_false_positive_rate",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Compare scope and time before reporting an unresolved potential conflict.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "scope_distinction_accuracy",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Different applicable scopes or periods are distinguishable.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "11",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "11.8",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 10,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "5f0b5deb-dfb3-51c2-b44b-49c3c9168db5",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "NK-2023-156.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": null,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 4,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "C07": [
+      {
+        "metric": "conflict_false_positive_rate",
+        "path": [
+          "potential_conflicts"
+        ],
+        "expected": 0,
+        "explanation": "Transition is not an established contradiction.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "requires_expert_review"
+        ],
+        "expected": true,
+        "explanation": "Boundary application requires interpretation.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "expert_review_escalation_accuracy",
+        "path": [
+          "conflicts",
+          0,
+          "resolution"
+        ],
+        "expected": null,
+        "explanation": "Do not choose a winning source.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "1a14f9e2-7510-5b64-90d6-2c89f14bc426",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "article"
+        ],
+        "expected": "14-1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "clause"
+        ],
+        "expected": "14-1.1.1.1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          0,
+          "reference",
+          "page"
+        ],
+        "expected": 12,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "passage_id"
+        ],
+        "expected": "73be3c3c-e3c4-5021-8455-048cea173513",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document_id"
+        ],
+        "expected": "e90086e8-2d04-5eab-9620-7ce769aca005",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "document"
+        ],
+        "expected": "sığorta 7.pdf",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "article"
+        ],
+        "expected": "14-1",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "clause"
+        ],
+        "expected": "14-1.1.1.2",
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "sources",
+          1,
+          "reference",
+          "page"
+        ],
+        "expected": 12,
+        "explanation": "Annotation preserves the exact source locator.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "I01": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "authority_unchanged"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "stable_ids"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "reference_expected"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "I02": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "authority_unchanged"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "reference_expected"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "I03": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "authority_unchanged"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "eligibility_unchanged"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "I04": [
+      {
+        "metric": "source_classification_accuracy",
+        "path": [
+          "authority_unchanged"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "eligibility_unchanged"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "I05": [
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "reference_expected"
+        ],
+        "expected": true,
+        "explanation": "Transformation must preserve the observed invariant.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "E01": [
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "a5bc2843-5ea7-5874-8d71-4401f7a06237"
+        ],
+        "explanation": "The original ranked handoff survives opt-in.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "disabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "a5bc2843-5ea7-5874-8d71-4401f7a06237"
+        ],
+        "explanation": "Opt-out consumes the identical ranked IDs.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "chunk_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "The normative packed citation retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "chunk_id"
+        ],
+        "expected": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+        "explanation": "The contextual marker retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Preserve the packed document locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "page"
+        ],
+        "expected": "10",
+        "explanation": "Preserve the packed PDF page.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "context_preservation_rate",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "authority_role"
+        ],
+        "expected": "context_only",
+        "explanation": "Context remains in the actual generation payload.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "returned_reference_ids"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+        ],
+        "explanation": "Context-only and rejected claims cannot yield legal citations.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "judge_reference_ids"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+        ],
+        "explanation": "Context cannot enter statutory claim evaluation.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "returned_references",
+          0,
+          "document_id"
+        ],
+        "expected": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "explanation": "Preserve the returned document ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "returned_references",
+          0,
+          "paragraph"
+        ],
+        "expected": "11.8",
+        "explanation": "Preserve the returned provision identifier.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "E02": [
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "a5bc2843-5ea7-5874-8d71-4401f7a06237"
+        ],
+        "explanation": "The original ranked handoff survives opt-in.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "disabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "a5bc2843-5ea7-5874-8d71-4401f7a06237"
+        ],
+        "explanation": "Opt-out consumes the identical ranked IDs.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "chunk_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "The normative packed citation retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "chunk_id"
+        ],
+        "expected": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+        "explanation": "The contextual marker retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Preserve the packed document locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "page"
+        ],
+        "expected": "10",
+        "explanation": "Preserve the packed PDF page.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "context_preservation_rate",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "authority_role"
+        ],
+        "expected": "context_only",
+        "explanation": "Context remains in the actual generation payload.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "returned_reference_ids"
+        ],
+        "expected": [],
+        "explanation": "Context-only and rejected claims cannot yield legal citations.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "judge_reference_ids"
+        ],
+        "expected": [],
+        "explanation": "Context cannot enter statutory claim evaluation.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "E03": [
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "05ca25b0-f931-5ff7-8977-6879c9019e70"
+        ],
+        "explanation": "The original ranked handoff survives opt-in.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "disabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "05ca25b0-f931-5ff7-8977-6879c9019e70"
+        ],
+        "explanation": "Opt-out consumes the identical ranked IDs.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "chunk_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "The normative packed citation retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "chunk_id"
+        ],
+        "expected": "05ca25b0-f931-5ff7-8977-6879c9019e70",
+        "explanation": "The contextual marker retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Preserve the packed document locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "page"
+        ],
+        "expected": "10",
+        "explanation": "Preserve the packed PDF page.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "context_preservation_rate",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "authority_role"
+        ],
+        "expected": "context_only",
+        "explanation": "Context remains in the actual generation payload.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "returned_reference_ids"
+        ],
+        "expected": [],
+        "explanation": "Context-only and rejected claims cannot yield legal citations.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "judge_reference_ids"
+        ],
+        "expected": [],
+        "explanation": "Context cannot enter statutory claim evaluation.",
+        "failure_type": "mechanical"
+      }
+    ],
+    "E04": [
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "a5bc2843-5ea7-5874-8d71-4401f7a06237"
+        ],
+        "explanation": "The original ranked handoff survives opt-in.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "disabled",
+          "ranking"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+          "a5bc2843-5ea7-5874-8d71-4401f7a06237"
+        ],
+        "explanation": "Opt-out consumes the identical ranked IDs.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "chunk_id"
+        ],
+        "expected": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "explanation": "The normative packed citation retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "chunk_id"
+        ],
+        "expected": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+        "explanation": "The contextual marker retains its ID.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "document"
+        ],
+        "expected": "sığorta 3.pdf",
+        "explanation": "Preserve the packed document locator.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "exact_reference_preservation",
+        "path": [
+          "enabled",
+          "packed",
+          "S1",
+          "page"
+        ],
+        "expected": "10",
+        "explanation": "Preserve the packed PDF page.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "context_preservation_rate",
+        "path": [
+          "enabled",
+          "packed",
+          "S2",
+          "authority_role"
+        ],
+        "expected": "context_only",
+        "explanation": "Context remains in the actual generation payload.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "returned_reference_ids"
+        ],
+        "expected": [],
+        "explanation": "Context-only and rejected claims cannot yield legal citations.",
+        "failure_type": "mechanical"
+      },
+      {
+        "metric": "normative_eligibility_accuracy",
+        "path": [
+          "enabled",
+          "judge_reference_ids"
+        ],
+        "expected": [
+          "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+        ],
+        "explanation": "Context cannot enter statutory claim evaluation.",
+        "failure_type": "mechanical"
+      }
+    ]
+  }
+}

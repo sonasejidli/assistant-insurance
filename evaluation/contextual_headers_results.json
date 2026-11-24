@@ -1,0 +1,229 @@
+{
+  "baseline": {
+    "parents": 57,
+    "children": 59,
+    "max_embedded_tokens": 507,
+    "mean_embedded_tokens": 139.1864406779661,
+    "index_preparation_ms": 24948.409874999925,
+    "means": {
+      "recall@5": 0.8333333333333334,
+      "recall@10": 0.9166666666666666,
+      "ndcg@10": 0.8828226840810395
+    },
+    "cases": [
+      {
+        "id": "AZR010",
+        "category": "payment_exclusions",
+        "ranks": {
+          "981d0040-8977-568c-8f24-4abac260c133": 22,
+          "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 1
+        },
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 0.5,
+          "recall@20": 0.5,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 0.6131471927654584
+        }
+      },
+      {
+        "id": "AZR023",
+        "category": "legal_periods",
+        "ranks": {
+          "a5a0fff9-2ca3-537a-b418-83143fc42080": 8,
+          "eea8fe80-397b-52da-8268-509246a90deb": 1
+        },
+        "metrics": {
+          "recall@5": 0.5,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 0.8065735963827293
+        }
+      },
+      {
+        "id": "AZR036",
+        "category": "personal_medical_data",
+        "ranks": {
+          "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 2,
+          "e3efa84e-08f7-5fdc-a87e-de8085781323": 1
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 1.0
+        }
+      },
+      {
+        "id": "AZR063",
+        "category": "limits_calculations",
+        "ranks": {
+          "62bff44a-11a9-5d29-8ac1-ce7e791b09be": 1,
+          "f9737eda-106e-52ac-a3ab-d90194c9692a": 4
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 0.8772153153380492
+        }
+      },
+      {
+        "id": "AZR097",
+        "category": "claims_compensation",
+        "ranks": {
+          "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 1.0
+        }
+      },
+      {
+        "id": "AZR141",
+        "category": "conversational",
+        "ranks": {
+          "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 2,
+          "e3efa84e-08f7-5fdc-a87e-de8085781323": 1
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 1.0
+        }
+      }
+    ]
+  },
+  "headers": {
+    "parents": 57,
+    "children": 60,
+    "max_embedded_tokens": 502,
+    "mean_embedded_tokens": 163.4,
+    "index_preparation_ms": 25822.467853999115,
+    "means": {
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "ndcg@10": 0.9105820163833689
+    },
+    "cases": [
+      {
+        "id": "AZR010",
+        "category": "payment_exclusions",
+        "ranks": {
+          "981d0040-8977-568c-8f24-4abac260c133": 5,
+          "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 1
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 0.8503449055347546
+        }
+      },
+      {
+        "id": "AZR023",
+        "category": "legal_periods",
+        "ranks": {
+          "a5a0fff9-2ca3-537a-b418-83143fc42080": 3,
+          "eea8fe80-397b-52da-8268-509246a90deb": 1
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 0.9197207891481876
+        }
+      },
+      {
+        "id": "AZR036",
+        "category": "personal_medical_data",
+        "ranks": {
+          "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 2,
+          "e3efa84e-08f7-5fdc-a87e-de8085781323": 3
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 0.5,
+          "ndcg@10": 0.6934264036172708
+        }
+      },
+      {
+        "id": "AZR063",
+        "category": "limits_calculations",
+        "ranks": {
+          "62bff44a-11a9-5d29-8ac1-ce7e791b09be": 1,
+          "f9737eda-106e-52ac-a3ab-d90194c9692a": 2
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 1.0
+        }
+      },
+      {
+        "id": "AZR097",
+        "category": "claims_compensation",
+        "ranks": {
+          "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 1.0
+        }
+      },
+      {
+        "id": "AZR141",
+        "category": "conversational",
+        "ranks": {
+          "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 1,
+          "e3efa84e-08f7-5fdc-a87e-de8085781323": 2
+        },
+        "metrics": {
+          "recall@5": 1.0,
+          "recall@10": 1.0,
+          "recall@20": 1.0,
+          "recall@50": 1.0,
+          "mrr@20": 1.0,
+          "ndcg@10": 1.0
+        }
+      }
+    ]
+  },
+  "case_ids": [
+    "AZR010",
+    "AZR023",
+    "AZR036",
+    "AZR063",
+    "AZR097",
+    "AZR141"
+  ],
+  "label_status": "pending domain expert"
+}

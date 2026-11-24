@@ -1,0 +1,1242 @@
+{
+  "packet_sha256": "739e60205cf5d2366c254fb920475c6f26032c075f2f8ba5919ce67d2d3ed595",
+  "review_sha256": null,
+  "approved": 0,
+  "cases": 173,
+  "status_counts": {
+    "awaiting_review": 173
+  },
+  "release_counts": {
+    "approved": 0,
+    "rejected": 0,
+    "disputed": 0,
+    "pending": 173
+  },
+  "by_cohort": {
+    "corpus": {
+      "awaiting_review": 164
+    },
+    "control": {
+      "awaiting_review": 9
+    }
+  },
+  "draft_source_checks": {
+    "verified": 244,
+    "total": 244
+  },
+  "unresolved_ids": [
+    "AZR001",
+    "AZR002",
+    "AZR003",
+    "AZR004",
+    "AZR005",
+    "AZR006",
+    "AZR007",
+    "AZR008",
+    "AZR009",
+    "AZR010",
+    "AZR011",
+    "AZR012",
+    "AZR013",
+    "AZR014",
+    "AZR015",
+    "AZR016",
+    "AZR017",
+    "AZR018",
+    "AZR019",
+    "AZR020",
+    "AZR021",
+    "AZR022",
+    "AZR023",
+    "AZR024",
+    "AZR025",
+    "AZR026",
+    "AZR027",
+    "AZR028",
+    "AZR029",
+    "AZR030",
+    "AZR031",
+    "AZR032",
+    "AZR033",
+    "AZR034",
+    "AZR035",
+    "AZR036",
+    "AZR037",
+    "AZR038",
+    "AZR039",
+    "AZR040",
+    "AZR041",
+    "AZR042",
+    "AZR043",
+    "AZR044",
+    "AZR045",
+    "AZR046",
+    "AZR047",
+    "AZR048",
+    "AZR049",
+    "AZR050",
+    "AZR051",
+    "AZR052",
+    "AZR053",
+    "AZR054",
+    "AZR055",
+    "AZR056",
+    "AZR057",
+    "AZR058",
+    "AZR059",
+    "AZR060",
+    "AZR061",
+    "AZR062",
+    "AZR063",
+    "AZR064",
+    "AZR065",
+    "AZR066",
+    "AZR067",
+    "AZR068",
+    "AZR069",
+    "AZR070",
+    "AZR071",
+    "AZR072",
+    "AZR073",
+    "AZR074",
+    "AZR075",
+    "AZR076",
+    "AZR077",
+    "AZR078",
+    "AZR079",
+    "AZR080",
+    "AZR081",
+    "AZR082",
+    "AZR083",
+    "AZR084",
+    "AZR085",
+    "AZR086",
+    "AZR087",
+    "AZR088",
+    "AZR089",
+    "AZR090",
+    "AZR091",
+    "AZR092",
+    "AZR093",
+    "AZR094",
+    "AZR095",
+    "AZR096",
+    "AZR097",
+    "AZR098",
+    "AZR099",
+    "AZR100",
+    "AZR101",
+    "AZR102",
+    "AZR103",
+    "AZR104",
+    "AZR105",
+    "AZR106",
+    "AZR107",
+    "AZR108",
+    "AZR109",
+    "AZR110",
+    "AZR111",
+    "AZR112",
+    "AZR113",
+    "AZR114",
+    "AZR115",
+    "AZR116",
+    "AZR117",
+    "AZR118",
+    "AZR119",
+    "AZR120",
+    "AZR121",
+    "AZR122",
+    "AZR123",
+    "AZR124",
+    "AZR125",
+    "AZR126",
+    "AZR127",
+    "AZR128",
+    "AZR129",
+    "AZR130",
+    "AZR131",
+    "AZR132",
+    "AZR133",
+    "AZR134",
+    "AZR135",
+    "AZR136",
+    "AZR137",
+    "AZR138",
+    "AZR139",
+    "AZR140",
+    "AZR141",
+    "AZR142",
+    "AZR143",
+    "AZR144",
+    "AZR145",
+    "AZR146",
+    "AZR147",
+    "AZR148",
+    "AZR149",
+    "AZR150",
+    "AZR151",
+    "AZR152",
+    "AZR153",
+    "AZR154",
+    "AZR155",
+    "AZR156",
+    "AZR157",
+    "AZR158",
+    "AZR159",
+    "AZR160",
+    "AZR161",
+    "AZR162",
+    "AZR163",
+    "AZR164",
+    "NEG01",
+    "NEG02",
+    "NEG03",
+    "MP01",
+    "MP02",
+    "MP03",
+    "MP04",
+    "MP05",
+    "MP06"
+  ],
+  "rows": {
+    "AZR001": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR002": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR003": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR004": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR005": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR006": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR007": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR008": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR009": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR010": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR011": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR012": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR013": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR014": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR015": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR016": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR017": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR018": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR019": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR020": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR021": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR022": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR023": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR024": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR025": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR026": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR027": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR028": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR029": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR030": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR031": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR032": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR033": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR034": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR035": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR036": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR037": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR038": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR039": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR040": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR041": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR042": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR043": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR044": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR045": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR046": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR047": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR048": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR049": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR050": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR051": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR052": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR053": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR054": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR055": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR056": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR057": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR058": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR059": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR060": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR061": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR062": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR063": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR064": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR065": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR066": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR067": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR068": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR069": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR070": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR071": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR072": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR073": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR074": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR075": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR076": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR077": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR078": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR079": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR080": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR081": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR082": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR083": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR084": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR085": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR086": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR087": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR088": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR089": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR090": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR091": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR092": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR093": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR094": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR095": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR096": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR097": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR098": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR099": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR100": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR101": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR102": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR103": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR104": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR105": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR106": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR107": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR108": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR109": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR110": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR111": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR112": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR113": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR114": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR115": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR116": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR117": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR118": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR119": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR120": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR121": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR122": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR123": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR124": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR125": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR126": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR127": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR128": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR129": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR130": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR131": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR132": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR133": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR134": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR135": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR136": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR137": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR138": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR139": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR140": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR141": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR142": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR143": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR144": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR145": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR146": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR147": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR148": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR149": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR150": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR151": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR152": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR153": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR154": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR155": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR156": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR157": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR158": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR159": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR160": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR161": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR162": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR163": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "AZR164": {
+      "status": "awaiting_review",
+      "case_type": "corpus",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "NEG01": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "NEG02": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "NEG03": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "MP01": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "MP02": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "MP03": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "MP04": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "MP05": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    },
+    "MP06": {
+      "status": "awaiting_review",
+      "case_type": "control",
+      "disputed_fields": [],
+      "decisions": []
+    }
+  }
+}

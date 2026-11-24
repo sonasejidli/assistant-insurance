@@ -1,0 +1,434 @@
+{
+  "archive": "insurance_chunks_cf440db13ba21e18d71044eb",
+  "rerank": false,
+  "query_count": 3,
+  "intents": {
+    "insurance_question": 2,
+    "follow_up_question": 1
+  },
+  "summary": {
+    "original": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "disabled": 3
+      },
+      "p50_ms": 193.29750900215004,
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.16666666666666666,
+      "ndcg@10": 0.08802270752419696
+    },
+    "decomposition": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "disabled": 3
+      },
+      "p50_ms": 192.36234900017735,
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.16666666666666666,
+      "ndcg@10": 0.08802270752419696
+    },
+    "routing": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "disabled": 3
+      },
+      "p50_ms": 365.03378900306416,
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.16666666666666666,
+      "ndcg@10": 0.10219119879424306
+    },
+    "multi_query": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "TooManyRequestsResponseError": 3
+      },
+      "p50_ms": 754.9993049979093,
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.16666666666666666,
+      "ndcg@10": 0.08802270752419696
+    },
+    "multi_query_hyde": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "TooManyRequestsResponseError": 3
+      },
+      "p50_ms": 819.4953490019543,
+      "recall@5": 0.16666666666666666,
+      "recall@10": 0.16666666666666666,
+      "ndcg@10": 0.08802270752419696
+    }
+  },
+  "rows": [
+    {
+      "id": "AZR036",
+      "category": "personal_medical_data",
+      "intent": "insurance_question",
+      "standalone": "Sığortaçının şəxsi məlumatımı başqa adama verməsi üçün mənim şifahi razılığım kifayətdir?",
+      "parts": [
+        "Sığortaçının şəxsi məlumatımı başqa adama verməsi üçün mənim şifahi razılığım kifayətdir?"
+      ],
+      "label_sources": [],
+      "variants": {
+        "original": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 174.96132599990233
+        },
+        "decomposition": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 204.12761000261526
+        },
+        "routing": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 410.4293630007305
+        },
+        "multi_query": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "TooManyRequestsResponseError"
+          ],
+          "elapsed_ms": 1409.5216619971325
+        },
+        "multi_query_hyde": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": null,
+            "e3efa84e-08f7-5fdc-a87e-de8085781323": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "TooManyRequestsResponseError"
+          ],
+          "elapsed_ms": 927.9219410018413
+        }
+      }
+    },
+    {
+      "id": "AZR048",
+      "category": "casco_compulsory",
+      "intent": "insurance_question",
+      "standalone": "Sığorta dərsliyinin lüğətində KASKO üzrə sığorta obyekti kimi nə göstərilir?",
+      "parts": [
+        "Sığorta dərsliyinin lüğətində KASKO üzrə sığorta obyekti kimi nə göstərilir?"
+      ],
+      "label_sources": [],
+      "variants": {
+        "original": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "0f69eb01-69a1-599d-9da0-04e0e41b8907": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 203.79291200151783
+        },
+        "decomposition": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "0f69eb01-69a1-599d-9da0-04e0e41b8907": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 192.36234900017735
+        },
+        "routing": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "0f69eb01-69a1-599d-9da0-04e0e41b8907": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 191.70553499861853
+        },
+        "multi_query": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "0f69eb01-69a1-599d-9da0-04e0e41b8907": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "TooManyRequestsResponseError"
+          ],
+          "elapsed_ms": 720.4237990008551
+        },
+        "multi_query_hyde": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "0f69eb01-69a1-599d-9da0-04e0e41b8907": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "TooManyRequestsResponseError"
+          ],
+          "elapsed_ms": 819.4953490019543
+        }
+      }
+    },
+    {
+      "id": "AZR138",
+      "category": "conversational",
+      "intent": "follow_up_question",
+      "standalone": "İcbari sığortada mənəvi zərərə görə sığorta ödənişi ilə bağlı hansı istisnalar var?",
+      "parts": [
+        "İcbari sığortada mənəvi zərərə görə sığorta ödənişi ilə bağlı hansı istisnalar var?"
+      ],
+      "label_sources": [],
+      "variants": {
+        "original": {
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 0.5,
+            "recall@20": 0.5,
+            "recall@50": 0.5,
+            "mrr@20": 0.25,
+            "ndcg@10": 0.2640681225725909
+          },
+          "parent_ranks": {
+            "133d7baf-a92c-5434-bf29-e68408bcdab9": 4,
+            "924fd822-bf4f-5856-9725-466f5f69359f": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 193.29750900215004
+        },
+        "decomposition": {
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 0.5,
+            "recall@20": 0.5,
+            "recall@50": 0.5,
+            "mrr@20": 0.25,
+            "ndcg@10": 0.2640681225725909
+          },
+          "parent_ranks": {
+            "133d7baf-a92c-5434-bf29-e68408bcdab9": 4,
+            "924fd822-bf4f-5856-9725-466f5f69359f": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 184.02274899926852
+        },
+        "routing": {
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 0.5,
+            "recall@20": 0.5,
+            "recall@50": 0.5,
+            "mrr@20": 0.3333333333333333,
+            "ndcg@10": 0.3065735963827292
+          },
+          "parent_ranks": {
+            "133d7baf-a92c-5434-bf29-e68408bcdab9": 3,
+            "924fd822-bf4f-5856-9725-466f5f69359f": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 365.03378900306416
+        },
+        "multi_query": {
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 0.5,
+            "recall@20": 0.5,
+            "recall@50": 0.5,
+            "mrr@20": 0.25,
+            "ndcg@10": 0.2640681225725909
+          },
+          "parent_ranks": {
+            "133d7baf-a92c-5434-bf29-e68408bcdab9": 4,
+            "924fd822-bf4f-5856-9725-466f5f69359f": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "TooManyRequestsResponseError"
+          ],
+          "elapsed_ms": 754.9993049979093
+        },
+        "multi_query_hyde": {
+          "metrics": {
+            "recall@5": 0.5,
+            "recall@10": 0.5,
+            "recall@20": 0.5,
+            "recall@50": 0.5,
+            "mrr@20": 0.25,
+            "ndcg@10": 0.2640681225725909
+          },
+          "parent_ranks": {
+            "133d7baf-a92c-5434-bf29-e68408bcdab9": 4,
+            "924fd822-bf4f-5856-9725-466f5f69359f": null
+          },
+          "relevant_per_part": [],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "TooManyRequestsResponseError"
+          ],
+          "elapsed_ms": 779.9675960013701
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "draft_only": true,
+  "summary": {
+    "recall@5": {
+      "n": 0,
+      "mean": null
+    },
+    "recall@10": {
+      "n": 0,
+      "mean": null
+    },
+    "mrr@10": {
+      "n": 0,
+      "mean": null
+    },
+    "ndcg@10": {
+      "n": 0,
+      "mean": null
+    },
+    "citation_precision": {
+      "n": 0,
+      "mean": null
+    },
+    "citation_completeness": {
+      "n": 0,
+      "mean": null
+    },
+    "multipart_evidence_coverage": {
+      "n": 0,
+      "mean": null
+    },
+    "answer_correctness": {
+      "n": 0,
+      "mean": null
+    },
+    "answer_mode_accuracy": {
+      "n": 0,
+      "mean": null
+    }
+  },
+  "rows": [
+    {
+      "id": "AZ7-01",
+      "metrics": {
+        "recall@5": null,
+        "recall@10": null,
+        "mrr@10": null,
+        "ndcg@10": null,
+        "citation_precision": null,
+        "citation_completeness": null,
+        "multipart_evidence_coverage": null,
+        "answer_correctness": null,
+        "answer_mode_accuracy": null
+      },
+      "blocked": {
+        "recall@5": "Original observation unavailable",
+        "recall@10": "Original observation unavailable",
+        "mrr@10": "Original observation unavailable",
+        "ndcg@10": "Original observation unavailable",
+        "citation_precision": "Original observation unavailable",
+        "citation_completeness": "Original observation unavailable",
+        "multipart_evidence_coverage": "Original observation unavailable",
+        "answer_correctness": "Original observation unavailable",
+        "answer_mode_accuracy": "Original observation unavailable"
+      },
+      "error_labels": null
+    },
+    {
+      "id": "AZ7-02",
+      "metrics": {
+        "recall@5": null,
+        "recall@10": null,
+        "mrr@10": null,
+        "ndcg@10": null,
+        "citation_precision": null,
+        "citation_completeness": null,
+        "multipart_evidence_coverage": null,
+        "answer_correctness": null,
+        "answer_mode_accuracy": null
+      },
+      "blocked": {
+        "recall@5": "Original observation unavailable",
+        "recall@10": "Original observation unavailable",
+        "mrr@10": "Original observation unavailable",
+        "ndcg@10": "Original observation unavailable",
+        "citation_precision": "Original observation unavailable",
+        "citation_completeness": "Original observation unavailable",
+        "multipart_evidence_coverage": "Original observation unavailable",
+        "answer_correctness": "Original observation unavailable",
+        "answer_mode_accuracy": "Original observation unavailable"
+      },
+      "error_labels": null
+    },
+    {
+      "id": "AZ7-03",
+      "metrics": {
+        "recall@5": null,
+        "recall@10": null,
+        "mrr@10": null,
+        "ndcg@10": null,
+        "citation_precision": null,
+        "citation_completeness": null,
+        "multipart_evidence_coverage": null,
+        "answer_correctness": null,
+        "answer_mode_accuracy": null
+      },
+      "blocked": {
+        "recall@5": "Original observation unavailable",
+        "recall@10": "Original observation unavailable",
+        "mrr@10": "Original observation unavailable",
+        "ndcg@10": "Original observation unavailable",
+        "citation_precision": "Original observation unavailable",
+        "citation_completeness": "Original observation unavailable",
+        "multipart_evidence_coverage": "Original observation unavailable",
+        "answer_correctness": "Original observation unavailable",
+        "answer_mode_accuracy": "Original observation unavailable"
+      },
+      "error_labels": null
+    },
+    {
+      "id": "AZ7-04",
+      "metrics": {
+        "recall@5": null,
+        "recall@10": null,
+        "mrr@10": null,
+        "ndcg@10": null,
+        "citation_precision": null,
+        "citation_completeness": null,
+        "multipart_evidence_coverage": null,
+        "answer_correctness": null,
+        "answer_mode_accuracy": null
+      },
+      "blocked": {
+        "recall@5": "Original observation unavailable",
+        "recall@10": "Original observation unavailable",
+        "mrr@10": "Original observation unavailable",
+        "ndcg@10": "Original observation unavailable",
+        "citation_precision": "Original observation unavailable",
+        "citation_completeness": "Original observation unavailable",
+        "multipart_evidence_coverage": "Original observation unavailable",
+        "answer_correctness": "Original observation unavailable",
+        "answer_mode_accuracy": "Original observation unavailable"
+      },
+      "error_labels": null
+    },
+    {
+      "id": "AZ7-05",
+      "metrics": {
+        "recall@5": null,
+        "recall@10": null,
+        "mrr@10": null,
+        "ndcg@10": null,
+        "citation_precision": null,
+        "citation_completeness": null,
+        "multipart_evidence_coverage": null,
+        "answer_correctness": null,
+        "answer_mode_accuracy": null
+      },
+      "blocked": {
+        "recall@5": "Original observation unavailable",
+        "recall@10": "Original observation unavailable",
+        "mrr@10": "Original observation unavailable",
+        "ndcg@10": "Original observation unavailable",
+        "citation_precision": "Original observation unavailable",
+        "citation_completeness": "Original observation unavailable",
+        "multipart_evidence_coverage": "Original observation unavailable",
+        "answer_correctness": "Original observation unavailable",
+        "answer_mode_accuracy": "Original observation unavailable"
+      },
+      "error_labels": null
+    },
+    {
+      "id": "AZ7-06",
+      "metrics": {
+        "recall@5": null,
+        "recall@10": null,
+        "mrr@10": null,
+        "ndcg@10": null,
+        "citation_precision": null,
+        "citation_completeness": null,
+        "multipart_evidence_coverage": null,
+        "answer_correctness": null,
+        "answer_mode_accuracy": null
+      },
+      "blocked": {
+        "recall@5": "Original observation unavailable",
+        "recall@10": "Original observation unavailable",
+        "mrr@10": "Original observation unavailable",
+        "ndcg@10": "Original observation unavailable",
+        "citation_precision": "Original observation unavailable",
+        "citation_completeness": "Original observation unavailable",
+        "multipart_evidence_coverage": "Original observation unavailable",
+        "answer_correctness": "Original observation unavailable",
+        "answer_mode_accuracy": "Original observation unavailable"
+      },
+      "error_labels": null
+    },
+    {
+      "id": "AZ7-07",
+      "metrics": {
+        "recall@5": null,
+        "recall@10": null,
+        "mrr@10": null,
+        "ndcg@10": null,
+        "citation_precision": null,
+        "citation_completeness": null,
+        "multipart_evidence_coverage": null,
+        "answer_correctness": null,
+        "answer_mode_accuracy": null
+      },
+      "blocked": {
+        "recall@5": "Original observation unavailable",
+        "recall@10": "Original observation unavailable",
+        "mrr@10": "Original observation unavailable",
+        "ndcg@10": "Original observation unavailable",
+        "citation_precision": "Original observation unavailable",
+        "citation_completeness": "Original observation unavailable",
+        "multipart_evidence_coverage": "Original observation unavailable",
+        "answer_correctness": "Original observation unavailable",
+        "answer_mode_accuracy": "Original observation unavailable"
+      },
+      "error_labels": null
+    }
+  ]
+}

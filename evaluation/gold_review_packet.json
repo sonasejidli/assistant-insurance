@@ -1,0 +1,5164 @@
+{
+  "schema_version": 1,
+  "dataset_sha256": "e96dd7782821244749376433884085c52cc7be005cddaf29194482c4d3600182",
+  "queries": {
+    "AZR001": {
+      "query_id": "AZR001",
+      "category": "payment_exclusions",
+      "query": "İcbari sığortada hərbi əməliyyat və radioaktiv çirklənmə nəticəsində yaranan zərər üzrə imtina necə əsaslandırılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1",
+        "21.1.1"
+      ],
+      "passage_ids": [
+        "133d7baf-a92c-5434-bf29-e68408bcdab9",
+        "c232d06e-aa5c-5196-a1e6-e93b0b842d01"
+      ],
+      "relevance": {
+        "133d7baf-a92c-5434-bf29-e68408bcdab9": 3,
+        "c232d06e-aa5c-5196-a1e6-e93b0b842d01": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR002": {
+      "query_id": "AZR002",
+      "category": "payment_exclusions",
+      "query": "Qəzada baqajdakı nağd pulum itib, icbari sığortadan həmin pulu ala bilərəm?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1.2"
+      ],
+      "passage_ids": [
+        "0f6d7d84-ceae-5d75-98c8-0271447dd73e"
+      ],
+      "relevance": {
+        "0f6d7d84-ceae-5d75-98c8-0271447dd73e": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR003": {
+      "query_id": "AZR003",
+      "category": "payment_exclusions",
+      "query": "İcbari sığorta tələbi yalnız mənəvi zərərə aiddirsə, ödəniş həyata keçirilirmi?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1.3"
+      ],
+      "passage_ids": [
+        "924fd822-bf4f-5856-9725-466f5f69359f"
+      ],
+      "relevance": {
+        "924fd822-bf4f-5856-9725-466f5f69359f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR004": {
+      "query_id": "AZR004",
+      "category": "payment_exclusions",
+      "query": "Hadisəyə görə işə gedə bilmədim və gəlirimi itirdim, bu itkini icbari sığorta ödəyir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1.3"
+      ],
+      "passage_ids": [
+        "924fd822-bf4f-5856-9725-466f5f69359f"
+      ],
+      "relevance": {
+        "924fd822-bf4f-5856-9725-466f5f69359f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR005": {
+      "query_id": "AZR005",
+      "category": "payment_exclusions",
+      "query": "İcbari sığorta tələbi cərimə, peniya və dəbbə pulu ilə bağlı olduqda hansı nəticə yaranır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1.4"
+      ],
+      "passage_ids": [
+        "8e39c9c4-d040-5324-85f8-53a570c47e34"
+      ],
+      "relevance": {
+        "8e39c9c4-d040-5324-85f8-53a570c47e34": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR006": {
+      "query_id": "AZR006",
+      "category": "payment_exclusions",
+      "query": "İcbari sığorta üzrə imtinanın ümumi və ayrıca sığorta növünə xas əsasları necə fərqləndirilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1",
+        "21.2"
+      ],
+      "passage_ids": [
+        "133d7baf-a92c-5434-bf29-e68408bcdab9",
+        "7c0e7703-c331-5eab-96ae-9d9033c01dd0"
+      ],
+      "relevance": {
+        "133d7baf-a92c-5434-bf29-e68408bcdab9": 3,
+        "7c0e7703-c331-5eab-96ae-9d9033c01dd0": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR007": {
+      "query_id": "AZR007",
+      "category": "payment_exclusions",
+      "query": "Evimdə yanğını özüm bilərəkdən törətmişəmsə, daşınmaz əmlakın icbari sığortası işləyir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "36"
+      ],
+      "paragraphs": [
+        "36.3.1"
+      ],
+      "passage_ids": [
+        "8aa5afc6-bc3f-58b4-9374-ab4a41fb9456"
+      ],
+      "relevance": {
+        "8aa5afc6-bc3f-58b4-9374-ab4a41fb9456": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR008": {
+      "query_id": "AZR008",
+      "category": "payment_exclusions",
+      "query": "Təmir vaxtı istilik divarı zədələdi, amma yanğın olmayıb. İcbari əmlak sığortası bunu sığorta hadisəsi sayır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "36"
+      ],
+      "paragraphs": [
+        "36.3.2"
+      ],
+      "passage_ids": [
+        "2920d2d9-16b2-553d-81e7-0b162e3dce2f"
+      ],
+      "relevance": {
+        "2920d2d9-16b2-553d-81e7-0b162e3dce2f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR009": {
+      "query_id": "AZR009",
+      "category": "payment_exclusions",
+      "query": "Qrunt suyu səviyyəsinin dəyişməsi daşınmaz əmlakın icbari sığortası üzrə hansı qaydaya tabedir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "36"
+      ],
+      "paragraphs": [
+        "36.3.4"
+      ],
+      "passage_ids": [
+        "42b143e9-0ead-5d85-81f5-dfbd71aa11a5"
+      ],
+      "relevance": {
+        "42b143e9-0ead-5d85-81f5-dfbd71aa11a5": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR010": {
+      "query_id": "AZR010",
+      "category": "payment_exclusions",
+      "query": "İş qəzasında sığorta olunanın hadisəni qəsdən törətməsi sığorta ödənişinə necə təsir edir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "20"
+      ],
+      "paragraphs": [
+        "20.0",
+        "20.0.1"
+      ],
+      "passage_ids": [
+        "981d0040-8977-568c-8f24-4abac260c133",
+        "bd24401f-bf5e-5ac7-8495-e14095cf1d3b"
+      ],
+      "relevance": {
+        "981d0040-8977-568c-8f24-4abac260c133": 3,
+        "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR011": {
+      "query_id": "AZR011",
+      "category": "payment_exclusions",
+      "query": "İşçi işini görərkən sərxoş vəziyyətdə qəzaya düşüb. Peşə əmək qabiliyyətinin itirilməsi sığortasından pul verilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "20"
+      ],
+      "paragraphs": [
+        "20.0.2"
+      ],
+      "passage_ids": [
+        "271768c3-0ebf-5f2a-aba8-f8ca76243ec4"
+      ],
+      "relevance": {
+        "271768c3-0ebf-5f2a-aba8-f8ca76243ec4": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR012": {
+      "query_id": "AZR012",
+      "category": "payment_exclusions",
+      "query": "Auditorun peşə məsuliyyəti üzrə haqq ödənilmədikdə sığortaçının imtina hüququ varmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "11"
+      ],
+      "paragraphs": [
+        "11.1",
+        "11.1.1"
+      ],
+      "passage_ids": [
+        "65a2d7c8-f5dc-56e4-986c-67b7b79b670d",
+        "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8"
+      ],
+      "relevance": {
+        "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 3,
+        "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR013": {
+      "query_id": "AZR013",
+      "category": "payment_exclusions",
+      "query": "Audit müştərisinin öz qəsdən hərəkəti nəticəsində zərər görməsi hansı şərtlə imtina əsası ola bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "11"
+      ],
+      "paragraphs": [
+        "11.1.2"
+      ],
+      "passage_ids": [
+        "3fc9218c-4c2b-5892-96cd-be921db7ac23"
+      ],
+      "relevance": {
+        "3fc9218c-4c2b-5892-96cd-be921db7ac23": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR014": {
+      "query_id": "AZR014",
+      "category": "payment_exclusions",
+      "query": "Xidmətlər zərfində olmayan müalicəyə icbari tibbi sığorta ödəniş edirmi?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-16"
+      ],
+      "paragraphs": [
+        "15-16.0",
+        "15-16.0.1"
+      ],
+      "passage_ids": [
+        "725803c3-279f-5e1e-ad0e-176d08488532",
+        "95dce754-5949-5279-833b-ab920a83a00c"
+      ],
+      "relevance": {
+        "725803c3-279f-5e1e-ad0e-176d08488532": 3,
+        "95dce754-5949-5279-833b-ab920a83a00c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR015": {
+      "query_id": "AZR015",
+      "category": "payment_exclusions",
+      "query": "İcbari tibbi sığortada müqavilənin bitməsi ilə sığorta haqqının ödənilməməsi imtina əsası kimi necə fərqlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-16"
+      ],
+      "paragraphs": [
+        "15-16.0.3",
+        "15-16.0.5"
+      ],
+      "passage_ids": [
+        "b415ac18-ca62-5436-86fb-6194ee329cf6",
+        "e4bfa306-0fa2-59fb-8fdc-2a4c3097d510"
+      ],
+      "relevance": {
+        "b415ac18-ca62-5436-86fb-6194ee329cf6": 3,
+        "e4bfa306-0fa2-59fb-8fdc-2a4c3097d510": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR016": {
+      "query_id": "AZR016",
+      "category": "payment_exclusions",
+      "query": "Hərbi qulluqçunun sığorta hadisəsi ilə bağlı qəsdən cinayətinə görə imtinanı hansı sənəd əsaslandıra bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "articles": [
+        "8"
+      ],
+      "paragraphs": [
+        "8.1",
+        "8.1.1"
+      ],
+      "passage_ids": [
+        "af78c95b-9c0c-5743-98fb-1a0be22b89eb",
+        "9e834178-7098-5499-95e0-ad627fa2104b"
+      ],
+      "relevance": {
+        "af78c95b-9c0c-5743-98fb-1a0be22b89eb": 3,
+        "9e834178-7098-5499-95e0-ad627fa2104b": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR017": {
+      "query_id": "AZR017",
+      "category": "legal_periods",
+      "query": "İcbari sığortada sağlamlığa və əmlaka vurulan zərər üzrə sığorta tələbinin iddia müddəti nə qədərdir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "74"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "a5a0fff9-2ca3-537a-b418-83143fc42080"
+      ],
+      "relevance": {
+        "a5a0fff9-2ca3-537a-b418-83143fc42080": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR018": {
+      "query_id": "AZR018",
+      "category": "legal_periods",
+      "query": "Qəzanı baş verən gün yox, sonra öyrənmişəm. İcbari sığorta tələbi üçün vaxt hansı tarixdən sayılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "74"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "a5a0fff9-2ca3-537a-b418-83143fc42080"
+      ],
+      "relevance": {
+        "a5a0fff9-2ca3-537a-b418-83143fc42080": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR019": {
+      "query_id": "AZR019",
+      "category": "legal_periods",
+      "query": "İcbari sığorta üzrə üçillik tələbi sığortalıdan başqa hansı şəxslər irəli sürə bilərlər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "74"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "a5a0fff9-2ca3-537a-b418-83143fc42080"
+      ],
+      "relevance": {
+        "a5a0fff9-2ca3-537a-b418-83143fc42080": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR020": {
+      "query_id": "AZR020",
+      "category": "legal_periods",
+      "query": "İcbari sığorta tələbini irəli sürmə müddəti ilə sığortaçının sonuncu sənəddən sonra cavab müddəti necə fərqlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "18",
+        "74"
+      ],
+      "paragraphs": [
+        "18.1"
+      ],
+      "passage_ids": [
+        "a5a0fff9-2ca3-537a-b418-83143fc42080",
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+      ],
+      "relevance": {
+        "a5a0fff9-2ca3-537a-b418-83143fc42080": 3,
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR021": {
+      "query_id": "AZR021",
+      "category": "legal_periods",
+      "query": "İş qəzasının pulunu almaq hüququ yaranandan dörd il sonra müraciət etsəm, hansı dövr üçün pul alaram?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.11"
+      ],
+      "passage_ids": [
+        "eea8fe80-397b-52da-8268-509246a90deb"
+      ],
+      "relevance": {
+        "eea8fe80-397b-52da-8268-509246a90deb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR022": {
+      "query_id": "AZR022",
+      "category": "legal_periods",
+      "query": "Peşə əmək qabiliyyətinin itirilməsi sığortasına tələb hüququ yarandıqdan sonra üç il içində müraciət edilərsə, hansı dövr ödənilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.11"
+      ],
+      "passage_ids": [
+        "eea8fe80-397b-52da-8268-509246a90deb"
+      ],
+      "relevance": {
+        "eea8fe80-397b-52da-8268-509246a90deb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR023": {
+      "query_id": "AZR023",
+      "category": "legal_periods",
+      "query": "İcbari sığortada iddia müddəti ilə iş qəzası sığortasında gecikmiş müraciət üzrə ödəniş dövrü eyni qaydadırmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771",
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "18",
+        "74"
+      ],
+      "paragraphs": [
+        "18.11"
+      ],
+      "passage_ids": [
+        "a5a0fff9-2ca3-537a-b418-83143fc42080",
+        "eea8fe80-397b-52da-8268-509246a90deb"
+      ],
+      "relevance": {
+        "a5a0fff9-2ca3-537a-b418-83143fc42080": 3,
+        "eea8fe80-397b-52da-8268-509246a90deb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR024": {
+      "query_id": "AZR024",
+      "category": "legal_periods",
+      "query": "İcbari sığorta hadisəsində sağlamlığına zərər dəyən şəxs sonradan ölərsə, əvvəlki ödənişlə sığorta məbləği arasındakı fərq üçün hansı müddət əsasdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "19"
+      ],
+      "paragraphs": [
+        "19.7"
+      ],
+      "passage_ids": [
+        "2249a7e3-7d20-586f-9f06-69b44ba0d217"
+      ],
+      "relevance": {
+        "2249a7e3-7d20-586f-9f06-69b44ba0d217": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR025": {
+      "query_id": "AZR025",
+      "category": "legal_periods",
+      "query": "Təkrarsığorta müqaviləsini başqa şirkətə keçirmək qərarı veriləndə mənə neçə iş gününə xəbər gəlməlidir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "72"
+      ],
+      "paragraphs": [
+        "72.2"
+      ],
+      "passage_ids": [
+        "9ff675a2-7d5e-574d-8fef-cf0cb70f280b"
+      ],
+      "relevance": {
+        "9ff675a2-7d5e-574d-8fef-cf0cb70f280b": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR026": {
+      "query_id": "AZR026",
+      "category": "legal_periods",
+      "query": "Müqavilə ötürülərkən etiraz üçün müddət sonuncu məlumatın alındığı tarixdən necə hesablanır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "72"
+      ],
+      "paragraphs": [
+        "72.3"
+      ],
+      "passage_ids": [
+        "2672a039-eedd-560e-9cdf-0cd97483a4c6"
+      ],
+      "relevance": {
+        "2672a039-eedd-560e-9cdf-0cd97483a4c6": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR027": {
+      "query_id": "AZR027",
+      "category": "legal_periods",
+      "query": "İcbari tibbi sığortada gözləmə müddətinin tətbiqi və hesablanması hansı sənədə bağlıdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-29"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "fc24b439-fff2-5873-a2fc-f0c16f5fc572"
+      ],
+      "relevance": {
+        "fc24b439-fff2-5873-a2fc-f0c16f5fc572": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR028": {
+      "query_id": "AZR028",
+      "category": "legal_periods",
+      "query": "Auditorun məsuliyyət sığortasında zərərin etirafından sonra yazılı məlumat üçün hansı müraciət müddətləri nəzərə alınır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "9"
+      ],
+      "paragraphs": [
+        "9.1"
+      ],
+      "passage_ids": [
+        "1a33dddc-9bd1-533c-b201-8d081fcd6338"
+      ],
+      "relevance": {
+        "1a33dddc-9bd1-533c-b201-8d081fcd6338": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR029": {
+      "query_id": "AZR029",
+      "category": "legal_periods",
+      "query": "İcbari sığorta mübahisəsi danışıqlarla həll olunmadıqda hansı qaydada baxılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "76"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "73786544-1690-5492-9090-ba82cce8e2c8"
+      ],
+      "relevance": {
+        "73786544-1690-5492-9090-ba82cce8e2c8": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR030": {
+      "query_id": "AZR030",
+      "category": "legal_periods",
+      "query": "Həqiqi xidmət zamanı alınan xəsarətdən xidmətdən buraxıldıqdan sonra ölüm üçün hansı zaman şərti göstərilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "articles": [
+        "5"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "fa334768-e2dc-5379-8c4e-a8f11d46518c"
+      ],
+      "relevance": {
+        "fa334768-e2dc-5379-8c4e-a8f11d46518c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR031": {
+      "query_id": "AZR031",
+      "category": "legal_periods",
+      "query": "İcbari tibbi sığortada hüququ pozulan şəxs müdafiə üçün kimə müraciət edə bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-4"
+      ],
+      "paragraphs": [
+        "15-4.1.6"
+      ],
+      "passage_ids": [
+        "cb7bd267-4656-55d3-b0bf-841487e12cd9"
+      ],
+      "relevance": {
+        "cb7bd267-4656-55d3-b0bf-841487e12cd9": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR032": {
+      "query_id": "AZR032",
+      "category": "personal_medical_data",
+      "query": "Sığortalının adı və ünvanı hansı hüquqi məxfilik kateqoriyasına daxildir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.1",
+        "6.1.1"
+      ],
+      "passage_ids": [
+        "466ac9e6-a4b0-5132-b60e-de81d3f37075",
+        "c915c28e-b2ee-5e7e-8f06-8d7f39ca205c"
+      ],
+      "relevance": {
+        "466ac9e6-a4b0-5132-b60e-de81d3f37075": 3,
+        "c915c28e-b2ee-5e7e-8f06-8d7f39ca205c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR033": {
+      "query_id": "AZR033",
+      "category": "personal_medical_data",
+      "query": "Sığorta şirkətində mənim ailə həyatıma və sağlamlığıma aid bildikləri sirr sayılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.1.5"
+      ],
+      "passage_ids": [
+        "91d87cda-2558-5013-8b2e-0e4b66c3df0d"
+      ],
+      "relevance": {
+        "91d87cda-2558-5013-8b2e-0e4b66c3df0d": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR034": {
+      "query_id": "AZR034",
+      "category": "personal_medical_data",
+      "query": "Müqavilənin sığorta məbləği və ödənilməmiş sığorta haqqı sığorta sirri təşkil edirmi?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.1.2",
+        "6.1.3"
+      ],
+      "passage_ids": [
+        "311ad299-be6a-5560-951b-53bfdbb94908",
+        "e02aac7a-9e38-54e9-8931-cda5ffa7361e"
+      ],
+      "relevance": {
+        "311ad299-be6a-5560-951b-53bfdbb94908": 3,
+        "e02aac7a-9e38-54e9-8931-cda5ffa7361e": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR035": {
+      "query_id": "AZR035",
+      "category": "personal_medical_data",
+      "query": "Hüquqi şəxs olan faydalananın biznes sirri sığorta sirrinin tərkibinə daxildirmi?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.1.4"
+      ],
+      "passage_ids": [
+        "6c2e70f6-f3af-5179-8929-4797174503f3"
+      ],
+      "relevance": {
+        "6c2e70f6-f3af-5179-8929-4797174503f3": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR036": {
+      "query_id": "AZR036",
+      "category": "personal_medical_data",
+      "query": "Sığortaçının şəxsi məlumatımı başqa adama verməsi üçün mənim şifahi razılığım kifayətdir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2",
+        "6.2.1"
+      ],
+      "passage_ids": [
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec",
+        "e3efa84e-08f7-5fdc-a87e-de8085781323"
+      ],
+      "relevance": {
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 3,
+        "e3efa84e-08f7-5fdc-a87e-de8085781323": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR037": {
+      "query_id": "AZR037",
+      "category": "personal_medical_data",
+      "query": "Təkrarsığorta müqaviləsinə vasitəçilik edən brokerə sığorta sirrinin açıqlanması hansı məqsədlə mümkündür?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2.2"
+      ],
+      "passage_ids": [
+        "3042f91f-0c73-58a9-b406-a077e13980ab"
+      ],
+      "relevance": {
+        "3042f91f-0c73-58a9-b406-a077e13980ab": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR038": {
+      "query_id": "AZR038",
+      "category": "personal_medical_data",
+      "query": "İstintaq orqanı ilə məhkəməyə sığorta sirrinin verilməsində hansı qərar şərtləri fərqlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2.3",
+        "6.2.4"
+      ],
+      "passage_ids": [
+        "5e2098fb-8678-5962-933a-403f0ac38594",
+        "eafd741c-dc56-5530-9280-3f0c46f5f76e"
+      ],
+      "relevance": {
+        "5e2098fb-8678-5962-933a-403f0ac38594": 3,
+        "eafd741c-dc56-5530-9280-3f0c46f5f76e": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR039": {
+      "query_id": "AZR039",
+      "category": "personal_medical_data",
+      "query": "Mərkəzi Bank hansı funksiya ilə bağlı sığorta sirri təşkil edən məlumatları ala bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2.5"
+      ],
+      "passage_ids": [
+        "e4b7818b-07a8-5160-b83f-e1f2728c447d"
+      ],
+      "relevance": {
+        "e4b7818b-07a8-5160-b83f-e1f2728c447d": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR040": {
+      "query_id": "AZR040",
+      "category": "personal_medical_data",
+      "query": "Sığorta sirri olan məlumatın risk qiymətləndirməsi üçün ekspertə verilməsi və ekspertin cəlb edilməsi barədə hansı qaydalar birlikdə tətbiq olunur?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "10",
+        "6"
+      ],
+      "paragraphs": [
+        "10.10",
+        "6.2.6"
+      ],
+      "passage_ids": [
+        "33d24e1d-e634-5c76-92be-7698e2230903",
+        "24d95dcd-a091-5800-8613-e1f7bf317779"
+      ],
+      "relevance": {
+        "33d24e1d-e634-5c76-92be-7698e2230903": 3,
+        "24d95dcd-a091-5800-8613-e1f7bf317779": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR041": {
+      "query_id": "AZR041",
+      "category": "personal_medical_data",
+      "query": "Sığortalı öldükdə vərəsə sığorta sirri olan məlumatı hansı ərizə ilə əldə edə bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2.8",
+        "6.2.8.1"
+      ],
+      "passage_ids": [
+        "0790668e-f310-5669-a8fa-4082b38bc014",
+        "0b8c8b84-0e73-5431-9ed9-91bc5ae31f2f"
+      ],
+      "relevance": {
+        "0790668e-f310-5669-a8fa-4082b38bc014": 3,
+        "0b8c8b84-0e73-5431-9ed9-91bc5ae31f2f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR042": {
+      "query_id": "AZR042",
+      "category": "personal_medical_data",
+      "query": "Vərəsəlik işinə baxan notariusun sığorta sirri üçün sorğusuna hansı sənəd əlavə olunmalıdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2.8",
+        "6.2.8.3"
+      ],
+      "passage_ids": [
+        "0790668e-f310-5669-a8fa-4082b38bc014",
+        "0ab55ee5-012b-5677-a5fa-137fd1dd073e"
+      ],
+      "relevance": {
+        "0790668e-f310-5669-a8fa-4082b38bc014": 3,
+        "0ab55ee5-012b-5677-a5fa-137fd1dd073e": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR043": {
+      "query_id": "AZR043",
+      "category": "personal_medical_data",
+      "query": "İcbari tibbi sığorta ilə müalicə alanda həkim sirrimin gizli qalmasını tələb edə bilərəm?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-4"
+      ],
+      "paragraphs": [
+        "15-4.1.4"
+      ],
+      "passage_ids": [
+        "5a961b0a-a02d-5ac4-b626-b53b5364f4bf"
+      ],
+      "relevance": {
+        "5a961b0a-a02d-5ac4-b626-b53b5364f4bf": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR044": {
+      "query_id": "AZR044",
+      "category": "personal_medical_data",
+      "query": "Tibb müəssisəsi həkim sirrinə aid məlumatı tibbi xidmətə nəzarət üçün kimə və hansı hüquqi şərtlə verə bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-7"
+      ],
+      "paragraphs": [
+        "15-7.2.4"
+      ],
+      "passage_ids": [
+        "11d147bc-a948-5d71-b284-08af01c48fa7"
+      ],
+      "relevance": {
+        "11d147bc-a948-5d71-b284-08af01c48fa7": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR045": {
+      "query_id": "AZR045",
+      "category": "personal_medical_data",
+      "query": "İcbari tibbi sığortaçının pasiyentin səhhət məlumatlarının qorunması ilə bağlı vəzifəsi nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-8"
+      ],
+      "paragraphs": [
+        "15-8.2.4"
+      ],
+      "passage_ids": [
+        "ac78bf04-6684-55de-ab64-e8a4a02843d2"
+      ],
+      "relevance": {
+        "ac78bf04-6684-55de-ab64-e8a4a02843d2": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR046": {
+      "query_id": "AZR046",
+      "category": "personal_medical_data",
+      "query": "Avtoicbari informasiya sistemindən əldə edilmiş fərdi məlumatı qaydalara zidd işlədən istifadəçi məsuliyyət daşıyırmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "61"
+      ],
+      "paragraphs": [
+        "61.7"
+      ],
+      "passage_ids": [
+        "4478f6e1-58f8-55ca-a1ce-80917f27625a"
+      ],
+      "relevance": {
+        "4478f6e1-58f8-55ca-a1ce-80917f27625a": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR047": {
+      "query_id": "AZR047",
+      "category": "personal_medical_data",
+      "query": "İcbari tibbi sığorta üzrə elektron qeydlər münasibət bitəndən sonra ən az nə qədər saxlanır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "16-1"
+      ],
+      "paragraphs": [
+        "16-1.2"
+      ],
+      "passage_ids": [
+        "8b4ebef0-4dd9-501d-984b-ae182f80b3b5"
+      ],
+      "relevance": {
+        "8b4ebef0-4dd9-501d-984b-ae182f80b3b5": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR048": {
+      "query_id": "AZR048",
+      "category": "casco_compulsory",
+      "query": "Sığorta dərsliyinin lüğətində KASKO üzrə sığorta obyekti kimi nə göstərilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a"
+      ],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907"
+      ],
+      "relevance": {
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR049": {
+      "query_id": "AZR049",
+      "category": "casco_compulsory",
+      "query": "Dərslikdə KASKO və karqo sığortası obyektlərinə görə necə fərqləndirilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a"
+      ],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907"
+      ],
+      "relevance": {
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR050": {
+      "query_id": "AZR050",
+      "category": "casco_compulsory",
+      "query": "Dərslikdə öz maşının zədələnməsi və ya məhv olması riskinə aid hansı sığorta adı işlədilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a"
+      ],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [
+        "8d0b65e0-2959-5647-906a-2303d3acb910"
+      ],
+      "relevance": {
+        "8d0b65e0-2959-5647-906a-2303d3acb910": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR051": {
+      "query_id": "AZR051",
+      "category": "casco_compulsory",
+      "query": "KASKO-nun dərslikdəki obyekti ilə avtoicbari mülki məsuliyyət sığortasının qanundakı məqsədi necə fərqlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a",
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "50"
+      ],
+      "paragraphs": [
+        "50.1"
+      ],
+      "passage_ids": [
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907",
+        "1aa0463b-358e-56ee-b533-c555c754048b"
+      ],
+      "relevance": {
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907": 3,
+        "1aa0463b-358e-56ee-b533-c555c754048b": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR052": {
+      "query_id": "AZR052",
+      "category": "casco_compulsory",
+      "query": "Maşını oğurlasalar, öz maşının zərərini nəzərdə tutan sığorta sinfi indeksdə necə izah olunur?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "14"
+      ],
+      "paragraphs": [
+        "14.3.2.2"
+      ],
+      "passage_ids": [
+        "cef023ea-bb4d-55d0-a03e-27a3ea3313d4"
+      ],
+      "relevance": {
+        "cef023ea-bb4d-55d0-a03e-27a3ea3313d4": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR053": {
+      "query_id": "AZR053",
+      "category": "casco_compulsory",
+      "query": "Avtonəqliyyat vasitəsinin özünün sığortasında və avtoicbaridə sığorta hadisəsinin predmeti baxımından fərq nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "14",
+        "52"
+      ],
+      "paragraphs": [
+        "14.3.2.2",
+        "52.1"
+      ],
+      "passage_ids": [
+        "cef023ea-bb4d-55d0-a03e-27a3ea3313d4",
+        "57f1b44c-4103-57bf-9b8c-d4785e14f012"
+      ],
+      "relevance": {
+        "cef023ea-bb4d-55d0-a03e-27a3ea3313d4": 3,
+        "57f1b44c-4103-57bf-9b8c-d4785e14f012": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR054": {
+      "query_id": "AZR054",
+      "category": "casco_compulsory",
+      "query": "Avtonəqliyyat vasitəsi sahiblərinin icbari mülki məsuliyyət müqaviləsi hansı elektron qeyd şərti ilə etibarlıdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "51"
+      ],
+      "paragraphs": [
+        "51.1"
+      ],
+      "passage_ids": [
+        "e000d5de-47c4-571e-ac49-61b17c4c53fb"
+      ],
+      "relevance": {
+        "e000d5de-47c4-571e-ac49-61b17c4c53fb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR055": {
+      "query_id": "AZR055",
+      "category": "casco_compulsory",
+      "query": "Maşına quraşdırılan, yol hərəkətinə aid olmayan avadanlıq işləyəndə vurduğu zərər avtomobildən istifadə sayılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "52"
+      ],
+      "paragraphs": [
+        "52.2"
+      ],
+      "passage_ids": [
+        "83404475-4195-5652-babb-90da57f03011"
+      ],
+      "relevance": {
+        "83404475-4195-5652-babb-90da57f03011": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR056": {
+      "query_id": "AZR056",
+      "category": "casco_compulsory",
+      "query": "İcbari avtomobil məsuliyyəti üzrə müqavilənin tərəfi və sığorta haqqını ödəyən şəxs hansı statusu daşıyır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "53"
+      ],
+      "paragraphs": [
+        "53.3"
+      ],
+      "passage_ids": [
+        "856657c1-2c87-5353-a2fb-53f28baf7851"
+      ],
+      "relevance": {
+        "856657c1-2c87-5353-a2fb-53f28baf7851": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR057": {
+      "query_id": "AZR057",
+      "category": "casco_compulsory",
+      "query": "İcbari avtomobil məsuliyyəti üzrə üçüncü şəxs anlayışı sərnişinlər və ailə üzvləri baxımından necə tətbiq edilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "54",
+        "7"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "05808987-829b-5561-b5d0-fd2c1c08fa03",
+        "4a668ed8-aef8-5769-9b1e-f4473e56e5c1"
+      ],
+      "relevance": {
+        "05808987-829b-5561-b5d0-fd2c1c08fa03": 3,
+        "4a668ed8-aef8-5769-9b1e-f4473e56e5c1": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR058": {
+      "query_id": "AZR058",
+      "category": "casco_compulsory",
+      "query": "Adi icbari maşın sığortası neçə aylıq bağlanır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "55"
+      ],
+      "paragraphs": [
+        "55.1"
+      ],
+      "passage_ids": [
+        "bfe69545-9430-57a1-a798-5110020be1b1"
+      ],
+      "relevance": {
+        "bfe69545-9430-57a1-a798-5110020be1b1": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR059": {
+      "query_id": "AZR059",
+      "category": "casco_compulsory",
+      "query": "Sərhəd sığortası ilə Azərbaycan Yaşıl Kartı müqavilələrinin müddət seçimləri hansılardır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "55"
+      ],
+      "paragraphs": [
+        "55.2",
+        "55.3"
+      ],
+      "passage_ids": [
+        "93e11102-1b2b-55a4-82e5-d75151708d41",
+        "2648e9a8-ab11-5dfa-b3c9-0eeeefddbb26"
+      ],
+      "relevance": {
+        "93e11102-1b2b-55a4-82e5-d75151708d41": 3,
+        "2648e9a8-ab11-5dfa-b3c9-0eeeefddbb26": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR060": {
+      "query_id": "AZR060",
+      "category": "casco_compulsory",
+      "query": "Avtoicbari üzrə sığorta ödənişi edildikdən sonra qüvvədə olan müqavilənin məbləği dəyişirmi?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "56"
+      ],
+      "paragraphs": [
+        "56.2"
+      ],
+      "passage_ids": [
+        "adffc342-d2e5-575e-8d13-3b82d0ee8e20"
+      ],
+      "relevance": {
+        "adffc342-d2e5-575e-8d13-3b82d0ee8e20": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR061": {
+      "query_id": "AZR061",
+      "category": "casco_compulsory",
+      "query": "Avtoicbaridən pul almaq üçün ümumi sənədlərdən əlavə sürücülük vəsiqəmin surətini də istəyirlər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "58"
+      ],
+      "paragraphs": [
+        "58.1"
+      ],
+      "passage_ids": [
+        "dbbe5488-d90f-5278-aa5f-de41c55e7897"
+      ],
+      "relevance": {
+        "dbbe5488-d90f-5278-aa5f-de41c55e7897": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR062": {
+      "query_id": "AZR062",
+      "category": "casco_compulsory",
+      "query": "Müqaviləni informasiya sistemində bağlamışamsa, amma sistemin ehtiyatında həmin qeyd yoxdursa avtoicbari müqavilə etibarlıdırmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "51"
+      ],
+      "paragraphs": [
+        "51.1"
+      ],
+      "passage_ids": [
+        "e000d5de-47c4-571e-ac49-61b17c4c53fb"
+      ],
+      "relevance": {
+        "e000d5de-47c4-571e-ac49-61b17c4c53fb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR063": {
+      "query_id": "AZR063",
+      "category": "limits_calculations",
+      "query": "Standart və sərhəd avtoicbari müqavilələrində sağlamlıq zərəri üçün bir nəfərlik və bir hadisəlik hədd necə ayrılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "56"
+      ],
+      "paragraphs": [
+        "56.1",
+        "56.1.1"
+      ],
+      "passage_ids": [
+        "62bff44a-11a9-5d29-8ac1-ce7e791b09be",
+        "f9737eda-106e-52ac-a3ab-d90194c9692a"
+      ],
+      "relevance": {
+        "62bff44a-11a9-5d29-8ac1-ce7e791b09be": 3,
+        "f9737eda-106e-52ac-a3ab-d90194c9692a": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR064": {
+      "query_id": "AZR064",
+      "category": "limits_calculations",
+      "query": "Maşınla özgəsinin hasarını vurmuşam. İcbari məsuliyyət sığortasının əmlak üzrə həddi nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "56"
+      ],
+      "paragraphs": [
+        "56.1.2"
+      ],
+      "passage_ids": [
+        "c0b15556-a2db-5542-933d-b027e40bd41c"
+      ],
+      "relevance": {
+        "c0b15556-a2db-5542-933d-b027e40bd41c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR065": {
+      "query_id": "AZR065",
+      "category": "limits_calculations",
+      "query": "Bir avtomobil qəzasında bir neçə şəxsin əmlak zərəri ümumi həddi aşanda bölgü hansı məbləğdən və hansı proporsiya ilə aparılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "56",
+        "58"
+      ],
+      "paragraphs": [
+        "56.1.2",
+        "58.3"
+      ],
+      "passage_ids": [
+        "c0b15556-a2db-5542-933d-b027e40bd41c",
+        "58e42a93-c1ed-504a-818e-ed046cb97b9f"
+      ],
+      "relevance": {
+        "c0b15556-a2db-5542-933d-b027e40bd41c": 3,
+        "58e42a93-c1ed-504a-818e-ed046cb97b9f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR066": {
+      "query_id": "AZR066",
+      "category": "limits_calculations",
+      "query": "Eyni əmlak zərərinə görə könüllü və icbari sığorta ödənişlərinin cəmi hansı həddi keçə bilməz?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "20"
+      ],
+      "paragraphs": [
+        "20.1"
+      ],
+      "passage_ids": [
+        "ae1d0583-ab4e-5a91-92df-cb7491f29c31"
+      ],
+      "relevance": {
+        "ae1d0583-ab4e-5a91-92df-cb7491f29c31": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR067": {
+      "query_id": "AZR067",
+      "category": "limits_calculations",
+      "query": "Bakıdakı mənzil üçün icbari əmlak sığortasında həm limit, həm franşiza neçə manatdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "39"
+      ],
+      "paragraphs": [
+        "39.3.1"
+      ],
+      "passage_ids": [
+        "a133672c-068f-527d-b1e4-ade175dbdaf7"
+      ],
+      "relevance": {
+        "a133672c-068f-527d-b1e4-ade175dbdaf7": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR068": {
+      "query_id": "AZR068",
+      "category": "limits_calculations",
+      "query": "Gəncə və Naxçıvandakı yaşayış mənzillərinin icbari sığortasında sığorta və şərtsiz azadolma məbləğləri necə müəyyən edilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "39"
+      ],
+      "paragraphs": [
+        "39.3.2"
+      ],
+      "passage_ids": [
+        "bc4cb98a-99aa-5fba-91e2-15d28e7a59e0"
+      ],
+      "relevance": {
+        "bc4cb98a-99aa-5fba-91e2-15d28e7a59e0": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR069": {
+      "query_id": "AZR069",
+      "category": "limits_calculations",
+      "query": "Yaşayış evi olmayan bina və qeyri-yaşayış sahəsi üçün sığorta məbləği hesablanarkən hansı dəyər əsas götürülür?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "39"
+      ],
+      "paragraphs": [
+        "39.1",
+        "39.1.1",
+        "39.1.2"
+      ],
+      "passage_ids": [
+        "840a102c-8750-5902-9a8c-e05dfde8241a",
+        "d148c0f5-aa15-5b95-ac0e-7322242f5f50",
+        "88bff349-7c35-5995-afec-10e969c18b89"
+      ],
+      "relevance": {
+        "840a102c-8750-5902-9a8c-e05dfde8241a": 3,
+        "d148c0f5-aa15-5b95-ac0e-7322242f5f50": 3,
+        "88bff349-7c35-5995-afec-10e969c18b89": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR070": {
+      "query_id": "AZR070",
+      "category": "limits_calculations",
+      "query": "Ofisimin icbari əmlak sığortasında franşiza sabitdir, yoxsa müqavilədə razılaşdırılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "39"
+      ],
+      "paragraphs": [
+        "39.2"
+      ],
+      "passage_ids": [
+        "9321e5bf-f7a3-50d6-9ce9-2cfedf96adfd"
+      ],
+      "relevance": {
+        "9321e5bf-f7a3-50d6-9ce9-2cfedf96adfd": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR071": {
+      "query_id": "AZR071",
+      "category": "limits_calculations",
+      "query": "Muzdla işləyənin əməkhaqqının səkkiz min manatadək və ondan yuxarı hissəsi üzrə icbari tibbi sığorta dərəcələri hansılardır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-10"
+      ],
+      "paragraphs": [
+        "15-10.1.2"
+      ],
+      "passage_ids": [
+        "84a8a344-ab99-5e32-a136-e099be7d602c"
+      ],
+      "relevance": {
+        "84a8a344-ab99-5e32-a136-e099be7d602c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR072": {
+      "query_id": "AZR072",
+      "category": "limits_calculations",
+      "query": "Muzdlu işçinin maaşı 10 000 manatdırsa, mənbədəki iki pilləyə əsasən işçinin öz payı neçə manat edir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-10"
+      ],
+      "paragraphs": [
+        "15-10.1.2"
+      ],
+      "passage_ids": [
+        "84a8a344-ab99-5e32-a136-e099be7d602c"
+      ],
+      "relevance": {
+        "84a8a344-ab99-5e32-a136-e099be7d602c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR073": {
+      "query_id": "AZR073",
+      "category": "limits_calculations",
+      "query": "Dövlət büdcəsi hesabına icbari tibbi sığorta haqqı müəyyən qrup üzrə tam təqvim ili üçün adambaşına neçə manatdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-10"
+      ],
+      "paragraphs": [
+        "15-10.1.1"
+      ],
+      "passage_ids": [
+        "c9bb86d9-beba-52b7-8798-c38999c733e0"
+      ],
+      "relevance": {
+        "c9bb86d9-beba-52b7-8798-c38999c733e0": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR074": {
+      "query_id": "AZR074",
+      "category": "limits_calculations",
+      "query": "İstehsalat riskinin icbari sığorta tarifinə yuxarı hədd və haqqın əməkhaqqı fonduna görə hesablanması necə birlikdə tətbiq olunur?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "13",
+        "14"
+      ],
+      "paragraphs": [
+        "13.1",
+        "14.1"
+      ],
+      "passage_ids": [
+        "1463f573-4b97-508b-ba58-ca086c481877",
+        "d3218301-0fe1-5a16-8eff-2372d8c3c2e3"
+      ],
+      "relevance": {
+        "1463f573-4b97-508b-ba58-ca086c481877": 3,
+        "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR075": {
+      "query_id": "AZR075",
+      "category": "limits_calculations",
+      "query": "Hərbi qulluqçunun sığorta məbləği və onun 1 faizi göstərilirsə, sığorta haqqı hesabla neçə manat olur?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "articles": [
+        "4"
+      ],
+      "paragraphs": [
+        "4.1",
+        "4.2"
+      ],
+      "passage_ids": [
+        "2f770e07-d4b2-56ec-9394-5870a9572d3e",
+        "b1b750f5-3244-53a5-a533-c58c03576238"
+      ],
+      "relevance": {
+        "2f770e07-d4b2-56ec-9394-5870a9572d3e": 3,
+        "b1b750f5-3244-53a5-a533-c58c03576238": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR076": {
+      "query_id": "AZR076",
+      "category": "limits_calculations",
+      "query": "Peşə əmək qabiliyyətinin qismən itirilməsi zamanı aylıq ödəniş hansı əməkhaqqı və faiz əsasında müəyyən edilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "17"
+      ],
+      "paragraphs": [
+        "17.1"
+      ],
+      "passage_ids": [
+        "4542b09a-66bc-537f-8bd2-a863878b1d09"
+      ],
+      "relevance": {
+        "4542b09a-66bc-537f-8bd2-a863878b1d09": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR077": {
+      "query_id": "AZR077",
+      "category": "limits_calculations",
+      "query": "Auditorun peşə məsuliyyəti üzrə məbləğ necə müəyyən olunur və ödənişdən sonra əvvəlki hədd necə bərpa edilə bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "8"
+      ],
+      "paragraphs": [
+        "8.1",
+        "8.7"
+      ],
+      "passage_ids": [
+        "1f616382-9db7-5190-89b7-6a12606e3c31",
+        "37554259-8d0d-54ad-8179-ae06434df4c2"
+      ],
+      "relevance": {
+        "1f616382-9db7-5190-89b7-6a12606e3c31": 3,
+        "37554259-8d0d-54ad-8179-ae06434df4c2": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR078": {
+      "query_id": "AZR078",
+      "category": "limits_calculations",
+      "query": "Sərnişinlərin icbari fərdi qəza sığortasında bir sərnişinə düşən məbləğ nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "68"
+      ],
+      "paragraphs": [
+        "68.1.1"
+      ],
+      "passage_ids": [
+        "9a2cda52-80bb-51d8-913a-f170e3954849"
+      ],
+      "relevance": {
+        "9a2cda52-80bb-51d8-913a-f170e3954849": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR079": {
+      "query_id": "AZR079",
+      "category": "reinsurance",
+      "query": "Təkrarsığorta fəaliyyətinin predmeti və icazə verən lisenziya növləri hansılardır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "10"
+      ],
+      "paragraphs": [
+        "10.2"
+      ],
+      "passage_ids": [
+        "54329d57-b204-59ef-88c8-dfba60a0eab0"
+      ],
+      "relevance": {
+        "54329d57-b204-59ef-88c8-dfba60a0eab0": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR080": {
+      "query_id": "AZR080",
+      "category": "reinsurance",
+      "query": "Sığorta şirkəti öz riskini başqa sığortaçı ilə bölüşəndə bu əməliyyat nə sayılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "10"
+      ],
+      "paragraphs": [
+        "10.2"
+      ],
+      "passage_ids": [
+        "54329d57-b204-59ef-88c8-dfba60a0eab0"
+      ],
+      "relevance": {
+        "54329d57-b204-59ef-88c8-dfba60a0eab0": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR081": {
+      "query_id": "AZR081",
+      "category": "reinsurance",
+      "query": "Azərbaycandakı əmlak riskini yerli sığortaçıda təkrarsığortalayanda hansı brokerin vasitəçiliyi mümkündür?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "10"
+      ],
+      "paragraphs": [
+        "10.5"
+      ],
+      "passage_ids": [
+        "e6c0def6-ab46-5acc-b7a7-aaac2d6ff534"
+      ],
+      "relevance": {
+        "e6c0def6-ab46-5acc-b7a7-aaac2d6ff534": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR082": {
+      "query_id": "AZR082",
+      "category": "reinsurance",
+      "query": "Yerli əmlak riskini xarici sığortaçıda təkrarsığorta etdirmək üçün nəzərdə tutulan nəzarət şərtləri nələrdir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "10"
+      ],
+      "paragraphs": [
+        "10.6"
+      ],
+      "passage_ids": [
+        "645db611-4a20-5602-838b-d3b756ed8c0f"
+      ],
+      "relevance": {
+        "645db611-4a20-5602-838b-d3b756ed8c0f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR083": {
+      "query_id": "AZR083",
+      "category": "reinsurance",
+      "query": "Birbaşa sığorta fəaliyyəti ilə təkrarsığorta fəaliyyəti riskin kimdən qəbul edilməsinə görə necə fərqlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "10"
+      ],
+      "paragraphs": [
+        "10.1",
+        "10.2"
+      ],
+      "passage_ids": [
+        "a2641ffb-4c4a-5bf8-b4a4-e0949d12f778",
+        "54329d57-b204-59ef-88c8-dfba60a0eab0"
+      ],
+      "relevance": {
+        "a2641ffb-4c4a-5bf8-b4a4-e0949d12f778": 3,
+        "54329d57-b204-59ef-88c8-dfba60a0eab0": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR084": {
+      "query_id": "AZR084",
+      "category": "reinsurance",
+      "query": "Təkrarsığortaçının lisenziyası dayandırıldıqda müqavilələri tam və ya qismən ötürmək üçün kimin razılığı tələb olunur?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "72"
+      ],
+      "paragraphs": [
+        "72.1"
+      ],
+      "passage_ids": [
+        "7be1028b-b3a8-52ef-9300-b17af492d3d0",
+        "6044387f-1f69-52ae-bb9c-56ba1f459afb"
+      ],
+      "relevance": {
+        "7be1028b-b3a8-52ef-9300-b17af492d3d0": 3,
+        "6044387f-1f69-52ae-bb9c-56ba1f459afb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR085": {
+      "query_id": "AZR085",
+      "category": "reinsurance",
+      "query": "Təkrarsığorta müqaviləmin ötürülməsi xəbərini alandan sonra susmağım nə vaxt razılıq sayılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "72"
+      ],
+      "paragraphs": [
+        "72.2",
+        "72.3"
+      ],
+      "passage_ids": [
+        "9ff675a2-7d5e-574d-8fef-cf0cb70f280b",
+        "2672a039-eedd-560e-9cdf-0cd97483a4c6"
+      ],
+      "relevance": {
+        "9ff675a2-7d5e-574d-8fef-cf0cb70f280b": 3,
+        "2672a039-eedd-560e-9cdf-0cd97483a4c6": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR086": {
+      "query_id": "AZR086",
+      "category": "reinsurance",
+      "query": "Təkrarsığortalı ötürülməyə vaxtında etiraz edib müqaviləyə xitam verirsə, haqların qaytarılması necə tənzimlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "72"
+      ],
+      "paragraphs": [
+        "72.4",
+        "72.5"
+      ],
+      "passage_ids": [
+        "84c297ae-ba43-5bb0-9e26-ab0c8f8262ad",
+        "d0a5b05f-1a8e-564f-8c21-5db1f8f6b079"
+      ],
+      "relevance": {
+        "84c297ae-ba43-5bb0-9e26-ab0c8f8262ad": 3,
+        "d0a5b05f-1a8e-564f-8c21-5db1f8f6b079": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR087": {
+      "query_id": "AZR087",
+      "category": "reinsurance",
+      "query": "Təkrarsığorta müqavilələri ötürülərkən iştirakçıların mənafeləri lazımi qaydada nəzərə alınmırsa, Mərkəzi Bank nə edir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "72"
+      ],
+      "paragraphs": [
+        "72.6",
+        "72.6.1"
+      ],
+      "passage_ids": [
+        "e639ba98-3b72-5aad-86bc-272809d7f3ed",
+        "17841b31-deba-5a05-8e19-d9165a57f5c2"
+      ],
+      "relevance": {
+        "e639ba98-3b72-5aad-86bc-272809d7f3ed": 3,
+        "17841b31-deba-5a05-8e19-d9165a57f5c2": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR088": {
+      "query_id": "AZR088",
+      "category": "reinsurance",
+      "query": "Təkrarsığorta müqaviləsi bağlamaq üçün müqavilənin digər tərəfinə sığorta sirri açıqlana bilərmi?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2.2"
+      ],
+      "passage_ids": [
+        "3042f91f-0c73-58a9-b406-a077e13980ab"
+      ],
+      "relevance": {
+        "3042f91f-0c73-58a9-b406-a077e13980ab": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR089": {
+      "query_id": "AZR089",
+      "category": "reinsurance",
+      "query": "Sığorta dərsliyinin lüğətində risksizləşdirmə zəncirində riski ötürən ilk sığortaçı hansı terminlə adlandırılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a"
+      ],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907"
+      ],
+      "relevance": {
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR090": {
+      "query_id": "AZR090",
+      "category": "reinsurance",
+      "query": "Dərslikdə retrosessiya zamanı əvvəllər qəbul edilmiş risklə nə baş verdiyi göstərilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a"
+      ],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907"
+      ],
+      "relevance": {
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR091": {
+      "query_id": "AZR091",
+      "category": "reinsurance",
+      "query": "Təkrarsığortaçıya göndərilən ilkin təklif sənədinin dərslikdə adı nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a"
+      ],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907"
+      ],
+      "relevance": {
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR092": {
+      "query_id": "AZR092",
+      "category": "reinsurance",
+      "query": "Xarici sığortaçıda təkrarsığortalama ilə xaricdə sığortaçı filialının açılmasına aid qaydalar necə fərqlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "10"
+      ],
+      "paragraphs": [
+        "10.6",
+        "10.8"
+      ],
+      "passage_ids": [
+        "645db611-4a20-5602-838b-d3b756ed8c0f",
+        "271085e3-6cae-52f5-bc6d-ea61799755b7"
+      ],
+      "relevance": {
+        "645db611-4a20-5602-838b-d3b756ed8c0f": 3,
+        "271085e3-6cae-52f5-bc6d-ea61799755b7": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR093": {
+      "query_id": "AZR093",
+      "category": "claims_compensation",
+      "query": "Hadisəni sığortaçıya telefonda demişəm. Yazılı tələb blankını nə vaxta qədər göndərməlidir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "13"
+      ],
+      "paragraphs": [
+        "13.5"
+      ],
+      "passage_ids": [
+        "453ce220-b1a8-533d-a375-5a1ec65aa233"
+      ],
+      "relevance": {
+        "453ce220-b1a8-533d-a375-5a1ec65aa233": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR094": {
+      "query_id": "AZR094",
+      "category": "claims_compensation",
+      "query": "İcbari sığorta tələbində şəhadətnamə, sığortanın növü və sığortalının kimliyi üzrə hansı məlumatlar yazılmalıdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "17"
+      ],
+      "paragraphs": [
+        "17.1.1.1",
+        "17.1.1.2",
+        "17.1.1.3"
+      ],
+      "passage_ids": [
+        "61990e1c-0521-59b9-a874-48c299fc6d28",
+        "961db877-425f-5a87-b28b-a4cd90fe39bd",
+        "f04024ce-8cc8-560f-8259-46de0995d7fc"
+      ],
+      "relevance": {
+        "61990e1c-0521-59b9-a874-48c299fc6d28": 3,
+        "961db877-425f-5a87-b28b-a4cd90fe39bd": 3,
+        "f04024ce-8cc8-560f-8259-46de0995d7fc": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR095": {
+      "query_id": "AZR095",
+      "category": "claims_compensation",
+      "query": "İcbari tələb üzrə fiziki və hüquqi şəxs olan faydalananlar fərqli hansı şəxsiyyət sənədlərini təqdim edirlər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "17"
+      ],
+      "paragraphs": [
+        "17.1.10"
+      ],
+      "passage_ids": [
+        "ea271fbd-2d68-5012-8dcf-6027568380ff"
+      ],
+      "relevance": {
+        "ea271fbd-2d68-5012-8dcf-6027568380ff": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR096": {
+      "query_id": "AZR096",
+      "category": "claims_compensation",
+      "query": "İcbari ödəniş üçün sığortaçı qanunda yazılmayan əlavə sənədi məndən istəyə bilərmi?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "17"
+      ],
+      "paragraphs": [
+        "17.5"
+      ],
+      "passage_ids": [
+        "6de2d6a6-f544-5bed-9de1-f80f3b2581d1"
+      ],
+      "relevance": {
+        "6de2d6a6-f544-5bed-9de1-f80f3b2581d1": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR097": {
+      "query_id": "AZR097",
+      "category": "claims_compensation",
+      "query": "İcbari sığortaçının sonuncu sənədi aldıqdan sonra ödəniş, təmir tədbiri və ya əsaslandırılmış bildiriş üçün vaxtı nə qədərdir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.1"
+      ],
+      "passage_ids": [
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+      ],
+      "relevance": {
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR098": {
+      "query_id": "AZR098",
+      "category": "claims_compensation",
+      "query": "Son sənəd verildikdən sonra icbari sığorta ödənişi gecikərsə, müddət və gündəlik dəbbə pulu necə müəyyən edilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.1",
+        "18.2"
+      ],
+      "passage_ids": [
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+        "80619c4b-9420-5519-a7fc-c38993f70e06"
+      ],
+      "relevance": {
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 3,
+        "80619c4b-9420-5519-a7fc-c38993f70e06": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR099": {
+      "query_id": "AZR099",
+      "category": "claims_compensation",
+      "query": "Əmlaka dəyən zərər üzrə sığortaçı hansı bərpa və birbaşa ödəniş üsullarını seçə bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "20"
+      ],
+      "paragraphs": [
+        "20.3"
+      ],
+      "passage_ids": [
+        "0cae1bdb-8ce9-528f-af2a-ecd069ee3e86"
+      ],
+      "relevance": {
+        "0cae1bdb-8ce9-528f-af2a-ecd069ee3e86": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR100": {
+      "query_id": "AZR100",
+      "category": "claims_compensation",
+      "query": "Üçüncü şəxs əmlak zərərinin əvəzini hansı tərəflərdən tələb edə bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "20"
+      ],
+      "paragraphs": [
+        "20.5"
+      ],
+      "passage_ids": [
+        "e230dc4e-1f15-52d3-b990-4994697c8fe0"
+      ],
+      "relevance": {
+        "e230dc4e-1f15-52d3-b990-4994697c8fe0": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR101": {
+      "query_id": "AZR101",
+      "category": "claims_compensation",
+      "query": "İcbari sığortaçı ödəmə qabiliyyətsizdirsə kompensasiyaya əsas və Büroya yazılı müraciətin məhkəmə şərti nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "32",
+        "33"
+      ],
+      "paragraphs": [
+        "32.1.1",
+        "33.1"
+      ],
+      "passage_ids": [
+        "590f40d6-557e-54ef-9fba-cdffa4a798f4",
+        "cd075ff0-efe0-5363-bb08-cfb38624abc5"
+      ],
+      "relevance": {
+        "590f40d6-557e-54ef-9fba-cdffa4a798f4": 3,
+        "cd075ff0-efe0-5363-bb08-cfb38624abc5": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR102": {
+      "query_id": "AZR102",
+      "category": "claims_compensation",
+      "query": "Naməlum maşın adamı vurub xəsarət yetiribsə, bu hal kompensasiya ödənişi əsasları sırasında varmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "32"
+      ],
+      "paragraphs": [
+        "32.1.2"
+      ],
+      "passage_ids": [
+        "5ab9056b-3189-55d4-95a4-869fd993786c"
+      ],
+      "relevance": {
+        "5ab9056b-3189-55d4-95a4-869fd993786c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR103": {
+      "query_id": "AZR103",
+      "category": "claims_compensation",
+      "query": "Yol hadisəsində sürücü, sərnişin və ya piyada öləndə ilkin kompensasiyanın sənəd, vaxt və faiz şərtləri hansılardır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "58"
+      ],
+      "paragraphs": [
+        "58.3-1"
+      ],
+      "passage_ids": [
+        "2cf335de-0290-58fc-97d7-63346bffa523",
+        "24a5f923-29a1-5e9f-9ce5-ee105e4afa08"
+      ],
+      "relevance": {
+        "2cf335de-0290-58fc-97d7-63346bffa523": 3,
+        "24a5f923-29a1-5e9f-9ce5-ee105e4afa08": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR104": {
+      "query_id": "AZR104",
+      "category": "claims_compensation",
+      "query": "İş qəzası sığortasında sənədlərdən sonra qərar müddəti sığorta olunanın ölümü halında necə dəyişir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.9"
+      ],
+      "passage_ids": [
+        "f36fe280-3690-51c8-9ae1-1b778a437d8f"
+      ],
+      "relevance": {
+        "f36fe280-3690-51c8-9ae1-1b778a437d8f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR105": {
+      "query_id": "AZR105",
+      "category": "claims_compensation",
+      "query": "Fəhlə işdə qəza keçiribsə, işəgötürən sığortaçıya nə vaxta qədər xəbər verməlidir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "7"
+      ],
+      "paragraphs": [
+        "7.2.6"
+      ],
+      "passage_ids": [
+        "425810a6-3dfb-580b-aee3-feacc1b251fc"
+      ],
+      "relevance": {
+        "425810a6-3dfb-580b-aee3-feacc1b251fc": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR106": {
+      "query_id": "AZR106",
+      "category": "claims_compensation",
+      "query": "Auditor zərəri etiraf etdikdə sığortaçıya verilən ərizə və təsdiqləyici sənədlər hansılardır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "9"
+      ],
+      "paragraphs": [
+        "9.1",
+        "9.1.1",
+        "9.1.2",
+        "9.1.3",
+        "9.1.4"
+      ],
+      "passage_ids": [
+        "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+        "bdb38a9f-b447-51c9-8604-4847c6bdd000",
+        "f0dd6eda-2bde-5091-9db0-50b47faa3c24",
+        "8165b448-0c41-504f-8f86-a2bbc98163fc",
+        "f1658e65-5b20-5213-9802-353023095b16"
+      ],
+      "relevance": {
+        "1a33dddc-9bd1-533c-b201-8d081fcd6338": 3,
+        "bdb38a9f-b447-51c9-8604-4847c6bdd000": 3,
+        "f0dd6eda-2bde-5091-9db0-50b47faa3c24": 3,
+        "8165b448-0c41-504f-8f86-a2bbc98163fc": 3,
+        "f1658e65-5b20-5213-9802-353023095b16": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR107": {
+      "query_id": "AZR107",
+      "category": "claims_compensation",
+      "query": "Auditor sığortasında sənədlərin alındığına dair təsdiq və imtina qərarı hansı məlumatları göstərməlidir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "11",
+        "9"
+      ],
+      "paragraphs": [
+        "11.2",
+        "9.2"
+      ],
+      "passage_ids": [
+        "a5f5a24a-7a2f-5cf7-8ced-bdb69c0fe08c",
+        "f9eb33ff-cf21-53ae-bca3-133a6a5421e6"
+      ],
+      "relevance": {
+        "a5f5a24a-7a2f-5cf7-8ced-bdb69c0fe08c": 3,
+        "f9eb33ff-cf21-53ae-bca3-133a6a5421e6": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR108": {
+      "query_id": "AZR108",
+      "category": "claims_compensation",
+      "query": "Hərbi qulluqçunun icbari şəxsi sığortasında elektron bildiriş mümkün olmadıqda ödəniş müddəti hansı alternativ hadisədən başlayır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "articles": [
+        "7"
+      ],
+      "paragraphs": [
+        "7.1"
+      ],
+      "passage_ids": [
+        "f88f7880-ef9a-50ea-bcdb-c61e5fd25e76"
+      ],
+      "relevance": {
+        "f88f7880-ef9a-50ea-bcdb-c61e5fd25e76": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR109": {
+      "query_id": "AZR109",
+      "category": "exceptions_qualifications",
+      "query": "İcbari müqavilədə azadolma məbləğinin olmaması qaydasının Bakıdakı yaşayış əmlakı üçün istisnası nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "39",
+        "8"
+      ],
+      "paragraphs": [
+        "39.3",
+        "39.3.1",
+        "8.6"
+      ],
+      "passage_ids": [
+        "b37e9a79-a068-505b-9767-964678b6e826",
+        "f7955d4a-f74c-5841-a56c-8b9c87cdad18",
+        "a133672c-068f-527d-b1e4-ade175dbdaf7"
+      ],
+      "relevance": {
+        "b37e9a79-a068-505b-9767-964678b6e826": 3,
+        "f7955d4a-f74c-5841-a56c-8b9c87cdad18": 3,
+        "a133672c-068f-527d-b1e4-ade175dbdaf7": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR110": {
+      "query_id": "AZR110",
+      "category": "exceptions_qualifications",
+      "query": "Zədələnmiş əmlakı texniki olaraq bərpa etmək mümkün deyilsə və ya bərpa səmərəsizdirsə, qanun əmlakı necə qiymətləndirir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "15"
+      ],
+      "paragraphs": [
+        "15.2"
+      ],
+      "passage_ids": [
+        "89d4c1d1-1d84-5100-a0d3-5be7f9fe39a1"
+      ],
+      "relevance": {
+        "89d4c1d1-1d84-5100-a0d3-5be7f9fe39a1": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR111": {
+      "query_id": "AZR111",
+      "category": "exceptions_qualifications",
+      "query": "Üçüncü şəxsin əmlakına vurulan zərər əvvəldən tam ödənildikdə və qismən ödənildikdə icbari ödəniş kimə yönəldilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "20"
+      ],
+      "paragraphs": [
+        "20.6",
+        "20.7"
+      ],
+      "passage_ids": [
+        "20314026-c744-56b9-8c27-0a0ea87d1fd0",
+        "5bbb1f31-57c1-5e42-8eae-7c6538ff810f"
+      ],
+      "relevance": {
+        "20314026-c744-56b9-8c27-0a0ea87d1fd0": 3,
+        "5bbb1f31-57c1-5e42-8eae-7c6538ff810f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR112": {
+      "query_id": "AZR112",
+      "category": "exceptions_qualifications",
+      "query": "İcbari avtomobil sığortasında yol-nəqliyyat hadisəsi arayışına ehtiyac qalmaması üçün bütün şərtlər hansılardır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "58"
+      ],
+      "paragraphs": [
+        "58.2",
+        "58.2.1",
+        "58.2.2",
+        "58.2.3",
+        "58.2.4"
+      ],
+      "passage_ids": [
+        "de829f6d-b03c-5894-a102-60b105b2b5bd",
+        "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3",
+        "ab4e9a56-dd27-5985-84f9-799c54b23bac",
+        "750a15df-6476-5d12-b3a5-88bb9337cb1a",
+        "a716031b-eca7-57e8-b78a-5cb9a07995f4"
+      ],
+      "relevance": {
+        "de829f6d-b03c-5894-a102-60b105b2b5bd": 3,
+        "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3": 3,
+        "ab4e9a56-dd27-5985-84f9-799c54b23bac": 3,
+        "750a15df-6476-5d12-b3a5-88bb9337cb1a": 3,
+        "a716031b-eca7-57e8-b78a-5cb9a07995f4": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR113": {
+      "query_id": "AZR113",
+      "category": "exceptions_qualifications",
+      "query": "İki icbari sığortalı maşın, xəsarət yoxdur, ziyan min manatdan azdır, amma təqsirlə bağlı mübahisəmiz var. Arayışdan imtina etmək olarmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "58"
+      ],
+      "paragraphs": [
+        "58.2",
+        "58.2.1",
+        "58.2.2",
+        "58.2.3",
+        "58.2.4"
+      ],
+      "passage_ids": [
+        "de829f6d-b03c-5894-a102-60b105b2b5bd",
+        "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3",
+        "ab4e9a56-dd27-5985-84f9-799c54b23bac",
+        "750a15df-6476-5d12-b3a5-88bb9337cb1a",
+        "a716031b-eca7-57e8-b78a-5cb9a07995f4"
+      ],
+      "relevance": {
+        "de829f6d-b03c-5894-a102-60b105b2b5bd": 3,
+        "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3": 3,
+        "ab4e9a56-dd27-5985-84f9-799c54b23bac": 3,
+        "750a15df-6476-5d12-b3a5-88bb9337cb1a": 3,
+        "a716031b-eca7-57e8-b78a-5cb9a07995f4": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR114": {
+      "query_id": "AZR114",
+      "category": "exceptions_qualifications",
+      "query": "Qaz partlayışı ilə qanundakı siyahıya əlavə risklərin daşınmaz əmlakda sığortalanma əsası necə fərqlənir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "36"
+      ],
+      "paragraphs": [
+        "36.1",
+        "36.1.2",
+        "36.2"
+      ],
+      "passage_ids": [
+        "aab35201-68f5-5724-b738-112afc4d256d",
+        "64212129-bb3d-5922-8829-452fd084a9ea",
+        "25283019-a48b-5d60-ae43-3973324db9a5"
+      ],
+      "relevance": {
+        "aab35201-68f5-5724-b738-112afc4d256d": 3,
+        "64212129-bb3d-5922-8829-452fd084a9ea": 3,
+        "25283019-a48b-5d60-ae43-3973324db9a5": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR115": {
+      "query_id": "AZR115",
+      "category": "exceptions_qualifications",
+      "query": "İş qəzasında əlavə sığorta ödənişi yardım və qulluğa ehtiyacla yanaşı hansı hüquqi şərtdən asılıdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.5"
+      ],
+      "passage_ids": [
+        "a0b67759-d206-55f0-a75c-1393a2a9f6cc"
+      ],
+      "relevance": {
+        "a0b67759-d206-55f0-a75c-1393a2a9f6cc": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR116": {
+      "query_id": "AZR116",
+      "category": "exceptions_qualifications",
+      "query": "Auditorun səhv rəyinə müştərinin vəzifəsini yerinə yetirməməsi və ya ona ötürülmüş məlumat səbəb olduqda hansı istisnalar nəzərdə tutulur?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "4"
+      ],
+      "paragraphs": [
+        "4.1",
+        "4.1.1",
+        "4.1.2"
+      ],
+      "passage_ids": [
+        "1ed8eda1-a841-556e-8b03-947af3edda67",
+        "dd2db7dc-be70-5310-a7a9-da0e4b315bae",
+        "1fe661e6-5db5-5c47-b6b2-1a73b3594c58"
+      ],
+      "relevance": {
+        "1ed8eda1-a841-556e-8b03-947af3edda67": 3,
+        "dd2db7dc-be70-5310-a7a9-da0e4b315bae": 3,
+        "1fe661e6-5db5-5c47-b6b2-1a73b3594c58": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR117": {
+      "query_id": "AZR117",
+      "category": "exceptions_qualifications",
+      "query": "Hərbi sığortada rüblük hesabat təqdim edilməyibsə, ödənişə hansı arayış əsas ola bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "articles": [
+        "7"
+      ],
+      "paragraphs": [
+        "7.3"
+      ],
+      "passage_ids": [
+        "846a483f-e767-5022-842b-69784a94aabd"
+      ],
+      "relevance": {
+        "846a483f-e767-5022-842b-69784a94aabd": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR118": {
+      "query_id": "AZR118",
+      "category": "exceptions_qualifications",
+      "query": "Əvvəlki hərbi sığorta hadisəsi üzrə pul almışam, əlaqəli yeni hadisə olduqda əvvəlki pul nəzərə alınır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "articles": [
+        "7"
+      ],
+      "paragraphs": [
+        "7.4"
+      ],
+      "passage_ids": [
+        "43499ac1-9f84-5c17-bb8d-e605e9d19b97"
+      ],
+      "relevance": {
+        "43499ac1-9f84-5c17-bb8d-e605e9d19b97": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR119": {
+      "query_id": "AZR119",
+      "category": "exceptions_qualifications",
+      "query": "Tibbi sığorta haqqı ödənməyibsə, ilkin və təcili yardımla digər zərf xidmətlərinin xərci eyni qaydadadır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-12"
+      ],
+      "paragraphs": [
+        "15-12.2"
+      ],
+      "passage_ids": [
+        "07afed48-59ca-5fb9-9c3e-eebee45975e2"
+      ],
+      "relevance": {
+        "07afed48-59ca-5fb9-9c3e-eebee45975e2": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR120": {
+      "query_id": "AZR120",
+      "category": "exceptions_qualifications",
+      "query": "Xidmətlər zərfindəki illik say həddi ilə limit bitdikdə ödənişdən imtina necə əlaqəlidir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-14",
+        "15-16"
+      ],
+      "paragraphs": [
+        "15-16.0",
+        "15-16.0.4"
+      ],
+      "passage_ids": [
+        "725803c3-279f-5e1e-ad0e-176d08488532",
+        "c30ff306-c58d-5f43-ad14-1036bb7fa443",
+        "9405fecd-4b01-5369-b459-925eee8a4424"
+      ],
+      "relevance": {
+        "725803c3-279f-5e1e-ad0e-176d08488532": 3,
+        "c30ff306-c58d-5f43-ad14-1036bb7fa443": 3,
+        "9405fecd-4b01-5369-b459-925eee8a4424": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR121": {
+      "query_id": "AZR121",
+      "category": "exceptions_qualifications",
+      "query": "Ambulator xidmət üçün göndəriş qaydasına hansı istisna var və birbaşa müraciətdə hansı xərc yarana bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-28"
+      ],
+      "paragraphs": [
+        "15-28.1",
+        "15-28.3"
+      ],
+      "passage_ids": [
+        "cd4ebb20-7f18-5d7d-b099-0b996475a048",
+        "468d51a8-80d9-50d3-ab27-02a1c7274865"
+      ],
+      "relevance": {
+        "cd4ebb20-7f18-5d7d-b099-0b996475a048": 3,
+        "468d51a8-80d9-50d3-ab27-02a1c7274865": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR122": {
+      "query_id": "AZR122",
+      "category": "exceptions_qualifications",
+      "query": "İcbari tibbi sığortada subroqasiya üçün ödəniş edilməsi şərti və eyni risk üzrə mövcud digər müqavilənin əhəmiyyəti nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-20"
+      ],
+      "paragraphs": [
+        "15-20.1",
+        "15-20.2"
+      ],
+      "passage_ids": [
+        "4d9b5eaa-5f44-51d7-9a11-556f4d81ce0e",
+        "edacbde6-3667-5e74-8f34-9afe34c842a2"
+      ],
+      "relevance": {
+        "4d9b5eaa-5f44-51d7-9a11-556f4d81ce0e": 3,
+        "edacbde6-3667-5e74-8f34-9afe34c842a2": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR123": {
+      "query_id": "AZR123",
+      "category": "informal_morphology",
+      "query": "Sığorta pulumu gecikdiriblər, hər gec günə nə qədər faiz düşür?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.2"
+      ],
+      "passage_ids": [
+        "80619c4b-9420-5519-a7fc-c38993f70e06"
+      ],
+      "relevance": {
+        "80619c4b-9420-5519-a7fc-c38993f70e06": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR124": {
+      "query_id": "AZR124",
+      "category": "informal_morphology",
+      "query": "Masinla basqasinin seyine ziyan vursam, icbari en cox ne qeder verir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "56"
+      ],
+      "paragraphs": [
+        "56.1.2"
+      ],
+      "passage_ids": [
+        "c0b15556-a2db-5542-933d-b027e40bd41c"
+      ],
+      "relevance": {
+        "c0b15556-a2db-5542-933d-b027e40bd41c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR125": {
+      "query_id": "AZR125",
+      "category": "informal_morphology",
+      "query": "Maaşım səkkiz mini ötübsə tibbi sığortaya tutulan pulun faizi artıq hissədə necə dəyişir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-10"
+      ],
+      "paragraphs": [
+        "15-10.1.2"
+      ],
+      "passage_ids": [
+        "84a8a344-ab99-5e32-a136-e099be7d602c"
+      ],
+      "relevance": {
+        "84a8a344-ab99-5e32-a136-e099be7d602c": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR126": {
+      "query_id": "AZR126",
+      "category": "informal_morphology",
+      "query": "Könüllü tibbi polisimlə həkimə getmişəm. Xidmətin pulunu xəstəxanaya kim verir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "13"
+      ],
+      "paragraphs": [
+        "13.2.3"
+      ],
+      "passage_ids": [
+        "0bde2077-c5e6-54e5-8809-229b06b6be29"
+      ],
+      "relevance": {
+        "0bde2077-c5e6-54e5-8809-229b06b6be29": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR127": {
+      "query_id": "AZR127",
+      "category": "informal_morphology",
+      "query": "Hadisə barədə bilməli olduğum gündən neçə il keçəndən sonra icbari sığortaya tələb gec sayılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "74"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "a5a0fff9-2ca3-537a-b418-83143fc42080"
+      ],
+      "relevance": {
+        "a5a0fff9-2ca3-537a-b418-83143fc42080": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR128": {
+      "query_id": "AZR128",
+      "category": "informal_morphology",
+      "query": "Sığorta şirkətinə yazdığım ad-soyadla xəstəlik məlumatlarım ikisi də qorunan sirrə daxildir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.1.1",
+        "6.1.5"
+      ],
+      "passage_ids": [
+        "c915c28e-b2ee-5e7e-8f06-8d7f39ca205c",
+        "91d87cda-2558-5013-8b2e-0e4b66c3df0d"
+      ],
+      "relevance": {
+        "c915c28e-b2ee-5e7e-8f06-8d7f39ca205c": 3,
+        "91d87cda-2558-5013-8b2e-0e4b66c3df0d": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR129": {
+      "query_id": "AZR129",
+      "category": "informal_morphology",
+      "query": "Zərərçəkənlərimizə düşən ödənişlərin bölgüsündə zərərlərimizin nisbəti nəzərə alınırmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "20"
+      ],
+      "paragraphs": [
+        "20.4"
+      ],
+      "passage_ids": [
+        "94cfa87a-1620-5ba2-841f-17b9674b2dd1",
+        "0f5f6847-3b4c-5dde-9597-073c996db035"
+      ],
+      "relevance": {
+        "94cfa87a-1620-5ba2-841f-17b9674b2dd1": 3,
+        "0f5f6847-3b4c-5dde-9597-073c996db035": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR130": {
+      "query_id": "AZR130",
+      "category": "informal_morphology",
+      "query": "Icbari masin police-i bir ile baglanir, yoxsa daha az?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "55"
+      ],
+      "paragraphs": [
+        "55.1"
+      ],
+      "passage_ids": [
+        "bfe69545-9430-57a1-a798-5110020be1b1"
+      ],
+      "relevance": {
+        "bfe69545-9430-57a1-a798-5110020be1b1": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR131": {
+      "query_id": "AZR131",
+      "category": "informal_morphology",
+      "query": "Qəzadan sonra zədələnmiş əşyanın və qalıqlarının aparılmasına çəkilən pul zərərə sayılır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "15"
+      ],
+      "paragraphs": [
+        "15.3.3"
+      ],
+      "passage_ids": [
+        "c615d75a-f9e3-585e-96e0-4cbb488f0030"
+      ],
+      "relevance": {
+        "c615d75a-f9e3-585e-96e0-4cbb488f0030": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR132": {
+      "query_id": "AZR132",
+      "category": "informal_morphology",
+      "query": "Auditor sığortasının pulu kimə çatır, bunun üçün məhkəmə qərarı nə vaxt əsas ola bilər?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "articles": [
+        "10"
+      ],
+      "paragraphs": [
+        "10.1"
+      ],
+      "passage_ids": [
+        "4b99ca78-1968-5ad0-bb13-274cfed86f35"
+      ],
+      "relevance": {
+        "4b99ca78-1968-5ad0-bb13-274cfed86f35": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR133": {
+      "query_id": "AZR133",
+      "category": "informal_morphology",
+      "query": "İstifadə etmədiyimiz könüllü tibbi sığorta haqlarımızdan bir hissəsini hansı şərtlə geri ala bilərik?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "7"
+      ],
+      "paragraphs": [
+        "7.1.6"
+      ],
+      "passage_ids": [
+        "c243da55-2a4c-5688-a039-498e4f0f1bc3"
+      ],
+      "relevance": {
+        "c243da55-2a4c-5688-a039-498e4f0f1bc3": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR134": {
+      "query_id": "AZR134",
+      "category": "informal_morphology",
+      "query": "İcbari tibbi sığorta ilə poliklinikaya gedəndə şəxsiyyət vəsiqəmi göstərməliyəm?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-4"
+      ],
+      "paragraphs": [
+        "15-4.2.2"
+      ],
+      "passage_ids": [
+        "fda9a575-7425-5e2d-8d8e-95434d64c245"
+      ],
+      "relevance": {
+        "fda9a575-7425-5e2d-8d8e-95434d64c245": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR135": {
+      "query_id": "AZR135",
+      "category": "informal_morphology",
+      "query": "Sığorta sirrini qanuni bilən adam sonra onu yayırsa məsuliyyət məsələsi varmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.3"
+      ],
+      "passage_ids": [
+        "e71c0465-4d75-53de-a637-94671201d987"
+      ],
+      "relevance": {
+        "e71c0465-4d75-53de-a637-94671201d987": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR136": {
+      "query_id": "AZR136",
+      "category": "informal_morphology",
+      "query": "İğtişaşdan zərər görmüşəm, icbari sığortada belə hadisəyə pul verilir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1.1"
+      ],
+      "passage_ids": [
+        "c232d06e-aa5c-5196-a1e6-e93b0b842d01"
+      ],
+      "relevance": {
+        "c232d06e-aa5c-5196-a1e6-e93b0b842d01": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR137": {
+      "query_id": "AZR137",
+      "category": "conversational",
+      "query": "Bu müddət neçə ildir?",
+      "history": [
+        "İcbari sığortada əmlaka dəyən zərər üçün iddia müddəti hansı gündən başlayır?"
+      ],
+      "expected_standalone_query": "İcbari sığortada əmlaka dəyən zərər üzrə sığorta tələbinin iddia müddəti neçə ildir?",
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "74"
+      ],
+      "paragraphs": [],
+      "passage_ids": [
+        "a5a0fff9-2ca3-537a-b418-83143fc42080"
+      ],
+      "relevance": {
+        "a5a0fff9-2ca3-537a-b418-83143fc42080": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR138": {
+      "query_id": "AZR138",
+      "category": "conversational",
+      "query": "Bəs istisnalar necə?",
+      "history": [
+        "İcbari sığortada mənəvi zərərə görə sığorta ödənişi hansı hallarda mümkündür?"
+      ],
+      "expected_standalone_query": "İcbari sığorta üzrə mənəvi zərər tələbiylə bağlı hansı imtina qaydası tətbiq olunur?",
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "21"
+      ],
+      "paragraphs": [
+        "21.1",
+        "21.1.3"
+      ],
+      "passage_ids": [
+        "133d7baf-a92c-5434-bf29-e68408bcdab9",
+        "924fd822-bf4f-5856-9725-466f5f69359f"
+      ],
+      "relevance": {
+        "133d7baf-a92c-5434-bf29-e68408bcdab9": 3,
+        "924fd822-bf4f-5856-9725-466f5f69359f": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR139": {
+      "query_id": "AZR139",
+      "category": "conversational",
+      "query": "Bəs bu halda?",
+      "history": [
+        "Sağlamlığa zərər dəyməyən avtoicbari qəzada yol polisi arayışından hansı hallarda imtina olunur?"
+      ],
+      "expected_standalone_query": "Sağlamlığa zərər dəyməyən avtoicbari qəzada yol-nəqliyyat hadisəsi arayışı hansı şərtlərdə tələb olunmur?",
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "58"
+      ],
+      "paragraphs": [
+        "58.2",
+        "58.2.1",
+        "58.2.2",
+        "58.2.3",
+        "58.2.4"
+      ],
+      "passage_ids": [
+        "de829f6d-b03c-5894-a102-60b105b2b5bd",
+        "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3",
+        "ab4e9a56-dd27-5985-84f9-799c54b23bac",
+        "750a15df-6476-5d12-b3a5-88bb9337cb1a",
+        "a716031b-eca7-57e8-b78a-5cb9a07995f4"
+      ],
+      "relevance": {
+        "de829f6d-b03c-5894-a102-60b105b2b5bd": 3,
+        "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3": 3,
+        "ab4e9a56-dd27-5985-84f9-799c54b23bac": 3,
+        "750a15df-6476-5d12-b3a5-88bb9337cb1a": 3,
+        "a716031b-eca7-57e8-b78a-5cb9a07995f4": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR140": {
+      "query_id": "AZR140",
+      "category": "conversational",
+      "query": "Bu qayda KASKO-ya da aiddir?",
+      "history": [
+        "İcbari avtomobil sığortasında üçüncü şəxslərə dəyən zərərin ödənilməsi necə nəzərdə tutulur?"
+      ],
+      "expected_standalone_query": "İcbari avtomobil məsuliyyət sığortasının üçüncü şəxslərə vurulan zərəri əhatə edən qaydası KASKO-nun obyekti ilə necə fərqlənir?",
+      "document_ids": [
+        "01a4a500-13dd-5068-8890-b921643bf99a",
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "50"
+      ],
+      "paragraphs": [
+        "50.1"
+      ],
+      "passage_ids": [
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907",
+        "1aa0463b-358e-56ee-b533-c555c754048b"
+      ],
+      "relevance": {
+        "0f69eb01-69a1-599d-9da0-04e0e41b8907": 3,
+        "1aa0463b-358e-56ee-b533-c555c754048b": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR141": {
+      "query_id": "AZR141",
+      "category": "conversational",
+      "query": "Bəs yazılı razılıq nə vaxt lazımdır?",
+      "history": [
+        "Sığorta sirri olan şəxsi məlumatlar kənar şəxslərə hansı hallarda verilə bilər?"
+      ],
+      "expected_standalone_query": "Sığorta sirri olan şəxsi məlumatın kənar şəxsə verilməsi üçün yazılı razılıq hansı əsasdır?",
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "6"
+      ],
+      "paragraphs": [
+        "6.2",
+        "6.2.1"
+      ],
+      "passage_ids": [
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec",
+        "e3efa84e-08f7-5fdc-a87e-de8085781323"
+      ],
+      "relevance": {
+        "f8346fb1-6f9b-5240-a334-dc00ee8a48ec": 3,
+        "e3efa84e-08f7-5fdc-a87e-de8085781323": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR142": {
+      "query_id": "AZR142",
+      "category": "conversational",
+      "query": "Bəs istisnalar necə?",
+      "history": [
+        "Sığorta haqqı ödənilməyəndə icbari tibbi sığortada xidmət xərci necə qarşılanır?"
+      ],
+      "expected_standalone_query": "İcbari tibbi sığorta haqqı ödənilməyəndə xərc qaydasından hansı tibbi xidmətlər istisnadır?",
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-12"
+      ],
+      "paragraphs": [
+        "15-12.2"
+      ],
+      "passage_ids": [
+        "07afed48-59ca-5fb9-9c3e-eebee45975e2"
+      ],
+      "relevance": {
+        "07afed48-59ca-5fb9-9c3e-eebee45975e2": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR143": {
+      "query_id": "AZR143",
+      "category": "conversational",
+      "query": "Bəs gec müraciət edəndə nə olur?",
+      "history": [
+        "İş qəzası sığortasında ödəniş hüququ yaranandan sonra tələb hansı müddətdə verilir?"
+      ],
+      "expected_standalone_query": "Peşə əmək qabiliyyətinin itirilməsi sığortasında tələb üç ildən sonra verilərsə hansı dövr ödənilir?",
+      "document_ids": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.11"
+      ],
+      "passage_ids": [
+        "eea8fe80-397b-52da-8268-509246a90deb"
+      ],
+      "relevance": {
+        "eea8fe80-397b-52da-8268-509246a90deb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR144": {
+      "query_id": "AZR144",
+      "category": "conversational",
+      "query": "Bu müddət neçə ildir?",
+      "history": [
+        "İcbari tibbi sığorta əməliyyatları üzrə elektron məlumatların saxlanma müddəti nə vaxt başlayır?"
+      ],
+      "expected_standalone_query": "İcbari tibbi sığorta əməliyyatlarının elektron məlumatları hüquqi münasibət bitdikdən sonra ən az neçə il saxlanır?",
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "16-1"
+      ],
+      "paragraphs": [
+        "16-1.2"
+      ],
+      "passage_ids": [
+        "8b4ebef0-4dd9-501d-984b-ae182f80b3b5"
+      ],
+      "relevance": {
+        "8b4ebef0-4dd9-501d-984b-ae182f80b3b5": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR145": {
+      "query_id": "AZR145",
+      "category": "conversational",
+      "query": "Bəs razılığı kim verir?",
+      "history": [
+        "Təkrarsığortaçının lisenziyası dayandırıldıqda müqavilələr hansı hallarda ötürülür?"
+      ],
+      "expected_standalone_query": "Lisenziyası dayandırılan təkrarsığortaçı müqavilələri ötürmək üçün kimin razılığını almalıdır?",
+      "document_ids": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "articles": [
+        "72"
+      ],
+      "paragraphs": [
+        "72.1"
+      ],
+      "passage_ids": [
+        "7be1028b-b3a8-52ef-9300-b17af492d3d0",
+        "6044387f-1f69-52ae-bb9c-56ba1f459afb"
+      ],
+      "relevance": {
+        "7be1028b-b3a8-52ef-9300-b17af492d3d0": 3,
+        "6044387f-1f69-52ae-bb9c-56ba1f459afb": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR146": {
+      "query_id": "AZR146",
+      "category": "conversational",
+      "query": "Bəs gecikməyə görə neçə faizdir?",
+      "history": [
+        "İcbari sığorta ödənişini sığortaçı son sənədi aldıqdan nə vaxt verməlidir?"
+      ],
+      "expected_standalone_query": "İcbari sığorta ödənişi son sənəddən sonrakı qanuni müddətdə verilməsə, gündəlik dəbbə pulu neçə faizdir?",
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "18"
+      ],
+      "paragraphs": [
+        "18.1",
+        "18.2"
+      ],
+      "passage_ids": [
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+        "80619c4b-9420-5519-a7fc-c38993f70e06"
+      ],
+      "relevance": {
+        "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 3,
+        "80619c4b-9420-5519-a7fc-c38993f70e06": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR147": {
+      "query_id": "AZR147",
+      "category": "conversational",
+      "query": "Bəs pul verildikdə məbləğ necə dəyişir?",
+      "history": [
+        "Avtoicbari müqavilədə sığorta məbləği hansı qaydada müəyyən edilir?"
+      ],
+      "expected_standalone_query": "Avtoicbari müqavilə qüvvədə olarkən sığorta ödənişindən sonra sığorta məbləği dəyişirmi?",
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "56"
+      ],
+      "paragraphs": [
+        "56.2"
+      ],
+      "passage_ids": [
+        "adffc342-d2e5-575e-8d13-3b82d0ee8e20"
+      ],
+      "relevance": {
+        "adffc342-d2e5-575e-8d13-3b82d0ee8e20": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR148": {
+      "query_id": "AZR148",
+      "category": "conversational",
+      "query": "Bəs bu halda?",
+      "history": [
+        "Hərbi qulluqçunun icbari sığortasında sığortalı hesabatı təqdim etmədikdə ödəniş hansı şərtlə verilir?"
+      ],
+      "expected_standalone_query": "Hərbi qulluqçunun icbari sığortasında hesabat təqdim edilmədikdə ödənişə hansı arayış əsas olur?",
+      "document_ids": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "articles": [
+        "7"
+      ],
+      "paragraphs": [
+        "7.3"
+      ],
+      "passage_ids": [
+        "846a483f-e767-5022-842b-69784a94aabd"
+      ],
+      "relevance": {
+        "846a483f-e767-5022-842b-69784a94aabd": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR149": {
+      "query_id": "AZR149",
+      "category": "conversational",
+      "query": "Bəs həkim sirrini kim qorumalıdır?",
+      "history": [
+        "İcbari tibbi sığortada xidmətlərə nəzarət üçün tibbi məlumatların təqdim edilməsi necə tənzimlənir?"
+      ],
+      "expected_standalone_query": "İcbari tibbi sığortada nəzarət üçün tibbi məlumat ötürülərkən sığortaçı həkim sirrinin məxfiliyini təmin etməlidirmi?",
+      "document_ids": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "articles": [
+        "15-7",
+        "15-8"
+      ],
+      "paragraphs": [
+        "15-7.2.4",
+        "15-8.2.4"
+      ],
+      "passage_ids": [
+        "11d147bc-a948-5d71-b284-08af01c48fa7",
+        "ac78bf04-6684-55de-ab64-e8a4a02843d2"
+      ],
+      "relevance": {
+        "11d147bc-a948-5d71-b284-08af01c48fa7": 3,
+        "ac78bf04-6684-55de-ab64-e8a4a02843d2": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": true,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR150": {
+      "query_id": "AZR150",
+      "category": "conversational",
+      "query": "Bəs sağlamlığa zərər üçün hədd nədir?",
+      "history": [
+        "İcbari avtomobil sığortasında üçüncü şəxsin əmlakına dəyən zərərin limiti nə qədərdir?"
+      ],
+      "expected_standalone_query": "Avtoicbari sığortada üçüncü şəxsin sağlamlığına zərər üçün bir nəfər və bir hadisə üzrə limit nə qədərdir?",
+      "document_ids": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "articles": [
+        "56"
+      ],
+      "paragraphs": [
+        "56.1.1"
+      ],
+      "passage_ids": [
+        "f9737eda-106e-52ac-a3ab-d90194c9692a"
+      ],
+      "relevance": {
+        "f9737eda-106e-52ac-a3ab-d90194c9692a": 3
+      },
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": true,
+      "multiple_passages_required": false,
+      "expected_abstention": null,
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR151": {
+      "query_id": "AZR151",
+      "category": "coverage_gap",
+      "query": "A-17 nömrəli fərdi KASKO polisimin konkret franşizası neçə manatdır?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR152": {
+      "query_id": "AZR152",
+      "category": "coverage_gap",
+      "query": "Mənim QZ-478 nömrəli avtoicbari ödəniş işim indi hansı mərhələdədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR153": {
+      "query_id": "AZR153",
+      "category": "coverage_gap",
+      "query": "A-17 nömrəli KASKO polisinin əlavə şərtlərinə görə açar evdə unudularsa oğurluq təminatı qalırmı?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR154": {
+      "query_id": "AZR154",
+      "category": "coverage_gap",
+      "query": "RZ-204 müqaviləmdə xaricə səfər üçün KASKO ərazi genişləndirməsinin qiyməti nə qədərdir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR155": {
+      "query_id": "AZR155",
+      "category": "coverage_gap",
+      "query": "Şəxsi tibbi sığorta müqaviləmin 2026-cı il əlavəsində konkret olaraq hansı stomatoloji klinikalar göstərilib?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR156": {
+      "query_id": "AZR156",
+      "category": "coverage_gap",
+      "query": "Keçən ay etdirdiyim müayinənin nəticəsini sığorta şirkəti hansı tarixdə sistemdən silib?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR157": {
+      "query_id": "AZR157",
+      "category": "coverage_gap",
+      "query": "Təkrarsığorta müqaviləsi TR-172 üzrə tərəflərin razılaşdırdığı konkret risk saxlama həddi nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR158": {
+      "query_id": "AZR158",
+      "category": "coverage_gap",
+      "query": "Xəzərdə yerləşən A-17 özəl sığorta müqaviləsinin təkrarsığortaçılar üzrə pay bölgüsünü göstərə bilərsiniz?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR159": {
+      "query_id": "AZR159",
+      "category": "coverage_gap",
+      "query": "İcbari sığorta ödənişimi almaq üçün təqdim etdiyim bank hesabının son dörd rəqəmi nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR160": {
+      "query_id": "AZR160",
+      "category": "coverage_gap",
+      "query": "İş qəzası üzrə WB-71 nömrəli işimdə ekspert mənim peşə əmək qabiliyyətimi neçə faiz itirilmiş hesab edib?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR161": {
+      "query_id": "AZR161",
+      "category": "coverage_gap",
+      "query": "İcbari sığorta üzrə 26-51 nömrəli işimdə məhkəmə iddia müddətinin hansı gün bitdiyini müəyyən edib?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR162": {
+      "query_id": "AZR162",
+      "category": "coverage_gap",
+      "query": "Bu səhər sığortaçıya göndərdiyim şəxsiyyət vəsiqəsinə onun işçilərindən kim baxıb?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR163": {
+      "query_id": "AZR163",
+      "category": "coverage_gap",
+      "query": "Mənə aid təkrar tibbi müayinə üzrə sığortaçının daxili komissiyasının son protokolunda hansı diaqnoz yazılıb?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    },
+    "AZR164": {
+      "query_id": "AZR164",
+      "category": "coverage_gap",
+      "query": "KASKO müqaviləmin N-14 nömrəli əlavəsində qış təkəri şərtini pozanda tətbiq olunan konkret çıxılma faizi nədir?",
+      "history": [],
+      "expected_standalone_query": null,
+      "document_ids": [],
+      "articles": [],
+      "paragraphs": [],
+      "passage_ids": [],
+      "relevance": {},
+      "expected_answer": null,
+      "required_qualifications": null,
+      "covered": false,
+      "multiple_passages_required": false,
+      "expected_abstention": "insufficient",
+      "status": "pending",
+      "reviewer": null,
+      "expertise": null,
+      "revision_history": []
+    }
+  }
+}

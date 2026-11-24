@@ -1,0 +1,35 @@
+{
+  "chunks": [
+    {"doc": "notice-10", "text": "Sığortalı hadisədən xəbər tutduğu gündən 10 gün ərzində sığortaçıya məlumat verir.", "metadata": {"law_name": "Şərti sığorta qaydaları", "section_title": "Hadisə barədə bildiriş"}},
+    {"doc": "decision-10", "text": "Sığortaçı sənədlərin hamısını aldıqdan sonra 10 gün ərzində ödəniş barədə qərar verir.", "metadata": {"law_name": "Şərti sığorta qaydaları", "section_title": "Sığortaçının qərarı"}},
+    {"doc": "payment-30", "text": "Sığortaçı müsbət qərarın qəbulundan sonra 30 gün ərzində ödənişi həyata keçirir.", "metadata": {"law_name": "Şərti sığorta qaydaları", "section_title": "Ödəniş müddəti"}},
+    {"doc": "fire-covered", "text": "Sığortalanmış daşınmaz əmlakın yanğın nəticəsində zədələnməsi təminata daxildir.", "metadata": {"section_title": "Sığorta təminatı"}},
+    {"doc": "intentional-fire", "text": "Sığortalının qəsdən törətdiyi yanğın nəticəsində vurulan zərər üzrə sığorta ödənişi verilmir.", "metadata": {"section_title": "Yanğın təminatından istisnalar"}},
+    {"doc": "third-party-intent", "text": "Üçüncü şəxs qəsdən yanğın törədibsə, sığortaçı ödənişdən sonra həmin şəxsə qarşı tələb irəli sürə bilər.", "metadata": {"section_title": "Subroqasiya"}},
+    {"doc": "property-limit", "text": "Üçüncü şəxsin əmlakına vurulan zərər üçün bir hadisə üzrə məsuliyyət limiti 5 000 manatdır.", "metadata": {"section_title": "Nəqliyyat vasitəsi üzrə mülki məsuliyyət"}},
+    {"doc": "injury-limit", "text": "Üçüncü şəxsin sağlamlığına vurulan zərər üçün bir hadisə üzrə məsuliyyət limiti 50 000 manatdır.", "metadata": {"section_title": "Nəqliyyat vasitəsi üzrə mülki məsuliyyət"}},
+    {"doc": "own-limit", "text": "Sığortalının öz avtomobili üçün müqavilədə müəyyən edilən sığorta məbləği 5 000 manatdır.", "metadata": {"section_title": "Könüllü avtomobil sığortası"}},
+    {"doc": "worker-rate", "text": "İşçinin əməkhaqqının 8 000 manatadək hissəsi üçün əməkhaqqından 2 faiz tutulur.", "metadata": {"insurance_type": "medical", "section_title": "İşçinin ödədiyi sığorta haqqı"}},
+    {"doc": "employer-rate", "text": "İşəgötürən işçinin əməkhaqqının 8 000 manatadək hissəsi üçün öz vəsaiti hesabına 2 faiz ödəyir.", "metadata": {"insurance_type": "medical", "section_title": "İşəgötürənin ödədiyi sığorta haqqı"}},
+    {"doc": "worker-excess", "text": "İşçinin əməkhaqqının 8 000 manatdan yuxarı olan hissəsi üçün əməkhaqqından 0,5 faiz tutulur.", "metadata": {"insurance_type": "medical", "section_title": "İşçinin ödədiyi sığorta haqqı"}},
+    {"doc": "deductible-subtract", "text": "Şərtsiz azadolma məbləği 250 manatdır və ödənilməli zərərdən çıxılır.", "metadata": {"section_title": "Şərtsiz azadolma"}},
+    {"doc": "deductible-conditional", "text": "Şərtli azadolma 250 manatdır. Zərər bu həddi keçərsə, zərərdən azadolma məbləği çıxılmır.", "metadata": {"section_title": "Şərtli azadolma"}},
+    {"doc": "cash-payment", "text": "Sığorta hadisəsi təsdiqləndikdə ödəniş sığortalının hesabına köçürülür.", "metadata": {"section_title": "Ödəniş üsulu"}},
+    {"doc": "water-exception", "text": "Boru sızması üzrə ümumi istisna tətbiq edilir. Sızma borunun qəfil partlamasından yaranıbsa, zərər təminata daxildir.", "metadata": {"section_title": "Su zərəri üzrə istisnanın tətbiqi"}},
+    {"doc": "water-excluded", "text": "Tədricən yaranan boru sızması və rütubətə görə ödəniş verilmir.", "metadata": {"section_title": "Tədricən yaranan zərər"}},
+    {"doc": "water-flood", "text": "Sel nəticəsində əmlaka daxil olan suya görə ödəniş yalnız sel təminatı ayrıca alındıqda verilir.", "metadata": {"section_title": "Sel təminatı"}},
+    {"doc": "medical-notification", "text": "Bildiriş elektron qaydada təqdim edilir.", "metadata": {"law_name": "İcbari tibbi sığorta üzrə şərti qaydalar", "insurance_type": "medical", "section_title": "Bildirişin təqdim edilməsi"}},
+    {"doc": "unemployment-notification", "text": "Bildiriş elektron qaydada təqdim edilir.", "metadata": {"law_name": "İşsizlikdən sığorta üzrə şərti qaydalar", "section_title": "Bildirişin təqdim edilməsi"}}
+  ],
+  "cases": [
+    {"question": "Qəza barədə xəbər tutandan sonra şirkətə nə vaxta qədər deməliyəm?", "relevant": "notice-10", "candidates": ["notice-10", "decision-10", "payment-30"]},
+    {"question": "Bütün sənədlər çatandan sonra sığortaçı nə vaxt qərar verməlidir?", "relevant": "decision-10", "candidates": ["notice-10", "decision-10", "payment-30"]},
+    {"question": "Sığortalı özü bilərəkdən yanğın törədibsə, ödəniş verilirmi?", "relevant": "intentional-fire", "candidates": ["fire-covered", "intentional-fire", "third-party-intent"]},
+    {"question": "Maşınımla başqasının malına ziyan vursam, ən çox nə qədər ödənilir?", "relevant": "property-limit", "candidates": ["property-limit", "injury-limit", "own-limit"]},
+    {"question": "8 000 manatı keçən maaşın yalnız artıq hissəsindən işçiyə görə neçə faiz tutulur?", "relevant": "worker-excess", "candidates": ["worker-rate", "employer-rate", "worker-excess"]},
+    {"question": "İşçinin maaşından tutulan hissəni yox, işəgötürənin öz hesabına ödədiyi tarifi axtarıram.", "relevant": "employer-rate", "candidates": ["worker-rate", "employer-rate", "worker-excess"]},
+    {"question": "Zərər 250 manatı aşırsa hansı franşizada həmin 250 manat zərərdən çıxılmır?", "relevant": "deductible-conditional", "candidates": ["deductible-subtract", "deductible-conditional", "cash-payment"]},
+    {"question": "Boru birdən partlayıb su basıbsa, sızma istisnasına baxmayaraq zərər qarşılanırmı?", "relevant": "water-exception", "candidates": ["water-exception", "water-excluded", "water-flood"]},
+    {"question": "İşsizlikdən sığorta üzrə bildiriş hansı qaydada təqdim edilir?", "relevant": "unemployment-notification", "candidates": ["medical-notification", "unemployment-notification", "notice-10"]}
+  ]
+}

@@ -1,0 +1,582 @@
+{
+  "dataset_sha256": "e96dd7782821244749376433884085c52cc7be005cddaf29194482c4d3600182",
+  "human_scoring_status": "pending",
+  "answers": [
+    {
+      "id": "AZR001",
+      "question": "İcbari sığortada hərbi əməliyyat və radioaktiv çirklənmə nəticəsində yaranan zərər üzrə imtina necə əsaslandırılır?",
+      "history_used": [],
+      "expected_coverage": true,
+      "has_all_required_parents": true,
+      "retrieval_stage": "reranked",
+      "expected_evidence": [
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "133d7baf-a92c-5434-bf29-e68408bcdab9",
+          "parent_passage_id": "133d7baf-a92c-5434-bf29-e68408bcdab9",
+          "document": "sığorta 2.pdf",
+          "article": "21",
+          "clause": "21.1",
+          "page": 12,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/157",
+          "text": "21.1. Bu Qanunda müəyyən edilmiş subroqasiya hüququnun əsaslarına aid olan hallar istisna edilməklə, sığorta ödənişindən imtinanın Azərbaycan Respublikasının Mülki Məcəlləsində nəzərdə tutulmuş ümumi əsasları ilə yanaşı icbari sığorta müqavilələri üzrə aşağıdakı hallarda da sığorta ödənişi verilmir:",
+          "relevance": 3
+        },
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "c232d06e-aa5c-5196-a1e6-e93b0b842d01",
+          "parent_passage_id": "c232d06e-aa5c-5196-a1e6-e93b0b842d01",
+          "document": "sığorta 2.pdf",
+          "article": "21",
+          "clause": "21.1.1",
+          "page": 12,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/158",
+          "text": "21.1.1. hadisə və ya hal hərbi əməliyyatlar, terrorçuluq, kütləvi iğtişaşlar, nüvə partlayışı, radioaktiv çirklənmə ilə bağlı olduqda;",
+          "relevance": 3
+        }
+      ],
+      "context": [
+        {
+          "parent_passage_id": "c232d06e-aa5c-5196-a1e6-e93b0b842d01",
+          "document": "sığorta 2.pdf",
+          "text": "21.1.1. hadisə və ya hal hərbi əməliyyatlar, terrorçuluq, kütləvi iğtişaşlar, nüvə partlayışı, radioaktiv çirklənmə ilə bağlı olduqda;"
+        },
+        {
+          "parent_passage_id": "3a44cfe9-7612-5eb2-8722-d4558eae9b07",
+          "document": "sığorta 6.pdf",
+          "text": "buraxıldığı gündən həqiqi hərbi xidmət (toplanış) dövründə alınmış xəsarət (yaralanma, travma, kontuziya) və ya xəstəliklə əlaqədar üç il müddətində sığortaolunanın əlilliyi müəyyən edildikdə: [9] - orqanizmin funksiyalarının 81-100 faiz pozulmasına görə — 80 faiz; [10] - orqanizmin funksiyalarının 61-80 faiz pozulmasına görə — 60 faiz; [11] - orqanizmin funksiyalarının 31-60 faiz pozulmasına görə — 40 faiz; [12] d) sığorta olunan həqiqi hərbi xidmətdə (toplanışda) olduğu zaman, bu maddənin a, b və ç bəndlərində nəzərdə tutulmuş hallarla nəticələnməyən: - ağır xəsarət (yaralanma, travma, kontuziya) aldıqda — 25 faiz; - az ağır xəsarət (yaralanma, travma, kontuziya) — 15 faiz; [13] - yüngül xəsarət (yaralanma, travma, kontuziya) aldıqda — 5 faiz. Ağır, az ağır və yüngül xəsarət növləri müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən təsdiq edilmiş siyahıya uyğun olaraq müəyyən edilir. [14]"
+        },
+        {
+          "parent_passage_id": "fa334768-e2dc-5379-8c4e-a8f11d46518c",
+          "document": "sığorta 6.pdf",
+          "text": "Maddə 5 . Sığorta hadisələri və ödənişləri [7] Aşağıdakılar sığorta hadisələri hesab edilir və onlara görə sığorta ödənişləri bu Qanunun 4.1-ci maddəsi ilə müəyyən edilmiş sığorta məbləğlərinin müvafiq faiz nisbətlərində verilir: [8] a) sığorta olunan həqiqi hərbi xidmətdə (toplanışda) olduğu zaman həlak olduqda, öldükdə və ya xəbərsiz itkin düşdüyünə görə məhkəmə qərarı ilə ölmüş elan edildikdə — 100 faiz; b) sığorta olunan həqiqi hərbi xidmətdə (toplanışda) olduğu zaman xəsarət (yaralanma, travma, kontuziya) alması, habelə xəstələnməsi nəticəsində xidmətdən (toplanışdan) buraxıldıqdan sonra üç il müddətində öldükdə — 100 faiz; c) sığorta olunan həqiqi hərbi xidmətdə (toplanışda) olduğu zaman xəbərsiz itkin düşdükdə (məhkəmənin qanuni qüvvəyə minmiş qərarı olduqda) — 100 faiz; ç) hərbi xidmət vəzifələrini (xidməti vəzifələri) yerinə yetirərkən və ya həqiqi hərbi xidmət (toplanış) dövründə xəsarət (yaralanma, travma, kontuziya) almasına, habelə həqiqi hərbi xidmət (toplanış) dövründə xəstələnməsinə görə həqiqi hərbi xidmətə (toplanışa) yararsız hesab edilərək həqiqi hərbi xidmətdən (toplanışdan) ehtiyata və ya istefaya buraxıldığı gündən, həmçinin ehtiyata və ya istefaya"
+        },
+        {
+          "parent_passage_id": "2b1d3dcc-1e93-5a49-a9cb-86c27f374920",
+          "document": "sığorta 2.pdf",
+          "text": "25.1.2. bu Qanunun Xüsusi bölməsində hər hansı sığorta növü üzrə başqa cür nəzərdə tutulmamışdırsa, sığorta hadisəsi baş verərkən sığortalının və ya sığorta olunanın, yaxud onların nümayəndəsinin, etibar etdikləri şəxsin əmlakı (binanı, tikilini, avtonəqliyyat vasitəsini, cihazı, qurğunu, avadanlığı və s.) alkoqoldan, narkotik vasitələrdən, psixotrop maddələrdən və ya güclü təsir edən digər maddələrdən istifadə olunması nəticəsində sərxoş vəziyyətdə istismar etməsi, həmçinin qeyd olunan maddələrdən istifadənin müəyyənləşdirilməsi ilə bağlı səlahiyyətli orqan tərəfindən aparılan müayinədən boyun qaçırması;"
+        },
+        {
+          "parent_passage_id": "398a0603-9dad-595f-8e4f-f5db1b80344a",
+          "document": "sığorta 2.pdf",
+          "text": "27.1.4. bu Qanunda və “İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında” Azərbaycan Respublikasının Qanununda nəzərdə tutulmuş icbari sığorta növləri üzrə hadisələrin araşdırılması və zərərlərin qiymətləndirilməsi ilə bağlı texniki ekspert müayinələrinin həyata keçirilməsi üçün metodoloji təlimatlar işləyib hazırlamaq və tətbiq etmək;"
+        },
+        {
+          "parent_passage_id": "133d7baf-a92c-5434-bf29-e68408bcdab9",
+          "document": "sığorta 2.pdf",
+          "text": "21.1. Bu Qanunda müəyyən edilmiş subroqasiya hüququnun əsaslarına aid olan hallar istisna edilməklə, sığorta ödənişindən imtinanın Azərbaycan Respublikasının Mülki Məcəlləsində nəzərdə tutulmuş ümumi əsasları ilə yanaşı icbari sığorta müqavilələri üzrə aşağıdakı hallarda da sığorta ödənişi verilmir:"
+        },
+        {
+          "parent_passage_id": "2f770e07-d4b2-56ec-9394-5870a9572d3e",
+          "document": "sığorta 6.pdf",
+          "text": "4.1. Sığortaolunan on bir min manat məbləğində sığorta edilir."
+        }
+      ],
+      "status": "generation_service_error",
+      "answer": null,
+      "citations": [],
+      "review": {
+        "factual_correctness": null,
+        "evidence_coverage": null,
+        "citation_correctness": null,
+        "conditions_and_exceptions_preserved": null,
+        "invented_provisions": null,
+        "appropriate_abstention": null,
+        "reviewer": null,
+        "expertise": null,
+        "notes": ""
+      },
+      "error_type": "TooManyRequestsResponseError",
+      "generation_ms": 11108.134064999831
+    },
+    {
+      "id": "AZR017",
+      "question": "İcbari sığortada sağlamlığa və əmlaka vurulan zərər üzrə sığorta tələbinin iddia müddəti nə qədərdir?",
+      "history_used": [],
+      "expected_coverage": true,
+      "has_all_required_parents": true,
+      "retrieval_stage": "reranked",
+      "expected_evidence": [
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "a5a0fff9-2ca3-537a-b418-83143fc42080",
+          "parent_passage_id": "a5a0fff9-2ca3-537a-b418-83143fc42080",
+          "document": "sığorta 2.pdf",
+          "article": "74",
+          "clause": null,
+          "page": 44,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/533",
+          "text": "Maddə 74. İddia müddəti [146] Sağlamlığa və əmlaka vurulan zərərə görə sığorta tələbi, belə tələb hüququ yaranmış sığortalının, sığorta olunanın və ya üçüncü şəxsin sığorta hadisəsinin baş verməsini bildiyi və ya bilməli olduğu tarixdən 3 il müddətində irəli sürülə bilər.",
+          "relevance": 3
+        }
+      ],
+      "context": [
+        {
+          "parent_passage_id": "a5a0fff9-2ca3-537a-b418-83143fc42080",
+          "document": "sığorta 2.pdf",
+          "text": "Maddə 74. İddia müddəti [146] Sağlamlığa və əmlaka vurulan zərərə görə sığorta tələbi, belə tələb hüququ yaranmış sığortalının, sığorta olunanın və ya üçüncü şəxsin sığorta hadisəsinin baş verməsini bildiyi və ya bilməli olduğu tarixdən 3 il müddətində irəli sürülə bilər."
+        },
+        {
+          "parent_passage_id": "2249a7e3-7d20-586f-9f06-69b44ba0d217",
+          "document": "sığorta 2.pdf",
+          "text": "19.7. Sığorta olunan və ya üçüncü şəxs sığorta hadisəsi nəticəsində sağlamlığına dəymiş zərərdən bu hadisənin baş verdiyi tarixdən 3 il müddətində ölərsə, onun almış olduğu müvafiq sığorta ödənişinin məbləği ilə sığorta məbləği arasındakı fərq ailə üzvlərinə ödənilir."
+        },
+        {
+          "parent_passage_id": "e230dc4e-1f15-52d3-b990-4994697c8fe0",
+          "document": "sığorta 2.pdf",
+          "text": "20.5. Üçüncü şəxs onun əmlakına dəymiş zərərin əvəzinin ödənilməsini sığortalıdan, sığorta olunandan, yaxud bu Qanunla müəyyən edilmiş sığorta məbləği həddində sığortaçıdan tələb edə bilər. Onlardan biri zərərin əvəzini tam ödədikdə, üçüncü şəxsin iddiası təmin edilmiş hesab olunur."
+        },
+        {
+          "parent_passage_id": "8230c4d3-d56b-5444-9516-dc866c06a3fd",
+          "document": "sığorta 2.pdf",
+          "text": "16.4. Sığortaçı sığorta hadisəsinin baş verməsi barədə qanunvericiliyin tələblərinə uyğun olaraq məlumatlandırıldığı tarixdən 7 iş günü müddətində əmlaka dəymiş zərərin məbləğinin qiymətləndirilməsini təşkil etmədikdə sığortalı və sığorta olunan, həmçinin zərər çəkmiş üçüncü şəxs təyin etdiyi qiymətləndirmə fəaliyyəti ilə məşğul olan müstəqil ekspert və ya mütəxəssis vasitəsilə əmlaka dəymiş zərərin ədalətli şəkildə qiymətləndirilməsinə və aradan qaldırılmasına başlaya bilər. Bu halda əgər sığortaçı əmlaka dəymiş zərərin vaxtında qiymətləndirilməməsini əmlak sahibinin ölümü və ya xəstəliyi, həmçinin sığortalının, sığorta olunanın və ya zərər çəkmiş üçüncü şəxsin əmlakın qiymətləndirilməsi üçün şərait yaratmaması nəticəsində baş verdiyini sübut edə bilməsə, o, zərər çəkmiş üçüncü şəxs tərəfindən bu maddədə nəzərdə tutulmuş"
+        },
+        {
+          "parent_passage_id": "20314026-c744-56b9-8c27-0a0ea87d1fd0",
+          "document": "sığorta 2.pdf",
+          "text": "20.6. Sığorta hadisəsi nəticəsində üçüncü şəxsin əmlakına vurulan zərərin əvəzi sığortalı və ya sığorta olunan, həmçinin üçüncü şəxsin bağlamış olduğu digər müvafiq sığorta müqaviləsinin tərəfi olan sığortaçı tərəfindən tam ödənildikdə, sığortaçı sığorta ödənişini sığorta məbləği həddində sığortalıya və ya sığorta olunana, yaxud da subroqasiya qaydasında tələb irəli sürmüş digər sığortaçıya verir. Bu halda sığorta ödənişinin məbləği sığortalının və ya sığorta olunanın, yaxud digər sığortaçının faydalanan şəxsə ödəmiş olduğu məbləğdən çox ola bilməz."
+        }
+      ],
+      "status": "generation_service_error",
+      "answer": null,
+      "citations": [],
+      "review": {
+        "factual_correctness": null,
+        "evidence_coverage": null,
+        "citation_correctness": null,
+        "conditions_and_exceptions_preserved": null,
+        "invented_provisions": null,
+        "appropriate_abstention": null,
+        "reviewer": null,
+        "expertise": null,
+        "notes": ""
+      },
+      "error_type": "TooManyRequestsResponseError",
+      "generation_ms": 976.917346000846
+    },
+    {
+      "id": "AZR044",
+      "question": "Tibb müəssisəsi həkim sirrinə aid məlumatı tibbi xidmətə nəzarət üçün kimə və hansı hüquqi şərtlə verə bilər?",
+      "history_used": [],
+      "expected_coverage": true,
+      "has_all_required_parents": true,
+      "retrieval_stage": "reranked",
+      "expected_evidence": [
+        {
+          "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+          "passage_id": "11d147bc-a948-5d71-b284-08af01c48fa7",
+          "parent_passage_id": "11d147bc-a948-5d71-b284-08af01c48fa7",
+          "document": "sığorts 4.pdf",
+          "article": "15-7",
+          "clause": "15-7.2.4",
+          "page": 12,
+          "source_url": "/documents/s%C4%B1%C4%9Forts%204.pdf/preview/143",
+          "text": "15-7.2.4. icbari tibbi sığorta çərçivəsində göstərilmiş tibbi xidmətin növünə, həcminə, müddətinə, keyfiyyətinə və şərtlərinə nəzarətin həyata keçirilməsi məqsədilə sığortaolunanlar, onlara göstərilən tibbi xidmətlərin növü, müddəti, keyfiyyəti, şərtləri, o cümlədən “Əhalinin sağlamlığının qorunması haqqında” Azərbaycan Respublikasının Qanununa uyğun olaraq onlarla bağlı həkim sirri təşkil edən məlumatları müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqana (quruma) vermək;",
+          "relevance": 3
+        }
+      ],
+      "context": [
+        {
+          "parent_passage_id": "11d147bc-a948-5d71-b284-08af01c48fa7",
+          "document": "sığorts 4.pdf",
+          "text": "15-7.2.4. icbari tibbi sığorta çərçivəsində göstərilmiş tibbi xidmətin növünə, həcminə, müddətinə, keyfiyyətinə və şərtlərinə nəzarətin həyata keçirilməsi məqsədilə sığortaolunanlar, onlara göstərilən tibbi xidmətlərin növü, müddəti, keyfiyyəti, şərtləri, o cümlədən “Əhalinin sağlamlığının qorunması haqqında” Azərbaycan Respublikasının Qanununa uyğun olaraq onlarla bağlı həkim sirri təşkil edən məlumatları müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqana (quruma) vermək;"
+        },
+        {
+          "parent_passage_id": "e7369ae2-9d6b-512d-a8a9-fabf66d94618",
+          "document": "sığorts 4.pdf",
+          "text": "Qanunvericilikdə müəyyən olunmuş qaydada tibbi sığorta proqramını yerinə yetirən tibb müəssisələrinin və ya özəl tibbi praktika ilə məşğul olan könüllü şəxslərin tibbi sığorta təşkilatını seçmək hüququ vardır. [49] Tibbi sığorta sistemində mülkiyyət formasından asılı olmayaraq tibb müəssisələri sığorta olunanların əmək qabiliyyətinin müvəqqəti itirilməsini təsdiq edən sənəd vermək hüququna malikdirlər. İcbari tibbi sığorta sistemində mülkiyyət formasından asılı olmayaraq tibb müəssisələri və ya özəl tibbi praktika ilə məşğul olan şəxslər tibbi sığorta proqramlarını yerinə yetirərkən: sığorta olunana tibbi sığorta müqaviləsində nəzərdə tutulmuş müddətdə, həcmdə və keyfiyyətdə tibbi yardım göstərməli; sığorta olunanın xəstəliyi ilə əlaqədar baş verə biləcək, eyni zamanda sığorta olunanın təqsirindən üzə çıxmış hər hansı fəsadlar barədə tibbi sığorta təşkilatına məlumat verməli; sığorta olunanın sağlamlığının vəziyyətinə və ya şəxsi həyatına dair məlumatlar barədə xidməti sirri qorumalıdırlar."
+        },
+        {
+          "parent_passage_id": "77d510b3-6a0e-5911-88e1-5dae74f7ac74",
+          "document": "sığorts 4.pdf",
+          "text": "15-26.3. Tibbi-iqtisadi ekspertiza göstərilmiş tibbi xidmətin müddətlərinin və həcminin, o cümlədən tibb müəssisəsi tərəfindən hesablanmış sığorta ödənişi məbləğinin tibbi xidmətlərin göstərilməsi haqqında müqavilənin şərtlərinə, ilkin tibbi sənədlərə və tibb müəssisəsinin hesabat sənədlərinə uyğunluğunu müəyyən edir. Tibbi-iqtisadi ekspertizanın aparılması və nəticələrinin rəsmiləşdirilməsi qaydası, habelə ekspertizanı aparan ekspertlərə dair tələblər, ilkin tibbi sənədlərin siyahısı müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən müəyyən edilir. [109]"
+        },
+        {
+          "parent_passage_id": "b6ac1559-cf5e-5bb9-9f43-bf292eeda995",
+          "document": "sığorts 4.pdf",
+          "text": "15-25.2. Tibb təchizatçısı və ya tibbi ərazi bölməsi tərəfindən icbari tibbi sığorta çərçivəsində göstərilmiş tibbi xidmətlərlə bağlı hesabatların təqdim edilməsi qaydası müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən müəyyən edilir. IV-V fəsil. İcbari tibbi sığorta üzrə göstərilən tibbi xidmətlərə nəzarətin həyata keçirilməsi"
+        },
+        {
+          "parent_passage_id": "4ccb8fef-03f7-54be-a87d-11de44a2c074",
+          "document": "sığorts 4.pdf",
+          "text": "Maddə 14 . Tibb müəssisələrinin özəl tibbi praktika ilə məşğul olan şəxslərin hüquq və vəzifələri [47] Mülkiyyət formasından asılı olmayaraq qanunvericilikdə müəyyən olunmuş qaydada fəaliyyət göstərən tibb müəssisələrinin və özəl tibbi praktika ilə məşğul olan şəxslərin tibbi sığorta sistemində tibbi xidmətlər göstərmək hüququ vardır. Özəl tibb müəssisələri və özəl tibbi praktika ilə məşğul olan şəxslər qanunvericiliyə uyğun olaraq keçirilən müsabiqə əsasında icbari tibbi sığorta proqramlarının həyata keçirilməsində iştirak edə bilərlər. Özəl tibb müəssisələri və özəl tibbi praktika ilə məşğul olan şəxslərlə müqavilələr, onların icbari tibbi sığorta proqramlarında iştirakı hallarında, müvafiq icra hakimiyyəti və yerli özünüidarəetmə orqanları, habelə tibbi sığorta təşkilatları ilə bağlanır. [48] Tibbi sığorta proqramlarını yerinə yetirən tibb müəssisələrinin tibbi sığorta sistemindən kənarda da tibbi yardım göstərmək hüququ vardır."
+        },
+        {
+          "parent_passage_id": "8547405f-b709-505a-a0e1-d21e79b29f19",
+          "document": "sığorts 4.pdf",
+          "text": "İcbari tibbi sığorta sistemində tibb müəssisələri və ya qanunvericilikdə müəyyən olunmuş qaydada özəl tibbi praktika ilə məşğul olan şəxslər tibbi sığorta müqaviləsində nəzərdə tutulan tibbi xidmətlərə görə sığorta olunandan əlavə haqq tələb edə bilməzlər. [50] Özəl tibb fəaliyyəti subyektlərinin icbari tibbi sığorta proqramlarında iştirakından asılı olmayaraq, icbari tibbi sığorta qaydalarına əsasən təcili tibbi yardım göstərən özəl tibbi fəaliyyətinin subyektlərinə ödəniş bu şəxslərin sığortalandığı tibbi sığorta təşkilatları tərəfindən həyata keçirilir. [51]"
+        }
+      ],
+      "status": "generation_service_error",
+      "answer": null,
+      "citations": [],
+      "review": {
+        "factual_correctness": null,
+        "evidence_coverage": null,
+        "citation_correctness": null,
+        "conditions_and_exceptions_preserved": null,
+        "invented_provisions": null,
+        "appropriate_abstention": null,
+        "reviewer": null,
+        "expertise": null,
+        "notes": ""
+      },
+      "error_type": "TooManyRequestsResponseError",
+      "generation_ms": 672.6858490001177
+    },
+    {
+      "id": "AZR112",
+      "question": "İcbari avtomobil sığortasında yol-nəqliyyat hadisəsi arayışına ehtiyac qalmaması üçün bütün şərtlər hansılardır?",
+      "history_used": [],
+      "expected_coverage": true,
+      "has_all_required_parents": false,
+      "retrieval_stage": "reranked",
+      "expected_evidence": [
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "de829f6d-b03c-5894-a102-60b105b2b5bd",
+          "parent_passage_id": "de829f6d-b03c-5894-a102-60b105b2b5bd",
+          "document": "sığorta 2.pdf",
+          "article": "58",
+          "clause": "58.2",
+          "page": 34,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/454",
+          "text": "58.2. Bu Qanunun 17.1.4-cü maddəsinə uyğun olaraq, sığorta hadisəsi hesab edilə bilən halın baş verməsi faktını təsdiqləyən müvafiq icra hakimiyyəti orqanının verdiyi yol-nəqliyyat hadisəsi haqqında arayış aşağıdakı şərtlərin hər birinin mövcud olduğu hallarda, habelə yol-nəqliyyat hadisəsi iştirakçılarının tərtib etdiyi və həmin şərtlərin mövcudluğunu təsdiq edən protokolu sığortaçıya təqdim etmələri şərtilə tələb olunmur: [128]",
+          "relevance": 3
+        },
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3",
+          "parent_passage_id": "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3",
+          "document": "sığorta 2.pdf",
+          "article": "58",
+          "clause": "58.2.1",
+          "page": 34,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/455",
+          "text": "58.2.1. Yol-nəqliyyat hadisəsi ikidən artıq olmayan avtonəqliyyat vasitəsinin iştirakı ilə baş verdikdə və hadisənin baş verdiyi anda hər iki avtonəqliyyat vasitəsinin sahiblərinin mülki məsuliyyəti bu Fəsildə nəzərdə tutulmuş qaydada sığortalanmış olduqda; [129]",
+          "relevance": 3
+        },
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "ab4e9a56-dd27-5985-84f9-799c54b23bac",
+          "parent_passage_id": "ab4e9a56-dd27-5985-84f9-799c54b23bac",
+          "document": "sığorta 2.pdf",
+          "article": "58",
+          "clause": "58.2.2",
+          "page": 34,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/456",
+          "text": "58.2.2. yol-nəqliyyat hadisəsinin baş verməsində təqsirli olan şəxsin müəyyən edilməsi üzrə yol-nəqliyyat hadisəsi iştirakçıları arasında mübahisə olmadıqda; [130]",
+          "relevance": 3
+        },
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "750a15df-6476-5d12-b3a5-88bb9337cb1a",
+          "parent_passage_id": "750a15df-6476-5d12-b3a5-88bb9337cb1a",
+          "document": "sığorta 2.pdf",
+          "article": "58",
+          "clause": "58.2.3",
+          "page": 34,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/457",
+          "text": "58.2.3. yol-nəqliyyat hadisəsi nəticəsində sağlamlığa zərər dəymədikdə;",
+          "relevance": 3
+        },
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "a716031b-eca7-57e8-b78a-5cb9a07995f4",
+          "parent_passage_id": "a716031b-eca7-57e8-b78a-5cb9a07995f4",
+          "document": "sığorta 2.pdf",
+          "article": "58",
+          "clause": "58.2.4",
+          "page": 34,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/458",
+          "text": "58.2.4. yol-nəqliyyat hadisəsi nəticəsində dəymiş zərərin həcminin 1000 manatdan çox olmaması yol-nəqliyyat hadisəsi iştirakçıları və sığortaçı tərəfindən ağlabatan şəkildə ehtimal edildikdə.",
+          "relevance": 3
+        }
+      ],
+      "context": [
+        {
+          "parent_passage_id": "de829f6d-b03c-5894-a102-60b105b2b5bd",
+          "document": "sığorta 2.pdf",
+          "text": "58.2. Bu Qanunun 17.1.4-cü maddəsinə uyğun olaraq, sığorta hadisəsi hesab edilə bilən halın baş verməsi faktını təsdiqləyən müvafiq icra hakimiyyəti orqanının verdiyi yol-nəqliyyat hadisəsi haqqında arayış aşağıdakı şərtlərin hər birinin mövcud olduğu hallarda, habelə yol-nəqliyyat hadisəsi iştirakçılarının tərtib etdiyi və həmin şərtlərin mövcudluğunu təsdiq edən protokolu sığortaçıya təqdim etmələri şərtilə tələb olunmur: [128]"
+        },
+        {
+          "parent_passage_id": "83404475-4195-5652-babb-90da57f03011",
+          "document": "sığorta 2.pdf",
+          "text": "52.2. Avtonəqliyyat vasitəsinin istifadəsi dedikdə avtonəqliyyat vasitəsinin hərəkəti ilə bağlı onun istismarı nəzərdə tutulur. Avtonəqliyyat vasitəsində quraşdırılmış, lakin onun yol hərəkətində iştirakı ilə birbaşa bağlı olmayan avadanlıqların istismarı avtonəqliyyat vasitəsinin istifadəsi hesab edilmir. Maddə 52–1. Avtonəqliyyat vasitəsinə dəyən zərərlərin tənzimlənməsi üzrə əlavə tələb [123] 52–1.1. Aşağıdakı şərtlərin hər birinin mövcud olduğu halda yol-nəqliyyat hadisəsində zərərçəkən zərərin əvəzinin ödənilməsini onun idarə etdiyi avtonəqliyyat vasitəsilə bağlı mülki məsuliyyətini icbari formada sığortalamış sığortaçıdan tələb edir: 52–1.1.1. zərər yalnız hadisədə iştirak edən avtonəqliyyat vasitələrinə (birinə və ya hər ikisinə) dəydikdə; 52–1.1.2. yol-nəqliyyat hadisəsində hər biri ilə bağlı bu Fəsildə nəzərdə tutulmuş mülki məsuliyyətin icbari sığorta müqaviləsi qüvvədə olan iki avtonəqliyyat vasitəsi iştirak etdikdə. 52–1.2. Zərərçəkənin bu Qanunun 52–1.1-ci maddəsində nəzərdə tutulmuş qaydada tələb irəli sürməsi onu zərərvurana qarşı zərərin sığorta məbləğindən artıq hissəsinin ödənilməsi tələbi ilə çıxış etmək hüququndan məhrum etmir. 52–1.3."
+        },
+        {
+          "parent_passage_id": "d9962858-b52d-53b4-873c-6864cf29e86f",
+          "document": "sığorta 2.pdf",
+          "text": "63.5. Bu Qanunun 52-1.1-ci maddəsində nəzərdə tutulmuş sığortaçı sığorta ödənişini həyata keçirdikdən sonra zərərvuranın mülki məsuliyyətini icbari formada sığortalamış sığortaçıya qarşı subroqasiya hüququndan istifadə edir. Bu zaman zərərvuranın mülki məsuliyyətini icbari formada sığortalamış sığortaçı subroqasiya hüququ irəli sürmüş sığortaçı qarşısında sığorta ödənişinin bu Qanunda müəyyən edilmiş qaydada həyata keçirilməsi üçün öhdəlik daşıyır. [137] 4–1-ci fəsil [138] Yaşıl Kart Sistemi Maddə 63–1. Yaşıl Kart Sistemi ilə bağlı ümumi müddəalar 63–1.1. Bu fəsildə avtonəqliyyat vasitələrinin qeydiyyatdan keçdiyi ölkədən xaricdə istifadəsi zamanı üçüncü şəxslərin sağlamlığına və (və ya) əmlakına dəyən zərərin əvəzinin ödənilməsi üzrə mülki məsuliyyətin yaranması halında sığorta ödənişlərinin verilməsini təmin edən, Birləşmiş Millətlər Təşkilatının Avropa İqtisadi Komissiyasının Yol Nəqliyyatı üzrə İşçi Qrupunun nəzdində fəaliyyət göstərən beynəlxalq avtonəqliyyat vasitələri sığortası kart sisteminə (bundan sonra - Yaşıl Kart Sistemi) aid məsələlər tənzimlənir. 63–1.2."
+        },
+        {
+          "parent_passage_id": "5539a640-a966-5307-a84a-3339a65e2cc3",
+          "document": "NK-2023-156.pdf",
+          "text": "Azərbaycan Respublikası Nazirlər Kabinetinin “Nəqliyyat vasitələrinə və onların qoşqularına dövlət texniki baxışının keçirilməsi qaydaları haqqında nümunəvi Əsasnamənin təsdiq edilməsi barədə” 1999-cu il 15 mart tarixli 40 nömrəli, “İstehsalatda baş verən bədbəxt hadisələrin təhqiqi və uçota alınması Qaydalarının təsdiq edilməsi haqqında” 2000-ci il 28 fevral tarixli 27 nömrəli, “Notariat hərəkətlərinin aparılması qaydaları haqqında Təlimatın təsdiq edilməsi barədə” 2000-ci il 11 sentyabr tarixli 167 nömrəli, “Avtomobil nəqliyyatı ilə sərnişin və baqaj daşınması Qaydaları”nın təsdiq edilməsi haqqında” 2009-cu il 17 sentyabr tarixli 141 nömrəli, “İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında” Azərbaycan Respublikası Qanununun tətbiqi ilə bağlı bəzi normativ hüquqi aktların təsdiq edilməsi haqqında” 2010-cu il 3 noyabr tarixli 196 nömrəli, “Ünvanlı dövlət sosial yardımı almaq hüququna malik olan aztəminatlı ailələrə məxsus yaşayış evlərinin və mənzillərin icbari sığortası üzrə sığorta haqlarının dövlət büdcəsinin vəsaitləri hesabına ödənilməsi Qaydası”nın təsdiq edilməsi barədə” 2012-ci il 24"
+        },
+        {
+          "parent_passage_id": "64c1fac4-2c00-5903-8085-5c1bd9fbbc14",
+          "document": "sığorta 2.pdf",
+          "text": "Maddə 66. Sərnişinlərin icbari fərdi qəza sığortası üzrə sığorta hadisəsi Nəqliyyat vasitəsi sərnişin daşıma xidmətini yerinə yetirməsi ilə əlaqədar hərəkətdə olarkən və ya bu məqsədlə dayanacaqlarda (hava limanlarında, dəniz, dəmiryolu və ya avtobus vağzallarında, stansiyalarında, platformalarında və ya körpülərində) olarkən sığorta olunmuş sərnişinin nəqliyyat vasitəsində olduğu müddət ərzində nəqliyyat vasitəsinin istismarı ilə əlaqədar onun bədən üzvlərinin, toxumalarının zədələnməsi nəticəsində yüngül, az ağır və ya ağır xəsarət alması, əmək qabiliyyətini tam və ya qismən itirməsi, yaxud ölməsi faktı sığorta hadisəsi hesab edilir. [141]"
+        },
+        {
+          "parent_passage_id": "7a8d5d7e-c60a-5ec4-abdf-84df7272e4f3",
+          "document": "sığorta 2.pdf",
+          "text": "58.2.1. Yol-nəqliyyat hadisəsi ikidən artıq olmayan avtonəqliyyat vasitəsinin iştirakı ilə baş verdikdə və hadisənin baş verdiyi anda hər iki avtonəqliyyat vasitəsinin sahiblərinin mülki məsuliyyəti bu Fəsildə nəzərdə tutulmuş qaydada sığortalanmış olduqda; [129]"
+        },
+        {
+          "parent_passage_id": "b889d658-bdcb-5c5a-9c87-5df8c9875676",
+          "document": "sığorta 2.pdf",
+          "text": "17.1.4. bu Qanunun Xüsusi bölməsində ayrı qayda nəzərdə tutulmamışdırsa, sığorta hadisəsi hesab edilə bilən halın təfərrüatları (hadisənin baş vermə vaxtı, yeri, hadisəsinin baş verməsində təqsirli olan və (və ya) zərərçəkən şəxs (şəxslər), həmçinin zərər dəymiş əmlak, zərərin xüsusiyyətləri) barədə səlahiyyətli orqanın təqdim etdiyi arayış (o cümlədən elektron formada); [45]"
+        },
+        {
+          "parent_passage_id": "7e0c78ef-1c9e-551b-9d48-683dec888e44",
+          "document": "sığorta 2.pdf",
+          "text": "Yol-nəqliyyat hadisəsində zərərçəkənin idarə etdiyi avtonəqliyyat vasitəsinə dəyən zərərin həmin avtonəqliyyat vasitəsilə bağlı mülki məsuliyyəti icbari formada sığortalamış sığortaçı tərəfindən ödənilməsi zamanı həmin sığortaçı ilə zərərvuranın mülki məsuliyyətinə görə öhdəlik daşıyan sığortaçı arasında qarşılıqlı ödəmələrin tənzimlənməsinə dair qaydalar Mərkəzi Bank tərəfindən müəyyən edilir."
+        },
+        {
+          "parent_passage_id": "728bd60c-67c4-524b-85c6-71fe1f253f96",
+          "document": "sığorta 2.pdf",
+          "text": "1.1. Ayrı-ayrı icbari sığorta növlərinə aid digər qanunlarda fərqli müddəaların nəzərdə tutulduğu hallar istisna olmaqla, bu Qanunun Ümumi bölməsi icbari sığorta növləri üzrə münasibətlərdə tətbiq edilməli olan əsas prinsipləri və müddəaları müəyyən edir. [4]"
+        }
+      ],
+      "status": "blocked_by_missing_evidence",
+      "answer": null,
+      "citations": [],
+      "review": {
+        "factual_correctness": null,
+        "evidence_coverage": null,
+        "citation_correctness": null,
+        "conditions_and_exceptions_preserved": null,
+        "invented_provisions": null,
+        "appropriate_abstention": null,
+        "reviewer": null,
+        "expertise": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "AZR137",
+      "question": "Bu müddət neçə ildir?",
+      "history_used": [
+        "İcbari sığortada əmlaka dəyən zərər üçün iddia müddəti hansı gündən başlayır?"
+      ],
+      "expected_coverage": true,
+      "has_all_required_parents": true,
+      "retrieval_stage": "reranked",
+      "expected_evidence": [
+        {
+          "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+          "passage_id": "a5a0fff9-2ca3-537a-b418-83143fc42080",
+          "parent_passage_id": "a5a0fff9-2ca3-537a-b418-83143fc42080",
+          "document": "sığorta 2.pdf",
+          "article": "74",
+          "clause": null,
+          "page": 44,
+          "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/533",
+          "text": "Maddə 74. İddia müddəti [146] Sağlamlığa və əmlaka vurulan zərərə görə sığorta tələbi, belə tələb hüququ yaranmış sığortalının, sığorta olunanın və ya üçüncü şəxsin sığorta hadisəsinin baş verməsini bildiyi və ya bilməli olduğu tarixdən 3 il müddətində irəli sürülə bilər.",
+          "relevance": 3
+        }
+      ],
+      "context": [
+        {
+          "parent_passage_id": "a5a0fff9-2ca3-537a-b418-83143fc42080",
+          "document": "sığorta 2.pdf",
+          "text": "Maddə 74. İddia müddəti [146] Sağlamlığa və əmlaka vurulan zərərə görə sığorta tələbi, belə tələb hüququ yaranmış sığortalının, sığorta olunanın və ya üçüncü şəxsin sığorta hadisəsinin baş verməsini bildiyi və ya bilməli olduğu tarixdən 3 il müddətində irəli sürülə bilər."
+        },
+        {
+          "parent_passage_id": "8230c4d3-d56b-5444-9516-dc866c06a3fd",
+          "document": "sığorta 2.pdf",
+          "text": "16.4. Sığortaçı sığorta hadisəsinin baş verməsi barədə qanunvericiliyin tələblərinə uyğun olaraq məlumatlandırıldığı tarixdən 7 iş günü müddətində əmlaka dəymiş zərərin məbləğinin qiymətləndirilməsini təşkil etmədikdə sığortalı və sığorta olunan, həmçinin zərər çəkmiş üçüncü şəxs təyin etdiyi qiymətləndirmə fəaliyyəti ilə məşğul olan müstəqil ekspert və ya mütəxəssis vasitəsilə əmlaka dəymiş zərərin ədalətli şəkildə qiymətləndirilməsinə və aradan qaldırılmasına başlaya bilər. Bu halda əgər sığortaçı əmlaka dəymiş zərərin vaxtında qiymətləndirilməməsini əmlak sahibinin ölümü və ya xəstəliyi, həmçinin sığortalının, sığorta olunanın və ya zərər çəkmiş üçüncü şəxsin əmlakın qiymətləndirilməsi üçün şərait yaratmaması nəticəsində baş verdiyini sübut edə bilməsə, o, zərər çəkmiş üçüncü şəxs tərəfindən bu maddədə nəzərdə tutulmuş"
+        },
+        {
+          "parent_passage_id": "e230dc4e-1f15-52d3-b990-4994697c8fe0",
+          "document": "sığorta 2.pdf",
+          "text": "20.5. Üçüncü şəxs onun əmlakına dəymiş zərərin əvəzinin ödənilməsini sığortalıdan, sığorta olunandan, yaxud bu Qanunla müəyyən edilmiş sığorta məbləği həddində sığortaçıdan tələb edə bilər. Onlardan biri zərərin əvəzini tam ödədikdə, üçüncü şəxsin iddiası təmin edilmiş hesab olunur."
+        },
+        {
+          "parent_passage_id": "0ad50aab-7e13-5261-be9c-9c9ea99b365e",
+          "document": "sığorta 2.pdf",
+          "text": "15.1. İcbari sığorta növlərində əmlaka dəyən zərər həmin əmlakın zədələnməsi, məhv olması və ya hər hansı digər formada itkisi ilə bağlı onun əmlak mənafelərinə dəyən zərərlərdir."
+        },
+        {
+          "parent_passage_id": "c8c5409c-b7d5-5f5c-aff8-7572d3df40ab",
+          "document": "sığorta 7.pdf",
+          "text": "Azərbaycan Respublikasının qanunları və müvafiq icra hakimiyyəti orqanlarının qərarları əsasında dövlət büdcəsinin vəsaiti hesabına verilən dövlət təqaüdləri və dövlət müavinətləri; [52] sığorta hadisəsi baş verdikdə, sığortalının əmlakına və ya əmlak mənafelərinə dəymiş zərərin yerini doldurmaq üçün pul və ya natura şəklində ödənilmiş vəsait-sığorta ödənişi, həmçinin sığortaedən tərəfindən ödənilən bütün növ icbari sığorta və könüllü tibbi sığorta haqları, 3 ildən az olmayan müddətə bağlanan müqavilə ilə həyatın yığım sığortası və pensiya sığortası üzrə sığortaedənin sığortaolunanın gəlirlərinin 50 faizindən çox olmayan hissəsindən Azərbaycan Respublikasının sığortaçılarına ödənilən sığorta haqları, həyatın yığım sığortası və pensiya sığortası üzrə müqavilənin qüvvəyə mindiyi andan etibarən 3 illik müddət keçdikdən sonra sığorta olunana və faydalanan şəxsə ödənilən hər hansı məbləğlər; [53] muzdlu işə və sahibkarlıq fəaliyyətinə aid olmayan gəlirlər (faiz gəliri, dividend, əmlakın icarəyə verilməsindən gəlir, royalti (müəlliflik qonorarı istisna olmaqla), sahibkarlıq fəaliyyəti məqsədləri üçün istifadə olunmayan aktivlərin təqdim edilməsindən gəlir, hədiyyə, maddi yardım"
+        },
+        {
+          "parent_passage_id": "d1553ac8-301a-572f-a184-79a70fe10069",
+          "document": "sığorta 2.pdf",
+          "text": "qaydada həyata keçirilmiş qiymətləndirmənin nəticələrini qəbul etməlidir. Bu maddədə müəyyən edilmiş zərərin qiymətləndirilməsinə çəkilən xərclər sığortaçı tərəfindən ödənilir. [42]"
+        }
+      ],
+      "status": "generation_service_error",
+      "answer": null,
+      "citations": [],
+      "review": {
+        "factual_correctness": null,
+        "evidence_coverage": null,
+        "citation_correctness": null,
+        "conditions_and_exceptions_preserved": null,
+        "invented_provisions": null,
+        "appropriate_abstention": null,
+        "reviewer": null,
+        "expertise": null,
+        "notes": ""
+      },
+      "error_type": "TooManyRequestsResponseError",
+      "generation_ms": 622.9413330001989
+    },
+    {
+      "id": "AZR149",
+      "question": "Bəs həkim sirrini kim qorumalıdır?",
+      "history_used": [
+        "İcbari tibbi sığortada xidmətlərə nəzarət üçün tibbi məlumatların təqdim edilməsi necə tənzimlənir?"
+      ],
+      "expected_coverage": true,
+      "has_all_required_parents": true,
+      "retrieval_stage": "reranked",
+      "expected_evidence": [
+        {
+          "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+          "passage_id": "11d147bc-a948-5d71-b284-08af01c48fa7",
+          "parent_passage_id": "11d147bc-a948-5d71-b284-08af01c48fa7",
+          "document": "sığorts 4.pdf",
+          "article": "15-7",
+          "clause": "15-7.2.4",
+          "page": 12,
+          "source_url": "/documents/s%C4%B1%C4%9Forts%204.pdf/preview/143",
+          "text": "15-7.2.4. icbari tibbi sığorta çərçivəsində göstərilmiş tibbi xidmətin növünə, həcminə, müddətinə, keyfiyyətinə və şərtlərinə nəzarətin həyata keçirilməsi məqsədilə sığortaolunanlar, onlara göstərilən tibbi xidmətlərin növü, müddəti, keyfiyyəti, şərtləri, o cümlədən “Əhalinin sağlamlığının qorunması haqqında” Azərbaycan Respublikasının Qanununa uyğun olaraq onlarla bağlı həkim sirri təşkil edən məlumatları müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqana (quruma) vermək;",
+          "relevance": 3
+        },
+        {
+          "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+          "passage_id": "ac78bf04-6684-55de-ab64-e8a4a02843d2",
+          "parent_passage_id": "ac78bf04-6684-55de-ab64-e8a4a02843d2",
+          "document": "sığorts 4.pdf",
+          "article": "15-8",
+          "clause": "15-8.2.4",
+          "page": 13,
+          "source_url": "/documents/s%C4%B1%C4%9Forts%204.pdf/preview/158",
+          "text": "15-8.2.4. sığortaolunanların səhhətinə dair məlumatların, həmçinin həkim sirri təşkil edən məlumatların mühafizəsini və məxfiliyini təmin etmək;",
+          "relevance": 3
+        }
+      ],
+      "context": [
+        {
+          "parent_passage_id": "11d147bc-a948-5d71-b284-08af01c48fa7",
+          "document": "sığorts 4.pdf",
+          "text": "15-7.2.4. icbari tibbi sığorta çərçivəsində göstərilmiş tibbi xidmətin növünə, həcminə, müddətinə, keyfiyyətinə və şərtlərinə nəzarətin həyata keçirilməsi məqsədilə sığortaolunanlar, onlara göstərilən tibbi xidmətlərin növü, müddəti, keyfiyyəti, şərtləri, o cümlədən “Əhalinin sağlamlığının qorunması haqqında” Azərbaycan Respublikasının Qanununa uyğun olaraq onlarla bağlı həkim sirri təşkil edən məlumatları müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqana (quruma) vermək;"
+        },
+        {
+          "parent_passage_id": "ac78bf04-6684-55de-ab64-e8a4a02843d2",
+          "document": "sığorts 4.pdf",
+          "text": "15-8.2.4. sığortaolunanların səhhətinə dair məlumatların, həmçinin həkim sirri təşkil edən məlumatların mühafizəsini və məxfiliyini təmin etmək;"
+        },
+        {
+          "parent_passage_id": "5a961b0a-a02d-5ac4-b626-b53b5364f4bf",
+          "document": "sığorts 4.pdf",
+          "text": "15-4.1.4. “Əhalinin sağlamlığının qorunması haqqında” Azərbaycan Respublikasının Qanununa əsasən həkim sirri təşkil edən məlumatların gizli saxlanmasını tələb etmək;"
+        },
+        {
+          "parent_passage_id": "b6ac1559-cf5e-5bb9-9f43-bf292eeda995",
+          "document": "sığorts 4.pdf",
+          "text": "15-25.2. Tibb təchizatçısı və ya tibbi ərazi bölməsi tərəfindən icbari tibbi sığorta çərçivəsində göstərilmiş tibbi xidmətlərlə bağlı hesabatların təqdim edilməsi qaydası müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən müəyyən edilir. IV-V fəsil. İcbari tibbi sığorta üzrə göstərilən tibbi xidmətlərə nəzarətin həyata keçirilməsi"
+        },
+        {
+          "parent_passage_id": "86d477d6-4453-5476-9c61-d72e0b7ee74a",
+          "document": "sığorts 4.pdf",
+          "text": "15-3.3. Müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) ilə bu Qanunun 15-3.1-ci maddəsinə əsasən müəyyən edilən tələblərə cavab verən tibb müəssisəsi arasında tibbi xidmətlərin göstərilməsi haqqında müqavilə bağlanılır. [63] IV-II fəsil. İcbari tibbi sığortanın iştirakçılarının hüquq və vəzifələri"
+        }
+      ],
+      "status": "generation_service_error",
+      "answer": null,
+      "citations": [],
+      "review": {
+        "factual_correctness": null,
+        "evidence_coverage": null,
+        "citation_correctness": null,
+        "conditions_and_exceptions_preserved": null,
+        "invented_provisions": null,
+        "appropriate_abstention": null,
+        "reviewer": null,
+        "expertise": null,
+        "notes": ""
+      },
+      "error_type": "TooManyRequestsResponseError",
+      "generation_ms": 1136.4949159997195
+    },
+    {
+      "id": "AZR151",
+      "question": "A-17 nömrəli fərdi KASKO polisimin konkret franşizası neçə manatdır?",
+      "history_used": [],
+      "expected_coverage": false,
+      "has_all_required_parents": true,
+      "retrieval_stage": "reranked",
+      "expected_evidence": [],
+      "context": [
+        {
+          "parent_passage_id": "d3d84c18-2f22-58c2-84c6-2831884dd49a",
+          "document": "NK-2022-149.pdf",
+          "text": "4 məsul şəxsinin (şəxslərinin) və sürücüsünün (sürücülərinin) Azərbaycan Respublikası İnzibati Xətalar Məcəlləsinin 326-1-ci, 332-ci, 337-ci, 348-ci və 353-cü maddələrindən hər hansı biri üzrə nəzərdə tutulmuş inzibati xətaların törədilməsi ilə bağlı ümumilikdə beş dəfədən artıq məsuliyyətə cəlb edilməməsi; 4. sərnişinlərin icbari fərdi qəza sığortası, avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari sığortası (Azərbaycan Respublikasında qeydiyyatdan keçmiş avtonəqliyyat vasitələrinə münasibətdə bağlanan icbari sığorta müqaviləsi və beynəlxalq sığorta müqaviləsi – Azərbaycan Yaşıl Kartı), həmçinin avtonəqliyyat vasitəsi sürücüsünün istehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığortalanması; 2.2.2. maliyyə vəziyyəti üzrə: mülkiyyət, istifadə və ya icarə hüququ ilə yalnız bir avtonəqliyyat vasitəsinə malik olduqda, 5000 (beş min) manat, iki və daha çox avtonəqliyyat vasitəsinə malik olduqda, hər əlavə avtonəqliyyat vasitəsi üçün 3000 (üç min) manat aktivlərə (pul vəsaitlərinə, depozitlərə və digər aktivlərə) malik olması; 2.2.3. peşəkarlıq səriştəsi üzrə: 1."
+        },
+        {
+          "parent_passage_id": "ad3f6887-c877-5796-ba93-a2a38de9405a",
+          "document": "sığorta 2.pdf",
+          "text": "78.2. Bu Qanunun 78.1-ci maddəsində nəzərdə tutulmuş qüvvəyə minmə tarixindən Azərbaycan Respublikasının “Azərbaycan Respublikasında nəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari sığortası haqqında” 1996-cı il 31 may tarixli 113- IQ nömrəli, “İcbari ekoloji sığorta haqqında” 2002-ci il 12 mart tarixli 271-IIQ nömrəli, ”Azərbaycan Respublikasında nəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari sığortası haqqında” Azərbaycan Respublikasının Qanununa əlavələr və dəyişikliklər edilməsi barədə” 2003-cü il 25 mart tarixli 425-IIQD nömrəli, “İcbari Ekoloji Sığorta haqqında” Azərbaycan Respublikası Qanununun tətbiqi ilə əlaqədar Azərbaycan Respublikasının İnzibati Xətalar Məcəlləsinə əlavə edilməsi barədə” 2003-cü il 25 mart tarixli 427-IIQD nömrəli, “Sərnişinlərin icbari sığortası haqqında” 2003-cü il 17 iyun tarixli 474-IIQ nömrəli, “Yanğından icbari sığorta haqqında” 2004-cü il 6 yanvar tarixli 573-IIQ nömrəli, “Sərnişinlərin icbari sığortası haqqında” Azərbaycan Respublikası Qanununun tətbiqi ilə əlaqədar Azərbaycan Respublikasının bəzi qanunvericilik aktlarına əlavə və dəyişiklik edilməsi barədə” 2004-cü il 20 aprel tarixli 638-IIQD nömrəli, “Yanğından icbari"
+        },
+        {
+          "parent_passage_id": "56edf9c0-c266-51b2-8b31-83557ef6399f",
+          "document": "sığorta 2.pdf",
+          "text": "may tarixində yenilənmiş və Bürolar Şurası tərəfindən vaxtaşırı dəyişdirilə bilən qaydalarda (bundan sonra - Daxili Reqlament) və Bürolar Şurasının bildirişləri, qaydaları və təlimatlarında nəzərdə tutulmuş qaydada həyata keçirilir. 63–1.4. Azərbaycan Respublikasında Yaşıl Kart Sistemi üzrə əlaqələndirici ixtisaslaşdırılmış təşkilat kimi Bürolar Şurasına üzv olan milli Yaşıl Kart Bürosunun funksiyalarını Büro həyata keçirir. 63–1.5. Büro öz iştirakçılarını Yaşıl Kart blankları ilə mərkəzləşdirilmiş qaydada təmin edir. Yaşıl Kart blankı Birləşmiş Millətlər Təşkilatının Avropa İqtisadi Komissiyasının Quru Nəqliyyatı Komitəsinin Yol nəqliyyatı üzrə işçi qrupu tərəfindən 1949-cu il 25 yanvar tarixində qəbul olunmuş, 2004-cü il 17-19 fevral tarixlərində keçirilən 66-cı sessiyada Quru Nəqliyyatı Komitəsinin qəbul etdiyi yol nəqliyyatının təkmilləşdirilməsi üzrə yenilənərək konsolidasiya edilmiş Qərarın 1 saylı Əlavəsi ilə əvəz olunmuş 5 saylı Tövsiyədə (bundan sonra - 5 saylı Tövsiyə) nəzərdə tutulmuş formalardan birinə uyğun olmalıdır. 63–1.6. Büronun iştirakçıları fərdi, yaxud kollektiv qaydada zərərlərin tənzimlənməsini Büroya həvalə edə bilərlər. Maddə 63–2."
+        },
+        {
+          "parent_passage_id": "a8b40377-8cdd-588f-90f0-340cde462492",
+          "document": "NK-2023-156.pdf",
+          "text": "aşağıdakı məzmunda altıncı abzas əlavə edilsin: “Avtonəqliyyat vasitələri “İcbari sığortalar haqqında” Azərbaycan Respublikasının Qanununa uyğun olaraq sahiblərinin mülki məsuliyyəti icbari qaydada sığortalandıqda, sərnişin daşımaları xidmətini həyata keçirən avtonəqliyyat vasitələrinə münasibətdə isə habelə sərnişinlərinin (şəhərdaxili və ya qəsəbədaxili daşınan sərnişinlər istisna olmaqla) fərdi qəza sığortası həyata keçirildikdə texniki baxışa buraxılır. Bu halda müvafiq icbari sığorta müqaviləsinin mövcudluğu “İcbari sığortalar haqqında” Azərbaycan Respublikasının Qanununda nəzərdə tutulan elektron informasiya sistemi vasitəsilə yoxlanılır.”. 2. Azərbaycan Respublikası Nazirlər Kabinetinin 2000-ci il 28 fevral tarixli 27 nömrəli Qərarı (Azərbaycan Respublikasının Qanunvericilik Toplusu, 2000, № 2, maddə 123; 2005, № 11, maddə 1061; 2006, № 9, maddə 822; 2008, № 2, maddələr 116, 130, № 5, maddə 430; 2010, № 3, maddə 264; 2011, № 5, maddə 449; 2013, № 6, maddə 723; 2015, № 7, maddə 901; 2018, № 12 (II kitab), maddə 2737; 2019, № 3, maddə 512; 2021, № 10, maddə 1199; 2022, № 9, maddə 1098) ilə təsdiq"
+        },
+        {
+          "parent_passage_id": "f2ac7de3-d42d-547d-b68e-164af48f2dd5",
+          "document": "NK-2022-149.pdf",
+          "text": "bu Qaydaların 2.2.1-ci yarımbəndinin 4-cü abzasına uyğun olaraq müvafiq icbari sığortalar üzrə icbari sığorta şəhadətnamələrinin surəti (elektron qaydada bağlanılan icbari sığorta şəhadətnamələrinin seriya və nömrəsi); 3.2.15. məsul şəxsin (şəxslərin), habelə sürücünün (sürücülərin) peşəkarlıq səriştəsi ilə bağlı Azərbaycan Respublikası Nazirlər Kabinetinin 2020-ci il 8 iyul tarixli 247 nömrəli Qərarı ilə təsdiq edilmiş “Avtomobil nəqliyyatı ilə beynəlxalq sərnişin və yük daşımaları fəaliyyə- tinin operatorunun məsul şəxsinin (şəxslərinin), habelə beynəlxalq sərnişin və yük daşımalarını həyata keçirən sürücülərin peşəkarlıq səriştəsinə dair hazırlığının və yenidən hazırlığının keçirilməsi Qaydası” üzrə hazırlıq və ya yenidən hazırlıq keçməsi haqqında şəhadətnamənin surəti;"
+        },
+        {
+          "parent_passage_id": "d5b55d99-83b3-568d-9080-6dcaca89b0c6",
+          "document": "sığorta 2.pdf",
+          "text": "sığorta haqqında” Azərbaycan Respublikası Qanununun tətbiqi ilə əlaqədar Azərbaycan Respublikasının bəzi qanunlarına əlavə və dəyişiklik edilməsi barədə” 2004-cü il 10 sentyabr tarixli 752-IIQD nömrəli qanunları ləğv edilir. [150] İlham ƏLİYEV, Azərbaycan Respublikasının Prezidenti Bakı şəhəri, 24 iyun 2011-ci il № 165-IVQ"
+        },
+        {
+          "parent_passage_id": "9328446e-8fec-550d-b4cf-a65998cd6f84",
+          "document": "sığorta 2.pdf",
+          "text": "78.1. Bu Qanun dərc edildiyi tarixdən 1 ay sonra qüvvəyə minir."
+        },
+        {
+          "parent_passage_id": "c5d6c6f7-531d-57a7-8ca4-3e8cdddbc82f",
+          "document": "sığorta 2.pdf",
+          "text": "Yaşıl Kart – Birləşmiş Millətlər Təşkilatının Avropa İqtisadi Komissiyası və avtonəqliyyat vasitələri sığortaçılarının milli bürolarının beynəlxalq assosiasiyası, eyni zamanda Yaşıl Kart Sisteminin idarəedici təşkilatı olan Bürolar Şurası (bundan sonra - Bürolar Şurası) tərəfindən qəbul edilmiş formada bağlanan, Bürolar Şurasının üzvü olan istənilən ölkədə aid olduğu avtonəqliyyat vasitəsinin istifadəsi ilə bağlı mülki məsuliyyətin icbari sığortasının mövcudluğunu təsdiq edən beynəlxalq sığorta müqaviləsidir. 63–1.3. Yaşıl Kart Sistemi çərçivəsində zərərlərin tənzimlənməsi Bürolar Şurasının Baş Assambleyası tərəfindən 2002-ci il 30 may tarixində qəbul edilmiş, 2008-ci il 29"
+        },
+        {
+          "parent_passage_id": "830e51f0-1931-5a6a-8528-f1d8ca64ecc5",
+          "document": "sığorta 2.pdf",
+          "text": "Yaşıl Kart Sisteminə aid ümumi tələblər 63–2.1. Azərbaycan Respublikasında qeydiyyatdan keçmiş avtonəqliyyat vasitəsi Yaşıl Kart Sisteminin tətbiq edildiyi xarici ölkə ərazisində müvəqqəti istifadə edilməsi məqsədilə Azərbaycan Respublikasının ərazisini tərk etməzdən əvvəl, bu Qanunun 50– 1.0.3-cü maddəsində nəzərdə tutulmuş icbari sığorta müqaviləsini bağlayaraq Azərbaycan Yaşıl Kartını əldə etməlidir. 63–2.2. Azərbaycan Respublikasında qeydiyyatdan keçmiş avtonəqliyyat vasitəsinin sahibi Azərbaycan Yaşıl Kartını yalnız Yaşıl Kart Sistemində fəaliyyət göstərmək hüququna malik olan yerli sığortaçılarla bağlayır. 63–2.3. Azərbaycan Yaşıl Kartı yalnız onda göstərilənlərin siyahısından istisna edilməyən ölkələrin ərazilərində qüvvədə hesab edilir. 63–2.4. Xarici ölkələrdə qeydiyyatdan keçmiş və qüvvədə olan Yaşıl Karta malik avtonəqliyyat vasitələrinin sahiblərindən Azərbaycan Respublikasının ərazisinə daxil olarkən, sərhəd sığorta müqaviləsini bağlamaq tələb olunmur. 63–2.5."
+        }
+      ],
+      "status": "generation_service_error",
+      "answer": null,
+      "citations": [],
+      "review": {
+        "factual_correctness": null,
+        "evidence_coverage": null,
+        "citation_correctness": null,
+        "conditions_and_exceptions_preserved": null,
+        "invented_provisions": null,
+        "appropriate_abstention": null,
+        "reviewer": null,
+        "expertise": null,
+        "notes": ""
+      },
+      "error_type": "TooManyRequestsResponseError",
+      "generation_ms": 735.0086869992083
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "schema_version": 1,
+  "base_benchmark_sha256": "941f9d33e1f33cb6daf7e2c1b56a2264cf23e6ab040123d563d2d60aa3630238",
+  "expert_validated": false,
+  "cases": [
+    {
+      "id": "V201",
+      "dimension": "unsupported optimistic assessment",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "Ödəniş 30 günə verilir.",
+      "note": "Optimistic model assessment supplies a nonexistent 30-day deadline.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "V202",
+      "dimension": "paraphrased exception",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "ordinary"
+      ],
+      "claim": "14.5.1-1-də göstərilənlər bu qaydaya daxil deyil. Qalanların haqqı aylıq hesablanır, gəlir ödənişi ilə birlikdə və növbəti ayın 15-dən gec olmayaraq tam nağdsız ödənilir.",
+      "note": "Alternate nonliteral wording preserves the explicit exclusion.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": true,
+        "mode": "FULL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "required_conditions": {
+        "special group exception": "istisna"
+      }
+    },
+    {
+      "id": "V203",
+      "dimension": "unpaginated explanation binding",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "explanatory"
+      ],
+      "claim": "Bu sənəd xəbər xülasəsidir.",
+      "note": "Stable IDs and exact text establish an unpaginated source.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": "PARTIAL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "incomplete": true
+    },
+    {
+      "id": "V204",
+      "dimension": "events compared with contract interval",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "An event date is required for a specific application but was not supplied.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-01"
+      }
+    },
+    {
+      "id": "V205",
+      "dimension": "events compared with contract interval",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Event date is outside the explicit contract period.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-01",
+        "insured_event_date": "2025-06-02",
+        "requested_reference_date": "2025-06-02"
+      }
+    },
+    {
+      "id": "V206",
+      "dimension": "events compared with contract interval",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Case-record conflict: two documents supply different event dates.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-01",
+        "insured_event_date": [
+          "2025-05-01",
+          "2025-06-02"
+        ]
+      }
+    },
+    {
+      "id": "V207",
+      "dimension": "wrong insurance regime",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "medical_roles"
+      ],
+      "claim": "İşəgötürən istehsalat üzrə sığortalıdır.",
+      "note": "Wrong insurance type cannot be authorized by an optimistic assessment.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "allowed_documents": [
+        "sığorta 3.pdf"
+      ]
+    },
+    {
+      "id": "V208",
+      "dimension": "wrong beneficiary",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "Müqavilə qüvvədə olarkən hər bir şəxs ödəniş ala bilər.",
+      "note": "Wrong beneficiary makes the claimed entitlement unusable.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": true
+      },
+      "required_conditions": {
+        "beneficiary": "faydalanan"
+      }
+    },
+    {
+      "id": "V209",
+      "dimension": "correct cited claim",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Assessment cites a different passage even though the packed answer citation is valid.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "assessment_reference_override": [
+        "foreign"
+      ]
+    },
+    {
+      "id": "V210",
+      "dimension": "correct cited claim",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Missing assessment references bar independent acceptance.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "assessment_reference_override": null
+    },
+    {
+      "id": "V211",
+      "dimension": "events compared with contract interval",
+      "stratum": "adversarial_extension",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "An event at the termination-day boundary needs time-of-day and applicable boundary rules.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-01",
+        "insured_event_date": "2025-06-01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "legacy": {
+    "insurance_queries.tsv": "ac3b3f3920e1f45bc3bb973846abb75c94adfd15823bb5f0e2396043106f6e75",
+    "bm25_cases.json": "6c6d0b228210771a31877031968705b089351e5e1e64165a1bbbd1e4e44a9981",
+    "reranker_cases.json": "52c77bd74212eb56a25e8412a86c60fc79bd548297dd28c0f6b723ac4e9e11ef",
+    "salary_evidence.json": "5197dd6cc68e6b481ff431ce77453724f1d67a4299a443f59089d8cc46f37ca7"
+  },
+  "real_corpus": "e96dd7782821244749376433884085c52cc7be005cddaf29194482c4d3600182"
+}

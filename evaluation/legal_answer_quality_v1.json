@@ -1,0 +1,827 @@
+{
+  "schema_version": 1,
+  "expert_validated": false,
+  "sources_sha256": "a3f08c42c028669e3081d9839c2c9586cb07ca2beec20a16c162f139d4b33dd9",
+  "policy_sha256": "e89669863cf2b4996972c60852cebc98df9a7393cf8c640605a83e39c50c2a11",
+  "cases": [
+    {
+      "id": "E2E-B01",
+      "partition": "baseline",
+      "query": "İstehsalat üzrə icbari müqaviləyə xitamdan əvvəlki sığorta hadisəsi faydalanana ödəniş öhdəliyini saxlayırmı?",
+      "category": "termination duty",
+      "insurance_type": "occupational",
+      "person_or_group": "beneficiary",
+      "origin": "source_derived",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "termination duty"
+      },
+      "dense_fixture": [
+        "statute",
+        "book",
+        "news"
+      ],
+      "required": [
+        {
+          "source": "statute",
+          "component": "main_provision",
+          "part": "Q1"
+        },
+        {
+          "source": "statute",
+          "component": "condition",
+          "part": "Q1"
+        },
+        {
+          "source": "statute",
+          "component": "personal_scope",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+          "sources": [
+            "statute"
+          ],
+          "part": null,
+          "support": "supported",
+          "scope_violation": false,
+          "category": "normative",
+          "conditions_included": true
+        }
+      ],
+      "unresolved": {},
+      "expected_mode": "FULL",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [
+        "Event during contract term",
+        "Eligible beneficiary"
+      ],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "beneficiary"
+      },
+      "verified_complete_parts": [
+        "Q1"
+      ],
+      "expected_eligibility": {
+        "statute": true,
+        "book": false
+      }
+    },
+    {
+      "id": "E2E-B02",
+      "partition": "baseline",
+      "query": "İcbari istehsalat sığortasını bağlamayan sığortalının hadisə baş verəndə qanuni təminat həcmində öhdəliyi nədir?",
+      "category": "non-insurance liability",
+      "insurance_type": "occupational",
+      "person_or_group": "obligated policyholder and covered person",
+      "origin": "source_derived",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "non-insurance liability"
+      },
+      "dense_fixture": [
+        "employer",
+        "cabinet"
+      ],
+      "required": [
+        {
+          "source": "employer",
+          "component": "main_provision",
+          "part": "Q1"
+        },
+        {
+          "source": "employer",
+          "component": "condition",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "İcbari sığorta hadisəsi baş verərsə, vəzifəni yerinə yetirməyən sığortalı azı qanuni təminat həcmində öhdəlik daşıyır.",
+          "sources": [
+            "employer"
+          ],
+          "part": null,
+          "support": "supported",
+          "scope_violation": false,
+          "category": "normative",
+          "conditions_included": true
+        }
+      ],
+      "unresolved": {
+        "Q1": [
+          "Specific compensation procedure not established by ?7.3"
+        ]
+      },
+      "expected_mode": "PARTIAL",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [
+        "Insurance obligation unmet",
+        "Qualifying event"
+      ],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "obligated policyholder and covered person"
+      },
+      "scripted_status": "partial",
+      "uncertainty_pattern": "kifayət|məlumat|müəyyən"
+    },
+    {
+      "id": "E2E-B03",
+      "partition": "baseline",
+      "query": "Məcburi dövlət sosial sığorta haqqının ümumi ödəniş qaydası və xüsusi qrupların qəbz və nişan qaydası necə fərqlənir?",
+      "category": "group payment rules",
+      "insurance_type": "social",
+      "person_or_group": "general and special groups",
+      "origin": "source_derived",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "group payment rules"
+      },
+      "dense_fixture": [
+        "ordinary",
+        "special",
+        "news"
+      ],
+      "required": [
+        {
+          "source": "ordinary",
+          "component": "main_provision",
+          "part": "Q1"
+        },
+        {
+          "source": "ordinary",
+          "component": "exception",
+          "part": "Q1"
+        },
+        {
+          "source": "special",
+          "component": "cross_reference",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "14.5.1-1 kateqoriyası istisna olmaqla haqq növbəti ayın 15-dək tam nağdsız ödənilir; xüsusi qruplar üçün qəbz və ya Fərqlənmə nişanı qaydası tətbiq edilir.",
+          "sources": [
+            "ordinary",
+            "special"
+          ],
+          "part": null,
+          "support": "supported",
+          "scope_violation": false,
+          "category": "normative",
+          "atoms": [
+            {
+              "text": "14.5.1-1 kateqoriyası istisna olmaqla haqq növbəti ayın 15-dək tam nağdsız ödənilir",
+              "sources": [
+                "ordinary"
+              ],
+              "support": "supported",
+              "reason": "General deadline, payment mechanism and express class exception.",
+              "exceptions_included": true
+            },
+            {
+              "text": "xüsusi qruplar üçün qəbz və ya Fərqlənmə nişanı qaydası tətbiq edilir.",
+              "sources": [
+                "special"
+              ],
+              "support": "supported",
+              "reason": "Separate receipt and Distinction Sign mechanisms for the special groups."
+            }
+          ]
+        }
+      ],
+      "unresolved": {},
+      "expected_mode": "FULL",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [
+        "?14.5.1-1 groups excluded from general rule"
+      ],
+      "expected_entities": {
+        "insurance_type": "social",
+        "person_or_group": "general and special groups"
+      },
+      "verified_complete_parts": [
+        "Q1"
+      ]
+    },
+    {
+      "id": "E2E-B04",
+      "partition": "baseline",
+      "query": "Bəs istisnalar necə?",
+      "category": "follow-up on termination exceptions",
+      "insurance_type": "occupational",
+      "person_or_group": "beneficiary",
+      "origin": "source_derived",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "follow-up on termination exceptions"
+      },
+      "dense_fixture": [
+        "statute",
+        "cabinet"
+      ],
+      "required": [
+        {
+          "source": "statute",
+          "component": "condition",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [],
+      "unresolved": {
+        "Q1": [
+          "General exception list not established by scoped source"
+        ]
+      },
+      "expected_mode": "NOT_FOUND",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "beneficiary"
+      },
+      "history": [
+        "İstehsalat sığortası müqaviləsinin müddəti bitərsə, ödəniş hansı hallarda saxlanılır?"
+      ],
+      "expected_context": [
+        "İstehsalat sığortası müqaviləsinin müddəti bitərsə, ödəniş hansı hallarda saxlanılır?"
+      ],
+      "scripted_status": "insufficient",
+      "uncertainty_pattern": "kifayət|məlumat|müəyyən",
+      "missing_info_pattern": "istisna"
+    },
+    {
+      "id": "E2E-D01",
+      "partition": "development",
+      "query": "Bəs bu halda?",
+      "category": "unresolved follow-up",
+      "insurance_type": null,
+      "person_or_group": null,
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "unresolved follow-up"
+      },
+      "dense_fixture": [],
+      "required": [],
+      "scripted_claims": [],
+      "unresolved": {},
+      "expected_mode": null,
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": null,
+        "person_or_group": null
+      },
+      "history": [],
+      "expected_context": [],
+      "expected_route": "ambiguous_question"
+    },
+    {
+      "id": "E2E-D02",
+      "partition": "development",
+      "query": "İşdə sığorta hadisəsi olanda icbari müqavilə üzrə ödəniş nə cür olur?",
+      "category": "synthetic provider failure",
+      "insurance_type": "occupational",
+      "person_or_group": "worker",
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "synthetic provider failure"
+      },
+      "dense_fixture": [
+        "statute",
+        "book"
+      ],
+      "required": [
+        {
+          "source": "statute",
+          "component": "condition",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [],
+      "unresolved": {},
+      "expected_mode": null,
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "worker"
+      },
+      "provider_failure": true
+    },
+    {
+      "id": "E2E-D03",
+      "partition": "development",
+      "query": "İş yerində sığortaçı qanuna görə həmişə ödəniş etməlidirmi?",
+      "category": "textbook misuse",
+      "insurance_type": "occupational",
+      "person_or_group": "worker",
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "textbook misuse"
+      },
+      "dense_fixture": [
+        "book",
+        "statute"
+      ],
+      "required": [
+        {
+          "source": "statute",
+          "component": "main_provision",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "Sığortaçı hər bir halda sığorta ödənişi verməlidir.",
+          "sources": [
+            "book"
+          ],
+          "part": null,
+          "support": "unsupported",
+          "scope_violation": true,
+          "category": "normative"
+        }
+      ],
+      "unresolved": {},
+      "expected_mode": "NOT_FOUND",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "worker"
+      },
+      "expected_eligibility": {
+        "book": false
+      },
+      "uncertainty_pattern": "kifayət|məlumat|müəyyən"
+    },
+    {
+      "id": "E2E-D04",
+      "partition": "development",
+      "query": "Sigorta haqqini kocurmek ucun qeyri-nagd qayda var?",
+      "category": "informal ASCII spelling",
+      "insurance_type": null,
+      "person_or_group": null,
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "informal ASCII spelling"
+      },
+      "dense_fixture": [
+        "ordinary",
+        "special"
+      ],
+      "required": [
+        {
+          "source": "ordinary",
+          "component": "condition",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [],
+      "unresolved": {
+        "Q1": [
+          "Which insurance regime is meant?"
+        ]
+      },
+      "expected_mode": "NOT_FOUND",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": null,
+        "person_or_group": null
+      },
+      "scripted_status": "insufficient",
+      "uncertainty_pattern": "kifayət|məlumat|müəyyən",
+      "missing_info_pattern": "sığorta növ"
+    },
+    {
+      "id": "E2E-S01",
+      "partition": "stress",
+      "query": "Torpaq sahəsinə görə sosial sığorta faizi hesablananda kimlər nəzərə alınır?",
+      "category": "eligibility omission",
+      "insurance_type": "social",
+      "person_or_group": "agricultural land users",
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "eligibility omission"
+      },
+      "dense_fixture": [
+        "land",
+        "old_land"
+      ],
+      "required": [
+        {
+          "source": "land",
+          "component": "main_provision",
+          "part": "Q1"
+        },
+        {
+          "source": "land",
+          "component": "exception",
+          "part": "Q1"
+        },
+        {
+          "source": "land",
+          "component": "personal_scope",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "Torpaqdan istifadə edən hər bir şəxs sığorta haqqı ödəyir.",
+          "sources": [
+            "land"
+          ],
+          "part": null,
+          "support": "partially_supported",
+          "scope_violation": true,
+          "category": "normative",
+          "conditions_included": false,
+          "exceptions_included": false
+        }
+      ],
+      "unresolved": {},
+      "expected_mode": "PARTIAL",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [
+        "Agricultural owner-users",
+        "Qualified family-farm group",
+        "Working age"
+      ],
+      "exceptions": [
+        "Outside-employed contributors excluded"
+      ],
+      "expected_entities": {
+        "insurance_type": "social",
+        "person_or_group": "agricultural land users"
+      }
+    },
+    {
+      "id": "E2E-S02",
+      "partition": "stress",
+      "query": "Hazırda kənd təsərrüfatı torpağı üçün əvvəlki sabit sosial sığorta dərəcəsini tətbiq etmək olar?",
+      "category": "struck-through rule and currency",
+      "insurance_type": "social",
+      "person_or_group": "agricultural land users",
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {
+        "requested_reference_date": "2026-11-23"
+      },
+      "parts": {
+        "Q1": "struck-through rule and currency"
+      },
+      "dense_fixture": [
+        "old_land",
+        "land"
+      ],
+      "required": [
+        {
+          "source": "land",
+          "component": "temporal_scope",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [],
+      "unresolved": {
+        "Q1": [
+          "Effective period of indexed source is unverified"
+        ]
+      },
+      "expected_mode": "NOT_FOUND",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "social",
+        "person_or_group": "agricultural land users"
+      },
+      "expected_eligibility": {
+        "old_land": false,
+        "land": false
+      },
+      "uncertainty_pattern": "kifayət|məlumat|müəyyən",
+      "expected_conflict_count": 1,
+      "missing_info_pattern": "qüvvədə|tarix"
+    },
+    {
+      "id": "E2E-S03",
+      "partition": "stress",
+      "query": "Peşə icbari sığortasında hadisə müqavilə bitəndən sonra baş veribsə ödəniş şərti necə qiymətləndirilir?",
+      "category": "asserted event outside term",
+      "insurance_type": "occupational",
+      "person_or_group": "beneficiary",
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {
+        "insured_event_date": "2025-07-02",
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-30",
+        "claim_notification_date": "2025-07-03",
+        "claim_date": "2025-07-05"
+      },
+      "parts": {
+        "Q1": "asserted event outside term"
+      },
+      "dense_fixture": [
+        "statute",
+        "book"
+      ],
+      "required": [
+        {
+          "source": "statute",
+          "component": "temporal_scope",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+          "sources": [
+            "statute"
+          ],
+          "part": null,
+          "support": "unverifiable",
+          "scope_violation": false,
+          "category": "normative"
+        }
+      ],
+      "unresolved": {
+        "Q1": [
+          "No verified case facts; ?11.8 addresses events while in force"
+        ]
+      },
+      "expected_mode": null,
+      "expected_uncertainty": "Distinguish the asserted after-term event from the scoped general rule",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "beneficiary"
+      },
+      "expected_event_relationship": "outside_asserted_contract_period",
+      "verifier_temporal_kind": "event",
+      "uncertainty_pattern": "təsdiq|məlum|dəqiqləş",
+      "missing_info_pattern": "tarix|sənəd|təsdiq",
+      "expert_disclosure_pattern": "hüquqşünas|mütəxəssis|ekspert"
+    },
+    {
+      "id": "E2E-S04",
+      "partition": "stress",
+      "query": "Sığorta müqaviləsinə xitamdan sonra əvvəlki hadisəyə ödəniş qalırmı? Sığortalanmamış işçi üçün işəgötürən hansı öhdəliyi daşıyır?",
+      "category": "two occupational questions",
+      "insurance_type": "occupational",
+      "person_or_group": "beneficiary and employer",
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "termination",
+        "Q2": "employer liability"
+      },
+      "dense_fixture": [
+        "statute",
+        "employer"
+      ],
+      "required": [
+        {
+          "source": "statute",
+          "component": "main_provision",
+          "part": "Q1"
+        },
+        {
+          "source": "employer",
+          "component": "main_provision",
+          "part": "Q2"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+          "sources": [
+            "statute"
+          ],
+          "part": "Q1",
+          "support": "supported",
+          "scope_violation": false,
+          "category": "normative"
+        }
+      ],
+      "unresolved": {
+        "Q2": [
+          "Second question not answered by the scripted response"
+        ]
+      },
+      "expected_mode": "PARTIAL",
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "beneficiary and employer"
+      },
+      "expected_part_count": 2,
+      "expected_parts": [
+        "xitam",
+        "işəgötürən"
+      ],
+      "decompose": true,
+      "uncertainty_pattern": "kifayət|məlumat|müəyyən",
+      "missing_info_pattern": "işəgötürən|ikinci"
+    },
+    {
+      "id": "E2E-S05",
+      "partition": "stress",
+      "query": "İstehsalat sığortasında xitam varsa, faydalanan hər dəfə ödəniş alırmı?",
+      "category": "optimistic judge with unsupported entitlement",
+      "insurance_type": "occupational",
+      "person_or_group": "worker",
+      "origin": "synthetic_engineering",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "textbook misuse"
+      },
+      "dense_fixture": [
+        "statute",
+        "book"
+      ],
+      "required": [
+        {
+          "source": "statute",
+          "component": "main_provision",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "Sığortaçı hər bir halda sığorta ödənişi verməlidir.",
+          "sources": [
+            "statute"
+          ],
+          "part": null,
+          "support": "unsupported",
+          "scope_violation": true,
+          "category": "normative"
+        }
+      ],
+      "unresolved": {
+        "Q1": [
+          "Unconditional payment is not established by §11.8"
+        ]
+      },
+      "expected_mode": null,
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {
+        "insurance_type": "occupational",
+        "person_or_group": "worker"
+      },
+      "expected_eligibility": {
+        "book": false
+      }
+    },
+    {
+      "id": "E2E-B05",
+      "partition": "baseline",
+      "query": "Tibbi sığorta üzrə xüsusi keçid bəndində göstərilən 15-10.1.5-ci qayda nə vaxt qüvvəyə minir?",
+      "category": "amendment",
+      "insurance_type": "medical",
+      "person_or_group": null,
+      "origin": "source_derived",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "termination duty"
+      },
+      "dense_fixture": [
+        "amendment_start"
+      ],
+      "required": [
+        {
+          "source": "amendment_start",
+          "component": "amendment",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "Qanunun 15-10.1.5-ci maddəsi 2024-cü il yanvarın 1-dən qüvvəyə minir.",
+          "sources": [
+            "amendment_start"
+          ],
+          "part": null,
+          "category": "normative",
+          "support": "supported"
+        }
+      ],
+      "unresolved": {
+        "Q1": [
+          "No bounded exact-answer witness for these output words; do not infer additional application dates."
+        ]
+      },
+      "expected_mode": null,
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {},
+      "verified_complete_parts": [],
+      "expected_eligibility": {
+        "amendment_start": true
+      }
+    },
+    {
+      "id": "E2E-B06",
+      "partition": "baseline",
+      "query": "Nazirlər Kabinetinin qərarında istehsalat sığortası ödənişi üzrə sənədlərin siyahısının hansı yarımbəndi ləğv edilir?",
+      "category": "repeal",
+      "insurance_type": "occupational",
+      "person_or_group": null,
+      "origin": "source_derived",
+      "expert_review_status": "pending_expert_review",
+      "dates": {},
+      "parts": {
+        "Q1": "termination duty"
+      },
+      "dense_fixture": [
+        "cabinet"
+      ],
+      "required": [
+        {
+          "source": "cabinet",
+          "component": "repeal",
+          "part": "Q1"
+        }
+      ],
+      "scripted_claims": [
+        {
+          "text": "Sığorta ödənişinin təyin edilməsi üçün sənədlərin Siyahısının 1.1.1-ci yarımbəndi ləğv edilir.",
+          "sources": [
+            "cabinet"
+          ],
+          "part": null,
+          "category": "normative",
+          "support": "supported"
+        }
+      ],
+      "unresolved": {
+        "Q1": [
+          "No bounded exact-answer witness for these output words; do not infer additional application dates."
+        ]
+      },
+      "expected_mode": null,
+      "expected_uncertainty": "Preserve unspecified facts and legal qualifications",
+      "source_provenance": "Exact indexed passages from the frozen source-authority extract; generation is scripted.",
+      "required_conditions": [],
+      "exceptions": [],
+      "expected_entities": {},
+      "verified_complete_parts": [],
+      "expected_eligibility": {
+        "cabinet": true
+      }
+    }
+  ]
+}

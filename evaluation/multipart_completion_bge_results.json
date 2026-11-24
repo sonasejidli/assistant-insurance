@@ -1,0 +1,1697 @@
+{
+  "summary": {
+    "before": {
+      "complete": 1,
+      "assigned": 11,
+      "extra_attributions": 3,
+      "recall5": 0.5158730158730158,
+      "recall10": 0.5992063492063492,
+      "mrr10": 0.6944444444444444,
+      "ndcg10": 0.563133346272667
+    },
+    "after": {
+      "complete": 6,
+      "assigned": 20,
+      "extra_attributions": 0,
+      "recall5": 0.9523809523809523,
+      "recall10": 1.0,
+      "mrr10": 1.0,
+      "ndcg10": 1.0
+    }
+  },
+  "rows": [
+    {
+      "id": "MP01",
+      "requirements": [
+        [
+          "ea271fbd-2d68-5012-8dcf-6027568380ff"
+        ],
+        [
+          "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+        ]
+      ],
+      "variants": {
+        "before": {
+          "parts": {
+            "Q1": "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir?",
+            "Q2": "İcbari sığorta nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 5
+              },
+              "dense": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": null
+              },
+              "fusion": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 7
+              },
+              "bge_eligible": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 7
+              },
+              "bge": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 1
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 20
+              },
+              "dense": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 5
+              },
+              "fusion": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 5
+              },
+              "bge_eligible": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 5
+              },
+              "bge": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+              }
+            }
+          },
+          "retrieved": [
+            "ea271fbd-2d68-5012-8dcf-6027568380ff",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+            "6fef2309-6c83-5c1f-9a32-fc2f97b937b9",
+            "b60667d2-4dcc-550e-a2e9-22716ab45cb8",
+            "c8efd485-28a9-5d73-bb52-5c75b4e939f2",
+            "6de2d6a6-f544-5bed-9de1-f80f3b2581d1",
+            "d9962858-b52d-53b4-873c-6864cf29e86f",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "f36fe280-3690-51c8-9ae1-1b778a437d8f"
+          ],
+          "final": [
+            {
+              "passage_id": "ea271fbd-2d68-5012-8dcf-6027568380ff",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/126"
+            },
+            {
+              "passage_id": "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/134"
+            },
+            {
+              "passage_id": "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/124"
+            },
+            {
+              "passage_id": "6fef2309-6c83-5c1f-9a32-fc2f97b937b9",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/176"
+            },
+            {
+              "passage_id": "b60667d2-4dcc-550e-a2e9-22716ab45cb8",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/129"
+            },
+            {
+              "passage_id": "c8efd485-28a9-5d73-bb52-5c75b4e939f2",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/131"
+            },
+            {
+              "passage_id": "6de2d6a6-f544-5bed-9de1-f80f3b2581d1",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/132"
+            },
+            {
+              "passage_id": "d9962858-b52d-53b4-873c-6864cf29e86f",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/493"
+            },
+            {
+              "passage_id": "453ce220-b1a8-533d-a375-5a1ec65aa233",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/78"
+            },
+            {
+              "passage_id": "f36fe280-3690-51c8-9ae1-1b778a437d8f",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/189"
+            }
+          ],
+          "metrics": {
+            "recall5": 1.0,
+            "recall10": 1.0,
+            "mrr10": 1.0,
+            "ndcg10": 1.0
+          },
+          "missing": {
+            "Q1": [],
+            "Q2": []
+          },
+          "extra_attributions": 2,
+          "complete": true,
+          "assigned": 2
+        },
+        "after": {
+          "parts": {
+            "Q1": "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir?",
+            "Q2": "İcbari sığorta nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 5
+              },
+              "dense": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": null
+              },
+              "fusion": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 7
+              },
+              "bge_eligible": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 7
+              },
+              "bge": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 1
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 20
+              },
+              "dense": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 5
+              },
+              "fusion": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+              },
+              "bge_eligible": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+              },
+              "bge": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+              }
+            }
+          },
+          "retrieved": [
+            "ea271fbd-2d68-5012-8dcf-6027568380ff",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+            "6fef2309-6c83-5c1f-9a32-fc2f97b937b9",
+            "b60667d2-4dcc-550e-a2e9-22716ab45cb8",
+            "c8efd485-28a9-5d73-bb52-5c75b4e939f2",
+            "6de2d6a6-f544-5bed-9de1-f80f3b2581d1",
+            "d9962858-b52d-53b4-873c-6864cf29e86f",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "f36fe280-3690-51c8-9ae1-1b778a437d8f"
+          ],
+          "final": [
+            {
+              "passage_id": "ea271fbd-2d68-5012-8dcf-6027568380ff",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/126"
+            },
+            {
+              "passage_id": "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/134"
+            },
+            {
+              "passage_id": "9b7bace5-79e9-5f8d-9c2c-057f35824399",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "cross_reference",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/109"
+            }
+          ],
+          "metrics": {
+            "recall5": 1.0,
+            "recall10": 1.0,
+            "mrr10": 1.0,
+            "ndcg10": 1.0
+          },
+          "missing": {
+            "Q1": [],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": true,
+          "assigned": 2
+        }
+      }
+    },
+    {
+      "id": "MP02",
+      "requirements": [
+        [
+          "981d0040-8977-568c-8f24-4abac260c133",
+          "bd24401f-bf5e-5ac7-8495-e14095cf1d3b"
+        ],
+        [
+          "425810a6-3dfb-580b-aee3-feacc1b251fc"
+        ]
+      ],
+      "variants": {
+        "before": {
+          "parts": {
+            "Q1": "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır?",
+            "Q2": "İş qəzası sığortasında nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "981d0040-8977-568c-8f24-4abac260c133": 50,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 4
+              },
+              "dense": {
+                "981d0040-8977-568c-8f24-4abac260c133": 20,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 21
+              },
+              "fusion": {
+                "981d0040-8977-568c-8f24-4abac260c133": 20,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 2
+              },
+              "bge_eligible": {
+                "981d0040-8977-568c-8f24-4abac260c133": 20,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 2
+              },
+              "bge": {
+                "981d0040-8977-568c-8f24-4abac260c133": 12,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 3
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 15
+              },
+              "dense": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": null
+              },
+              "fusion": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 22
+              },
+              "bge_eligible": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 22
+              },
+              "bge": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 2
+              }
+            }
+          },
+          "retrieved": [
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "425810a6-3dfb-580b-aee3-feacc1b251fc",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "74abc402-8905-5112-afc2-26731e15001d",
+            "6098051f-2d36-5030-8ad1-27ff84aa195d",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "1a7427ec-0a1e-572b-81e0-b61f1e49b5d7",
+            "8ef9ad12-a774-5ebe-8309-aedf66f449f6",
+            "5fc725e0-9c5d-5ba0-8778-bf7c7f328fe3",
+            "8ab050fb-b929-5e64-9baa-5aa5e43ce2ce"
+          ],
+          "final": [
+            {
+              "passage_id": "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/198"
+            },
+            {
+              "passage_id": "425810a6-3dfb-580b-aee3-feacc1b251fc",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/87"
+            },
+            {
+              "passage_id": "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/471"
+            },
+            {
+              "passage_id": "74abc402-8905-5112-afc2-26731e15001d",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/405"
+            },
+            {
+              "passage_id": "6098051f-2d36-5030-8ad1-27ff84aa195d",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/482"
+            },
+            {
+              "passage_id": "453ce220-b1a8-533d-a375-5a1ec65aa233",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/78"
+            },
+            {
+              "passage_id": "1a7427ec-0a1e-572b-81e0-b61f1e49b5d7",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/475"
+            },
+            {
+              "passage_id": "8ef9ad12-a774-5ebe-8309-aedf66f449f6",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/407"
+            },
+            {
+              "passage_id": "5fc725e0-9c5d-5ba0-8778-bf7c7f328fe3",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/473"
+            },
+            {
+              "passage_id": "8ab050fb-b929-5e64-9baa-5aa5e43ce2ce",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/406"
+            }
+          ],
+          "metrics": {
+            "recall5": 0.6666666666666666,
+            "recall10": 0.6666666666666666,
+            "mrr10": 1.0,
+            "ndcg10": 0.7653606369886217
+          },
+          "missing": {
+            "Q1": [
+              "981d0040-8977-568c-8f24-4abac260c133"
+            ],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": false,
+          "assigned": 2
+        },
+        "after": {
+          "parts": {
+            "Q1": "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır?",
+            "Q2": "İş qəzası sığortasında nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "981d0040-8977-568c-8f24-4abac260c133": 50,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 4
+              },
+              "dense": {
+                "981d0040-8977-568c-8f24-4abac260c133": 20,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 21
+              },
+              "fusion": {
+                "981d0040-8977-568c-8f24-4abac260c133": 20,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 2
+              },
+              "bge_eligible": {
+                "981d0040-8977-568c-8f24-4abac260c133": 20,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 2
+              },
+              "bge": {
+                "981d0040-8977-568c-8f24-4abac260c133": 12,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 3
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 15
+              },
+              "dense": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": null
+              },
+              "fusion": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 1
+              },
+              "bge_eligible": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 1
+              },
+              "bge": {
+                "425810a6-3dfb-580b-aee3-feacc1b251fc": 2
+              }
+            }
+          },
+          "retrieved": [
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "425810a6-3dfb-580b-aee3-feacc1b251fc",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "74abc402-8905-5112-afc2-26731e15001d",
+            "6098051f-2d36-5030-8ad1-27ff84aa195d",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "1a7427ec-0a1e-572b-81e0-b61f1e49b5d7",
+            "8ef9ad12-a774-5ebe-8309-aedf66f449f6",
+            "5fc725e0-9c5d-5ba0-8778-bf7c7f328fe3",
+            "8ab050fb-b929-5e64-9baa-5aa5e43ce2ce"
+          ],
+          "final": [
+            {
+              "passage_id": "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/198"
+            },
+            {
+              "passage_id": "425810a6-3dfb-580b-aee3-feacc1b251fc",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/87"
+            },
+            {
+              "passage_id": "981d0040-8977-568c-8f24-4abac260c133",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "surrounding",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/197"
+            }
+          ],
+          "metrics": {
+            "recall5": 1.0,
+            "recall10": 1.0,
+            "mrr10": 1.0,
+            "ndcg10": 1.0
+          },
+          "missing": {
+            "Q1": [],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": true,
+          "assigned": 3
+        }
+      }
+    },
+    {
+      "id": "MP03",
+      "requirements": [
+        [
+          "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+          "bdb38a9f-b447-51c9-8604-4847c6bdd000",
+          "f0dd6eda-2bde-5091-9db0-50b47faa3c24",
+          "8165b448-0c41-504f-8f86-a2bbc98163fc",
+          "f1658e65-5b20-5213-9802-353023095b16"
+        ],
+        [
+          "65a2d7c8-f5dc-56e4-986c-67b7b79b670d",
+          "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8"
+        ]
+      ],
+      "variants": {
+        "before": {
+          "parts": {
+            "Q1": "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir?",
+            "Q2": "Auditor sığortasında hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 2,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "dense": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "fusion": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "bge_eligible": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "bge": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 40,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": null
+              },
+              "dense": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": null,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 4
+              },
+              "fusion": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 1,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 53
+              },
+              "bge_eligible": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 1,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 50
+              },
+              "bge": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 1,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 2
+              }
+            }
+          },
+          "retrieved": [
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8",
+            "d077cb8d-1b0a-555d-9e1a-8a28c9052c14",
+            "65a2d7c8-f5dc-56e4-986c-67b7b79b670d",
+            "421cb23f-52f6-5451-92c0-f3c924ed84a0",
+            "9b4ce2db-20da-5e95-ae2a-c9b65107462d",
+            "8206f572-e457-51b9-9853-32b9b5d95d58",
+            "b415ac18-ca62-5436-86fb-6194ee329cf6",
+            "57952efc-34d1-5e86-9886-c6be60f30a67",
+            "37554259-8d0d-54ad-8179-ae06434df4c2"
+          ],
+          "final": [
+            {
+              "passage_id": "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/92"
+            },
+            {
+              "passage_id": "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/106"
+            },
+            {
+              "passage_id": "d077cb8d-1b0a-555d-9e1a-8a28c9052c14",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%201.pdf/preview/730"
+            },
+            {
+              "passage_id": "65a2d7c8-f5dc-56e4-986c-67b7b79b670d",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/105"
+            },
+            {
+              "passage_id": "421cb23f-52f6-5451-92c0-f3c924ed84a0",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%201.pdf/preview/715"
+            },
+            {
+              "passage_id": "9b4ce2db-20da-5e95-ae2a-c9b65107462d",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/478"
+            },
+            {
+              "passage_id": "8206f572-e457-51b9-9853-32b9b5d95d58",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/183"
+            },
+            {
+              "passage_id": "b415ac18-ca62-5436-86fb-6194ee329cf6",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forts%204.pdf/preview/217"
+            },
+            {
+              "passage_id": "57952efc-34d1-5e86-9886-c6be60f30a67",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/415"
+            },
+            {
+              "passage_id": "37554259-8d0d-54ad-8179-ae06434df4c2",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/85"
+            }
+          ],
+          "metrics": {
+            "recall5": 0.42857142857142855,
+            "recall10": 0.42857142857142855,
+            "mrr10": 1.0,
+            "ndcg10": 0.5666867828578933
+          },
+          "missing": {
+            "Q1": [
+              "8165b448-0c41-504f-8f86-a2bbc98163fc",
+              "bdb38a9f-b447-51c9-8604-4847c6bdd000",
+              "f0dd6eda-2bde-5091-9db0-50b47faa3c24",
+              "f1658e65-5b20-5213-9802-353023095b16"
+            ],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": false,
+          "assigned": 3
+        },
+        "after": {
+          "parts": {
+            "Q1": "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir?",
+            "Q2": "Auditor sığortasında hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 2,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "dense": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "fusion": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "bge_eligible": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              },
+              "bge": {
+                "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+                "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+                "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+                "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+                "f1658e65-5b20-5213-9802-353023095b16": null
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 40,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": null
+              },
+              "dense": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": null,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 4
+              },
+              "fusion": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 1,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 53
+              },
+              "bge_eligible": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 1,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 50
+              },
+              "bge": {
+                "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": 1,
+                "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": 2
+              }
+            }
+          },
+          "retrieved": [
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8",
+            "d077cb8d-1b0a-555d-9e1a-8a28c9052c14",
+            "65a2d7c8-f5dc-56e4-986c-67b7b79b670d",
+            "421cb23f-52f6-5451-92c0-f3c924ed84a0",
+            "9b4ce2db-20da-5e95-ae2a-c9b65107462d",
+            "8206f572-e457-51b9-9853-32b9b5d95d58",
+            "b415ac18-ca62-5436-86fb-6194ee329cf6",
+            "57952efc-34d1-5e86-9886-c6be60f30a67",
+            "37554259-8d0d-54ad-8179-ae06434df4c2"
+          ],
+          "final": [
+            {
+              "passage_id": "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/92"
+            },
+            {
+              "passage_id": "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/106"
+            },
+            {
+              "passage_id": "65a2d7c8-f5dc-56e4-986c-67b7b79b670d",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/105"
+            },
+            {
+              "passage_id": "bdb38a9f-b447-51c9-8604-4847c6bdd000",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "surrounding",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/93"
+            },
+            {
+              "passage_id": "f0dd6eda-2bde-5091-9db0-50b47faa3c24",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "surrounding",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/94"
+            },
+            {
+              "passage_id": "8165b448-0c41-504f-8f86-a2bbc98163fc",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "surrounding",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/95"
+            },
+            {
+              "passage_id": "f1658e65-5b20-5213-9802-353023095b16",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "surrounding",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%205.pdf/preview/96"
+            }
+          ],
+          "metrics": {
+            "recall5": 0.7142857142857143,
+            "recall10": 1.0,
+            "mrr10": 1.0,
+            "ndcg10": 1.0
+          },
+          "missing": {
+            "Q1": [],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": true,
+          "assigned": 7
+        }
+      }
+    },
+    {
+      "id": "MP04",
+      "requirements": [
+        [
+          "a5a0fff9-2ca3-537a-b418-83143fc42080"
+        ],
+        [
+          "eea8fe80-397b-52da-8268-509246a90deb"
+        ]
+      ],
+      "variants": {
+        "before": {
+          "parts": {
+            "Q1": "İcbari sığortada gecikmiş müraciətə hansı müddətlər tətbiq olunur?",
+            "Q2": "iş qəzası sığortasında gecikmiş müraciətə hansı müddətlər tətbiq olunur?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": null
+              },
+              "dense": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": null
+              },
+              "fusion": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": null
+              },
+              "bge_eligible": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": null
+              },
+              "bge": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": null
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "eea8fe80-397b-52da-8268-509246a90deb": null
+              },
+              "dense": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 1
+              },
+              "fusion": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 51
+              },
+              "bge_eligible": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 48
+              },
+              "bge": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 1
+              }
+            }
+          },
+          "retrieved": [
+            "f88f7880-ef9a-50ea-bcdb-c61e5fd25e76",
+            "eea8fe80-397b-52da-8268-509246a90deb",
+            "50d847fe-6869-5172-92f1-a6ed4dd021c2",
+            "43ddba92-b233-5e64-b096-aedc80216940",
+            "8679a197-4b15-5612-933e-5b2f3da3b16c",
+            "9f023a86-9b24-57c7-9af1-f9a14e8add0b",
+            "28d030a3-8ced-5a27-a79c-788bcf836c31",
+            "6dc35cb8-f289-5b9e-b271-fb894b3db054",
+            "80ad3c02-371d-585f-aa92-197078632039",
+            "aefdb8e8-b4d7-502f-8026-02c65d32cdd5"
+          ],
+          "final": [
+            {
+              "passage_id": "f88f7880-ef9a-50ea-bcdb-c61e5fd25e76",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%206.pdf/preview/72"
+            },
+            {
+              "passage_id": "eea8fe80-397b-52da-8268-509246a90deb",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/191"
+            },
+            {
+              "passage_id": "50d847fe-6869-5172-92f1-a6ed4dd021c2",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/292"
+            },
+            {
+              "passage_id": "43ddba92-b233-5e64-b096-aedc80216940",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%201.pdf/preview/266"
+            },
+            {
+              "passage_id": "8679a197-4b15-5612-933e-5b2f3da3b16c",
+              "subquestions": [
+                "Q1",
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%207.pdf/preview/110"
+            },
+            {
+              "passage_id": "9f023a86-9b24-57c7-9af1-f9a14e8add0b",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/248"
+            },
+            {
+              "passage_id": "28d030a3-8ced-5a27-a79c-788bcf836c31",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%207.pdf/preview/86"
+            },
+            {
+              "passage_id": "6dc35cb8-f289-5b9e-b271-fb894b3db054",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%201.pdf/preview/274"
+            },
+            {
+              "passage_id": "80ad3c02-371d-585f-aa92-197078632039",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forts%204.pdf/preview/175"
+            },
+            {
+              "passage_id": "aefdb8e8-b4d7-502f-8026-02c65d32cdd5",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%201.pdf/preview/589"
+            }
+          ],
+          "metrics": {
+            "recall5": 0.5,
+            "recall10": 0.5,
+            "mrr10": 0.5,
+            "ndcg10": 0.38685280723454163
+          },
+          "missing": {
+            "Q1": [
+              "a5a0fff9-2ca3-537a-b418-83143fc42080"
+            ],
+            "Q2": []
+          },
+          "extra_attributions": 1,
+          "complete": false,
+          "assigned": 1
+        },
+        "after": {
+          "parts": {
+            "Q1": "İcbari sığortada gecikmiş müraciətə hansı müddətlər tətbiq olunur?",
+            "Q2": "iş qəzası sığortasında gecikmiş müraciətə hansı müddətlər tətbiq olunur?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": null
+              },
+              "dense": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": null
+              },
+              "fusion": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": 1
+              },
+              "bge_eligible": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": 1
+              },
+              "bge": {
+                "a5a0fff9-2ca3-537a-b418-83143fc42080": 2
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "eea8fe80-397b-52da-8268-509246a90deb": null
+              },
+              "dense": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 1
+              },
+              "fusion": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 1
+              },
+              "bge_eligible": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 1
+              },
+              "bge": {
+                "eea8fe80-397b-52da-8268-509246a90deb": 1
+              }
+            }
+          },
+          "retrieved": [
+            "a5a0fff9-2ca3-537a-b418-83143fc42080",
+            "eea8fe80-397b-52da-8268-509246a90deb",
+            "f88f7880-ef9a-50ea-bcdb-c61e5fd25e76",
+            "50d847fe-6869-5172-92f1-a6ed4dd021c2",
+            "43ddba92-b233-5e64-b096-aedc80216940",
+            "8679a197-4b15-5612-933e-5b2f3da3b16c",
+            "9f023a86-9b24-57c7-9af1-f9a14e8add0b",
+            "6dc35cb8-f289-5b9e-b271-fb894b3db054",
+            "28d030a3-8ced-5a27-a79c-788bcf836c31",
+            "aefdb8e8-b4d7-502f-8026-02c65d32cdd5"
+          ],
+          "final": [
+            {
+              "passage_id": "a5a0fff9-2ca3-537a-b418-83143fc42080",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/533"
+            },
+            {
+              "passage_id": "eea8fe80-397b-52da-8268-509246a90deb",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/191"
+            }
+          ],
+          "metrics": {
+            "recall5": 1.0,
+            "recall10": 1.0,
+            "mrr10": 1.0,
+            "ndcg10": 1.0
+          },
+          "missing": {
+            "Q1": [],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": true,
+          "assigned": 2
+        }
+      }
+    },
+    {
+      "id": "MP05",
+      "requirements": [
+        [
+          "1463f573-4b97-508b-ba58-ca086c481877",
+          "d3218301-0fe1-5a16-8eff-2372d8c3c2e3"
+        ],
+        [
+          "981d0040-8977-568c-8f24-4abac260c133",
+          "bd24401f-bf5e-5ac7-8495-e14095cf1d3b"
+        ]
+      ],
+      "variants": {
+        "before": {
+          "parts": {
+            "Q1": "İstehsalat riskinin icbari sığorta haqqı necə hesablanır?",
+            "Q2": "İstehsalat riskinin hansı hallarda hadisəni qəsdən törətmək ödənişdən imtinaya səbəb olur?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "1463f573-4b97-508b-ba58-ca086c481877": null,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 19
+              },
+              "dense": {
+                "1463f573-4b97-508b-ba58-ca086c481877": null,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": null
+              },
+              "fusion": {
+                "1463f573-4b97-508b-ba58-ca086c481877": null,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 24
+              },
+              "bge_eligible": {
+                "1463f573-4b97-508b-ba58-ca086c481877": null,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 24
+              },
+              "bge": {
+                "1463f573-4b97-508b-ba58-ca086c481877": null,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 1
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "981d0040-8977-568c-8f24-4abac260c133": null,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 29
+              },
+              "dense": {
+                "981d0040-8977-568c-8f24-4abac260c133": 6,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 5
+              },
+              "fusion": {
+                "981d0040-8977-568c-8f24-4abac260c133": 53,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 5
+              },
+              "bge_eligible": {
+                "981d0040-8977-568c-8f24-4abac260c133": null,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 5
+              },
+              "bge": {
+                "981d0040-8977-568c-8f24-4abac260c133": null,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 1
+              }
+            }
+          },
+          "retrieved": [
+            "1509561f-6abf-5267-bff3-8454bfe27075",
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "d3218301-0fe1-5a16-8eff-2372d8c3c2e3",
+            "b786fc72-0106-5af3-a1da-78ff9c93e63c",
+            "7ba8c10a-da4d-55b7-aff6-2d5609b9b26a",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "29064f5d-76a9-5568-8b83-c1d8f94b2e2a",
+            "6098051f-2d36-5030-8ad1-27ff84aa195d",
+            "805a26d7-3668-52f6-831d-09185026ca93",
+            "1a7427ec-0a1e-572b-81e0-b61f1e49b5d7"
+          ],
+          "final": [
+            {
+              "passage_id": "1509561f-6abf-5267-bff3-8454bfe27075",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/156"
+            },
+            {
+              "passage_id": "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/198"
+            },
+            {
+              "passage_id": "d3218301-0fe1-5a16-8eff-2372d8c3c2e3",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/154"
+            },
+            {
+              "passage_id": "b786fc72-0106-5af3-a1da-78ff9c93e63c",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/15"
+            },
+            {
+              "passage_id": "7ba8c10a-da4d-55b7-aff6-2d5609b9b26a",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/22"
+            },
+            {
+              "passage_id": "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/471"
+            },
+            {
+              "passage_id": "29064f5d-76a9-5568-8b83-c1d8f94b2e2a",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/19"
+            },
+            {
+              "passage_id": "6098051f-2d36-5030-8ad1-27ff84aa195d",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/482"
+            },
+            {
+              "passage_id": "805a26d7-3668-52f6-831d-09185026ca93",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/5"
+            },
+            {
+              "passage_id": "1a7427ec-0a1e-572b-81e0-b61f1e49b5d7",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/civil-code.pdf/preview/475"
+            }
+          ],
+          "metrics": {
+            "recall5": 0.5,
+            "recall10": 0.5,
+            "mrr10": 0.5,
+            "ndcg10": 0.44149241373678083
+          },
+          "missing": {
+            "Q1": [
+              "1463f573-4b97-508b-ba58-ca086c481877"
+            ],
+            "Q2": [
+              "981d0040-8977-568c-8f24-4abac260c133"
+            ]
+          },
+          "extra_attributions": 0,
+          "complete": false,
+          "assigned": 2
+        },
+        "after": {
+          "parts": {
+            "Q1": "İstehsalat riskinin icbari sığorta haqqı necə hesablanır?",
+            "Q2": "İstehsalat riskinin hansı hallarda hadisəni qəsdən törətmək ödənişdən imtinaya səbəb olur?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "1463f573-4b97-508b-ba58-ca086c481877": null,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 19
+              },
+              "dense": {
+                "1463f573-4b97-508b-ba58-ca086c481877": null,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": null
+              },
+              "fusion": {
+                "1463f573-4b97-508b-ba58-ca086c481877": 1,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 2
+              },
+              "bge_eligible": {
+                "1463f573-4b97-508b-ba58-ca086c481877": 1,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 2
+              },
+              "bge": {
+                "1463f573-4b97-508b-ba58-ca086c481877": 7,
+                "d3218301-0fe1-5a16-8eff-2372d8c3c2e3": 1
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "981d0040-8977-568c-8f24-4abac260c133": null,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 29
+              },
+              "dense": {
+                "981d0040-8977-568c-8f24-4abac260c133": 6,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 5
+              },
+              "fusion": {
+                "981d0040-8977-568c-8f24-4abac260c133": 53,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 5
+              },
+              "bge_eligible": {
+                "981d0040-8977-568c-8f24-4abac260c133": null,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 5
+              },
+              "bge": {
+                "981d0040-8977-568c-8f24-4abac260c133": null,
+                "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 1
+              }
+            }
+          },
+          "retrieved": [
+            "1463f573-4b97-508b-ba58-ca086c481877",
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "d3218301-0fe1-5a16-8eff-2372d8c3c2e3",
+            "b786fc72-0106-5af3-a1da-78ff9c93e63c",
+            "1509561f-6abf-5267-bff3-8454bfe27075",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "7ba8c10a-da4d-55b7-aff6-2d5609b9b26a",
+            "6098051f-2d36-5030-8ad1-27ff84aa195d",
+            "29064f5d-76a9-5568-8b83-c1d8f94b2e2a",
+            "1a7427ec-0a1e-572b-81e0-b61f1e49b5d7"
+          ],
+          "final": [
+            {
+              "passage_id": "1463f573-4b97-508b-ba58-ca086c481877",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/150"
+            },
+            {
+              "passage_id": "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/198"
+            },
+            {
+              "passage_id": "d3218301-0fe1-5a16-8eff-2372d8c3c2e3",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/154"
+            },
+            {
+              "passage_id": "981d0040-8977-568c-8f24-4abac260c133",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "surrounding",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/197"
+            }
+          ],
+          "metrics": {
+            "recall5": 1.0,
+            "recall10": 1.0,
+            "mrr10": 1.0,
+            "ndcg10": 1.0
+          },
+          "missing": {
+            "Q1": [],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": true,
+          "assigned": 4
+        }
+      }
+    },
+    {
+      "id": "MP06",
+      "requirements": [
+        [
+          "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+        ],
+        [
+          "ea271fbd-2d68-5012-8dcf-6027568380ff"
+        ]
+      ],
+      "variants": {
+        "before": {
+          "parts": {
+            "Q1": "İcbari sığortada son sənəd alındıqdan sonra qərar üçün müddət nə qədərdir?",
+            "Q2": "İcbari sığortada hansı şəxsiyyət sənədləri istinad edilən qaydaya daxildir?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": null
+              },
+              "dense": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 29
+              },
+              "fusion": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 76
+              },
+              "bge_eligible": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": null
+              },
+              "bge": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": null
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 17
+              },
+              "dense": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": null
+              },
+              "fusion": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 22
+              },
+              "bge_eligible": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 22
+              },
+              "bge": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 3
+              }
+            }
+          },
+          "retrieved": [
+            "a2d53a2f-2bfb-5561-8b3a-e49eae58b6b4",
+            "1e185408-7452-579a-b848-b5c2ecc42f87",
+            "4c51f5e6-a9a1-5106-838a-121bd630e71b",
+            "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+            "091657fd-a07c-5032-bcb2-18666930e8ce",
+            "ea271fbd-2d68-5012-8dcf-6027568380ff",
+            "f36fe280-3690-51c8-9ae1-1b778a437d8f",
+            "ebcd581b-d247-5c8c-8ffa-4a39f2f08c09",
+            "2fcbbe27-ff25-57a1-8b05-b61d9bb733ab",
+            "76511d1f-c752-5d88-bd64-5949fa851afe"
+          ],
+          "final": [
+            {
+              "passage_id": "a2d53a2f-2bfb-5561-8b3a-e49eae58b6b4",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/54"
+            },
+            {
+              "passage_id": "1e185408-7452-579a-b848-b5c2ecc42f87",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/123"
+            },
+            {
+              "passage_id": "4c51f5e6-a9a1-5106-838a-121bd630e71b",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/56"
+            },
+            {
+              "passage_id": "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/124"
+            },
+            {
+              "passage_id": "091657fd-a07c-5032-bcb2-18666930e8ce",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/280"
+            },
+            {
+              "passage_id": "ea271fbd-2d68-5012-8dcf-6027568380ff",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/126"
+            },
+            {
+              "passage_id": "f36fe280-3690-51c8-9ae1-1b778a437d8f",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%203.pdf/preview/189"
+            },
+            {
+              "passage_id": "ebcd581b-d247-5c8c-8ffa-4a39f2f08c09",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/259"
+            },
+            {
+              "passage_id": "2fcbbe27-ff25-57a1-8b05-b61d9bb733ab",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%201.pdf/preview/1227"
+            },
+            {
+              "passage_id": "76511d1f-c752-5d88-bd64-5949fa851afe",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/125"
+            }
+          ],
+          "metrics": {
+            "recall5": 0.0,
+            "recall10": 0.5,
+            "mrr10": 0.16666666666666666,
+            "ndcg10": 0.21840743681816419
+          },
+          "missing": {
+            "Q1": [
+              "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+            ],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": false,
+          "assigned": 1
+        },
+        "after": {
+          "parts": {
+            "Q1": "İcbari sığortada son sənəd alındıqdan sonra qərar üçün müddət nə qədərdir?",
+            "Q2": "İcbari sığortada hansı şəxsiyyət sənədləri istinad edilən qaydaya daxildir?"
+          },
+          "stage_ranks": {
+            "Q1": {
+              "bm25": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": null
+              },
+              "dense": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 29
+              },
+              "fusion": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+              },
+              "bge_eligible": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+              },
+              "bge": {
+                "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+              }
+            },
+            "Q2": {
+              "bm25": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 17
+              },
+              "dense": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": null
+              },
+              "fusion": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 22
+              },
+              "bge_eligible": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 22
+              },
+              "bge": {
+                "ea271fbd-2d68-5012-8dcf-6027568380ff": 3
+              }
+            }
+          },
+          "retrieved": [
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "1e185408-7452-579a-b848-b5c2ecc42f87",
+            "a2d53a2f-2bfb-5561-8b3a-e49eae58b6b4",
+            "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+            "4c51f5e6-a9a1-5106-838a-121bd630e71b",
+            "ea271fbd-2d68-5012-8dcf-6027568380ff",
+            "091657fd-a07c-5032-bcb2-18666930e8ce",
+            "ebcd581b-d247-5c8c-8ffa-4a39f2f08c09",
+            "f36fe280-3690-51c8-9ae1-1b778a437d8f",
+            "76511d1f-c752-5d88-bd64-5949fa851afe"
+          ],
+          "final": [
+            {
+              "passage_id": "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+              "subquestions": [
+                "Q1"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/134"
+            },
+            {
+              "passage_id": "ea271fbd-2d68-5012-8dcf-6027568380ff",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "retrieval",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/126"
+            },
+            {
+              "passage_id": "9b7bace5-79e9-5f8d-9c2c-057f35824399",
+              "subquestions": [
+                "Q2"
+              ],
+              "retrieval_source": "cross_reference",
+              "source_url": "/documents/s%C4%B1%C4%9Forta%202.pdf/preview/109"
+            }
+          ],
+          "metrics": {
+            "recall5": 1.0,
+            "recall10": 1.0,
+            "mrr10": 1.0,
+            "ndcg10": 1.0
+          },
+          "missing": {
+            "Q1": [],
+            "Q2": []
+          },
+          "extra_attributions": 0,
+          "complete": true,
+          "assigned": 2
+        }
+      }
+    }
+  ]
+}

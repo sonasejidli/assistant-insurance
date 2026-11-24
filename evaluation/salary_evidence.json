@@ -1,0 +1,33 @@
+{
+  "chunks": [
+    {
+      "doc": "salary-law",
+      "text": "15-10.1.2. muzdla işləyən fiziki şəxslər, hərbi qulluqçular (müddətli həqiqi hərbi xidmət hərbi qulluqçuları istisna olmaqla), Azərbaycan Respublikasının Milli Məclisi və ya müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən vəzifəyə təyin olunan şəxslər, seçkili ödənişli vəzifə tutan şəxslər üzrə – sığortalı tərəfindən işçinin əməkhaqqının 8000 manatadək olan hissəsindən 2 faiz, 8000 manatdan yuxarı olan hissəsindən 0,5 faiz, sığortaolunan tərəfindən əməkhaqqının 8000 manatadək olan hissəsindən 2 faiz, 8000 manatdan yuxarı olan hissəsindən 0,5 faiz;",
+      "metadata": {
+        "document_name": "sığorts 4.pdf",
+        "law_name": "Tibbi sığorta haqqında",
+        "insurance_type": "medical",
+        "article": "15-10",
+        "clause": "15-10.1.2",
+        "page_number": 14,
+        "section_title": "İcbari tibbi sığorta haqları"
+      }
+    },
+    {
+      "doc": "salary-state",
+      "text": "15-10.1.1. bu Qanunun 15-2.1-ci maddəsində nəzərdə tutulmuş şəxslər üzrə – dövlət büdcəsinin vəsaiti hesabına tam təqvim ili üçün adambaşına 90 manat;",
+      "metadata": {"document_name": "sığorts 4.pdf", "law_name": "Tibbi sığorta haqqında", "insurance_type": "medical", "article": "15-10", "clause": "15-10.1.1", "page_number": 14}
+    },
+    {
+      "doc": "salary-minimum",
+      "text": "15-10.1.3. bu Qanunun 15-2.2.2-ci maddəsində nəzərdə tutulmuş sığortaolunanlar üzrə – minimum aylıq əməkhaqqının 4 faizi;",
+      "metadata": {"document_name": "sığorts 4.pdf", "law_name": "Tibbi sığorta haqqında", "insurance_type": "medical", "article": "15-10", "clause": "15-10.1.3", "page_number": 15}
+    }
+  ],
+  "expected": {
+    "case": "AZ097",
+    "authoritative_fixture_passage": "salary-law",
+    "contrast_passages": ["premium", "sum-insured", "property-limit", "injury-limit", "motor-property", "motor-injury", "own-limit"],
+    "interpretation": "Ask which insurance type and which limit the user means if the distinction matters. In the supplied medical-insurance PDF, Article 15-10, clause 15-10.1.2 on PDF page 14 establishes a wage-based premium for the covered groups, subject to its scope and exceptions. The 8,000 manat figure separates two wage bands: 2% on the part up to the threshold and 0.5% on the portion above it. The higher portion is still assessed. Salary is the calculation base, the premium is the result, and a payout or insured-amount limit is a distinct concept. The clause does not establish a general salary–premium rule across insurance products or any universal payout ceiling."
+  }
+}

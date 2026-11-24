@@ -1,0 +1,166 @@
+# category|style|snapshot document:passage ordinal(s)|query|history|expected standalone|scope note
+# Ordinals use the zero-based snapshot inventory in build_real_insurance_dataset.py.
+payment_exclusions|formal|6:157,158|İcbari sığortada hərbi əməliyyat və radioaktiv çirklənmə nəticəsində yaranan zərər üzrə imtina necə əsaslandırılır?
+payment_exclusions|informal|6:159|Qəzada baqajdakı nağd pulum itib, icbari sığortadan həmin pulu ala bilərəm?
+payment_exclusions|formal|6:160|İcbari sığorta tələbi yalnız mənəvi zərərə aiddirsə, ödəniş həyata keçirilirmi?
+payment_exclusions|informal|6:160|Hadisəyə görə işə gedə bilmədim və gəlirimi itirdim, bu itkini icbari sığorta ödəyir?
+payment_exclusions|formal|6:161|İcbari sığorta tələbi cərimə, peniya və dəbbə pulu ilə bağlı olduqda hansı nəticə yaranır?
+payment_exclusions|formal|6:157,163|İcbari sığorta üzrə imtinanın ümumi və ayrıca sığorta növünə xas əsasları necə fərqləndirilir?
+payment_exclusions|informal|6:365|Evimdə yanğını özüm bilərəkdən törətmişəmsə, daşınmaz əmlakın icbari sığortası işləyir?
+payment_exclusions|informal|6:366|Təmir vaxtı istilik divarı zədələdi, amma yanğın olmayıb. İcbari əmlak sığortası bunu sığorta hadisəsi sayır?
+payment_exclusions|formal|6:368|Qrunt suyu səviyyəsinin dəyişməsi daşınmaz əmlakın icbari sığortası üzrə hansı qaydaya tabedir?
+payment_exclusions|formal|7:197,198|İş qəzasında sığorta olunanın hadisəni qəsdən törətməsi sığorta ödənişinə necə təsir edir?
+payment_exclusions|informal|7:199|İşçi işini görərkən sərxoş vəziyyətdə qəzaya düşüb. Peşə əmək qabiliyyətinin itirilməsi sığortasından pul verilər?
+payment_exclusions|formal|8:105,106|Auditorun peşə məsuliyyəti üzrə haqq ödənilmədikdə sığortaçının imtina hüququ varmı?
+payment_exclusions|formal|8:107|Audit müştərisinin öz qəsdən hərəkəti nəticəsində zərər görməsi hansı şərtlə imtina əsası ola bilər?
+payment_exclusions|informal|11:214,215|Xidmətlər zərfində olmayan müalicəyə icbari tibbi sığorta ödəniş edirmi?
+payment_exclusions|formal|11:217,219|İcbari tibbi sığortada müqavilənin bitməsi ilə sığorta haqqının ödənilməməsi imtina əsası kimi necə fərqlənir?
+payment_exclusions|formal|9:77,78|Hərbi qulluqçunun sığorta hadisəsi ilə bağlı qəsdən cinayətinə görə imtinanı hansı sənəd əsaslandıra bilər?
+legal_periods|formal|6:533|İcbari sığortada sağlamlığa və əmlaka vurulan zərər üzrə sığorta tələbinin iddia müddəti nə qədərdir?
+legal_periods|informal|6:533|Qəzanı baş verən gün yox, sonra öyrənmişəm. İcbari sığorta tələbi üçün vaxt hansı tarixdən sayılır?
+legal_periods|formal|6:533|İcbari sığorta üzrə üçillik tələbi sığortalıdan başqa hansı şəxslər irəli sürə bilərlər?
+legal_periods|formal|6:533,134|İcbari sığorta tələbini irəli sürmə müddəti ilə sığortaçının sonuncu sənəddən sonra cavab müddəti necə fərqlənir?
+legal_periods|informal|7:191|İş qəzasının pulunu almaq hüququ yaranandan dörd il sonra müraciət etsəm, hansı dövr üçün pul alaram?
+legal_periods|formal|7:191|Peşə əmək qabiliyyətinin itirilməsi sığortasına tələb hüququ yarandıqdan sonra üç il içində müraciət edilərsə, hansı dövr ödənilir?
+legal_periods|formal|6:533,7:191|İcbari sığortada iddia müddəti ilə iş qəzası sığortasında gecikmiş müraciət üzrə ödəniş dövrü eyni qaydadırmı?
+legal_periods|formal|6:144|İcbari sığorta hadisəsində sağlamlığına zərər dəyən şəxs sonradan ölərsə, əvvəlki ödənişlə sığorta məbləği arasındakı fərq üçün hansı müddət əsasdır?
+legal_periods|informal|5:678|Təkrarsığorta müqaviləsini başqa şirkətə keçirmək qərarı veriləndə mənə neçə iş gününə xəbər gəlməlidir?
+legal_periods|formal|5:679|Müqavilə ötürülərkən etiraz üçün müddət sonuncu məlumatın alındığı tarixdən necə hesablanır?
+legal_periods|formal|11:279|İcbari tibbi sığortada gözləmə müddətinin tətbiqi və hesablanması hansı sənədə bağlıdır?
+legal_periods|formal|8:92|Auditorun məsuliyyət sığortasında zərərin etirafından sonra yazılı məlumat üçün hansı müraciət müddətləri nəzərə alınır?
+legal_periods|formal|6:535|İcbari sığorta mübahisəsi danışıqlarla həll olunmadıqda hansı qaydada baxılır?
+legal_periods|formal|9:64|Həqiqi xidmət zamanı alınan xəsarətdən xidmətdən buraxıldıqdan sonra ölüm üçün hansı zaman şərti göstərilir?
+legal_periods|formal|11:114|İcbari tibbi sığortada hüququ pozulan şəxs müdafiə üçün kimə müraciət edə bilər?
+personal_medical_data|formal|5:83,84|Sığortalının adı və ünvanı hansı hüquqi məxfilik kateqoriyasına daxildir?
+personal_medical_data|informal|5:88|Sığorta şirkətində mənim ailə həyatıma və sağlamlığıma aid bildikləri sirr sayılır?
+personal_medical_data|formal|5:85,86|Müqavilənin sığorta məbləği və ödənilməmiş sığorta haqqı sığorta sirri təşkil edirmi?
+personal_medical_data|formal|5:87|Hüquqi şəxs olan faydalananın biznes sirri sığorta sirrinin tərkibinə daxildirmi?
+personal_medical_data|informal|5:89,90|Sığortaçının şəxsi məlumatımı başqa adama verməsi üçün mənim şifahi razılığım kifayətdir?
+personal_medical_data|formal|5:91|Təkrarsığorta müqaviləsinə vasitəçilik edən brokerə sığorta sirrinin açıqlanması hansı məqsədlə mümkündür?
+personal_medical_data|formal|5:92,93|İstintaq orqanı ilə məhkəməyə sığorta sirrinin verilməsində hansı qərar şərtləri fərqlənir?
+personal_medical_data|formal|5:94|Mərkəzi Bank hansı funksiya ilə bağlı sığorta sirri təşkil edən məlumatları ala bilər?
+personal_medical_data|formal|5:95,139|Sığorta sirri olan məlumatın risk qiymətləndirməsi üçün ekspertə verilməsi və ekspertin cəlb edilməsi barədə hansı qaydalar birlikdə tətbiq olunur?
+personal_medical_data|formal|5:97,98|Sığortalı öldükdə vərəsə sığorta sirri olan məlumatı hansı ərizə ilə əldə edə bilər?
+personal_medical_data|formal|5:97,100|Vərəsəlik işinə baxan notariusun sığorta sirri üçün sorğusuna hansı sənəd əlavə olunmalıdır?
+personal_medical_data|informal|11:112|İcbari tibbi sığorta ilə müalicə alanda həkim sirrimin gizli qalmasını tələb edə bilərəm?
+personal_medical_data|formal|11:143|Tibb müəssisəsi həkim sirrinə aid məlumatı tibbi xidmətə nəzarət üçün kimə və hansı hüquqi şərtlə verə bilər?
+personal_medical_data|formal|11:158|İcbari tibbi sığortaçının pasiyentin səhhət məlumatlarının qorunması ilə bağlı vəzifəsi nədir?
+personal_medical_data|formal|6:483|Avtoicbari informasiya sistemindən əldə edilmiş fərdi məlumatı qaydalara zidd işlədən istifadəçi məsuliyyət daşıyırmı?
+personal_medical_data|informal|11:288|İcbari tibbi sığorta üzrə elektron qeydlər münasibət bitəndən sonra ən az nə qədər saxlanır?
+casco_compulsory|formal|2:1286|Sığorta dərsliyinin lüğətində KASKO üzrə sığorta obyekti kimi nə göstərilir?
+casco_compulsory|formal|2:1286|Dərslikdə KASKO və karqo sığortası obyektlərinə görə necə fərqləndirilir?
+casco_compulsory|informal|2:565|Dərslikdə öz maşının zədələnməsi və ya məhv olması riskinə aid hansı sığorta adı işlədilir?
+casco_compulsory|formal|2:1286,6:419|KASKO-nun dərslikdəki obyekti ilə avtoicbari mülki məsuliyyət sığortasının qanundakı məqsədi necə fərqlənir?
+casco_compulsory|informal|5:180|Maşını oğurlasalar, öz maşının zərərini nəzərdə tutan sığorta sinfi indeksdə necə izah olunur?
+casco_compulsory|formal|5:180,6:428|Avtonəqliyyat vasitəsinin özünün sığortasında və avtoicbaridə sığorta hadisəsinin predmeti baxımından fərq nədir?
+casco_compulsory|formal|6:424|Avtonəqliyyat vasitəsi sahiblərinin icbari mülki məsuliyyət müqaviləsi hansı elektron qeyd şərti ilə etibarlıdır?
+casco_compulsory|informal|6:429|Maşına quraşdırılan, yol hərəkətinə aid olmayan avadanlıq işləyəndə vurduğu zərər avtomobildən istifadə sayılır?
+casco_compulsory|formal|6:434|İcbari avtomobil məsuliyyəti üzrə müqavilənin tərəfi və sığorta haqqını ödəyən şəxs hansı statusu daşıyır?
+casco_compulsory|formal|6:38,436|İcbari avtomobil məsuliyyəti üzrə üçüncü şəxs anlayışı sərnişinlər və ailə üzvləri baxımından necə tətbiq edilir?
+casco_compulsory|informal|6:438|Adi icbari maşın sığortası neçə aylıq bağlanır?
+casco_compulsory|formal|6:439,440|Sərhəd sığortası ilə Azərbaycan Yaşıl Kartı müqavilələrinin müddət seçimləri hansılardır?
+casco_compulsory|formal|6:448|Avtoicbari üzrə sığorta ödənişi edildikdən sonra qüvvədə olan müqavilənin məbləği dəyişirmi?
+casco_compulsory|informal|6:453|Avtoicbaridən pul almaq üçün ümumi sənədlərdən əlavə sürücülük vəsiqəmin surətini də istəyirlər?
+casco_compulsory|formal|6:424|Müqaviləni informasiya sistemində bağlamışamsa, amma sistemin ehtiyatında həmin qeyd yoxdursa avtoicbari müqavilə etibarlıdırmı?
+limits_calculations|formal|6:445,446|Standart və sərhəd avtoicbari müqavilələrində sağlamlıq zərəri üçün bir nəfərlik və bir hadisəlik hədd necə ayrılır?
+limits_calculations|informal|6:447|Maşınla özgəsinin hasarını vurmuşam. İcbari məsuliyyət sığortasının əmlak üzrə həddi nədir?
+limits_calculations|formal|6:447,460|Bir avtomobil qəzasında bir neçə şəxsin əmlak zərəri ümumi həddi aşanda bölgü hansı məbləğdən və hansı proporsiya ilə aparılır?
+limits_calculations|formal|6:148|Eyni əmlak zərərinə görə könüllü və icbari sığorta ödənişlərinin cəmi hansı həddi keçə bilməz?
+limits_calculations|informal|6:378|Bakıdakı mənzil üçün icbari əmlak sığortasında həm limit, həm franşiza neçə manatdır?
+limits_calculations|formal|6:379|Gəncə və Naxçıvandakı yaşayış mənzillərinin icbari sığortasında sığorta və şərtsiz azadolma məbləğləri necə müəyyən edilir?
+limits_calculations|formal|6:373,374,375|Yaşayış evi olmayan bina və qeyri-yaşayış sahəsi üçün sığorta məbləği hesablanarkən hansı dəyər əsas götürülür?
+limits_calculations|informal|6:376|Ofisimin icbari əmlak sığortasında franşiza sabitdir, yoxsa müqavilədə razılaşdırılır?
+limits_calculations|formal|11:179|Muzdla işləyənin əməkhaqqının səkkiz min manatadək və ondan yuxarı hissəsi üzrə icbari tibbi sığorta dərəcələri hansılardır?
+limits_calculations|numeric|11:179|Muzdlu işçinin maaşı 10 000 manatdırsa, mənbədəki iki pilləyə əsasən işçinin öz payı neçə manat edir?
+limits_calculations|formal|11:178|Dövlət büdcəsi hesabına icbari tibbi sığorta haqqı müəyyən qrup üzrə tam təqvim ili üçün adambaşına neçə manatdır?
+limits_calculations|formal|7:150,154|İstehsalat riskinin icbari sığorta tarifinə yuxarı hədd və haqqın əməkhaqqı fonduna görə hesablanması necə birlikdə tətbiq olunur?
+limits_calculations|numeric|9:20,21|Hərbi qulluqçunun sığorta məbləği və onun 1 faizi göstərilirsə, sığorta haqqı hesabla neçə manat olur?
+limits_calculations|formal|7:173|Peşə əmək qabiliyyətinin qismən itirilməsi zamanı aylıq ödəniş hansı əməkhaqqı və faiz əsasında müəyyən edilir?
+limits_calculations|formal|8:73,85|Auditorun peşə məsuliyyəti üzrə məbləğ necə müəyyən olunur və ödənişdən sonra əvvəlki hədd necə bərpa edilə bilər?
+limits_calculations|formal|6:519|Sərnişinlərin icbari fərdi qəza sığortasında bir sərnişinə düşən məbləğ nədir?
+reinsurance|formal|5:130|Təkrarsığorta fəaliyyətinin predmeti və icazə verən lisenziya növləri hansılardır?
+reinsurance|informal|5:130|Sığorta şirkəti öz riskini başqa sığortaçı ilə bölüşəndə bu əməliyyat nə sayılır?
+reinsurance|formal|5:134|Azərbaycandakı əmlak riskini yerli sığortaçıda təkrarsığortalayanda hansı brokerin vasitəçiliyi mümkündür?
+reinsurance|formal|5:135|Yerli əmlak riskini xarici sığortaçıda təkrarsığorta etdirmək üçün nəzərdə tutulan nəzarət şərtləri nələrdir?
+reinsurance|formal|5:129,130|Birbaşa sığorta fəaliyyəti ilə təkrarsığorta fəaliyyəti riskin kimdən qəbul edilməsinə görə necə fərqlənir?
+reinsurance|formal|5:676,677|Təkrarsığortaçının lisenziyası dayandırıldıqda müqavilələri tam və ya qismən ötürmək üçün kimin razılığı tələb olunur?
+reinsurance|informal|5:678,679|Təkrarsığorta müqaviləmin ötürülməsi xəbərini alandan sonra susmağım nə vaxt razılıq sayılır?
+reinsurance|formal|5:680,681|Təkrarsığortalı ötürülməyə vaxtında etiraz edib müqaviləyə xitam verirsə, haqların qaytarılması necə tənzimlənir?
+reinsurance|formal|5:682,683|Təkrarsığorta müqavilələri ötürülərkən iştirakçıların mənafeləri lazımi qaydada nəzərə alınmırsa, Mərkəzi Bank nə edir?
+reinsurance|formal|5:91|Təkrarsığorta müqaviləsi bağlamaq üçün müqavilənin digər tərəfinə sığorta sirri açıqlana bilərmi?
+reinsurance|formal|2:1286|Sığorta dərsliyinin lüğətində risksizləşdirmə zəncirində riski ötürən ilk sığortaçı hansı terminlə adlandırılır?
+reinsurance|formal|2:1286|Dərslikdə retrosessiya zamanı əvvəllər qəbul edilmiş risklə nə baş verdiyi göstərilir?
+reinsurance|informal|2:1286|Təkrarsığortaçıya göndərilən ilkin təklif sənədinin dərslikdə adı nədir?
+reinsurance|formal|5:135,137|Xarici sığortaçıda təkrarsığortalama ilə xaricdə sığortaçı filialının açılmasına aid qaydalar necə fərqlənir?
+claims_compensation|informal|6:78|Hadisəni sığortaçıya telefonda demişəm. Yazılı tələb blankını nə vaxta qədər göndərməlidir?
+claims_compensation|formal|6:111,112,113|İcbari sığorta tələbində şəhadətnamə, sığortanın növü və sığortalının kimliyi üzrə hansı məlumatlar yazılmalıdır?
+claims_compensation|formal|6:126|İcbari tələb üzrə fiziki və hüquqi şəxs olan faydalananlar fərqli hansı şəxsiyyət sənədlərini təqdim edirlər?
+claims_compensation|informal|6:132|İcbari ödəniş üçün sığortaçı qanunda yazılmayan əlavə sənədi məndən istəyə bilərmi?
+claims_compensation|formal|6:134|İcbari sığortaçının sonuncu sənədi aldıqdan sonra ödəniş, təmir tədbiri və ya əsaslandırılmış bildiriş üçün vaxtı nə qədərdir?
+claims_compensation|numeric|6:134,135|Son sənəd verildikdən sonra icbari sığorta ödənişi gecikərsə, müddət və gündəlik dəbbə pulu necə müəyyən edilir?
+claims_compensation|formal|6:150|Əmlaka dəyən zərər üzrə sığortaçı hansı bərpa və birbaşa ödəniş üsullarını seçə bilər?
+claims_compensation|formal|6:153|Üçüncü şəxs əmlak zərərinin əvəzini hansı tərəflərdən tələb edə bilər?
+claims_compensation|formal|6:284,291|İcbari sığortaçı ödəmə qabiliyyətsizdirsə kompensasiyaya əsas və Büroya yazılı müraciətin məhkəmə şərti nədir?
+claims_compensation|informal|6:285|Naməlum maşın adamı vurub xəsarət yetiribsə, bu hal kompensasiya ödənişi əsasları sırasında varmı?
+claims_compensation|formal|6:461,462|Yol hadisəsində sürücü, sərnişin və ya piyada öləndə ilkin kompensasiyanın sənəd, vaxt və faiz şərtləri hansılardır?
+claims_compensation|formal|7:189|İş qəzası sığortasında sənədlərdən sonra qərar müddəti sığorta olunanın ölümü halında necə dəyişir?
+claims_compensation|informal|7:87|Fəhlə işdə qəza keçiribsə, işəgötürən sığortaçıya nə vaxta qədər xəbər verməlidir?
+claims_compensation|formal|8:92,93,94,95,96|Auditor zərəri etiraf etdikdə sığortaçıya verilən ərizə və təsdiqləyici sənədlər hansılardır?
+claims_compensation|formal|8:97,109|Auditor sığortasında sənədlərin alındığına dair təsdiq və imtina qərarı hansı məlumatları göstərməlidir?
+claims_compensation|formal|9:72|Hərbi qulluqçunun icbari şəxsi sığortasında elektron bildiriş mümkün olmadıqda ödəniş müddəti hansı alternativ hadisədən başlayır?
+exceptions_qualifications|formal|6:47,377,378|İcbari müqavilədə azadolma məbləğinin olmaması qaydasının Bakıdakı yaşayış əmlakı üçün istisnası nədir?
+exceptions_qualifications|formal|6:96|Zədələnmiş əmlakı texniki olaraq bərpa etmək mümkün deyilsə və ya bərpa səmərəsizdirsə, qanun əmlakı necə qiymətləndirir?
+exceptions_qualifications|formal|6:154,155|Üçüncü şəxsin əmlakına vurulan zərər əvvəldən tam ödənildikdə və qismən ödənildikdə icbari ödəniş kimə yönəldilir?
+exceptions_qualifications|formal|6:454,455,456,457,458|İcbari avtomobil sığortasında yol-nəqliyyat hadisəsi arayışına ehtiyac qalmaması üçün bütün şərtlər hansılardır?
+exceptions_qualifications|informal|6:454,455,456,457,458|İki icbari sığortalı maşın, xəsarət yoxdur, ziyan min manatdan azdır, amma təqsirlə bağlı mübahisəmiz var. Arayışdan imtina etmək olarmı?
+exceptions_qualifications|formal|6:353,355,363|Qaz partlayışı ilə qanundakı siyahıya əlavə risklərin daşınmaz əmlakda sığortalanma əsası necə fərqlənir?
+exceptions_qualifications|formal|7:185|İş qəzasında əlavə sığorta ödənişi yardım və qulluğa ehtiyacla yanaşı hansı hüquqi şərtdən asılıdır?
+exceptions_qualifications|formal|8:24,25,26|Auditorun səhv rəyinə müştərinin vəzifəsini yerinə yetirməməsi və ya ona ötürülmüş məlumat səbəb olduqda hansı istisnalar nəzərdə tutulur?
+exceptions_qualifications|formal|9:74|Hərbi sığortada rüblük hesabat təqdim edilməyibsə, ödənişə hansı arayış əsas ola bilər?
+exceptions_qualifications|informal|9:75|Əvvəlki hərbi sığorta hadisəsi üzrə pul almışam, əlaqəli yeni hadisə olduqda əvvəlki pul nəzərə alınır?
+exceptions_qualifications|informal|11:202|Tibbi sığorta haqqı ödənməyibsə, ilkin və təcili yardımla digər zərf xidmətlərinin xərci eyni qaydadadır?
+exceptions_qualifications|formal|11:214,218,207|Xidmətlər zərfindəki illik say həddi ilə limit bitdikdə ödənişdən imtina necə əlaqəlidir?
+exceptions_qualifications|formal|11:275,277|Ambulator xidmət üçün göndəriş qaydasına hansı istisna var və birbaşa müraciətdə hansı xərc yarana bilər?
+exceptions_qualifications|formal|11:236,237|İcbari tibbi sığortada subroqasiya üçün ödəniş edilməsi şərti və eyni risk üzrə mövcud digər müqavilənin əhəmiyyəti nədir?
+informal_morphology|informal|6:135|Sığorta pulumu gecikdiriblər, hər gec günə nə qədər faiz düşür?
+informal_morphology|ASCII|6:447|Masinla basqasinin seyine ziyan vursam, icbari en cox ne qeder verir?
+informal_morphology|informal|11:179|Maaşım səkkiz mini ötübsə tibbi sığortaya tutulan pulun faizi artıq hissədə necə dəyişir?
+informal_morphology|informal|11:78|Könüllü tibbi polisimlə həkimə getmişəm. Xidmətin pulunu xəstəxanaya kim verir?
+informal_morphology|informal|6:533|Hadisə barədə bilməli olduğum gündən neçə il keçəndən sonra icbari sığortaya tələb gec sayılır?
+informal_morphology|informal|5:84,88|Sığorta şirkətinə yazdığım ad-soyadla xəstəlik məlumatlarım ikisi də qorunan sirrə daxildir?
+informal_morphology|morphology|6:151,152|Zərərçəkənlərimizə düşən ödənişlərin bölgüsündə zərərlərimizin nisbəti nəzərə alınırmı?
+informal_morphology|ASCII|6:438|Icbari masin police-i bir ile baglanir, yoxsa daha az?
+informal_morphology|informal|6:100|Qəzadan sonra zədələnmiş əşyanın və qalıqlarının aparılmasına çəkilən pul zərərə sayılır?
+informal_morphology|informal|8:102|Auditor sığortasının pulu kimə çatır, bunun üçün məhkəmə qərarı nə vaxt əsas ola bilər?
+informal_morphology|morphology|11:58|İstifadə etmədiyimiz könüllü tibbi sığorta haqlarımızdan bir hissəsini hansı şərtlə geri ala bilərik?
+informal_morphology|informal|11:120|İcbari tibbi sığorta ilə poliklinikaya gedəndə şəxsiyyət vəsiqəmi göstərməliyəm?
+informal_morphology|informal|5:105|Sığorta sirrini qanuni bilən adam sonra onu yayırsa məsuliyyət məsələsi varmı?
+informal_morphology|informal|6:158|İğtişaşdan zərər görmüşəm, icbari sığortada belə hadisəyə pul verilir?
+conversational|follow_up|6:533|Bu müddət neçə ildir?|İcbari sığortada əmlaka dəyən zərər üçün iddia müddəti hansı gündən başlayır?|İcbari sığortada əmlaka dəyən zərər üzrə sığorta tələbinin iddia müddəti neçə ildir?
+conversational|follow_up|6:157,160|Bəs istisnalar necə?|İcbari sığortada mənəvi zərərə görə sığorta ödənişi hansı hallarda mümkündür?|İcbari sığorta üzrə mənəvi zərər tələbiylə bağlı hansı imtina qaydası tətbiq olunur?
+conversational|follow_up|6:454,455,456,457,458|Bəs bu halda?|Sağlamlığa zərər dəyməyən avtoicbari qəzada yol polisi arayışından hansı hallarda imtina olunur?|Sağlamlığa zərər dəyməyən avtoicbari qəzada yol-nəqliyyat hadisəsi arayışı hansı şərtlərdə tələb olunmur?
+conversational|follow_up|2:1286,6:419|Bu qayda KASKO-ya da aiddir?|İcbari avtomobil sığortasında üçüncü şəxslərə dəyən zərərin ödənilməsi necə nəzərdə tutulur?|İcbari avtomobil məsuliyyət sığortasının üçüncü şəxslərə vurulan zərəri əhatə edən qaydası KASKO-nun obyekti ilə necə fərqlənir?
+conversational|follow_up|5:89,90|Bəs yazılı razılıq nə vaxt lazımdır?|Sığorta sirri olan şəxsi məlumatlar kənar şəxslərə hansı hallarda verilə bilər?|Sığorta sirri olan şəxsi məlumatın kənar şəxsə verilməsi üçün yazılı razılıq hansı əsasdır?
+conversational|follow_up|11:202|Bəs istisnalar necə?|Sığorta haqqı ödənilməyəndə icbari tibbi sığortada xidmət xərci necə qarşılanır?|İcbari tibbi sığorta haqqı ödənilməyəndə xərc qaydasından hansı tibbi xidmətlər istisnadır?
+conversational|follow_up|7:191|Bəs gec müraciət edəndə nə olur?|İş qəzası sığortasında ödəniş hüququ yaranandan sonra tələb hansı müddətdə verilir?|Peşə əmək qabiliyyətinin itirilməsi sığortasında tələb üç ildən sonra verilərsə hansı dövr ödənilir?
+conversational|follow_up|11:288|Bu müddət neçə ildir?|İcbari tibbi sığorta əməliyyatları üzrə elektron məlumatların saxlanma müddəti nə vaxt başlayır?|İcbari tibbi sığorta əməliyyatlarının elektron məlumatları hüquqi münasibət bitdikdən sonra ən az neçə il saxlanır?
+conversational|follow_up|5:676,677|Bəs razılığı kim verir?|Təkrarsığortaçının lisenziyası dayandırıldıqda müqavilələr hansı hallarda ötürülür?|Lisenziyası dayandırılan təkrarsığortaçı müqavilələri ötürmək üçün kimin razılığını almalıdır?
+conversational|follow_up|6:134,135|Bəs gecikməyə görə neçə faizdir?|İcbari sığorta ödənişini sığortaçı son sənədi aldıqdan nə vaxt verməlidir?|İcbari sığorta ödənişi son sənəddən sonrakı qanuni müddətdə verilməsə, gündəlik dəbbə pulu neçə faizdir?
+conversational|follow_up|6:448|Bəs pul verildikdə məbləğ necə dəyişir?|Avtoicbari müqavilədə sığorta məbləği hansı qaydada müəyyən edilir?|Avtoicbari müqavilə qüvvədə olarkən sığorta ödənişindən sonra sığorta məbləği dəyişirmi?
+conversational|follow_up|9:74|Bəs bu halda?|Hərbi qulluqçunun icbari sığortasında sığortalı hesabatı təqdim etmədikdə ödəniş hansı şərtlə verilir?|Hərbi qulluqçunun icbari sığortasında hesabat təqdim edilmədikdə ödənişə hansı arayış əsas olur?
+conversational|follow_up|11:143,158|Bəs həkim sirrini kim qorumalıdır?|İcbari tibbi sığortada xidmətlərə nəzarət üçün tibbi məlumatların təqdim edilməsi necə tənzimlənir?|İcbari tibbi sığortada nəzarət üçün tibbi məlumat ötürülərkən sığortaçı həkim sirrinin məxfiliyini təmin etməlidirmi?
+conversational|follow_up|6:446|Bəs sağlamlığa zərər üçün hədd nədir?|İcbari avtomobil sığortasında üçüncü şəxsin əmlakına dəyən zərərin limiti nə qədərdir?|Avtoicbari sığortada üçüncü şəxsin sağlamlığına zərər üçün bir nəfər və bir hadisə üzrə limit nə qədərdir?
+coverage_gap|formal||A-17 nömrəli fərdi KASKO polisimin konkret franşizası neçə manatdır?|||Personal policy not part of the corpus; no policy supplied.
+coverage_gap|informal||Mənim QZ-478 nömrəli avtoicbari ödəniş işim indi hansı mərhələdədir?|||Private claim status requires a transaction system.
+coverage_gap|formal||A-17 nömrəli KASKO polisinin əlavə şərtlərinə görə açar evdə unudularsa oğurluq təminatı qalırmı?|||No individual policy wording or endorsements supplied.
+coverage_gap|formal||RZ-204 müqaviləmdə xaricə səfər üçün KASKO ərazi genişləndirməsinin qiyməti nə qədərdir?|||No customer-specific contract or quote.
+coverage_gap|formal||Şəxsi tibbi sığorta müqaviləmin 2026-cı il əlavəsində konkret olaraq hansı stomatoloji klinikalar göstərilib?|||No individual policy or provider-network addendum.
+coverage_gap|informal||Keçən ay etdirdiyim müayinənin nəticəsini sığorta şirkəti hansı tarixdə sistemdən silib?|||No personal medical or operational deletion records.
+coverage_gap|formal||Təkrarsığorta müqaviləsi TR-172 üzrə tərəflərin razılaşdırdığı konkret risk saxlama həddi nədir?|||Private treaty schedule absent.
+coverage_gap|formal||Xəzərdə yerləşən A-17 özəl sığorta müqaviləsinin təkrarsığortaçılar üzrə pay bölgüsünü göstərə bilərsiniz?|||Private treaty schedule and parties absent.
+coverage_gap|informal||İcbari sığorta ödənişimi almaq üçün təqdim etdiyim bank hesabının son dörd rəqəmi nədir?|||No customer banking records.
+coverage_gap|formal||İş qəzası üzrə WB-71 nömrəli işimdə ekspert mənim peşə əmək qabiliyyətimi neçə faiz itirilmiş hesab edib?|||No individualized expert findings.
+coverage_gap|formal||İcbari sığorta üzrə 26-51 nömrəli işimdə məhkəmə iddia müddətinin hansı gün bitdiyini müəyyən edib?|||No individualized case record or judgment.
+coverage_gap|informal||Bu səhər sığortaçıya göndərdiyim şəxsiyyət vəsiqəsinə onun işçilərindən kim baxıb?|||Requires access audit records rather than a general privacy rule.
+coverage_gap|formal||Mənə aid təkrar tibbi müayinə üzrə sığortaçının daxili komissiyasının son protokolunda hansı diaqnoz yazılıb?|||No internal claim or medical record.
+coverage_gap|formal||KASKO müqaviləmin N-14 nömrəli əlavəsində qış təkəri şərtini pozanda tətbiq olunan konkret çıxılma faizi nədir?|||No named private endorsement or policy.

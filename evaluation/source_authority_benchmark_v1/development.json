@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "fixtures": [
+    {
+      "id": "A05",
+      "category": "authority",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute"
+      ],
+      "note": "Schema-only other normative category. No claim about the actual source's type.",
+      "requires_expert_review": false,
+      "document_overrides": {
+        "0": {
+          "source_type": "other_normative_act"
+        }
+      }
+    },
+    {
+      "id": "A06",
+      "category": "authority",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "ordinary"
+      ],
+      "note": "Schema-only methodological category over exact text.",
+      "requires_expert_review": false,
+      "document_overrides": {
+        "0": {
+          "source_type": "methodological_or_explanatory"
+        }
+      }
+    },
+    {
+      "id": "T04",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "ordinary"
+      ],
+      "note": "Synthetic complete closed effective window, with a post-repeal reference date.",
+      "requires_expert_review": false,
+      "timeline": {
+        "requested_reference_date": "2027-05-01"
+      },
+      "provision_overrides": {
+        "0": {
+          "effective_date": "2020-01-01",
+          "repeal_effective_date": "2026-03-01"
+        }
+      }
+    },
+    {
+      "id": "T06",
+      "category": "temporal",
+      "origin": "source_derived",
+      "passages": [
+        "book"
+      ],
+      "note": "The publisher imprint supplies only a year.",
+      "requires_expert_review": false
+    },
+    {
+      "id": "T14",
+      "category": "temporal",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "transition2"
+      ],
+      "note": "Shift local clock without replacing a historical requested date.",
+      "requires_expert_review": false,
+      "runner": "invariant",
+      "transform": "clock",
+      "timeline": {
+        "requested_reference_date": "2027-03-01",
+        "insured_event_date": "2025-03-01"
+      }
+    },
+    {
+      "id": "I01",
+      "category": "invariant",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "book"
+      ],
+      "note": "Metamorphic transformation: rename.",
+      "requires_expert_review": false,
+      "runner": "invariant",
+      "transform": "rename"
+    },
+    {
+      "id": "I02",
+      "category": "invariant",
+      "origin": "source_derived",
+      "passages": [
+        "cabinet",
+        "statute",
+        "book"
+      ],
+      "note": "Metamorphic transformation: reverse_order.",
+      "requires_expert_review": false,
+      "runner": "invariant",
+      "transform": "reverse_order"
+    },
+    {
+      "id": "I03",
+      "category": "invariant",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "news"
+      ],
+      "note": "Metamorphic transformation: scores.",
+      "requires_expert_review": false,
+      "runner": "invariant",
+      "transform": "scores"
+    },
+    {
+      "id": "I04",
+      "category": "invariant",
+      "origin": "source_derived",
+      "passages": [
+        "statute",
+        "book"
+      ],
+      "note": "Metamorphic transformation: remove_context.",
+      "requires_expert_review": false,
+      "runner": "invariant",
+      "transform": "remove_context"
+    },
+    {
+      "id": "I05",
+      "category": "invariant",
+      "origin": "source_derived",
+      "passages": [
+        "statute",
+        "news",
+        "cabinet"
+      ],
+      "note": "Metamorphic transformation: citation_join.",
+      "requires_expert_review": false,
+      "runner": "invariant",
+      "transform": "citation_join"
+    },
+    {
+      "id": "E01",
+      "category": "eligibility",
+      "origin": "synthetic_engineering",
+      "passages": [
+        "statute",
+        "book"
+      ],
+      "note": "Synthetic generation and judge output over exact real passages: statutory claim anchored in occupational source.",
+      "requires_expert_review": false,
+      "runner": "pipeline",
+      "question": "İcbari sığorta ödənişi hansı hallarda verilir?",
+      "marker": "S1",
+      "claim": "İcbari müqaviləyə xitam, müqavilə müddətində baş verən sığorta hadisəsi üzrə sığortaçını ödəniş öhdəliyindən azad etmir.",
+      "judge_accepts": true
+    }
+  ]
+}

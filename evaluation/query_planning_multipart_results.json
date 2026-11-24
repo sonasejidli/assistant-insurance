@@ -1,0 +1,351 @@
+{
+  "archive": "insurance_chunks_cf440db13ba21e18d71044eb",
+  "rerank": false,
+  "query_count": 3,
+  "intents": {
+    "multi_part_question": 3
+  },
+  "summary": {
+    "original": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "disabled": 3
+      },
+      "p50_ms": 196.46114299757755,
+      "recall@5": 0.38095238095238093,
+      "recall@10": 0.38095238095238093,
+      "ndcg@10": 0.23906632204675496
+    },
+    "decomposition": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "disabled": 6
+      },
+      "p50_ms": 378.75213799998164,
+      "recall@5": 0.49206349206349204,
+      "recall@10": 0.49206349206349204,
+      "ndcg@10": 0.41514029809297814
+    },
+    "routing": {
+      "scored": 3,
+      "expanded_queries": 0,
+      "queries_with_hypotheses": 0,
+      "expansion_statuses": {
+        "disabled": 3
+      },
+      "p50_ms": 417.08669899890083,
+      "recall@5": 0.38095238095238093,
+      "recall@10": 0.38095238095238093,
+      "ndcg@10": 0.39114255232941314
+    }
+  },
+  "rows": [
+    {
+      "id": "MP01",
+      "category": "multipart",
+      "intent": "multi_part_question",
+      "standalone": "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir və nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?",
+      "parts": [
+        "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir?",
+        "İcbari sığorta tələbində faydalananlar üzrə nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?"
+      ],
+      "label_sources": [
+        "AZR095",
+        "AZR097"
+      ],
+      "variants": {
+        "original": {
+          "metrics": {
+            "recall@5": 1.0,
+            "recall@10": 1.0,
+            "recall@20": 1.0,
+            "recall@50": 1.0,
+            "mrr@20": 0.3333333333333333,
+            "ndcg@10": 0.5437713091520254
+          },
+          "parent_ranks": {
+            "ea271fbd-2d68-5012-8dcf-6027568380ff": 5,
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 3
+          },
+          "relevant_per_part": [
+            1,
+            1
+          ],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 139.09262399829458
+        },
+        "decomposition": {
+          "metrics": {
+            "recall@5": 1.0,
+            "recall@10": 1.0,
+            "recall@20": 1.0,
+            "recall@50": 1.0,
+            "mrr@20": 0.25,
+            "ndcg@10": 0.5012658353418871
+          },
+          "parent_ranks": {
+            "ea271fbd-2d68-5012-8dcf-6027568380ff": 5,
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 4
+          },
+          "relevant_per_part": [
+            1,
+            1
+          ],
+          "attributed_per_part": [
+            1,
+            1
+          ],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled",
+            "disabled"
+          ],
+          "elapsed_ms": 372.36903899975005
+        },
+        "routing": {
+          "metrics": {
+            "recall@5": 1.0,
+            "recall@10": 1.0,
+            "recall@20": 1.0,
+            "recall@50": 1.0,
+            "mrr@20": 1.0,
+            "ndcg@10": 1.0
+          },
+          "parent_ranks": {
+            "ea271fbd-2d68-5012-8dcf-6027568380ff": 2,
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74": 1
+          },
+          "relevant_per_part": [
+            1,
+            1
+          ],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 417.08669899890083
+        }
+      }
+    },
+    {
+      "id": "MP02",
+      "category": "multipart",
+      "intent": "multi_part_question",
+      "standalone": "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır və nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?",
+      "parts": [
+        "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır?",
+        "İş qəzası sığortasında üzrə nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?"
+      ],
+      "label_sources": [
+        "AZR010",
+        "AZR105"
+      ],
+      "variants": {
+        "original": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "981d0040-8977-568c-8f24-4abac260c133": null,
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": null,
+            "425810a6-3dfb-580b-aee3-feacc1b251fc": null
+          },
+          "relevant_per_part": [
+            0,
+            0
+          ],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 218.92715500143822
+        },
+        "decomposition": {
+          "metrics": {
+            "recall@5": 0.3333333333333333,
+            "recall@10": 0.3333333333333333,
+            "recall@20": 0.3333333333333333,
+            "recall@50": 0.3333333333333333,
+            "mrr@20": 1.0,
+            "ndcg@10": 0.4692787260227565
+          },
+          "parent_ranks": {
+            "981d0040-8977-568c-8f24-4abac260c133": null,
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": 1,
+            "425810a6-3dfb-580b-aee3-feacc1b251fc": null
+          },
+          "relevant_per_part": [
+            1,
+            0
+          ],
+          "attributed_per_part": [
+            1,
+            0
+          ],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled",
+            "disabled"
+          ],
+          "elapsed_ms": 411.1301779994392
+        },
+        "routing": {
+          "metrics": {
+            "recall@5": 0.0,
+            "recall@10": 0.0,
+            "recall@20": 0.0,
+            "recall@50": 0.0,
+            "mrr@20": 0,
+            "ndcg@10": 0.0
+          },
+          "parent_ranks": {
+            "981d0040-8977-568c-8f24-4abac260c133": null,
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b": null,
+            "425810a6-3dfb-580b-aee3-feacc1b251fc": null
+          },
+          "relevant_per_part": [
+            0,
+            0
+          ],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 445.876235000469
+        }
+      }
+    },
+    {
+      "id": "MP03",
+      "category": "multipart",
+      "intent": "multi_part_question",
+      "standalone": "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir və hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?",
+      "parts": [
+        "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir?",
+        "Auditor sığortasında üzrə hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?"
+      ],
+      "label_sources": [
+        "AZR106",
+        "AZR012"
+      ],
+      "variants": {
+        "original": {
+          "metrics": {
+            "recall@5": 0.14285714285714285,
+            "recall@10": 0.14285714285714285,
+            "recall@20": 0.14285714285714285,
+            "recall@50": 0.14285714285714285,
+            "mrr@20": 0.5,
+            "ndcg@10": 0.17342765698823945
+          },
+          "parent_ranks": {
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338": 2,
+            "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+            "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+            "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+            "f1658e65-5b20-5213-9802-353023095b16": null,
+            "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": null,
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": null
+          },
+          "relevant_per_part": [
+            1,
+            0
+          ],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 196.46114299757755
+        },
+        "decomposition": {
+          "metrics": {
+            "recall@5": 0.14285714285714285,
+            "recall@10": 0.14285714285714285,
+            "recall@20": 0.14285714285714285,
+            "recall@50": 0.14285714285714285,
+            "mrr@20": 1.0,
+            "ndcg@10": 0.27487633291429087
+          },
+          "parent_ranks": {
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338": 1,
+            "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+            "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+            "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+            "f1658e65-5b20-5213-9802-353023095b16": null,
+            "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": null,
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": null
+          },
+          "relevant_per_part": [
+            1,
+            0
+          ],
+          "attributed_per_part": [
+            1,
+            0
+          ],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled",
+            "disabled"
+          ],
+          "elapsed_ms": 378.75213799998164
+        },
+        "routing": {
+          "metrics": {
+            "recall@5": 0.14285714285714285,
+            "recall@10": 0.14285714285714285,
+            "recall@20": 0.14285714285714285,
+            "recall@50": 0.14285714285714285,
+            "mrr@20": 0.5,
+            "ndcg@10": 0.17342765698823945
+          },
+          "parent_ranks": {
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338": 2,
+            "bdb38a9f-b447-51c9-8604-4847c6bdd000": null,
+            "f0dd6eda-2bde-5091-9db0-50b47faa3c24": null,
+            "8165b448-0c41-504f-8f86-a2bbc98163fc": null,
+            "f1658e65-5b20-5213-9802-353023095b16": null,
+            "65a2d7c8-f5dc-56e4-986c-67b7b79b670d": null,
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8": null
+          },
+          "relevant_per_part": [
+            1,
+            0
+          ],
+          "attributed_per_part": [],
+          "generated_queries": [],
+          "hypotheses": [],
+          "expansion_statuses": [
+            "disabled"
+          ],
+          "elapsed_ms": 228.49619699991308
+        }
+      }
+    }
+  ]
+}

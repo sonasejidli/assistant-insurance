@@ -1,0 +1,94 @@
+{
+  "expansion_enabled": true,
+  "concepts": {
+    "policyholder": {"aliases": ["policyholder", "policy holder", "sığortalı", "sığorta etdirən", "страхователь"], "role": true},
+    "insurer": {"aliases": ["insurer", "insurance company", "sığortaçı", "страховщик"], "role": true},
+    "insured_person": {"aliases": ["insured person", "insured individual", "sığorta olunan", "sığortaolunan", "застрахованное лицо"], "role": true},
+    "beneficiary": {"aliases": ["beneficiary", "beneficiaries", "faydalanan şəxs", "faydalanan", "выгодоприобретатель"], "role": true},
+    "premium": {"aliases": ["sığorta haqqı", "sığorta haqları", "insurance premium", "premium", "premiums", "страховая премия"]},
+    "payout": {"aliases": ["sığorta ödənişi", "sığorta ödənişləri", "claim payment", "insurance payout", "страховая выплата"]},
+    "claim": {"aliases": ["sığorta tələbi", "insurance claim", "insurance claims", "страховое требование"]},
+    "insured_event": {"aliases": ["sığorta hadisəsi", "sığorta hadisələri", "insured event", "страховой случай"]},
+    "deductible": {"aliases": ["azadolma məbləği", "franşiza", "deductible", "франшиза"]},
+    "subrogation": {"aliases": ["subroqasiya", "subrogation", "суброгация"]},
+    "reinsurance": {"aliases": ["təkrar sığorta", "reinsurance", "перестрахование"]},
+    "compulsory_insurance": {"aliases": ["icbari sığorta", "compulsory insurance", "обязательное страхование"]},
+    "motor_liability": {"aliases": ["avto mülki məsuliyyət sığortası", "avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari sığortası", "avtoicbari sığorta", "motor liability insurance", "осаго"]},
+    "third_party_property_damage": {"aliases": ["üçüncü şəxslərin əmlakına dəyən zərər", "üçüncü şəxsin əmlakına dəyən zərər", "üçüncü şəxslərin əmlakına vurulan zərər"]},
+    "event_notice": {"aliases": ["sığorta hadisəsi barədə məlumatlandırma", "sığorta hadisəsi barədə məlumat vermək", "sığorta hadisəsi barədə məlumatlandırmaq", "sığorta hadisəsi barədə məlumat verilməsi", "halın baş verməsi haqqında sığortaçıya məlumat vermək", "həmçinin sığortaçıya məlumat vermək", "sığortaçıya bu barədə məlumat vermək"]},
+    "medical_services": {"aliases": ["tibbi xidmət", "tibbi xidmətlər", "tibbi xidmətlərin dəyəri", "tibbi müayinə"]},
+    "medical_service_payment": {"aliases": ["tibbi xidmətin haqqı", "tibbi xidmətlərin haqqı", "tibbi xidmətlərin dəyəri", "tibbi xidmətlərə çəkilən xərclər"]},
+    "medical": {"aliases": ["tibbi sığorta", "health insurance", "medical insurance", "медицинское страхование"]},
+    "property": {"aliases": ["əmlak sığortası", "property insurance", "страхование имущества"]},
+    "real_estate": {"aliases": ["daşınmaz əmlakın sığortası", "daşınmaz əmlak sığortası", "real estate insurance", "страхование недвижимости"]},
+    "exclusion": {"aliases": ["istisna", "istisnalar", "exclusion", "exclusions", "исключение"]},
+    "sum_insured": {"aliases": ["sığorta məbləği", "sum insured"]},
+    "liability_limit": {"aliases": ["məsuliyyət limiti", "limit of liability"]},
+    "motor_insurance": {"aliases": ["avtonəqliyyat vasitəsinin sığortası", "motor vehicle insurance"]},
+    "wages": {"aliases": ["əməkhaqqı", "əmək haqqı", "wages", "salary"], "evidence": false},
+    "income": {"aliases": ["gəlir", "income"], "evidence": false},
+    "calculation": {"aliases": ["hesablanma qaydası", "hesablama qaydası", "hesablanma", "hesablama"], "evidence": false},
+    "tariff": {"aliases": ["tarif", "sığorta tarifi"], "evidence": false},
+    "threshold": {"aliases": ["hədd", "hesablama həddi"], "evidence": false}
+  },
+  "expressions": [
+    {
+      "phrases": ["sığorta pulu"],
+      "expand_when_unclear": true,
+      "candidates": {
+        "premium": ["ödəyəcəyəm", "ödəyəcəyim", "nə qədər ödəməliyəm", "müqavilə bağlamaq", "sığorta haqqı"],
+        "payout": ["alacağam", "alacağım", "mənə ödəniləcək", "sığorta hadisəsi", "zərər", "sığorta ödənişi"]
+      }
+    },
+    {
+      "phrases": ["ödəyəcəyim pul"],
+      "candidates": {"premium": ["sığorta", "sığortaçı", "polis almaq", "müqavilə bağlamaq"]}
+    },
+    {
+      "phrases": ["zərərimin ödənilməsi", "zərərin ödənilməsi"],
+      "candidates": {"payout": ["sığorta", "sığortaçı", "sığorta hadisəsi", "sığorta müqaviləsi"]}
+    },
+    {
+      "phrases": ["ödəniş limiti"],
+      "expand_when_unclear": true,
+      "candidates": {
+        "sum_insured": ["əmlakın dəyəri", "sığorta dəyəri", "sığorta məbləği"],
+        "liability_limit": ["üçüncü şəxs", "mülki məsuliyyət", "məsuliyyət limiti"]
+      }
+    },
+    {
+      "phrases": ["maşının sığortası", "avtomobilin sığortası"],
+      "candidates": {"motor_insurance": []}
+    },
+    {
+      "phrases": ["maaş"],
+      "candidates": {
+        "wages": ["işçi", "işəgötürən", "əmək müqaviləsi", "əməkhaqqı", "əmək haqqı"],
+        "income": ["ümumi gəlir", "digər gəlirlər", "gəlir mənbələri"]
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "requires": [["maşın", "maşınla", "avtomobil", "avtomobillə"], ["başqasının malına", "başqasının əmlakına", "üçüncü şəxsin əmlakına"], ["ziyan", "zərər"]],
+      "concepts": ["motor_liability", "third_party_property_damage", "liability_limit"]
+    },
+    {
+      "requires": [["qəza", "qəzanı", "sığorta hadisəsi"], ["xəbər eləməliyəm", "xəbər verməliyəm", "nə vaxt xəbər", "məlumat verməliyəm"]],
+      "concepts": ["event_notice", "insured_event"]
+    },
+    {
+      "requires": [["həkimə getməyin", "həkimə getmək", "həkim müayinəsi"], ["xərcini", "xərc", "kim qarşılayır", "kim ödəyir"]],
+      "concepts": ["medical", "medical_services", "medical_service_payment"]
+    },
+    {
+      "requires": [["maaş", "əməkhaqqı", "əmək haqqı"], ["haqq", "sığorta haqqı"], ["hesablanma", "hesablama"]],
+      "concepts": ["wages", "premium", "calculation", "tariff"]
+    },
+    {
+      "requires": [["haqq", "sığorta haqqı"], ["hesablanma", "hesablama"], ["hədd", "limit"]],
+      "concepts": ["threshold"],
+      "alternatives": ["threshold", "sum_insured"]
+    }
+  ]
+}

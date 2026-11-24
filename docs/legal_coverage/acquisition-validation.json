@@ -1,0 +1,229 @@
+{
+  "archive_count": 17,
+  "pre_ingestion_only": true,
+  "qualified_for_indexing": false,
+  "documents": [
+    {
+      "file": "nk-189-consolidated.html",
+      "hash_verified": true,
+      "bytes": 5514866,
+      "tables": 51,
+      "rows": 280,
+      "cells": 1585,
+      "span_cells": 496,
+      "deletion_elements": 28546,
+      "provision_markers": {
+        "1.5.": true,
+        "4.2.": true,
+        "4.3.": true,
+        "4.4.": true
+      },
+      "locator_only": false
+    },
+    {
+      "file": "social-benefits-consolidated.html",
+      "hash_verified": true,
+      "bytes": 667630,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 82,
+      "provision_markers": {},
+      "locator_only": false
+    },
+    {
+      "file": "social-benefits-amount-decree.html",
+      "hash_verified": true,
+      "bytes": 16483,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 0,
+      "provision_markers": {},
+      "locator_only": false
+    },
+    {
+      "file": "nk-187-register.html",
+      "hash_verified": true,
+      "bytes": 17701,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 0,
+      "provision_markers": {},
+      "locator_only": true
+    },
+    {
+      "file": "nk-187-original-criteria.pdf",
+      "hash_verified": true,
+      "bytes": 750648,
+      "pdf_signature_verified": true,
+      "page_count": 88,
+      "text_pages": 88,
+      "pdf_table_cells_verified": false
+    },
+    {
+      "file": "nk-187-amendment-64bfc27821313.pdf",
+      "hash_verified": true,
+      "bytes": 803930,
+      "pdf_signature_verified": true,
+      "page_count": 63,
+      "text_pages": 63,
+      "pdf_table_cells_verified": false
+    },
+    {
+      "file": "nk-187-amendment-64edc8d6988f3.pdf",
+      "hash_verified": true,
+      "bytes": 804436,
+      "pdf_signature_verified": true,
+      "page_count": 63,
+      "text_pages": 63,
+      "pdf_table_cells_verified": false
+    },
+    {
+      "file": "nk-269-injury-severity.html",
+      "hash_verified": true,
+      "bytes": 86882,
+      "tables": 1,
+      "rows": 1,
+      "cells": 2,
+      "span_cells": 0,
+      "deletion_elements": 0,
+      "provision_markers": {},
+      "locator_only": false
+    },
+    {
+      "file": "nk-27-accident-procedure.html",
+      "hash_verified": true,
+      "bytes": 373344,
+      "tables": 11,
+      "rows": 23,
+      "cells": 62,
+      "span_cells": 0,
+      "deletion_elements": 10,
+      "provision_markers": {},
+      "locator_only": false
+    },
+    {
+      "file": "workplace-insurance-register.html",
+      "hash_verified": true,
+      "bytes": 17701,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 0,
+      "provision_markers": {},
+      "locator_only": true
+    },
+    {
+      "file": "workplace-insurance-legacy-consolidation.html",
+      "hash_verified": true,
+      "bytes": 291669,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 16,
+      "provision_markers": {
+        "2.0.12.": true,
+        "11.8.": true,
+        "18.11.": true
+      },
+      "locator_only": false
+    },
+    {
+      "file": "compulsory-insurance-consolidated.html",
+      "hash_verified": true,
+      "bytes": 1218241,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 209,
+      "provision_markers": {
+        "14.2.": true,
+        "14.3.": true,
+        "21.1.": true
+      },
+      "locator_only": false
+    },
+    {
+      "file": "civil-code-version-locator.html",
+      "hash_verified": true,
+      "bytes": 4807,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 0,
+      "provision_markers": {},
+      "locator_only": true
+    },
+    {
+      "file": "civil-code-consolidated.html",
+      "hash_verified": true,
+      "bytes": 10062467,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 2036,
+      "provision_markers": {
+        "919.1.": true,
+        "923.1.": true,
+        "935.1.": true
+      },
+      "locator_only": false
+    },
+    {
+      "file": "labour-code-consolidated.html",
+      "hash_verified": true,
+      "bytes": 4925325,
+      "tables": 2,
+      "rows": 2,
+      "cells": 3,
+      "span_cells": 0,
+      "deletion_elements": 528,
+      "provision_markers": {
+        "74": true,
+        "217": true
+      },
+      "locator_only": false
+    },
+    {
+      "file": "social-insurance-consolidated.html",
+      "hash_verified": true,
+      "bytes": 1055851,
+      "tables": 2,
+      "rows": 9,
+      "cells": 30,
+      "span_cells": 4,
+      "deletion_elements": 387,
+      "provision_markers": {},
+      "locator_only": false
+    },
+    {
+      "file": "military-insurance-consolidated.html",
+      "hash_verified": true,
+      "bytes": 504183,
+      "tables": 0,
+      "rows": 0,
+      "cells": 0,
+      "span_cells": 0,
+      "deletion_elements": 1652,
+      "provision_markers": {},
+      "locator_only": false
+    }
+  ],
+  "unresolved": [
+    "effective-date and amendment reconciliation",
+    "active clause separation",
+    "PDF table geometry and cell validation",
+    "complete annex comparison",
+    "cross-reference resolution"
+  ]
+}

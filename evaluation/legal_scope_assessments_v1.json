@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "status": "technical_source_review_pending_legal_expert",
+  "run_id": "9d5817e013db4ad0a930be4f0445b015",
+  "cases": {
+    "AZ7-01": {
+      "answer_sha256": "49412d2b0b20c63095575deb7bbc926f8992e009275c53c5fd5748aad7d42195",
+      "claims": [
+        {
+          "part": "Q1",
+          "support": "complete",
+          "insurance_type": "life insurance reserves",
+          "group": "policyholder and insured",
+          "temporal": "On bankruptcy or liquidation, within the frozen edition.",
+          "applicable_documents": [
+            "sığorta 1.pdf"
+          ],
+          "required_conditions": {
+            "life insurance": "həyat sığortası",
+            "choice of holder and insured": "seçimi"
+          },
+          "rationale": "The §81.1 chunk contains the operative §81.4. Transfer or return covers reserves, without establishing the payer of a particular claim.",
+          "assessed_passage_ids": [
+            "001919fd-55d4-5cbb-b7c3-2452ff934522"
+          ]
+        },
+        {
+          "part": "Q1",
+          "support": "partial",
+          "insurance_type": "insurer liquidation",
+          "group": "creditors and holders of secured claims",
+          "temporal": "Liquidation.",
+          "applicable_documents": [
+            "sığorta 1.pdf"
+          ],
+          "required_conditions": {
+            "security cap": "təminat məbləği həddində"
+          },
+          "rationale": "§119.3 establishes expenses and secured claims outside priority to the security limit. General priority across accepted claims needs §119.1.",
+          "assessed_passage_ids": [
+            "3f0dd5fd-5ffe-5249-81a6-a0ef581f35ba"
+          ]
+        },
+        {
+          "part": "Q1",
+          "support": "complete",
+          "material_to_resolution": false,
+          "insurance_type": "insurer insolvency procedure",
+          "group": "court and petitioners",
+          "temporal": "Entry into insolvency proceedings.",
+          "applicable_documents": [
+            "sığorta 1.pdf"
+          ],
+          "required_conditions": {
+            "supporting documents": "təsdiq edən sənədlər"
+          },
+          "rationale": "§118.2 establishes the petition prerequisite. This is peripheral to the payer question.",
+          "assessed_passage_ids": [
+            "5abb8c6d-3360-56bf-8485-b3a40cacc243"
+          ]
+        }
+      ]
+    },
+    "AZ7-02": {
+      "answer_sha256": "301f53120eb4cbd54323bbd5973939e53f735014a5085d8cc42c6865845b2031",
+      "claims": [
+        {
+          "part": "Q1",
+          "support": "partial",
+          "insurance_type": "occupational compulsory insurance",
+          "group": "beneficiary of a qualifying occupational policy",
+          "temporal": "Ordinary termination, for insured events while the contract was in force.",
+          "applicable_documents": [
+            "sığorta 3.pdf"
+          ],
+          "required_conditions": {
+            "express occupational scope": "istehsalat|peşə",
+            "beneficiary status": "faydalanan",
+            "time in force": "qüvvədə olduğu"
+          },
+          "rationale": "§11.8 preserves the insurer's obligation to the beneficiary for covered events. The unconditional scope and personal entitlement exceed this clause.",
+          "assessed_passage_ids": [
+            "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+          ]
+        },
+        {
+          "part": "Q1",
+          "support": "complete",
+          "insurance_type": "insurance event definition",
+          "group": "insured or otherwise qualifying beneficiary",
+          "temporal": "Occurrence during the contract term.",
+          "applicable_documents": [
+            "sığorta 1.pdf"
+          ],
+          "required_conditions": {
+            "time in force": "qüvvədə olduğu"
+          },
+          "rationale": "§1.1.19 supports the timing condition without extending the termination rule.",
+          "assessed_passage_ids": [
+            "a4a6fb69-831c-5785-8e42-b9df4c459a8c"
+          ]
+        }
+      ]
+    },
+    "AZ7-04": {
+      "answer_sha256": "5b1a0f5cf17ce7aae3c019f2951cf33b46680d25b6b29e242c95ad2cdb63b922",
+      "claims": [
+        {
+          "part": "Q2",
+          "support": "complete",
+          "insurance_type": "occupational compulsory insurance",
+          "group": "obligated policyholder and person who should have been covered",
+          "temporal": "When a qualifying insured event occurs.",
+          "applicable_documents": [
+            "sığorta 3.pdf"
+          ],
+          "required_conditions": {
+            "insured event trigger": "hadisəsi baş verdikdə",
+            "minimum statutory protection": "ən azı qanunla"
+          },
+          "rationale": "Occupational §7.3 supports conditional liability for the required coverage amount. It does not establish a specialized compensation procedure.",
+          "assessed_passage_ids": [
+            "b3845218-4ab9-57d4-93ca-9371f1e70c9b"
+          ]
+        },
+        {
+          "part": "Q1",
+          "support": "absent",
+          "insurance_type": "occupational compulsory insurance",
+          "group": "covered employer and worker",
+          "temporal": "Contracting obligation.",
+          "applicable_documents": [
+            "sığorta 3.pdf"
+          ],
+          "rationale": "The cited §15-2.2.1 assigns roles for compulsory medical insurance. Occupational duty requires occupational authority.",
+          "assessed_passage_ids": [
+            "86c37fdf-2f40-52b0-bf62-65cfb32fc3e9"
+          ]
+        },
+        {
+          "part": "Q1",
+          "support": "partial",
+          "insurance_type": "occupational compulsory insurance",
+          "group": "insurer and obligated policyholder",
+          "temporal": "Contract formation under §11.1 conditions.",
+          "applicable_documents": [
+            "sığorta 3.pdf"
+          ],
+          "required_conditions": {
+            "refusal rule": "imtina edə bilməz",
+            "statutory contracting scope": "11[.]1|qanun"
+          },
+          "rationale": "§11.2 supports non-refusal within scope. The asserted consequence for the worker needs the policyholder duty and remedy provisions.",
+          "assessed_passage_ids": [
+            "18ac550f-6a5c-5b45-9c10-29a89ee57ee3"
+          ]
+        }
+      ]
+    },
+    "AZ7-06": {
+      "answer_sha256": "c3215b5c033d2f2c2134484e73675d16a59a1daa8d335d43361733898d4cc388",
+      "claims": [
+        {
+          "part": "Q1",
+          "support": "complete",
+          "material_to_resolution": false,
+          "insurance_type": "mandatory state social insurance",
+          "group": "individual entrepreneurs excluded from civil-law withholding provision",
+          "temporal": "No payment deadline stated in §14.5.2.",
+          "applicable_documents": [
+            "sığorta 7.pdf"
+          ],
+          "rationale": "§14.5.2 excludes individual entrepreneurs from this withholding rule, without providing their own method.",
+          "assessed_passage_ids": [
+            "4e18a699-f743-5696-aaea-a2d980b7d60b"
+          ]
+        },
+        {
+          "part": "Q2",
+          "support": "contradictory",
+          "insurance_type": "compulsory medical insurance",
+          "group": "general premium class under §15-10.1.3 after exceptions",
+          "temporal": "Monthly with payment by the next month's 15th for the applicable class.",
+          "applicable_documents": [
+            "sığorts 4.pdf"
+          ],
+          "required_conditions": {
+            "express medical regime": "tibbi",
+            "special activities and qualifying transport expressly excepted": "istisna"
+          },
+          "prohibited_patterns": {
+            "sole-worker classes assigned general deadline without exclusions": "işçi cəlb etmədən.*15-dən"
+          },
+          "rationale": "The first paragraph excepts the special activities and qualifying transport. Extending its monthly declaration and deadline to sole-workers generally reverses that qualifier.",
+          "assessed_passage_ids": [
+            "3738ecf7-3889-57a1-8078-4bff27027019"
+          ]
+        },
+        {
+          "part": "Q2",
+          "support": "partial",
+          "insurance_type": "compulsory medical insurance",
+          "group": "Tax Code 220.10 individual activities and 218.4.1 qualifying transport",
+          "temporal": "At receipt or Distinction Sign issuance for the respective group.",
+          "applicable_documents": [
+            "sığorts 4.pdf"
+          ],
+          "required_conditions": {
+            "express medical regime": "tibbi",
+            "restricted receipt group": "220[.]10",
+            "restricted transport group": "218[.]4[.]1"
+          },
+          "rationale": "The §15-11.4 continuation supports these triggers for named groups only. They do not apply generally to the same group as the preceding deadline.",
+          "assessed_passage_ids": [
+            "5322908c-f5a5-5213-85bd-fb9d57b4c8ff"
+          ]
+        }
+      ]
+    },
+    "AZ7-07": {
+      "answer_sha256": "e91f362f9397236adc0fa2abd4403c4aa5e779ceeb9456b3c44e1eb1c33589f9",
+      "claims": [
+        {
+          "part": "Q1",
+          "support": "partial",
+          "insurance_type": "mandatory state social insurance",
+          "group": "agricultural owner-users and qualifying family-farm members",
+          "temporal": "Working-age qualification from 15 to the statutory pension threshold.",
+          "applicable_documents": [
+            "sığorta 7.pdf"
+          ],
+          "required_conditions": {
+            "ownership": "mülkiyyət",
+            "agricultural land": "kənd təsərrüfat",
+            "family-farm membership": "ailə kəndli təsərrüfat",
+            "age floor": "15 yaş",
+            "pension-age ceiling": "pensiya"
+          },
+          "rationale": "§14.5.1-1.9 establishes area and minimum-wage bases but limits the classes. The answer generalizes to all land users and omits the working-age limits.",
+          "assessed_passage_ids": [
+            "408840aa-b5ca-50b7-ba73-3cd0b289a405"
+          ]
+        },
+        {
+          "part": "Q1",
+          "support": "complete",
+          "insurance_type": "mandatory state social insurance",
+          "group": "only the eligible class under §14.5.1-1.9",
+          "temporal": "Frozen draft source only.",
+          "applicable_documents": [
+            "sığorta 7.pdf"
+          ],
+          "required_conditions": {
+            "eligibility attached to rate": "mülkiyyət|ailə kəndli|bu şərtl"
+          },
+          "rationale": "The three rates match the source. The answer's preceding sentence does not establish the complete eligible class.",
+          "assessed_passage_ids": [
+            "408840aa-b5ca-50b7-ba73-3cd0b289a405"
+          ]
+        },
+        {
+          "part": "Q1",
+          "support": "partial",
+          "insurance_type": "mandatory state social insurance",
+          "group": "outside-employed contributors and qualified family-farm members",
+          "temporal": "Disability determination under age 18 and statutory working age.",
+          "applicable_documents": [
+            "sığorta 7.pdf"
+          ],
+          "required_conditions": {
+            "compulsory state contribution": "məcburi dövlət sosial",
+            "bodily-function impairment": "funksiyalarının",
+            "under-18 disability determination": "18 yaşınadək"
+          },
+          "rationale": "The exclusions are grounded but the type of contribution, impairment test and distinction between groups were compressed.",
+          "assessed_passage_ids": [
+            "408840aa-b5ca-50b7-ba73-3cd0b289a405"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "chunks": [
+    {"doc": "claim.txt", "text": "The policyholder must notify the insurer of a claim within ten days and submit the claim form.", "metadata": {"article": "1", "clause": "1.1"}},
+    {"doc": "exclusion.txt", "text": "Losses intentionally caused by the policyholder are excluded from coverage.", "metadata": {"article": "2", "clause": "2.1"}},
+    {"doc": "premium.txt", "text": "The insurance premium is paid annually on the date stated in the policy.", "metadata": {"article": "3", "clause": "3.1"}},
+    {"doc": "beneficiary.txt", "text": "The beneficiary receives payment when the insured person dies, subject to the policy conditions.", "metadata": {"article": "4", "clause": "4.1"}},
+    {"doc": "insurer.txt", "text": "The insurer must review a completed claim and communicate its decision to the policyholder.", "metadata": {"article": "5", "clause": "5.1"}},
+    {"doc": "medical.txt", "text": "Tibbi sığorta müqaviləsi həkim müayinəsi xərclərini əhatə edir.", "metadata": {"article": "6", "clause": "6.1"}}
+  ],
+  "cases": [
+    {"question": "How long does the policyholder have to notify a claim?", "relevant_docs": ["claim.txt"]},
+    {"question": "Are intentional losses covered?", "relevant_docs": ["exclusion.txt"]},
+    {"question": "When is the premium paid?", "relevant_docs": ["premium.txt"]},
+    {"question": "Who receives payment when the insured person dies?", "relevant_docs": ["beneficiary.txt"]},
+    {"question": "Какие обязанности у страховщика после получения заявления?", "relevant_docs": ["insurer.txt"]},
+    {"question": "Tibbi sığorta həkim müayinəsini əhatə edirmi?", "relevant_docs": ["medical.txt"]},
+    {"question": "Compare articles 1.1 and 2.1", "relevant_docs": ["claim.txt", "exclusion.txt"]}
+  ]
+}

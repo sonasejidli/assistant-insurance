@@ -1,0 +1,875 @@
+{
+  "schema_version": 1,
+  "role": "annotation",
+  "packet_sha256": "739e60205cf5d2366c254fb920475c6f26032c075f2f8ba5919ce67d2d3ed595",
+  "reviewer": null,
+  "expertise": null,
+  "revision": null,
+  "decisions": {
+    "AZR001": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR002": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR003": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR004": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR005": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR006": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR007": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR008": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR009": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR010": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR011": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR012": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR013": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR014": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR015": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR016": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR017": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR018": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR019": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR020": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR021": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR022": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR023": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR024": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR025": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR026": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR027": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR028": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR029": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR030": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR031": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR032": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR033": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR034": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR035": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR036": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR037": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR038": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR039": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR040": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR041": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR042": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR043": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR044": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR045": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR046": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR047": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR048": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR049": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR050": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR051": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR052": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR053": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR054": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR055": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR056": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR057": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR058": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR059": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR060": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR061": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR062": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR063": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR064": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR065": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR066": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR067": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR068": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR069": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR070": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR071": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR072": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR073": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR074": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR075": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR076": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR077": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR078": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR079": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR080": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR081": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR082": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR083": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR084": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR085": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR086": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR087": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR088": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR089": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR090": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR091": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR092": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR093": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR094": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR095": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR096": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR097": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR098": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR099": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR100": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR101": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR102": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR103": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR104": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR105": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR106": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR107": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR108": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR109": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR110": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR111": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR112": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR113": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR114": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR115": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR116": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR117": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR118": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR119": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR120": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR121": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR122": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR123": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR124": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR125": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR126": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR127": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR128": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR129": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR130": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR131": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR132": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR133": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR134": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR135": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR136": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR137": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR138": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR139": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR140": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR141": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR142": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR143": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR144": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR145": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR146": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR147": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR148": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR149": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR150": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR151": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR152": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR153": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR154": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR155": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR156": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR157": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR158": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR159": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR160": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR161": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR162": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR163": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "AZR164": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "NEG01": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "NEG02": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "NEG03": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "MP01": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "MP02": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "MP03": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "MP04": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "MP05": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    },
+    "MP06": {
+      "decision": null,
+      "reason": null,
+      "labels": null
+    }
+  }
+}

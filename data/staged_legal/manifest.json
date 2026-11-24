@@ -1,0 +1,134 @@
+{
+  "civil-code.pdf": {
+    "version_id": "91b82e27fe5b4d7d914629db79ddb29a4ef616358750314e3c212dd44bdfcc0c",
+    "source_url": "https://uploads.cbar.az/assets/dfb5731c1d05df8de8818c622.pdf",
+    "title": "Azərbaycan Respublikasının Mülki Məcəlləsi",
+    "legal_type": "code",
+    "page_count": 686,
+    "probe_pages": {
+      "Maddə 883": [
+        345
+      ],
+      "Maddə 373": [
+        169
+      ],
+      "Maddə 935": [
+        368
+      ]
+    },
+    "current_status": "not verified",
+    "page_ranges": [
+      [
+        165,
+        174
+      ],
+      [
+        343,
+        376
+      ]
+    ],
+    "reference_aliases": [
+      "Mülki Məcəllə"
+    ]
+  },
+  "personal-data.pdf": {
+    "version_id": "f538032ac95f6f8b52e4d97496bae60e5d5bcc0fa66427cf7a44ce8e68c98079",
+    "source_url": "https://frameworks.e-qanun.az/19/19675.pdf",
+    "title": "Fərdi məlumatlar haqqında",
+    "legal_type": "law",
+    "page_count": 8,
+    "probe_pages": {
+      "Maddə 13": [
+        5
+      ],
+      "Maddə 14": [
+        6
+      ],
+      "Fərdi məlumatlar haqqında": [
+        1,
+        7
+      ]
+    },
+    "current_status": "not verified"
+  },
+  "health-confidentiality.txt": {
+    "version_id": "d9e9377311958971dfb88822a31e1346ae304f4515b944c2610e828ea63536dd",
+    "source_url": "https://frameworks.e-qanun.az/4/c_f_4078.html",
+    "title": "Əhalinin sağlamlığının qorunması haqqında",
+    "legal_type": "law",
+    "page_count": 1,
+    "probe_pages": {
+      "Maddə 53.": [
+        1
+      ],
+      "həkim sirrini": [
+        1
+      ],
+      "razılığı": [
+        1
+      ]
+    },
+    "current_status": "not verified",
+    "upstream_sha256": "81cbd5a94e4512b22c2c6e192c11c8bdfd2efc4b4583a6ff44ee7144b4335620",
+    "companion": {
+      "source_article": "53",
+      "document": "health-amendment.txt",
+      "article": "1"
+    }
+  },
+  "health-amendment.txt": {
+    "version_id": "afe5037d181ccd387edf617cc5df378de92c58f3e40fcdfdf6caf630133ab884",
+    "source_url": "https://president.az/az/articles/view/67550/print",
+    "title": "Əhalinin sağlamlığının qorunması və tibbi sığorta qanunlarına dəyişiklik (74-VIIQD)",
+    "legal_type": "law",
+    "page_count": 1,
+    "probe_pages": {
+      "Maddə 1.": [
+        1
+      ],
+      "53-cü maddəsinin": [
+        1
+      ],
+      "sığorta hadisəsi baş verdikdə": [
+        1
+      ]
+    },
+    "current_status": "not verified",
+    "upstream_sha256": "fb066aae7c5a82fefaf8d30eb3037fa326f34dcd57c5657108d73f45b0084dd1",
+    "published_at": "2024-12-20"
+  },
+  "motor-tariff.pdf": {
+    "version_id": "f69cf962c047bc88acccbe6e88b7e351a60665def701a582bd55bfb67187bfaf",
+    "source_url": "https://uploads.cbar.az/assets/0e36765b08e04f57f3b2df925.pdf",
+    "title": "Avtonəqliyyat vasitələri üzrə icbari sığorta haqqı məbləğlərinin hesablanması Qaydası",
+    "legal_type": "regulation",
+    "page_count": 20,
+    "probe_pages": {
+      "№ 25/1": [
+        1,
+        2
+      ],
+      "2.2.": [
+        2,
+        3,
+        6,
+        8,
+        11,
+        12,
+        16,
+        17,
+        18,
+        19
+      ],
+      "Cədvəl 1": [
+        4,
+        15
+      ]
+    },
+    "current_status": "not verified",
+    "prose_clause_pages": [
+      2,
+      3
+    ]
+  }
+}

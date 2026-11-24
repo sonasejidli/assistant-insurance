@@ -1,0 +1,1004 @@
+{
+  "traces": [
+    {
+      "query": "Mülki Məcəllədə sığorta müqaviləsi nədir?",
+      "target": "civil-code.pdf",
+      "filters": {},
+      "matching_ids": [
+        "04ece20d-1d12-5fef-a2a6-570b1c310d9d"
+      ],
+      "eligible_targets": 1,
+      "tokens": [
+        "mülki",
+        "məcəllədə",
+        "sığorta",
+        "müqaviləsi",
+        "nədir",
+        "müqavilə"
+      ],
+      "formal_variant": null,
+      "parts": [
+        "Mülki Məcəllədə sığorta müqaviləsi nədir?"
+      ],
+      "route": [],
+      "direct_provisions": 1,
+      "bm25_full": 60,
+      "dense_full": 18,
+      "bm25_branch": null,
+      "dense_branch": 18,
+      "rrf": 1,
+      "bge_shortlist": 1,
+      "selected": 1,
+      "expanded": 1
+    },
+    {
+      "query": "Mülki Məcəllədə sığorta müqaviləsi nədir?",
+      "target": "civil-code.pdf",
+      "filters": {
+        "law": "Azərbaycan Respublikasının Mülki Məcəlləsi"
+      },
+      "matching_ids": [
+        "04ece20d-1d12-5fef-a2a6-570b1c310d9d"
+      ],
+      "eligible_targets": 1,
+      "tokens": [
+        "mülki",
+        "məcəllədə",
+        "sığorta",
+        "müqaviləsi",
+        "nədir",
+        "müqavilə"
+      ],
+      "formal_variant": null,
+      "parts": [
+        "Mülki Məcəllədə sığorta müqaviləsi nədir?"
+      ],
+      "route": [],
+      "direct_provisions": 1,
+      "bm25_full": 13,
+      "dense_full": 7,
+      "bm25_branch": 13,
+      "dense_branch": 7,
+      "rrf": 1,
+      "bge_shortlist": 1,
+      "selected": 1,
+      "expanded": 1
+    },
+    {
+      "query": "Avtomobil sahiblərinin icbari sığorta haqqı məbləğinin hesablanması qaydası və baza haqqı",
+      "target": "motor-tariff.pdf",
+      "filters": {},
+      "matching_ids": [
+        "4ca4270b-a743-5273-b7d0-126824569ea9"
+      ],
+      "eligible_targets": 1,
+      "tokens": [
+        "avtomobil",
+        "sahiblərinin",
+        "icbari",
+        "sığorta",
+        "haqqı",
+        "məbləğinin",
+        "hesablanması",
+        "qaydası",
+        "və",
+        "baza",
+        "haqq",
+        "məbləğ",
+        "hesablanma",
+        "hesablama",
+        "qayda",
+        "insurance_concept_calculation",
+        "insurance_concept_compulsory_insurance",
+        "insurance_concept_premium"
+      ],
+      "formal_variant": null,
+      "parts": [
+        "Avtomobil sahiblərinin icbari sığorta haqqı məbləğinin hesablanması qaydası necədir?",
+        "Avtomobil sahiblərinin icbari sığorta üzrə baza sığorta haqqı nə qədərdir?"
+      ],
+      "route": [
+        [
+          "insurance_type",
+          "compulsory"
+        ]
+      ],
+      "direct_provisions": 1,
+      "bm25_full": 126,
+      "dense_full": 1685,
+      "bm25_branch": null,
+      "dense_branch": null,
+      "rrf": 1,
+      "bge_shortlist": 1,
+      "selected": 1,
+      "expanded": 1
+    },
+    {
+      "query": "Avtomobil sahiblərinin icbari sığorta haqqı məbləğinin hesablanması qaydası və baza haqqı",
+      "target": "motor-tariff.pdf",
+      "filters": {
+        "law": "Avtonəqliyyat vasitələri üzrə icbari sığorta haqqı məbləğlərinin hesablanması Qaydası"
+      },
+      "matching_ids": [
+        "4ca4270b-a743-5273-b7d0-126824569ea9"
+      ],
+      "eligible_targets": 1,
+      "tokens": [
+        "avtomobil",
+        "sahiblərinin",
+        "icbari",
+        "sığorta",
+        "haqqı",
+        "məbləğinin",
+        "hesablanması",
+        "qaydası",
+        "və",
+        "baza",
+        "haqq",
+        "məbləğ",
+        "hesablanma",
+        "hesablama",
+        "qayda",
+        "insurance_concept_calculation",
+        "insurance_concept_compulsory_insurance",
+        "insurance_concept_premium"
+      ],
+      "formal_variant": null,
+      "parts": [
+        "Avtomobil sahiblərinin icbari sığorta haqqı məbləğinin hesablanması qaydası necədir?",
+        "Avtomobil sahiblərinin icbari sığorta üzrə baza sığorta haqqı nə qədərdir?"
+      ],
+      "route": [
+        [
+          "insurance_type",
+          "compulsory"
+        ]
+      ],
+      "direct_provisions": 1,
+      "bm25_full": 57,
+      "dense_full": 91,
+      "bm25_branch": null,
+      "dense_branch": null,
+      "rrf": 1,
+      "bge_shortlist": 1,
+      "selected": 1,
+      "expanded": 1
+    }
+  ],
+  "multipart": [
+    {
+      "id": "MP01",
+      "query": "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir və nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?",
+      "variants": {
+        "baseline": {
+          "attributed": [
+            0,
+            1
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            1
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "ea271fbd-2d68-5012-8dcf-6027568380ff"
+            ],
+            []
+          ],
+          "recall": {
+            "5": 0.5,
+            "10": 0.5
+          },
+          "parts": [
+            "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir?",
+            "İcbari sığorta tələbində faydalananlar üzrə nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?"
+          ],
+          "parents": [
+            "4676a329-3df8-5c6b-8ed9-078bea33bc9f",
+            "f36fe280-3690-51c8-9ae1-1b778a437d8f",
+            "71420948-647e-5349-b597-e4f5006e925f",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "eea8fe80-397b-52da-8268-509246a90deb",
+            "4fb7507a-a676-50f1-9546-69d1577a5e54",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "5a625557-8b68-5d88-818a-3bd8e6746296",
+            "436faef6-c404-54c7-b254-0f0153cca575"
+          ],
+          "elapsed_ms": 405.3521579990047
+        },
+        "reliability": {
+          "attributed": [
+            1,
+            1
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": true,
+          "attributed_after_assembly": [
+            1,
+            1
+          ],
+          "complete_after_assembly": true,
+          "missing_labeled": [
+            [],
+            []
+          ],
+          "recall": {
+            "5": 1.0,
+            "10": 1.0
+          },
+          "parts": [
+            "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir?",
+            "İcbari sığorta nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?"
+          ],
+          "parents": [
+            "ea271fbd-2d68-5012-8dcf-6027568380ff",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "6fef2309-6c83-5c1f-9a32-fc2f97b937b9",
+            "4676a329-3df8-5c6b-8ed9-078bea33bc9f",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "71420948-647e-5349-b597-e4f5006e925f",
+            "a1d1afcc-fea2-591d-925f-69cd7ef95d54",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "4fb7507a-a676-50f1-9546-69d1577a5e54"
+          ],
+          "elapsed_ms": 742.9114799997478
+        },
+        "provisions": {
+          "attributed": [
+            1,
+            1
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": true,
+          "attributed_after_assembly": [
+            1,
+            1
+          ],
+          "complete_after_assembly": true,
+          "missing_labeled": [
+            [],
+            []
+          ],
+          "recall": {
+            "5": 1.0,
+            "10": 1.0
+          },
+          "parts": [
+            "İcbari sığorta tələbində faydalananlar hansı şəxsiyyət sənədlərini təqdim etməlidir?",
+            "İcbari sığorta nə vaxt sığortaçı sonuncu sənəddən sonra ödəniş barədə qərar verməlidir?"
+          ],
+          "parents": [
+            "ea271fbd-2d68-5012-8dcf-6027568380ff",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "453ce220-b1a8-533d-a375-5a1ec65aa233",
+            "6fef2309-6c83-5c1f-9a32-fc2f97b937b9",
+            "4676a329-3df8-5c6b-8ed9-078bea33bc9f",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "71420948-647e-5349-b597-e4f5006e925f",
+            "436faef6-c404-54c7-b254-0f0153cca575",
+            "f36fe280-3690-51c8-9ae1-1b778a437d8f",
+            "4fb7507a-a676-50f1-9546-69d1577a5e54"
+          ],
+          "elapsed_ms": 989.5516469987342
+        }
+      }
+    },
+    {
+      "id": "MP02",
+      "query": "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır və nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?",
+      "variants": {
+        "baseline": {
+          "attributed": [
+            1,
+            0
+          ],
+          "required": [
+            2,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            1,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "981d0040-8977-568c-8f24-4abac260c133"
+            ],
+            [
+              "425810a6-3dfb-580b-aee3-feacc1b251fc"
+            ]
+          ],
+          "recall": {
+            "5": 0.3333333333333333,
+            "10": 0.3333333333333333
+          },
+          "parts": [
+            "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır?",
+            "İş qəzası sığortasında üzrə nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?"
+          ],
+          "parents": [
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "9ff675a2-7d5e-574d-8fef-cf0cb70f280b",
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "dccaafce-d945-54c5-8cc2-286bc3651fc4",
+            "2b1d3dcc-1e93-5a49-a9cb-86c27f374920",
+            "ee06a3ef-6918-5d09-be96-5e15c1f94e3a",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "8de0dfcf-c6bc-551e-be8f-9480aeddc650",
+            "e71369fb-4ee2-5877-bc66-50ec372c067a",
+            "436faef6-c404-54c7-b254-0f0153cca575"
+          ],
+          "elapsed_ms": 486.4541110000573
+        },
+        "reliability": {
+          "attributed": [
+            1,
+            0
+          ],
+          "required": [
+            2,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            1,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "981d0040-8977-568c-8f24-4abac260c133"
+            ],
+            [
+              "425810a6-3dfb-580b-aee3-feacc1b251fc"
+            ]
+          ],
+          "recall": {
+            "5": 0.3333333333333333,
+            "10": 0.3333333333333333
+          },
+          "parts": [
+            "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır?",
+            "İş qəzası sığortasında nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?"
+          ],
+          "parents": [
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "dccaafce-d945-54c5-8cc2-286bc3651fc4",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "ee06a3ef-6918-5d09-be96-5e15c1f94e3a",
+            "2b1d3dcc-1e93-5a49-a9cb-86c27f374920",
+            "9ff675a2-7d5e-574d-8fef-cf0cb70f280b",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "8de0dfcf-c6bc-551e-be8f-9480aeddc650",
+            "e71369fb-4ee2-5877-bc66-50ec372c067a",
+            "74abc402-8905-5112-afc2-26731e15001d"
+          ],
+          "elapsed_ms": 1469.999373999599
+        },
+        "provisions": {
+          "attributed": [
+            1,
+            0
+          ],
+          "required": [
+            2,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            2,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [],
+            [
+              "425810a6-3dfb-580b-aee3-feacc1b251fc"
+            ]
+          ],
+          "recall": {
+            "5": 0.3333333333333333,
+            "10": 0.3333333333333333
+          },
+          "parts": [
+            "İş qəzası sığortasında hansı hallarda sığorta olunanın hadisəni qəsdən törətməsi imtina əsasıdır?",
+            "İş qəzası sığortasında nə vaxt işəgötürən qəza barədə sığortaçıya məlumat verməlidir?"
+          ],
+          "parents": [
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "ee06a3ef-6918-5d09-be96-5e15c1f94e3a",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "74abc402-8905-5112-afc2-26731e15001d",
+            "2b1d3dcc-1e93-5a49-a9cb-86c27f374920",
+            "8de0dfcf-c6bc-551e-be8f-9480aeddc650",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "8ef9ad12-a774-5ebe-8309-aedf66f449f6",
+            "e71369fb-4ee2-5877-bc66-50ec372c067a",
+            "dccaafce-d945-54c5-8cc2-286bc3651fc4"
+          ],
+          "elapsed_ms": 1314.3991439974343
+        }
+      }
+    },
+    {
+      "id": "MP03",
+      "query": "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir və hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?",
+      "variants": {
+        "baseline": {
+          "attributed": [
+            1,
+            1
+          ],
+          "required": [
+            5,
+            2
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            1,
+            1
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "bdb38a9f-b447-51c9-8604-4847c6bdd000",
+              "f0dd6eda-2bde-5091-9db0-50b47faa3c24",
+              "8165b448-0c41-504f-8f86-a2bbc98163fc",
+              "f1658e65-5b20-5213-9802-353023095b16"
+            ],
+            [
+              "65a2d7c8-f5dc-56e4-986c-67b7b79b670d"
+            ]
+          ],
+          "recall": {
+            "5": 0.2857142857142857,
+            "10": 0.2857142857142857
+          },
+          "parts": [
+            "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir?",
+            "Auditor sığortasında üzrə hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?"
+          ],
+          "parents": [
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8",
+            "2c5b6c4f-4eb2-5223-8beb-81aead4c7b18",
+            "45ea8890-b047-50de-b9cb-17f52517f500",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "a59c720e-8891-512a-8ed7-c2a3c6f8fd0b",
+            "6680aaa6-652c-5886-844d-b2ce25013210",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "c8efd485-28a9-5d73-bb52-5c75b4e939f2",
+            "4e64327e-4d11-5941-a0b3-27f75db8e0d3"
+          ],
+          "elapsed_ms": 400.622025001212
+        },
+        "reliability": {
+          "attributed": [
+            1,
+            1
+          ],
+          "required": [
+            5,
+            2
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            1,
+            1
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "bdb38a9f-b447-51c9-8604-4847c6bdd000",
+              "f0dd6eda-2bde-5091-9db0-50b47faa3c24",
+              "8165b448-0c41-504f-8f86-a2bbc98163fc",
+              "f1658e65-5b20-5213-9802-353023095b16"
+            ],
+            [
+              "65a2d7c8-f5dc-56e4-986c-67b7b79b670d"
+            ]
+          ],
+          "recall": {
+            "5": 0.2857142857142857,
+            "10": 0.2857142857142857
+          },
+          "parts": [
+            "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir?",
+            "Auditor sığortasında hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?"
+          ],
+          "parents": [
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8",
+            "2c5b6c4f-4eb2-5223-8beb-81aead4c7b18",
+            "37554259-8d0d-54ad-8179-ae06434df4c2",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "6680aaa6-652c-5886-844d-b2ce25013210",
+            "45ea8890-b047-50de-b9cb-17f52517f500",
+            "c8efd485-28a9-5d73-bb52-5c75b4e939f2",
+            "a59c720e-8891-512a-8ed7-c2a3c6f8fd0b"
+          ],
+          "elapsed_ms": 716.4905119971081
+        },
+        "provisions": {
+          "attributed": [
+            1,
+            1
+          ],
+          "required": [
+            5,
+            2
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            5,
+            2
+          ],
+          "complete_after_assembly": true,
+          "missing_labeled": [
+            [],
+            []
+          ],
+          "recall": {
+            "5": 0.2857142857142857,
+            "10": 0.2857142857142857
+          },
+          "parts": [
+            "Auditor sığortasında hansı sənədlər zərər etiraf edildikdə sığortaçıya təqdim edilir?",
+            "Auditor sığortasında hansı halda sığorta haqqı ödənilmədikdə ödənişdən imtina mümkündür?"
+          ],
+          "parents": [
+            "1a33dddc-9bd1-533c-b201-8d081fcd6338",
+            "1779a4a6-f59a-55f8-b1c4-2d263c6f28b8",
+            "2c5b6c4f-4eb2-5223-8beb-81aead4c7b18",
+            "37554259-8d0d-54ad-8179-ae06434df4c2",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "c5997c44-6a9c-5db8-8352-cb7c1cd73a74",
+            "6680aaa6-652c-5886-844d-b2ce25013210",
+            "45ea8890-b047-50de-b9cb-17f52517f500",
+            "c8efd485-28a9-5d73-bb52-5c75b4e939f2",
+            "a59c720e-8891-512a-8ed7-c2a3c6f8fd0b"
+          ],
+          "elapsed_ms": 755.0121269996453
+        }
+      }
+    },
+    {
+      "id": "MP04",
+      "query": "İcbari sığortada və iş qəzası sığortasında gecikmiş müraciətə hansı müddətlər tətbiq olunur?",
+      "variants": {
+        "baseline": {
+          "attributed": [
+            0,
+            0
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "a5a0fff9-2ca3-537a-b418-83143fc42080"
+            ],
+            [
+              "eea8fe80-397b-52da-8268-509246a90deb"
+            ]
+          ],
+          "recall": {
+            "5": 0.0,
+            "10": 0.0
+          },
+          "parts": [
+            "İcbari sığortada və iş qəzası sığortasında gecikmiş müraciətə hansı müddətlər tətbiq olunur?"
+          ],
+          "parents": [
+            "4e2dbf03-b4e0-5b0a-94c1-d2ae90619f66",
+            "b7523239-5367-5120-8465-004886f85ff6",
+            "aefdb8e8-b4d7-502f-8026-02c65d32cdd5",
+            "43ddba92-b233-5e64-b096-aedc80216940",
+            "e999171d-a4a0-5017-bf3c-48d127634dee",
+            "352702f4-3ebf-5ea0-aac3-820ffcfc20ee",
+            "67bec4eb-7675-5c98-96f0-f0bb9855fe0f",
+            "dcbae9d9-c1f2-5865-a64a-238b45e58719",
+            "cd952f4a-f592-55d3-81ee-94b4f0094458",
+            "30571124-50f3-5022-83f8-1058c6e085a9"
+          ],
+          "elapsed_ms": 200.71639600064373
+        },
+        "reliability": {
+          "attributed": [
+            0,
+            0
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "a5a0fff9-2ca3-537a-b418-83143fc42080"
+            ],
+            [
+              "eea8fe80-397b-52da-8268-509246a90deb"
+            ]
+          ],
+          "recall": {
+            "5": 0.0,
+            "10": 0.0
+          },
+          "parts": [
+            "İcbari sığortada gecikmiş müraciətə hansı müddətlər tətbiq olunur?",
+            "iş qəzası sığortasında gecikmiş müraciətə hansı müddətlər tətbiq olunur?"
+          ],
+          "parents": [
+            "50d847fe-6869-5172-92f1-a6ed4dd021c2",
+            "352702f4-3ebf-5ea0-aac3-820ffcfc20ee",
+            "aab35201-68f5-5724-b738-112afc4d256d",
+            "e999171d-a4a0-5017-bf3c-48d127634dee",
+            "633ec341-c57e-513c-a89c-03020a119f45",
+            "1f5f28ad-16c8-5c36-b25f-8ff5d29d182b",
+            "4e2dbf03-b4e0-5b0a-94c1-d2ae90619f66",
+            "b7523239-5367-5120-8465-004886f85ff6",
+            "aefdb8e8-b4d7-502f-8026-02c65d32cdd5",
+            "007e0d27-f723-5bb3-a99c-9bedc89057ba"
+          ],
+          "elapsed_ms": 1136.2822209994192
+        },
+        "provisions": {
+          "attributed": [
+            0,
+            0
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "a5a0fff9-2ca3-537a-b418-83143fc42080"
+            ],
+            [
+              "eea8fe80-397b-52da-8268-509246a90deb"
+            ]
+          ],
+          "recall": {
+            "5": 0.0,
+            "10": 0.0
+          },
+          "parts": [
+            "İcbari sığortada gecikmiş müraciətə hansı müddətlər tətbiq olunur?",
+            "iş qəzası sığortasında gecikmiş müraciətə hansı müddətlər tətbiq olunur?"
+          ],
+          "parents": [
+            "50d847fe-6869-5172-92f1-a6ed4dd021c2",
+            "352702f4-3ebf-5ea0-aac3-820ffcfc20ee",
+            "aab35201-68f5-5724-b738-112afc4d256d",
+            "e999171d-a4a0-5017-bf3c-48d127634dee",
+            "633ec341-c57e-513c-a89c-03020a119f45",
+            "1f5f28ad-16c8-5c36-b25f-8ff5d29d182b",
+            "4e2dbf03-b4e0-5b0a-94c1-d2ae90619f66",
+            "b7523239-5367-5120-8465-004886f85ff6",
+            "aefdb8e8-b4d7-502f-8026-02c65d32cdd5",
+            "007e0d27-f723-5bb3-a99c-9bedc89057ba"
+          ],
+          "elapsed_ms": 1176.8240189994685
+        }
+      }
+    },
+    {
+      "id": "MP05",
+      "query": "İstehsalat riskinin icbari sığorta haqqı necə hesablanır və hansı hallarda hadisəni qəsdən törətmək ödənişdən imtinaya səbəb olur?",
+      "variants": {
+        "baseline": {
+          "attributed": [
+            0,
+            0
+          ],
+          "required": [
+            2,
+            2
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "1463f573-4b97-508b-ba58-ca086c481877",
+              "d3218301-0fe1-5a16-8eff-2372d8c3c2e3"
+            ],
+            [
+              "981d0040-8977-568c-8f24-4abac260c133",
+              "bd24401f-bf5e-5ac7-8495-e14095cf1d3b"
+            ]
+          ],
+          "recall": {
+            "5": 0.0,
+            "10": 0.0
+          },
+          "parts": [
+            "İstehsalat riskinin icbari sığorta haqqı necə hesablanır?",
+            "İstehsalat riskinin icbari sığorta haqqı üzrə hansı hallarda hadisəni qəsdən törətmək ödənişdən imtinaya səbəb olur?"
+          ],
+          "parents": [
+            "d8a036df-583c-54fe-91eb-d5c909f97d9c",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "3738ecf7-3889-57a1-8078-4bff27027019",
+            "6098051f-2d36-5030-8ad1-27ff84aa195d",
+            "cb8e8aad-74a9-5437-b62e-4f3875da264f",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "29064f5d-76a9-5568-8b83-c1d8f94b2e2a",
+            "a59c720e-8891-512a-8ed7-c2a3c6f8fd0b",
+            "d84b7d3d-26af-5c24-8c5a-9f6e5f442cd9",
+            "30901c65-5dff-5919-8900-c5e8b7845b50"
+          ],
+          "elapsed_ms": 387.49136600017664
+        },
+        "reliability": {
+          "attributed": [
+            0,
+            1
+          ],
+          "required": [
+            2,
+            2
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            1
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "1463f573-4b97-508b-ba58-ca086c481877",
+              "d3218301-0fe1-5a16-8eff-2372d8c3c2e3"
+            ],
+            [
+              "981d0040-8977-568c-8f24-4abac260c133"
+            ]
+          ],
+          "recall": {
+            "5": 0.25,
+            "10": 0.25
+          },
+          "parts": [
+            "İstehsalat riskinin icbari sığorta haqqı necə hesablanır?",
+            "İstehsalat riskinin hansı hallarda hadisəni qəsdən törətmək ödənişdən imtinaya səbəb olur?"
+          ],
+          "parents": [
+            "baf43b87-2348-5216-8dcf-51433640315c",
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "29064f5d-76a9-5568-8b83-c1d8f94b2e2a",
+            "6098051f-2d36-5030-8ad1-27ff84aa195d",
+            "1509561f-6abf-5267-bff3-8454bfe27075",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "fba13268-8320-5cd2-bcef-8e9014173d97",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "d8a036df-583c-54fe-91eb-d5c909f97d9c",
+            "67b88fdc-6705-5085-a116-abeecc68cd15"
+          ],
+          "elapsed_ms": 1464.6679509969545
+        },
+        "provisions": {
+          "attributed": [
+            0,
+            1
+          ],
+          "required": [
+            2,
+            2
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            2
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "1463f573-4b97-508b-ba58-ca086c481877",
+              "d3218301-0fe1-5a16-8eff-2372d8c3c2e3"
+            ],
+            []
+          ],
+          "recall": {
+            "5": 0.25,
+            "10": 0.25
+          },
+          "parts": [
+            "İstehsalat riskinin icbari sığorta haqqı necə hesablanır?",
+            "İstehsalat riskinin hansı hallarda hadisəni qəsdən törətmək ödənişdən imtinaya səbəb olur?"
+          ],
+          "parents": [
+            "baf43b87-2348-5216-8dcf-51433640315c",
+            "bd24401f-bf5e-5ac7-8495-e14095cf1d3b",
+            "29064f5d-76a9-5568-8b83-c1d8f94b2e2a",
+            "6098051f-2d36-5030-8ad1-27ff84aa195d",
+            "1509561f-6abf-5267-bff3-8454bfe27075",
+            "ea22c807-33f6-5b8b-9b40-f20be54d41ea",
+            "fba13268-8320-5cd2-bcef-8e9014173d97",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca",
+            "d8a036df-583c-54fe-91eb-d5c909f97d9c",
+            "67b88fdc-6705-5085-a116-abeecc68cd15"
+          ],
+          "elapsed_ms": 1457.7119770001445
+        }
+      }
+    },
+    {
+      "id": "MP06",
+      "query": "İcbari sığortada son sənəd alındıqdan sonra qərar üçün müddət nə qədərdir və hansı şəxsiyyət sənədləri istinad edilən qaydaya daxildir?",
+      "variants": {
+        "baseline": {
+          "attributed": [
+            0,
+            0
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+            ],
+            [
+              "ea271fbd-2d68-5012-8dcf-6027568380ff"
+            ]
+          ],
+          "recall": {
+            "5": 0.0,
+            "10": 0.0
+          },
+          "parts": [
+            "İcbari sığortada son sənəd alındıqdan sonra qərar üçün müddət nə qədərdir və hansı şəxsiyyət sənədləri istinad edilən qaydaya daxildir?"
+          ],
+          "parents": [
+            "dccaafce-d945-54c5-8cc2-286bc3651fc4",
+            "71420948-647e-5349-b597-e4f5006e925f",
+            "6ec926ab-b417-5696-99db-d8253e54ca30",
+            "2c5b6c4f-4eb2-5223-8beb-81aead4c7b18",
+            "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+            "74abc402-8905-5112-afc2-26731e15001d",
+            "ff26cbc0-11f7-5247-9b2d-bdeff58f2cd8",
+            "a9086b75-9568-5bd3-a2a6-0334bba0345d",
+            "513c2bca-fef4-51d4-ac82-af672dc901ee",
+            "2fcbbe27-ff25-57a1-8b05-b61d9bb733ab"
+          ],
+          "elapsed_ms": 221.9294850001461
+        },
+        "reliability": {
+          "attributed": [
+            0,
+            0
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            0
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+            ],
+            [
+              "ea271fbd-2d68-5012-8dcf-6027568380ff"
+            ]
+          ],
+          "recall": {
+            "5": 0.0,
+            "10": 0.0
+          },
+          "parts": [
+            "İcbari sığortada son sənəd alındıqdan sonra qərar üçün müddət nə qədərdir?",
+            "İcbari sığortada hansı şəxsiyyət sənədləri istinad edilən qaydaya daxildir?"
+          ],
+          "parents": [
+            "3847e631-f145-50ac-b31f-f4e2f1070744",
+            "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+            "4fe602db-3565-51c5-a3ef-81aa334707d7",
+            "3e46b0b1-dd99-5b4f-a198-7b76324294e7",
+            "c2ffeda5-d913-5f29-a344-942a46c4cb59",
+            "332dda53-2092-52d9-a5b2-c6ff8e304f15",
+            "71420948-647e-5349-b597-e4f5006e925f",
+            "53ee61ae-f7ab-51a2-bc49-045086095bc5",
+            "74abc402-8905-5112-afc2-26731e15001d",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca"
+          ],
+          "elapsed_ms": 823.8132030019187
+        },
+        "provisions": {
+          "attributed": [
+            0,
+            0
+          ],
+          "required": [
+            1,
+            1
+          ],
+          "complete": false,
+          "attributed_after_assembly": [
+            0,
+            1
+          ],
+          "complete_after_assembly": false,
+          "missing_labeled": [
+            [
+              "c5997c44-6a9c-5db8-8352-cb7c1cd73a74"
+            ],
+            []
+          ],
+          "recall": {
+            "5": 0.0,
+            "10": 0.0
+          },
+          "parts": [
+            "İcbari sığortada son sənəd alındıqdan sonra qərar üçün müddət nə qədərdir?",
+            "İcbari sığortada hansı şəxsiyyət sənədləri istinad edilən qaydaya daxildir?"
+          ],
+          "parents": [
+            "dccaafce-d945-54c5-8cc2-286bc3651fc4",
+            "29af67f7-a394-5e71-8bb4-c9d77e5472ab",
+            "3847e631-f145-50ac-b31f-f4e2f1070744",
+            "3e46b0b1-dd99-5b4f-a198-7b76324294e7",
+            "4fe602db-3565-51c5-a3ef-81aa334707d7",
+            "332dda53-2092-52d9-a5b2-c6ff8e304f15",
+            "c2ffeda5-d913-5f29-a344-942a46c4cb59",
+            "53ee61ae-f7ab-51a2-bc49-045086095bc5",
+            "71420948-647e-5349-b597-e4f5006e925f",
+            "377ef18f-0450-54f8-afd5-bbfc7963fcca"
+          ],
+          "elapsed_ms": 996.3369300021441
+        }
+      }
+    }
+  ]
+}

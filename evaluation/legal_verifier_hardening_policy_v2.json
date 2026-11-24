@@ -1,0 +1,245 @@
+{
+  "version": "technical-witnesses-v2.0",
+  "base_benchmark_sha256": "941f9d33e1f33cb6daf7e2c1b56a2264cf23e6ab040123d563d2d60aa3630238",
+  "authority": {
+    "7da056dd-d9f8-501d-9a06-556083e2a0ed": "normative_legal_act",
+    "e90086e8-2d04-5eab-9620-7ce769aca005": "normative_legal_act",
+    "1248340c-65bf-5254-875a-36c09b8300f4": "normative_legal_act",
+    "4e3b2353-e051-58b1-a63b-b4f0a785941e": "normative_legal_act",
+    "7283e2b5-a63e-5a4c-b648-32ec0118e2ce": "government_resolution",
+    "01a4a500-13dd-5068-8890-b921643bf99a": "academic_textbook",
+    "d2714228-7dd4-536f-b244-7837533f5724": "methodological_or_explanatory",
+    "f528c2f5-3ae6-5bc1-b572-f483f2954417": "other"
+  },
+  "witnesses": [
+    {
+      "id": "occupational_termination_in_term",
+      "statements": [
+        "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir."
+      ],
+      "kind": "legal",
+      "status": "supported",
+      "supported_fragment": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "rationale": "Section 11.8 explicitly preserves the obligation to the beneficiary for an insured event while the occupational contract was in force.",
+      "passages": {
+        "a57a82bb-11a3-59b9-ad6d-331cbd732955": {
+          "sha256": "871c3abcfb45abe8077c83abe9a1d198118d65be754d221f588b8d30f73c1a1f",
+          "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+          "excerpt": "qüvvədə olduğu dövr ərzində"
+        }
+      }
+    },
+    {
+      "id": "occupational_liability_fragment",
+      "statements": [
+        "İcbari sığorta hadisəsi baş verərsə, vəzifəni yerinə yetirməyən sığortalı azı qanuni təminat həcmində öhdəlik daşıyır."
+      ],
+      "kind": "legal",
+      "status": "partially_supported",
+      "supported_fragment": "İcbari sığorta hadisəsi baş verərsə, vəzifəni yerinə yetirməyən sığortalı azı qanuni təminat həcmində öhdəlik daşıyır.",
+      "rationale": "Section 7.3 establishes conditional policyholder liability. The remedy procedure is outside this witness.",
+      "passages": {
+        "b3845218-4ab9-57d4-93ca-9371f1e70c9b": {
+          "sha256": "7c3aeaad0641803f5a9aeef6f49937300d978de379db4739abab941af4da1040",
+          "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+          "excerpt": "azı bu Qanunla müəyyən edilmiş sığorta təminatı həcmində"
+        }
+      }
+    },
+    {
+      "id": "social_group_triggers",
+      "statements": [
+        "14.5.1-1 kateqoriyası istisna olmaqla haqq növbəti ayın 15-dək tam nağdsız ödənilir; xüsusi qruplar üçün qəbz və ya Fərqlənmə nişanı qaydası tətbiq edilir."
+      ],
+      "kind": "legal",
+      "status": "supported",
+      "supported_fragment": "14.5.1-1 kateqoriyası istisna olmaqla haqq növbəti ayın 15-dək tam nağdsız ödənilir; xüsusi qruplar üçün qəbz və ya Fərqlənmə nişanı qaydası tətbiq edilir.",
+      "rationale": "Sections 14.6 and 14.6-1 jointly distinguish the general rule and the special payment triggers.",
+      "passages": {
+        "d4096dce-cfb5-5545-9b35-c52198767f26": {
+          "sha256": "2ee0574e55f3c0a95b56175cf75b16b0f6e5a9537cfe3a0a41898939172dd685",
+          "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+          "excerpt": "istisna olmaqla"
+        },
+        "6a499933-0d44-5415-94d3-f6c519f4f6c9": {
+          "sha256": "a6ad40e6253514f9cb0bc09debd7b69e4f56e10a4f032048b01b82b021406bd5",
+          "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+          "excerpt": "“Fərqlənmə nişanı” alınarkən"
+        }
+      }
+    },
+    {
+      "id": "social_exception_paraphrases",
+      "statements": [
+        "14.5.1-1 üzrə şəxslər kənarda qalır; qalanlar haqqı hər ay hesablayır və gəlir ödənişi ilə eyni vaxtda, ən gec növbəti ayın 15-də tam nağdsız ödəyir.",
+        "14.5.1-1-də göstərilənlər bu qaydaya daxil deyil. Qalanların haqqı aylıq hesablanır, gəlir ödənişi ilə birlikdə və növbəti ayın 15-dən gec olmayaraq tam nağdsız ödənilir."
+      ],
+      "kind": "legal",
+      "status": "supported",
+      "supported_fragment": "14.5.1-1 üzrə şəxslər kənarda qalır; qalanlar haqqı hər ay hesablayır və gəlir ödənişi ilə eyni vaxtda, ən gec növbəti ayın 15-də tam nağdsız ödəyir.",
+      "rationale": "The bounded paraphrases retain the referenced exclusion, monthly calculation, ordinary deadline and cashless payment.",
+      "passages": {
+        "d4096dce-cfb5-5545-9b35-c52198767f26": {
+          "sha256": "2ee0574e55f3c0a95b56175cf75b16b0f6e5a9537cfe3a0a41898939172dd685",
+          "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+          "excerpt": "istisna olmaqla"
+        }
+      }
+    },
+    {
+      "id": "source_description_only",
+      "statements": [
+        "Bu sənəd xəbər xülasəsidir."
+      ],
+      "kind": "source_description",
+      "status": "partially_supported",
+      "supported_fragment": "Bu sənəd xəbər xülasəsidir.",
+      "rationale": "The source describes itself as an explanatory news summary. This verifies genre and supplies no normative rule.",
+      "passages": {
+        "05ca25b0-f931-5ff7-8977-6879c9019e70": {
+          "sha256": "1d65856339b4d6d6f0932e0d0b69694f1ae2bb32a60de3481d879f6414cece02",
+          "document_id": "d2714228-7dd4-536f-b244-7837533f5724",
+          "excerpt": "xəbər xülasəsi"
+        }
+      }
+    },
+    {
+      "id": "resolution_documentation_only",
+      "statements": [
+        "Qərar araşdırma qaydasındakı sənəd və məlumat tələblərini dəyişir."
+      ],
+      "kind": "legal",
+      "status": "supported",
+      "supported_fragment": "Qərar araşdırma qaydasındakı sənəd və məlumat tələblərini dəyişir.",
+      "rationale": "Resolution No. 156 amends the identified accident-investigation documentation requirements.",
+      "passages": {
+        "b6d90268-962c-5c44-bcaf-ada21fccf639": {
+          "sha256": "2c2d48c68a58e9e6b240f016a473ad6b5fe886bf5a873777169d1e69edcba471",
+          "document_id": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+          "excerpt": "“sənədlər” sözündən sonra “və məlumatlar”"
+        }
+      }
+    },
+    {
+      "id": "amendment_dates_only",
+      "statements": [
+        "1618-VQD əlavələri 21 avqust 2019-da dərc edilib və 1 yanvar 2020-dən qüvvəyə minib."
+      ],
+      "kind": "legal",
+      "status": "supported",
+      "supported_fragment": "1618-VQD əlavələri 21 avqust 2019-da dərc edilib və 1 yanvar 2020-dən qüvvəyə minib.",
+      "rationale": "The amendment note identifies the publication date and separately states entry into force on 1 January 2020.",
+      "passages": {
+        "6aadd683-e043-5a9c-9fdb-ba55f67afb42": {
+          "sha256": "f787fcba99a336a8cb5bf4ad23125f1a7ce5cecec14283b1bb799f8aaf66a464",
+          "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+          "excerpt": "21 avqust 2019-cu il"
+        }
+      },
+      "effective_from": "2020-01-01"
+    },
+    {
+      "id": "land_bounded_fragment",
+      "statements": [
+        "Torpaq istifadəçisi minimum aylıq əməkhaqqına görə haqq ödəyir."
+      ],
+      "kind": "legal",
+      "status": "partially_supported",
+      "supported_fragment": "§14.5.1-1.9 müəyyən etdiyi mülkiyyətçi istifadəçilər və uyğun ailə kəndli təsərrüfatı üzvləri üçün minimum aylıq əməkhaqqına və torpağın sahəsinə əsaslanır.",
+      "rationale": "The claimed base is present. Ownership and the specified family-farm eligibility conditions are material omissions.",
+      "passages": {
+        "408840aa-b5ca-50b7-ba73-3cd0b289a405": {
+          "sha256": "bf7df40c812ff3ecec5f9e71cbbd29c4f4b3c6efec7ee3868ba0a81c0bdb128c",
+          "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+          "excerpt": "mülkiyyətində olan kənd təsərrüfatına yararlı torpaqları"
+        }
+      }
+    },
+    {
+      "id": "general_deadline_bounded_fragment",
+      "statements": [
+        "Məcburi dövlət sosial sığorta haqqı növbəti ayın 15-dək ödənilir."
+      ],
+      "kind": "legal",
+      "status": "partially_supported",
+      "supported_fragment": "14.5.1-1-ci maddədə göstərilən şəxslər istisna olmaqla, haqq sonrakı ayın 15-dən gec olmayaraq ödənilir.",
+      "rationale": "The deadline is explicit for the general class. The answer omitted the referenced special groups.",
+      "passages": {
+        "d4096dce-cfb5-5545-9b35-c52198767f26": {
+          "sha256": "2ee0574e55f3c0a95b56175cf75b16b0f6e5a9537cfe3a0a41898939172dd685",
+          "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+          "excerpt": "istisna olmaqla"
+        }
+      }
+    }
+  ],
+  "negative_rules": [
+    {
+      "passages": [
+        "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+      ],
+      "pattern": "hər bir şəxs",
+      "status": "unsupported",
+      "reason": "beneficiary_scope_violated"
+    },
+    {
+      "passages": [
+        "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+      ],
+      "pattern": "xitamdan sonra baş verən",
+      "status": "contradictory",
+      "reason": "event_outside_contract_period"
+    },
+    {
+      "passages": [
+        "d4096dce-cfb5-5545-9b35-c52198767f26"
+      ],
+      "pattern": "20-dək",
+      "status": "contradictory",
+      "reason": "incorrect_payment_deadline"
+    },
+    {
+      "passages": [
+        "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+        "c95e7cf0-b028-552c-8655-c6dd8d9e7e2a"
+      ],
+      "pattern": "etibarsız müqavilə də",
+      "status": "contradictory",
+      "reason": "termination_conflated_with_invalidity"
+    },
+    {
+      "passages": [
+        "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+      ],
+      "pattern": "30 gün",
+      "status": "unsupported",
+      "reason": "payment_deadline_absent"
+    },
+    {
+      "passages": [
+        "a57a82bb-11a3-59b9-ad6d-331cbd732955"
+      ],
+      "pattern": "ərizənin ünvanını",
+      "status": "unsupported",
+      "reason": "filing_address_absent"
+    },
+    {
+      "passages": [
+        "c1891f72-bb0d-5345-8f1e-81b8704eda12",
+        "9b926dd1-3311-593f-8ae4-35fe3bf13de0"
+      ],
+      "pattern": "hazırda",
+      "status": "unverified",
+      "reason": "historical_source_used_as_current"
+    },
+    {
+      "passages": [
+        "b6d90268-962c-5c44-bcaf-ada21fccf639",
+        "b3845218-4ab9-57d4-93ca-9371f1e70c9b"
+      ],
+      "pattern": "qərarın 2.2.2-ci bəndi.*məbləğini",
+      "status": "unsupported",
+      "reason": "wrong_source_for_rule"
+    }
+  ]
+}

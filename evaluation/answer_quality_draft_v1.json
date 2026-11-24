@@ -1,0 +1,1973 @@
+{
+  "schema_version": 1,
+  "dataset_version": "1.0.0",
+  "gold": false,
+  "status": "draft_engineering",
+  "corpus_sha256": "3f88380b81d12e9d1e18831e6eb517caa9e54c02c504b0b73aad0e4e42162dec",
+  "corpus_parent_count": 4405,
+  "corpus_document_count": 12,
+  "passages": {
+    "9ae4d642-86b5-55d8-89ac-16a66ee124de": {
+      "passage_id": "9ae4d642-86b5-55d8-89ac-16a66ee124de",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document": "sığorta 1.pdf",
+      "article": "1",
+      "clause": "1.1.25",
+      "page": 3,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "9ae4d642-86b5-55d8-89ac-16a66ee124de",
+      "section": "Əsas anlayışlar",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "text": "1.1.25. aktuari – bu Qanuna uyğun olaraq iqtisadi-riyazi hesablamalar aparmaqla sığorta haqlarının hesablanmasının əsaslarını müəyyən edən, həmçinin sığorta ehtiyatlarını hesablayan mütəxəssis;18",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bc54389736257750be63a6b640521c5519606fd055789ccc09bcb048d8aa0c4a",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "30ae2a87-2759-5a4c-824a-51c9cecaef5c": {
+      "passage_id": "30ae2a87-2759-5a4c-824a-51c9cecaef5c",
+      "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+      "document": "sığorta 3.pdf",
+      "article": "2",
+      "clause": "2.0.9",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "30ae2a87-2759-5a4c-824a-51c9cecaef5c",
+      "section": "Əsas anlayışlar",
+      "law_name": "İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında",
+      "text": "2.0.9. istehsalat – fiziki şəxsin işləri, xidmətləri (bundan sonra – əmək funksiyalarını) haqqı ödənilməklə yerinə yetirdiyi iş yeri;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "037ae7b144e76d87a5e7c6a3b0bf330fbd66a8a1518241159c079ede1ca5f535",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": "11 may 2010-cu il"
+    },
+    "a724df7e-5593-5441-ab7f-521333eb4b8d": {
+      "passage_id": "a724df7e-5593-5441-ab7f-521333eb4b8d",
+      "document_id": "c86009bc-5e6d-547f-8768-aca1af76916b",
+      "document": "sığorta 5.pdf",
+      "article": "1",
+      "clause": "1.2",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "a724df7e-5593-5441-ab7f-521333eb4b8d",
+      "section": "Əsas anlayışlar",
+      "law_name": "Auditorun peşə məsuliyyətinin icbari sığortası haqqında1",
+      "text": "1.2. auditin subyekti - auditin aparılması barədə auditorla müqavilə bağlamış fiziki və ya hüquqi şəxs;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "be54fff4de0e5ea3010669da2b6a0a95e2dd1303d053a5821e815308205cec99",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "c1be44ac-6562-5a0c-9156-8c7a5f3c2aee": {
+      "passage_id": "c1be44ac-6562-5a0c-9156-8c7a5f3c2aee",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document": "sığorta 7.pdf",
+      "article": "1",
+      "clause": "1.1.9",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "c1be44ac-6562-5a0c-9156-8c7a5f3c2aee",
+      "section": "Əsas anlayışlar [2]",
+      "law_name": "Sosial sığorta haqqında",
+      "text": "1.1.9. sığortaolunanın sığorta stajı – sığortaolunanın xeyrinə məcburi dövlət sosial sığorta haqqı ödənilən əmək fəaliyyəti dövrlərinin ümumi müddəti;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "80d6304de0d44f2be5a35501d20fe1f150b77319af2379614cb5d6bb79eb8e9d",
+      "article_title": "Əsas anlayışlar [2]",
+      "adoption_date": "18 fevral 1997-ci il"
+    },
+    "332ede9c-9e9d-54a2-9fd3-105f4baffb5b": {
+      "passage_id": "332ede9c-9e9d-54a2-9fd3-105f4baffb5b",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "1",
+      "clause": "1.0.11",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "332ede9c-9e9d-54a2-9fd3-105f4baffb5b",
+      "section": "Əsas anlayışlar [1]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "1.0.11. sığorta ili – icbari tibbi sığorta üzrə sığorta haqqının ödənildiyi ilin yanvar ayının 1-dən dekabr ayının 31-dək olan dövr;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Əsas anlayışlar [1]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "0d9acf69-f422-5fa5-ada7-d0bab9058976": {
+      "passage_id": "0d9acf69-f422-5fa5-ada7-d0bab9058976",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "4",
+      "clause": "4.6",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "0d9acf69-f422-5fa5-ada7-d0bab9058976",
+      "section": "İcbari sığortanın məqsədi, aparılması və tətbiq olunduğu ərazi",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "4.6. Bu Qanunun Xüsusi bölməsində digər hal nəzərdə tutulmamışdırsa, icbari sığorta müqavilələri üzrə sığorta təminatı Azərbaycan Respublikasının ərazisində qüvvədədir.",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "İcbari sığortanın məqsədi, aparılması və tətbiq olunduğu ərazi",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "f5de6911-281f-5e6b-9002-52bb10dbc4d2": {
+      "passage_id": "f5de6911-281f-5e6b-9002-52bb10dbc4d2",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "6",
+      "clause": "6.2",
+      "page": 3,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "f5de6911-281f-5e6b-9002-52bb10dbc4d2",
+      "section": "Sığorta olunan, faydalanan şəxs və zərərçəkən",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "6.2. Mülki məsuliyyətin icbari sığortası müqaviləsində göstərilmiş əmlakı qanuni əsaslarla istismar edən istənilən şəxs, həmçinin sığortalı özü həmin əmlakı istismar etdiyi anda, sığorta olunan hesab edilir.",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "Sığorta olunan, faydalanan şəxs və zərərçəkən",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "32d37b9a-3eff-5774-a461-df9192cc85d9": {
+      "passage_id": "32d37b9a-3eff-5774-a461-df9192cc85d9",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "1",
+      "clause": "1.0.9",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "32d37b9a-3eff-5774-a461-df9192cc85d9",
+      "section": "Əsas anlayışlar [1]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "1.0.9. sığorta limiti – icbari tibbi sığorta çərçivəsində xidmətlər zərfində nəzərdə tutulduğu hallarda sığortaolunana təqvim ili müddəti ərzində göstərilən tibbi xidmətlərin say həddi; [8]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Əsas anlayışlar [1]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "00568f64-8d07-5e3a-b72b-8ede0e716b95": {
+      "passage_id": "00568f64-8d07-5e3a-b72b-8ede0e716b95",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "4",
+      "clause": "4.3",
+      "page": 3,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "00568f64-8d07-5e3a-b72b-8ede0e716b95",
+      "section": "Könüllü tibbi sığorta müqaviləsi [20]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "4.3. Könüllü tibbi sığorta müqaviləsi ilk sığorta haqqı ödənildiyi andan qüvvəyə minmiş hesab edilir.",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Könüllü tibbi sığorta müqaviləsi [20]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "2bbcc6ef-4259-540a-8838-6cd04c0b4393": {
+      "passage_id": "2bbcc6ef-4259-540a-8838-6cd04c0b4393",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document": "sığorta 7.pdf",
+      "article": "14",
+      "clause": "14.4",
+      "page": 8,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "2bbcc6ef-4259-540a-8838-6cd04c0b4393",
+      "section": "Məcburi dövlət sosial sığorta haqqı",
+      "law_name": "Sosial sığorta haqqında",
+      "text": "14.4. Neft-qaz sahəsində fəaliyyəti olmayan və qeyri-dövlət sektoruna aid edilən sığortaedənlərdə işləyən sığortaolunanların muzdlu işdən aylıq gəlirlərindən məcburi dövlət sosial sığorta haqqı 2019-cu il yanvarın 1-dən 7 il müddətində aşağıdakı dərəcələrlə ödənilir:",
+      "source_type": "law_or_code",
+      "source_version_sha256": "80d6304de0d44f2be5a35501d20fe1f150b77319af2379614cb5d6bb79eb8e9d",
+      "article_title": "Məcburi dövlət sosial sığorta haqqı",
+      "adoption_date": "18 fevral 1997-ci il"
+    },
+    "8c1b8755-7dfc-5efb-9c7e-df6a3d84ad30": {
+      "passage_id": "8c1b8755-7dfc-5efb-9c7e-df6a3d84ad30",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document": "sığorta 1.pdf",
+      "article": "1",
+      "clause": "1.1.4",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "8c1b8755-7dfc-5efb-9c7e-df6a3d84ad30",
+      "section": "Əsas anlayışlar",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "text": "1.1.4. sığortalı - sığorta haqqı ödəyən, sığorta obyektinin sığorta etdirilməsində sığorta marağı olan sığorta müqaviləsinin tərəfi;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bc54389736257750be63a6b640521c5519606fd055789ccc09bcb048d8aa0c4a",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "d96e5525-5c9c-549f-afec-8316dedfee03": {
+      "passage_id": "d96e5525-5c9c-549f-afec-8316dedfee03",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document": "sığorta 1.pdf",
+      "article": "1",
+      "clause": "1.1.5",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "d96e5525-5c9c-549f-afec-8316dedfee03",
+      "section": "Əsas anlayışlar",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "text": "1.1.5. sığorta olunan – sığorta müqaviləsi əsasında əmlak mənafeləri sığortalanan şəxs;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bc54389736257750be63a6b640521c5519606fd055789ccc09bcb048d8aa0c4a",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "d3c6eed0-c9d5-561c-b347-f7773c52522b": {
+      "passage_id": "d3c6eed0-c9d5-561c-b347-f7773c52522b",
+      "document_id": "6fc38705-030d-5871-82c4-4f17ea44559c",
+      "document": "sığorta 6.pdf",
+      "article": "2",
+      "clause": "2.1.4",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "d3c6eed0-c9d5-561c-b347-f7773c52522b",
+      "section": "Əsas anlayışlar",
+      "law_name": "Hərbi qulluqçuların dövlət icbari şəxsi sığortası haqqında",
+      "text": "2.1.4. sığortalı – sığortaolunan üçün sığorta haqqı ödəyən müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) və Azərbaycan Respublikasının Hərbi Prokurorluğu;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "aa654768373ad35e31bbbb556f849a1778bebf0f6266f8d18f1e40d3deaa0424",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": "20 may 1997-ci il"
+    },
+    "0ea199e4-0bd8-5147-8243-262d15ba71a1": {
+      "passage_id": "0ea199e4-0bd8-5147-8243-262d15ba71a1",
+      "document_id": "6fc38705-030d-5871-82c4-4f17ea44559c",
+      "document": "sığorta 6.pdf",
+      "article": "2",
+      "clause": "2.1.9",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "0ea199e4-0bd8-5147-8243-262d15ba71a1",
+      "section": "Əsas anlayışlar",
+      "law_name": "Hərbi qulluqçuların dövlət icbari şəxsi sığortası haqqında",
+      "text": "2.1.9. sığorta ödənişi – sığorta hadisəsi baş verdikdə sığorta ödənişi almaq hüququ olan şəxsə sığortaçı tərəfindən ödənilən birdəfəlik pul vəsaiti;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "aa654768373ad35e31bbbb556f849a1778bebf0f6266f8d18f1e40d3deaa0424",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": "20 may 1997-ci il"
+    },
+    "9f316abe-655f-51c1-ab48-ce13455f71f1": {
+      "passage_id": "9f316abe-655f-51c1-ab48-ce13455f71f1",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "1",
+      "clause": "1.0.2",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "9f316abe-655f-51c1-ab48-ce13455f71f1",
+      "section": "Əsas anlayışlar [1]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "1.0.2. xidmətlər zərfinin baza hissəsi – sığortaolunanlara xidmətlər zərfinə uyğun olaraq göstərilən ilkin səhiyyə xidməti, habelə təcili və təxirəsalınmaz tibbi yardım xidməti; [3]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Əsas anlayışlar [1]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "6d7cc4e2-3432-52b5-bf46-cfb692d12058": {
+      "passage_id": "6d7cc4e2-3432-52b5-bf46-cfb692d12058",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "1",
+      "clause": "1.0.15",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "6d7cc4e2-3432-52b5-bf46-cfb692d12058",
+      "section": "Əsas anlayışlar [1]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "1.0.15. müştərək maliyyələşmə məbləği – sığorta hadisəsi nəticəsində yaranan itkilərin və ya dəyən zərərin icbari tibbi sığorta təminatı ilə əhatə olunmayan və sığortaolunan tərəfindən ödənilən hissəsidir; [12]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Əsas anlayışlar [1]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "6e6e8994-ccad-5e5c-b1be-48c25d49aa6b": {
+      "passage_id": "6e6e8994-ccad-5e5c-b1be-48c25d49aa6b",
+      "document_id": "c86009bc-5e6d-547f-8768-aca1af76916b",
+      "document": "sığorta 5.pdf",
+      "article": "1",
+      "clause": "1.6",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "6e6e8994-ccad-5e5c-b1be-48c25d49aa6b",
+      "section": "Əsas anlayışlar",
+      "law_name": "Auditorun peşə məsuliyyətinin icbari sığortası haqqında1",
+      "text": "1.6. sığortalı - qanunvericiliklə müəyyən edilmiş qaydada auditor xidməti ilə məşğul olan, öz peşə məsuliyyətini sığorta etdirmək üçün sığortaçı ilə müqavilə bağlayan fiziki və ya hüquqi şəxs;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "be54fff4de0e5ea3010669da2b6a0a95e2dd1303d053a5821e815308205cec99",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "b7e447b8-2e67-5f01-8a75-8ef248b3ddfe": {
+      "passage_id": "b7e447b8-2e67-5f01-8a75-8ef248b3ddfe",
+      "document_id": "c86009bc-5e6d-547f-8768-aca1af76916b",
+      "document": "sığorta 5.pdf",
+      "article": "1",
+      "clause": "1.5",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "b7e447b8-2e67-5f01-8a75-8ef248b3ddfe",
+      "section": "Əsas anlayışlar",
+      "law_name": "Auditorun peşə məsuliyyətinin icbari sığortası haqqında1",
+      "text": "1.5. sığortaçı - yalnız sığorta və təkrar sığorta fəaliyyətini göstərmək məqsədi ilə yaradılmış və qanunvericiliklə müəyyən edilmiş qaydada xüsusi razılıq (lisenziya) almış hüquqi şəxs;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "be54fff4de0e5ea3010669da2b6a0a95e2dd1303d053a5821e815308205cec99",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "43b7aff6-8017-527f-8cc7-7a187487493d": {
+      "passage_id": "43b7aff6-8017-527f-8cc7-7a187487493d",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "6",
+      "clause": "6.9",
+      "page": 3,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "43b7aff6-8017-527f-8cc7-7a187487493d",
+      "section": "Sığorta olunan, faydalanan şəxs və zərərçəkən",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "6.9. Bu Qanunun məqsədləri üçün “ailə üzvləri” dedikdə, şəxsin uşaqları (övladlığa götürülmüş uşaqları), ölümündən sonra doğulmuş uşaqları, arvadı (əri), valideynləri (övladlığa götürənləri) başa düşülür. [14]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "Sığorta olunan, faydalanan şəxs və zərərçəkən",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "fd0094e0-6fd8-56a1-a159-88bc94e0bd88": {
+      "passage_id": "fd0094e0-6fd8-56a1-a159-88bc94e0bd88",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "6",
+      "clause": "6.5",
+      "page": 3,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "fd0094e0-6fd8-56a1-a159-88bc94e0bd88",
+      "section": "Sığorta olunan, faydalanan şəxs və zərərçəkən",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "6.5. Bu Qanunun 6.4-cü maddəsində nəzərdə tutulmuş, sığorta olunanın və ya üçüncü şəxsin faydalanan şəxs qismində çıxış edən ailə üzvləri sığorta ödənişinin alınmasında bərabər pay hüququna malikdirlər.",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "Sığorta olunan, faydalanan şəxs və zərərçəkən",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "4906fcc3-05fc-5a42-a939-94fecdc7d317": {
+      "passage_id": "4906fcc3-05fc-5a42-a939-94fecdc7d317",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "1",
+      "clause": "1.3",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "4906fcc3-05fc-5a42-a939-94fecdc7d317",
+      "section": "Ümumi müddəalar",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "1.3. Bu Qanunda başqa cür nəzərdə tutulmadığı halda, istifadə olunan anlayışların izahı Azərbaycan Respublikasının Mülki Məcəlləsi və “Sığorta fəaliyyəti haqqında” Azərbaycan Respublikasının Qanunu ilə müəyyən edilir.",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "Ümumi müddəalar",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "4bfd5116-e823-523c-9aec-1695c6d4d1e4": {
+      "passage_id": "4bfd5116-e823-523c-9aec-1695c6d4d1e4",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document": "sığorta 1.pdf",
+      "article": "1",
+      "clause": "1.1.22",
+      "page": 3,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "4bfd5116-e823-523c-9aec-1695c6d4d1e4",
+      "section": "Əsas anlayışlar",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "text": "1.1.22. şəxsi tutum – sığorta və ya təkrarsığorta müqaviləsinə əsasən sığorta riskinin sığortaçının (təkrarsığortalının) öhdəliyində qalan hissəsi;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bc54389736257750be63a6b640521c5519606fd055789ccc09bcb048d8aa0c4a",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "b15bc3dc-f269-5806-8a4b-b464a573c087": {
+      "passage_id": "b15bc3dc-f269-5806-8a4b-b464a573c087",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "1",
+      "clause": "1.0.13",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "b15bc3dc-f269-5806-8a4b-b464a573c087",
+      "section": "Əsas anlayışlar [1]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "1.0.13. tibbi xidmətlərin göstərilməsi haqqında müqavilə – icbari tibbi sığorta çərçivəsində tibbi xidmətlərin göstərilməsi məqsədilə tibb müəssisəsi ilə müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) arasında bağlanan müqavilə; [10]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Əsas anlayışlar [1]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "f120f2a7-458e-53e1-8e52-e32b40fba8da": {
+      "passage_id": "f120f2a7-458e-53e1-8e52-e32b40fba8da",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document": "sığorta 1.pdf",
+      "article": "1",
+      "clause": "1.1.11",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "f120f2a7-458e-53e1-8e52-e32b40fba8da",
+      "section": "Əsas anlayışlar",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "text": "1.1.11. sığorta şəhadətnaməsi - sığorta müqaviləsinin bağlanması faktını təsdiq edən, sığortaçı tərəfindən sığortalıya və (və ya) sığorta olunana verilən sənəd;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bc54389736257750be63a6b640521c5519606fd055789ccc09bcb048d8aa0c4a",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "a8b40377-8cdd-588f-90f0-340cde462492": {
+      "passage_id": "a8b40377-8cdd-588f-90f0-340cde462492",
+      "document_id": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+      "document": "NK-2023-156.pdf",
+      "article": null,
+      "clause": null,
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "a8b40377-8cdd-588f-90f0-340cde462492",
+      "section": null,
+      "law_name": "NK-2023-156",
+      "text": "aşağıdakı məzmunda altıncı abzas əlavə edilsin: “Avtonəqliyyat vasitələri “İcbari sığortalar haqqında” Azərbaycan Respublikasının Qanununa uyğun olaraq sahiblərinin mülki məsuliyyəti icbari qaydada sığortalandıqda, sərnişin daşımaları xidmətini həyata keçirən avtonəqliyyat vasitələrinə münasibətdə isə habelə sərnişinlərinin (şəhərdaxili və ya qəsəbədaxili daşınan sərnişinlər istisna olmaqla) fərdi qəza sığortası həyata keçirildikdə texniki baxışa buraxılır. Bu halda müvafiq icbari sığorta müqaviləsinin mövcudluğu “İcbari sığortalar haqqında” Azərbaycan Respublikasının Qanununda nəzərdə tutulan elektron informasiya sistemi vasitəsilə yoxlanılır.”. 2. Azərbaycan Respublikası Nazirlər Kabinetinin 2000-ci il 28 fevral tarixli 27 nömrəli Qərarı (Azərbaycan Respublikasının Qanunvericilik Toplusu, 2000, № 2, maddə 123; 2005, № 11, maddə 1061; 2006, № 9, maddə 822; 2008, № 2, maddələr 116, 130, № 5, maddə 430; 2010, № 3, maddə 264; 2011, № 5, maddə 449; 2013, № 6, maddə 723; 2015, № 7, maddə 901; 2018, № 12 (II kitab), maddə 2737; 2019, № 3, maddə 512; 2021, № 10, maddə 1199; 2022, № 9, maddə 1098) ilə təsdiq",
+      "source_type": "government_resolution_or_regulation",
+      "source_version_sha256": "f3cc13c064131dcc9abcf549bf7f2800afcac3d7a12649bed5896cb184a1d828",
+      "article_title": null,
+      "adoption_date": "15 may 2023-cü il"
+    },
+    "66143fba-863c-566a-8ad0-69c3c02caf41": {
+      "passage_id": "66143fba-863c-566a-8ad0-69c3c02caf41",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "50",
+      "clause": "50.2",
+      "page": 30,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "66143fba-863c-566a-8ad0-69c3c02caf41",
+      "section": "Avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "50.2. “Yol hərəkəti haqqında” Azərbaycan Respublikası Qanununun 27-ci maddəsinin II hissəsinə uyğun olaraq qeydiyyatdan keçmiş mexaniki avtonəqliyyat vasitələrinin və onların bazasında istehsal edilmiş digər avtonəqliyyat vasitələrinin istifadəsi ilə bağlı üçüncü şəxslər qarşısında mülki məsuliyyətin sığortası icbaridir. [117]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "Avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "00241389-fdfc-5b29-97fb-eeeb0129245b": {
+      "passage_id": "00241389-fdfc-5b29-97fb-eeeb0129245b",
+      "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+      "document": "sığorta 3.pdf",
+      "article": "2",
+      "clause": "2.0.11",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "00241389-fdfc-5b29-97fb-eeeb0129245b",
+      "section": "Əsas anlayışlar",
+      "law_name": "İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında",
+      "text": "2.0.11. peşə xəstəliyi – əlverişsiz və zərərli istehsalat amillərinin sığorta olunanın orqanizminə təsiri nəticəsində baş verən xroniki və ya kəskin xəstəlik;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "037ae7b144e76d87a5e7c6a3b0bf330fbd66a8a1518241159c079ede1ca5f535",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": "11 may 2010-cu il"
+    },
+    "f8acb981-3f72-5bc7-b730-3467ddbd0cfb": {
+      "passage_id": "f8acb981-3f72-5bc7-b730-3467ddbd0cfb",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "1",
+      "clause": "1.0.10",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "f8acb981-3f72-5bc7-b730-3467ddbd0cfb",
+      "section": "Əsas anlayışlar [1]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "1.0.10. sığorta hadisəsi – bu Qanuna əsasən sığorta ödənişinin ödənilməsi üçün əsas olan hadisə və ya yaranan hal (o cümlədən profilaktik tədbirlər); [9]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Əsas anlayışlar [1]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "728bd60c-67c4-524b-85c6-71fe1f253f96": {
+      "passage_id": "728bd60c-67c4-524b-85c6-71fe1f253f96",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "1",
+      "clause": "1.1",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "728bd60c-67c4-524b-85c6-71fe1f253f96",
+      "section": "Ümumi müddəalar",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "1.1. Ayrı-ayrı icbari sığorta növlərinə aid digər qanunlarda fərqli müddəaların nəzərdə tutulduğu hallar istisna olmaqla, bu Qanunun Ümumi bölməsi icbari sığorta növləri üzrə münasibətlərdə tətbiq edilməli olan əsas prinsipləri və müddəaları müəyyən edir. [4]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "Ümumi müddəalar",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "d96ff583-c015-57f3-9302-30183d1494c3": {
+      "passage_id": "d96ff583-c015-57f3-9302-30183d1494c3",
+      "document_id": "c86009bc-5e6d-547f-8768-aca1af76916b",
+      "document": "sığorta 5.pdf",
+      "article": "1",
+      "clause": "1.3",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "d96ff583-c015-57f3-9302-30183d1494c3",
+      "section": "Əsas anlayışlar",
+      "law_name": "Auditorun peşə məsuliyyətinin icbari sığortası haqqında1",
+      "text": "1.3. auditorun peşə məsuliyyətinin icbari sığortasının obyekti - auditorun göstərdiyi xidmət nəticəsində auditin subyektinə dəyən zərərə görə məsuliyyəti;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "be54fff4de0e5ea3010669da2b6a0a95e2dd1303d053a5821e815308205cec99",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "74a5efb4-7e10-524f-8235-69183396be77": {
+      "passage_id": "74a5efb4-7e10-524f-8235-69183396be77",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document": "sığorta 1.pdf",
+      "article": "1",
+      "clause": "1.1.16",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "74a5efb4-7e10-524f-8235-69183396be77",
+      "section": "Əsas anlayışlar",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "text": "1.1.16. qaytarılan məbləğ – həyatın yığım sığortası üzrə müqaviləyə vaxtından əvvəl xitam verilərkən sığortaçının sığortalıya ödəməli olduğu pul məbləği;",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bc54389736257750be63a6b640521c5519606fd055789ccc09bcb048d8aa0c4a",
+      "article_title": "Əsas anlayışlar",
+      "adoption_date": null
+    },
+    "c3a3d482-af94-5656-9821-ffe7bbbb7954": {
+      "passage_id": "c3a3d482-af94-5656-9821-ffe7bbbb7954",
+      "document_id": "6fc38705-030d-5871-82c4-4f17ea44559c",
+      "document": "sığorta 6.pdf",
+      "article": "4-1",
+      "clause": "4-1.1.4",
+      "page": 2,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "c3a3d482-af94-5656-9821-ffe7bbbb7954",
+      "section": "Sığortaolunanın hüquq və vəzifələri",
+      "law_name": "Hərbi qulluqçuların dövlət icbari şəxsi sığortası haqqında",
+      "text": "4-1.1.4. yazılı müraciət əsasında hesablanmış və ödənilmiş sığorta haqqının məbləği barədə sığortaçıdan və ya sığortalıdan məlumat almaq.",
+      "source_type": "law_or_code",
+      "source_version_sha256": "aa654768373ad35e31bbbb556f849a1778bebf0f6266f8d18f1e40d3deaa0424",
+      "article_title": "Sığortaolunanın hüquq və vəzifələri",
+      "adoption_date": "20 may 1997-ci il"
+    },
+    "6db1c9cd-114e-5b1f-814f-e959483565f5": {
+      "passage_id": "6db1c9cd-114e-5b1f-814f-e959483565f5",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document": "sığorts 4.pdf",
+      "article": "1",
+      "clause": "1.0.8",
+      "page": 1,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "6db1c9cd-114e-5b1f-814f-e959483565f5",
+      "section": "Əsas anlayışlar [1]",
+      "law_name": "Tibbi sığorta haqqında",
+      "text": "1.0.8. sığorta ödənişi – sığorta hadisəsi baş verdikdə icbari tibbi sığortaya münasibətdə xidmətlər zərfinə və tariflərə, könüllü tibbi sığortaya münasibətdə isə könüllü tibbi sığorta müqaviləsinə uyğun olaraq bu Qanunla nəzərdə tutulmuş qaydada tibb müəssisəsinə və ya əczaçılıq fəaliyyəti ilə məşğul olan şəxsə ödənilən maliyyə vəsaiti; [7]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "b824b24bb5b4a33ba98c6c74fc7df640f43d39fdfe5c00b05395b3407fe311ec",
+      "article_title": "Əsas anlayışlar [1]",
+      "adoption_date": "28 oktyabr 1999-cu il"
+    },
+    "d29a98d2-65ce-5186-98b5-f4b68778fede": {
+      "passage_id": "d29a98d2-65ce-5186-98b5-f4b68778fede",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document": "sığorta 7.pdf",
+      "article": "9-1",
+      "clause": "9-1.2",
+      "page": 5,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "d29a98d2-65ce-5186-98b5-f4b68778fede",
+      "section": "Məcburi dövlət sosial sığorta haqlarının hesablanmasına və",
+      "law_name": "Sosial sığorta haqqında",
+      "text": "9-1.2. Artıq ödənilmiş və ya düzgün tutulmamış məcburi dövlət sosial sığorta haqlarının geri qaytarılması qaydası müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən müəyyən edilir.",
+      "source_type": "law_or_code",
+      "source_version_sha256": "80d6304de0d44f2be5a35501d20fe1f150b77319af2379614cb5d6bb79eb8e9d",
+      "article_title": "Məcburi dövlət sosial sığorta haqlarının hesablanmasına və",
+      "adoption_date": "18 fevral 1997-ci il"
+    },
+    "e000d5de-47c4-571e-ac49-61b17c4c53fb": {
+      "passage_id": "e000d5de-47c4-571e-ac49-61b17c4c53fb",
+      "document_id": "6e1749d4-db74-57f0-b220-9d807f376771",
+      "document": "sığorta 2.pdf",
+      "article": "51",
+      "clause": "51.1",
+      "page": 31,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "e000d5de-47c4-571e-ac49-61b17c4c53fb",
+      "section": "Avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari",
+      "law_name": "İcbari sığortalar haqqında",
+      "text": "51.1. Avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari sığorta müqaviləsi yalnız bu Fəsildə nəzərdə tutulmuş informasiya sistemi vasitəsilə bağlandığı və həmin sistemin informasiya ehtiyatında mövcud olduğu halda etibarlıdır. [121]",
+      "source_type": "law_or_code",
+      "source_version_sha256": "bf478fa53d30648c811e16d1dbe1a3c8568748f1a238035d6d923fc906c74748",
+      "article_title": "Avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari",
+      "adoption_date": "24 iyun 2011-ci il"
+    },
+    "2473b5d0-e8a8-5f02-a0d6-a30262b6ae6b": {
+      "passage_id": "2473b5d0-e8a8-5f02-a0d6-a30262b6ae6b",
+      "document_id": "d2714228-7dd4-536f-b244-7837533f5724",
+      "document": "Trend-4197840-avtomobil-sigortasi-2026.txt",
+      "article": null,
+      "clause": null,
+      "page": null,
+      "version_id": null,
+      "source_url": null,
+      "parent_passage_id": "2473b5d0-e8a8-5f02-a0d6-a30262b6ae6b",
+      "section": null,
+      "law_name": "Trend-4197840-avtomobil-sigortasi-2026",
+      "text": "Trend-in məlumatına görə, 1 aprel 2026-cı ildə qəbul edilən dəyişikliklər 16 iyunda qüvvəyə minib. Avtonəqliyyat vasitəsi sahiblərinin mülki məsuliyyətinin icbari sığortası üzrə birillik haqqın hesablanmasında Bonus-Malus əmsalını sığorta tarixçəsi əmsalı (STƏ) əvəz edir. Sürücülərin sayı üzrə əvvəlki əmsal sahiblik sayı üzrə əmsalla əvəzlənir. STƏ 0,60–3 aralığındadır və hər qiymətləndirmə qrupu üzrə ayrıca hesablanır.",
+      "source_type": "news_or_general_information",
+      "source_version_sha256": "ffdf458a2fc831ffff3b86312e8f8c9ad66edff395a15a993433b772277c41c9",
+      "article_title": null,
+      "adoption_date": null
+    }
+  },
+  "cases": [
+    {
+      "question_id": "AQ-SIMPLE-001",
+      "category": "simple",
+      "question": "Aktuarinin sığorta haqları və ehtiyatlarla bağlı funksiyaları nələrdir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Aktuari sığorta haqlarının hesablanmasının əsaslarını müəyyən edir və sığorta ehtiyatlarını hesablayır.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Aktuari sığorta haqlarının hesablanmasının əsaslarını müəyyən edir və sığorta ehtiyatlarını hesablayır.",
+          "passage_ids": [
+            "9ae4d642-86b5-55d8-89ac-16a66ee124de"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "9ae4d642-86b5-55d8-89ac-16a66ee124de"
+      ],
+      "supporting_sources": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "general_insurance"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-SIMPLE-002",
+      "category": "simple",
+      "question": "İstehsalat sığortası qanununda «istehsalat» hansı iş yerini bildirir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "İstehsalat fiziki şəxsin haqqı ödənilməklə əmək funksiyalarını yerinə yetirdiyi iş yeridir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "İstehsalat fiziki şəxsin haqqı ödənilməklə əmək funksiyalarını yerinə yetirdiyi iş yeridir.",
+          "passage_ids": [
+            "30ae2a87-2759-5a4c-824a-51c9cecaef5c"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "30ae2a87-2759-5a4c-824a-51c9cecaef5c"
+      ],
+      "supporting_sources": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "occupational"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-SIMPLE-003",
+      "category": "simple",
+      "question": "Auditorun peşə məsuliyyəti sığortasında auditin subyekti kim sayılır?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Auditin subyekti auditin aparılması barədə auditorla müqavilə bağlamış fiziki və ya hüquqi şəxsdir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Auditin subyekti auditin aparılması barədə auditorla müqavilə bağlamış fiziki və ya hüquqi şəxsdir.",
+          "passage_ids": [
+            "a724df7e-5593-5441-ab7f-521333eb4b8d"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "a724df7e-5593-5441-ab7f-521333eb4b8d"
+      ],
+      "supporting_sources": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "auditor_liability"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-SIMPLE-004",
+      "category": "simple",
+      "question": "Sosial sığorta stajı hansı fəaliyyət dövrlərinin cəmidir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Sığorta stajı şəxsin xeyrinə məcburi dövlət sosial sığorta haqqı ödənilən əmək fəaliyyəti dövrlərinin ümumi müddətidir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Sığorta stajı şəxsin xeyrinə məcburi dövlət sosial sığorta haqqı ödənilən əmək fəaliyyəti dövrlərinin ümumi müddətidir.",
+          "passage_ids": [
+            "c1be44ac-6562-5a0c-9156-8c7a5f3c2aee"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "c1be44ac-6562-5a0c-9156-8c7a5f3c2aee"
+      ],
+      "supporting_sources": [
+        "e90086e8-2d04-5eab-9620-7ce769aca005"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "social"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-SIMPLE-005",
+      "category": "simple",
+      "question": "İcbari tibbi sığortada haqqın ödənildiyi ilin hansı tarixləri sığorta ilini təşkil edir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Sığorta ili haqqın ödənildiyi ilin yanvar ayının 1-dən dekabr ayının 31-dək olan dövrüdür.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Sığorta ili haqqın ödənildiyi ilin yanvar ayının 1-dən dekabr ayının 31-dək olan dövrüdür.",
+          "passage_ids": [
+            "332ede9c-9e9d-54a2-9fd3-105f4baffb5b"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "332ede9c-9e9d-54a2-9fd3-105f4baffb5b"
+      ],
+      "supporting_sources": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "medical"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-CONDITION-001",
+      "category": "condition",
+      "question": "İcbari sığorta təminatının ərazi qaydası nədir və qanun hansı istisnaya yol verir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Təminat Azərbaycan Respublikasının ərazisində qüvvədədir, əgər Xüsusi bölmə başqa hal nəzərdə tutmayıbsa.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Təminat Azərbaycan Respublikasının ərazisində qüvvədədir, əgər Xüsusi bölmə başqa hal nəzərdə tutmayıbsa.",
+          "passage_ids": [
+            "0d9acf69-f422-5fa5-ada7-d0bab9058976"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": [
+            "Xüsusi bölmədə başqa hal nəzərdə tutula bilər."
+          ]
+        }
+      ],
+      "supporting_passages": [
+        "0d9acf69-f422-5fa5-ada7-d0bab9058976"
+      ],
+      "supporting_sources": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [
+        "Xüsusi bölmədə başqa hal nəzərdə tutula bilər."
+      ],
+      "applicable_insurance_types": [
+        "compulsory_general"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-CONDITION-002",
+      "category": "condition",
+      "question": "Mülki məsuliyyətin icbari sığortasında müqavilədəki əmlakı işlədən şəxs nə vaxt sığorta olunan sayılır?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Müqavilədə göstərilmiş əmlakı qanuni əsaslarla istismar edən şəxs, habelə sığortalı özü həmin əmlakı istismar etdiyi anda sığorta olunan sayılır.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Müqavilədə göstərilmiş əmlakı qanuni əsaslarla istismar edən şəxs, habelə sığortalı özü həmin əmlakı istismar etdiyi anda sığorta olunan sayılır.",
+          "passage_ids": [
+            "f5de6911-281f-5e6b-9002-52bb10dbc4d2"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [
+            "Əmlak müqavilədə göstərilməlidir.",
+            "İstismar qanuni əsasla və həmin anda olmalıdır."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "f5de6911-281f-5e6b-9002-52bb10dbc4d2"
+      ],
+      "supporting_sources": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "Əmlak müqavilədə göstərilməlidir.",
+        "İstismar qanuni əsasla və həmin anda olmalıdır."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "compulsory_liability"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-CONDITION-003",
+      "category": "condition",
+      "question": "İcbari tibbi sığortada tibbi xidmət sayına limit hansı halda və hansı dövr üçün nəzərdə tutulur?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Xidmətlər zərfində nəzərdə tutulduğu halda limit sığortaolunana təqvim ili ərzində göstərilən xidmətlərin say həddidir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Xidmətlər zərfində nəzərdə tutulduğu halda limit sığortaolunana təqvim ili ərzində göstərilən xidmətlərin say həddidir.",
+          "passage_ids": [
+            "32d37b9a-3eff-5774-a461-df9192cc85d9"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [
+            "Limit xidmətlər zərfində nəzərdə tutulmalıdır."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "32d37b9a-3eff-5774-a461-df9192cc85d9"
+      ],
+      "supporting_sources": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "Limit xidmətlər zərfində nəzərdə tutulmalıdır."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "medical"
+      ],
+      "temporal_requirements": {
+        "kind": "calendar_year_if_package_specifies",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-CONDITION-004",
+      "category": "condition",
+      "question": "Könüllü tibbi sığorta müqaviləsinin qüvvəyə minməsi hansı ödəniş hadisəsinə bağlıdır?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Könüllü tibbi sığorta müqaviləsi ilk sığorta haqqı ödənildiyi andan qüvvəyə minmiş hesab edilir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Könüllü tibbi sığorta müqaviləsi ilk sığorta haqqı ödənildiyi andan qüvvəyə minmiş hesab edilir.",
+          "passage_ids": [
+            "00568f64-8d07-5e3a-b72b-8ede0e716b95"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [
+            "İlk sığorta haqqı ödənilməlidir."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "00568f64-8d07-5e3a-b72b-8ede0e716b95"
+      ],
+      "supporting_sources": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "İlk sığorta haqqı ödənilməlidir."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "voluntary_medical"
+      ],
+      "temporal_requirements": {
+        "kind": "relative_trigger",
+        "requested_reference_date": null,
+        "trigger": "first_premium_payment"
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-CONDITION-005",
+      "category": "condition",
+      "question": "İndekslənmiş 14.4-cü maddədə neft-qazdan kənar qeyri-dövlət sektoru üçün xüsusi sosial sığorta rejiminin başlanğıcı və müddəti necə göstərilib?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "İndekslənmiş mətn qeyri-dövlət və neft-qaz fəaliyyəti olmayan sığortaedənlərdə muzdlu işdən aylıq gəlirlər üzrə rejimi 2019-cu il yanvarın 1-dən yeddi il üçün göstərir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "İndekslənmiş mətn qeyri-dövlət və neft-qaz fəaliyyəti olmayan sığortaedənlərdə muzdlu işdən aylıq gəlirlər üzrə rejimi 2019-cu il yanvarın 1-dən yeddi il üçün göstərir.",
+          "passage_ids": [
+            "2bbcc6ef-4259-540a-8838-6cd04c0b4393"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [
+            "Muzdlu işdən aylıq gəlir.",
+            "Sığortaedən həm qeyri-dövlət sektorunda, həm də neft-qazdan kənardır."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "2bbcc6ef-4259-540a-8838-6cd04c0b4393"
+      ],
+      "supporting_sources": [
+        "e90086e8-2d04-5eab-9620-7ce769aca005"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "Muzdlu işdən aylıq gəlir.",
+        "Sığortaedən həm qeyri-dövlət sektorunda, həm də neft-qazdan kənardır."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "social"
+      ],
+      "temporal_requirements": {
+        "kind": "historical_wording_only",
+        "requested_reference_date": null,
+        "stated_start": "2019-01-01",
+        "stated_duration_years": 7
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Expect the period as written. This fixture makes no assertion about an as-of date or successor rates.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIPART-001",
+      "category": "multipart",
+      "question": "Sığortalını nə müəyyən edir? Sığorta olunanı nə müəyyən edir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [
+        {
+          "part_id": "Q1",
+          "question": "Sığortalını nə müəyyən edir?",
+          "expected_mode": "FULL"
+        },
+        {
+          "part_id": "Q2",
+          "question": "Sığorta olunanı nə müəyyən edir?",
+          "expected_mode": "FULL"
+        }
+      ],
+      "expected_mode": "FULL",
+      "expected_answer": "Sığortalı sığorta haqqı ödəyən və obyektin sığorta etdirilməsində marağı olan müqavilə tərəfidir. Sığorta olunan müqavilə əsasında əmlak mənafeləri sığortalanan şəxsdir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Sığortalı sığorta haqqı ödəyən və obyektin sığorta etdirilməsində marağı olan müqavilə tərəfidir.",
+          "passage_ids": [
+            "8c1b8755-7dfc-5efb-9c7e-df6a3d84ad30"
+          ],
+          "part": "Q1",
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "Sığorta olunan müqavilə əsasında əmlak mənafeləri sığortalanan şəxsdir.",
+          "passage_ids": [
+            "d96e5525-5c9c-549f-afec-8316dedfee03"
+          ],
+          "part": "Q2",
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "8c1b8755-7dfc-5efb-9c7e-df6a3d84ad30",
+        "d96e5525-5c9c-549f-afec-8316dedfee03"
+      ],
+      "supporting_sources": [
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "general_insurance"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIPART-002",
+      "category": "multipart",
+      "question": "Hərbi qulluqçunun icbari şəxsi sığortasında sığortalı kimdir? Sığorta ödənişi birdəfəlikdir, yoxsa dövri? Ailəmin konkret ödənişi bank hesabına hansı gün köçürülüb?",
+      "origin": "synthetic_scenario",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [
+        {
+          "part_id": "Q1",
+          "question": "Hərbi qulluqçunun icbari şəxsi sığortasında sığortalı kimdir?",
+          "expected_mode": "FULL"
+        },
+        {
+          "part_id": "Q2",
+          "question": "Sığorta ödənişi birdəfəlikdir, yoxsa dövri?",
+          "expected_mode": "FULL"
+        },
+        {
+          "part_id": "Q3",
+          "question": "Ailəmin konkret ödənişi bank hesabına hansı gün köçürülüb?",
+          "expected_mode": "NOT_FOUND"
+        }
+      ],
+      "expected_mode": "PARTIAL",
+      "expected_answer": "Sığortalı sığortaolunan üçün haqqı ödəyən, müvafiq icra hakimiyyəti orqanının müəyyən etdiyi qurum və Azərbaycan Respublikasının Hərbi Prokurorluğudur. Sığorta hadisəsi baş verdikdə hüququ olan şəxsə sığortaçı tərəfindən birdəfəlik pul vəsaiti ödənilir. Ailənin faktiki köçürmə tarixini göstərən qeyd yoxdur.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Sığortalı sığortaolunan üçün haqqı ödəyən, müvafiq icra hakimiyyəti orqanının müəyyən etdiyi qurum və Azərbaycan Respublikasının Hərbi Prokurorluğudur.",
+          "passage_ids": [
+            "d3c6eed0-c9d5-561c-b347-f7773c52522b"
+          ],
+          "part": "Q1",
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "Sığorta hadisəsi baş verdikdə hüququ olan şəxsə sığortaçı tərəfindən birdəfəlik pul vəsaiti ödənilir.",
+          "passage_ids": [
+            "0ea199e4-0bd8-5147-8243-262d15ba71a1"
+          ],
+          "part": "Q2",
+          "essential": true,
+          "conditions": [
+            "Sığorta hadisəsi baş verməlidir və şəxs ödəniş hüququna malik olmalıdır."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "d3c6eed0-c9d5-561c-b347-f7773c52522b",
+        "0ea199e4-0bd8-5147-8243-262d15ba71a1"
+      ],
+      "supporting_sources": [
+        "6fc38705-030d-5871-82c4-4f17ea44559c"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "Sığorta hadisəsi baş verməlidir və şəxs ödəniş hüququna malik olmalıdır."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "military_personal"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": {
+        "code": "case_record_absent",
+        "missing_evidence": "Ailənin ödəniş tapşırığı və ya bank çıxarışı",
+        "answer": "Ailənin faktiki köçürmə tarixini göstərən qeyd yoxdur.",
+        "corpus_review": "Military statute defines payer and payment form; none of the indexed documents is a family payment ledger.",
+        "part": "Q3"
+      },
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIPART-003",
+      "category": "multipart",
+      "question": "İcbari tibbi sığortada zərfin baza hissəsinə nə daxildir? Müştərək maliyyələşmə məbləğini kim ödəyir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [
+        {
+          "part_id": "Q1",
+          "question": "İcbari tibbi sığortada zərfin baza hissəsinə nə daxildir?",
+          "expected_mode": "FULL"
+        },
+        {
+          "part_id": "Q2",
+          "question": "Müştərək maliyyələşmə məbləğini kim ödəyir?",
+          "expected_mode": "FULL"
+        }
+      ],
+      "expected_mode": "FULL",
+      "expected_answer": "Baza hissəsinə zərfə uyğun ilkin səhiyyə xidməti, təcili və təxirəsalınmaz tibbi yardım daxildir. Təminatla əhatə olunmayan həmin hissəni sığortaolunan ödəyir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Baza hissəsinə zərfə uyğun ilkin səhiyyə xidməti, təcili və təxirəsalınmaz tibbi yardım daxildir.",
+          "passage_ids": [
+            "9f316abe-655f-51c1-ab48-ce13455f71f1"
+          ],
+          "part": "Q1",
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "Təminatla əhatə olunmayan həmin hissəni sığortaolunan ödəyir.",
+          "passage_ids": [
+            "6d7cc4e2-3432-52b5-bf46-cfb692d12058"
+          ],
+          "part": "Q2",
+          "essential": true,
+          "conditions": [
+            "Sığorta hadisəsindən yaranan itkinin və ya zərərin təminatla əhatə olunmayan hissəsi."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "9f316abe-655f-51c1-ab48-ce13455f71f1",
+        "6d7cc4e2-3432-52b5-bf46-cfb692d12058"
+      ],
+      "supporting_sources": [
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "Sığorta hadisəsindən yaranan itkinin və ya zərərin təminatla əhatə olunmayan hissəsi."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "medical"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIPART-004",
+      "category": "multipart",
+      "question": "Auditorun icbari peşə məsuliyyəti sığortasında sığortalı kimdir? Sığortaçı hansı lisenziya şərtini ödəməlidir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [
+        {
+          "part_id": "Q1",
+          "question": "Auditorun icbari peşə məsuliyyəti sığortasında sığortalı kimdir?",
+          "expected_mode": "FULL"
+        },
+        {
+          "part_id": "Q2",
+          "question": "Sığortaçı hansı lisenziya şərtini ödəməlidir?",
+          "expected_mode": "FULL"
+        }
+      ],
+      "expected_mode": "FULL",
+      "expected_answer": "Sığortalı qanunvericiliyə uyğun auditor xidməti göstərən və öz peşə məsuliyyətini sığorta etdirmək üçün müqavilə bağlayan fiziki və ya hüquqi şəxsdir. Sığortaçı yalnız sığorta və təkrar sığorta fəaliyyəti üçün yaradılmış və qanunvericiliyə uyğun lisenziya almış hüquqi şəxsdir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Sığortalı qanunvericiliyə uyğun auditor xidməti göstərən və öz peşə məsuliyyətini sığorta etdirmək üçün müqavilə bağlayan fiziki və ya hüquqi şəxsdir.",
+          "passage_ids": [
+            "6e6e8994-ccad-5e5c-b1be-48c25d49aa6b"
+          ],
+          "part": "Q1",
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "Sığortaçı yalnız sığorta və təkrar sığorta fəaliyyəti üçün yaradılmış və qanunvericiliyə uyğun lisenziya almış hüquqi şəxsdir.",
+          "passage_ids": [
+            "b7e447b8-2e67-5f01-8a75-8ef248b3ddfe"
+          ],
+          "part": "Q2",
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "6e6e8994-ccad-5e5c-b1be-48c25d49aa6b",
+        "b7e447b8-2e67-5f01-8a75-8ef248b3ddfe"
+      ],
+      "supporting_sources": [
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "auditor_liability"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIPART-005",
+      "category": "multipart",
+      "question": "İcbari sığortalar haqqında Qanunda kimlər ailə üzvü sayılır? Faydalanan ailə üzvlərinin ödəniş payları necə bölünür?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [
+        {
+          "part_id": "Q1",
+          "question": "İcbari sığortalar haqqında Qanunda kimlər ailə üzvü sayılır?",
+          "expected_mode": "FULL"
+        },
+        {
+          "part_id": "Q2",
+          "question": "Faydalanan ailə üzvlərinin ödəniş payları necə bölünür?",
+          "expected_mode": "FULL"
+        }
+      ],
+      "expected_mode": "FULL",
+      "expected_answer": "Uşaqlar (övladlığa götürülmüş və ölümündən sonra doğulmuş uşaqlar daxil), ər və ya arvad, valideynlər (övladlığa götürənlər daxil) ailə üzvləridir. 6.4-cü maddə üzrə faydalanan şəxs qismində çıxış edən ailə üzvlərinin bərabər pay hüququ var.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Uşaqlar (övladlığa götürülmüş və ölümündən sonra doğulmuş uşaqlar daxil), ər və ya arvad, valideynlər (övladlığa götürənlər daxil) ailə üzvləridir.",
+          "passage_ids": [
+            "43b7aff6-8017-527f-8cc7-7a187487493d"
+          ],
+          "part": "Q1",
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "6.4-cü maddə üzrə faydalanan şəxs qismində çıxış edən ailə üzvlərinin bərabər pay hüququ var.",
+          "passage_ids": [
+            "fd0094e0-6fd8-56a1-a159-88bc94e0bd88"
+          ],
+          "part": "Q2",
+          "essential": true,
+          "conditions": [
+            "Ailə üzvü 6.4-cü maddə üzrə faydalanan qismində çıxış etməlidir."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "43b7aff6-8017-527f-8cc7-7a187487493d",
+        "fd0094e0-6fd8-56a1-a159-88bc94e0bd88"
+      ],
+      "supporting_sources": [
+        "6e1749d4-db74-57f0-b220-9d807f376771"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "Ailə üzvü 6.4-cü maddə üzrə faydalanan qismində çıxış etməlidir."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "compulsory_general"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIDOC-001",
+      "category": "multidoc",
+      "question": "İcbari sığortalar haqqında Qanunda fərqli izah olmadıqda, sığortaçının «şəxsi tutumu» anlayışını hansı qanunun tərifi ilə və necə izah etmək olar?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "İcbari sığorta qanununda başqa cür nəzərdə tutulmadıqda anlayışlar Mülki Məcəllə və «Sığorta fəaliyyəti haqqında» Qanunla müəyyən edilir. «Sığorta fəaliyyəti haqqında» Qanunda şəxsi tutum müqavilə üzrə riskin sığortaçının və ya təkrarsığortalının öhdəliyində qalan hissəsidir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "İcbari sığorta qanununda başqa cür nəzərdə tutulmadıqda anlayışlar Mülki Məcəllə və «Sığorta fəaliyyəti haqqında» Qanunla müəyyən edilir.",
+          "passage_ids": [
+            "4906fcc3-05fc-5a42-a939-94fecdc7d317"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": [
+            "İcbari sığorta qanunundakı fərqli izah ayrıca nəzərə alınır."
+          ]
+        },
+        {
+          "claim_id": "C2",
+          "text": "«Sığorta fəaliyyəti haqqında» Qanunda şəxsi tutum müqavilə üzrə riskin sığortaçının və ya təkrarsığortalının öhdəliyində qalan hissəsidir.",
+          "passage_ids": [
+            "4bfd5116-e823-523c-9aec-1695c6d4d1e4"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "4906fcc3-05fc-5a42-a939-94fecdc7d317",
+        "4bfd5116-e823-523c-9aec-1695c6d4d1e4"
+      ],
+      "supporting_sources": [
+        "6e1749d4-db74-57f0-b220-9d807f376771",
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [
+        "İcbari sığorta qanunundakı fərqli izah ayrıca nəzərə alınır."
+      ],
+      "applicable_insurance_types": [
+        "compulsory_general",
+        "general_insurance"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "§1.3 establishes the fallback and §1.1.22 supplies the definition. No priority between unindexed sources is asserted.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "needs_expert_review"
+    },
+    {
+      "question_id": "AQ-MULTIDOC-002",
+      "category": "multidoc",
+      "question": "Tibbi xidmətlərin göstərilməsi müqaviləsinin tərəfləri barədə müddəanı sığorta şəhadətnaməsinin təsdiq etdiyi faktla necə fərqləndirmək olar?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "İcbari tibbi sığortada tibbi xidmət müqaviləsi tibb müəssisəsi ilə müəyyən edilmiş orqan və ya qurum arasında bağlanır. Sığorta şəhadətnaməsi sığorta müqaviləsinin bağlanması faktını təsdiq edən sənəddir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "İcbari tibbi sığortada tibbi xidmət müqaviləsi tibb müəssisəsi ilə müəyyən edilmiş orqan və ya qurum arasında bağlanır.",
+          "passage_ids": [
+            "b15bc3dc-f269-5806-8a4b-b464a573c087"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "Sığorta şəhadətnaməsi sığorta müqaviləsinin bağlanması faktını təsdiq edən sənəddir.",
+          "passage_ids": [
+            "f120f2a7-458e-53e1-8e52-e32b40fba8da"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "b15bc3dc-f269-5806-8a4b-b464a573c087",
+        "f120f2a7-458e-53e1-8e52-e32b40fba8da"
+      ],
+      "supporting_sources": [
+        "1248340c-65bf-5254-875a-36c09b8300f4",
+        "4e3b2353-e051-58b1-a63b-b4f0a785941e"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "medical",
+        "general_insurance"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "The medical definition provides parties; the general insurance definition supplies the certificate's evidentiary function.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIDOC-003",
+      "category": "multidoc",
+      "question": "Qeydiyyatlı mexaniki nəqliyyat vasitəsinin üçüncü şəxslər qarşısında məsuliyyət sığortasının məcburiliyi qanunda, texniki baxışda həmin müqavilənin yoxlanması isə 156 nömrəli qərarın mətnində necə göstərilib?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Yol hərəkəti haqqında Qanunun göstərilən qaydasına uyğun qeydiyyatdan keçmiş mexaniki avtonəqliyyat vasitələrinin və onların bazasında istehsal edilmiş digər vasitələrin istifadəsi ilə bağlı üçüncü şəxslər qarşısında mülki məsuliyyətin sığortası icbaridir. 156 nömrəli qərarın əlavə etdiyi abzasda müvafiq icbari müqavilənin mövcudluğu elektron informasiya sistemi vasitəsilə yoxlanılır.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Yol hərəkəti haqqında Qanunun göstərilən qaydasına uyğun qeydiyyatdan keçmiş mexaniki avtonəqliyyat vasitələrinin və onların bazasında istehsal edilmiş digər vasitələrin istifadəsi ilə bağlı üçüncü şəxslər qarşısında mülki məsuliyyətin sığortası icbaridir.",
+          "passage_ids": [
+            "66143fba-863c-566a-8ad0-69c3c02caf41"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [
+            "50.2-ci maddənin istinad etdiyi qaydada qeydiyyat."
+          ],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "156 nömrəli qərarın əlavə etdiyi abzasda müvafiq icbari müqavilənin mövcudluğu elektron informasiya sistemi vasitəsilə yoxlanılır.",
+          "passage_ids": [
+            "a8b40377-8cdd-588f-90f0-340cde462492"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [
+            "Texniki baxış kontekstində müqavilənin mövcudluğunun yoxlanması."
+          ],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "66143fba-863c-566a-8ad0-69c3c02caf41",
+        "a8b40377-8cdd-588f-90f0-340cde462492"
+      ],
+      "supporting_sources": [
+        "6e1749d4-db74-57f0-b220-9d807f376771",
+        "7283e2b5-a63e-5a4c-b648-32ec0118e2ce"
+      ],
+      "related_passages": [],
+      "required_conditions": [
+        "50.2-ci maddənin istinad etdiyi qaydada qeydiyyat.",
+        "Texniki baxış kontekstində müqavilənin mövcudluğunun yoxlanması."
+      ],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "motor_liability"
+      ],
+      "temporal_requirements": {
+        "kind": "amendment_text_only",
+        "requested_reference_date": null,
+        "effective_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "The provision establishes the statutory obligation. Resolution 156, item 1.2 on page 2, adds paragraph six to §3.2 of the model regulation and supplies the inspection mechanism. The item heading is at the end of preceding indexed passage e6f6e9ba-716c-5743-a230-f15b4c6277db. The question is limited to the cited wording, rather than an actual admission decision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "needs_expert_review"
+    },
+    {
+      "question_id": "AQ-MULTIDOC-004",
+      "category": "multidoc",
+      "question": "Peşə xəstəliyi ilə tibbi sığorta hadisəsinin tərifləri hansı fərqli meyarlara əsaslanır?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Peşə xəstəliyi əlverişsiz və zərərli istehsalat amillərinin təsirindən yaranan xroniki və ya kəskin xəstəlikdir. Tibbi sığorta hadisəsi ödənişin əsası olan hadisə və ya yaranan haldır, o cümlədən profilaktik tədbirlər.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Peşə xəstəliyi əlverişsiz və zərərli istehsalat amillərinin təsirindən yaranan xroniki və ya kəskin xəstəlikdir.",
+          "passage_ids": [
+            "00241389-fdfc-5b29-97fb-eeeb0129245b"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        },
+        {
+          "claim_id": "C2",
+          "text": "Tibbi sığorta hadisəsi ödənişin əsası olan hadisə və ya yaranan haldır, o cümlədən profilaktik tədbirlər.",
+          "passage_ids": [
+            "f8acb981-3f72-5bc7-b730-3467ddbd0cfb"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "00241389-fdfc-5b29-97fb-eeeb0129245b",
+        "f8acb981-3f72-5bc7-b730-3467ddbd0cfb"
+      ],
+      "supporting_sources": [
+        "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+        "1248340c-65bf-5254-875a-36c09b8300f4"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "occupational",
+        "medical"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Each definition is bounded to its own law and neither determines an individual's entitlement.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-MULTIDOC-005",
+      "category": "multidoc",
+      "question": "İcbari sığortaların ümumi bölməsi üçün xüsusi qanun istisnası necə ifadə olunub və auditorun xüsusi qanununda sığorta obyekti nədir?",
+      "origin": "source_derived",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "FULL",
+      "expected_answer": "Ümumi bölmə əsas prinsipləri və müddəaları müəyyən edir, ayrı-ayrı növlərə aid başqa qanunlarda fərqli müddəaların nəzərdə tutulduğu hallar istisnadır. Auditorun bu sığortasının obyekti onun xidməti nəticəsində auditin subyektinə dəyən zərərə görə məsuliyyətidir.",
+      "required_claims": [
+        {
+          "claim_id": "C1",
+          "text": "Ümumi bölmə əsas prinsipləri və müddəaları müəyyən edir, ayrı-ayrı növlərə aid başqa qanunlarda fərqli müddəaların nəzərdə tutulduğu hallar istisnadır.",
+          "passage_ids": [
+            "728bd60c-67c4-524b-85c6-71fe1f253f96"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": [
+            "Müvafiq icbari növ üzrə başqa qanunun fərqli müddəası."
+          ]
+        },
+        {
+          "claim_id": "C2",
+          "text": "Auditorun bu sığortasının obyekti onun xidməti nəticəsində auditin subyektinə dəyən zərərə görə məsuliyyətidir.",
+          "passage_ids": [
+            "d96ff583-c015-57f3-9302-30183d1494c3"
+          ],
+          "part": null,
+          "essential": true,
+          "conditions": [],
+          "exceptions": []
+        }
+      ],
+      "supporting_passages": [
+        "728bd60c-67c4-524b-85c6-71fe1f253f96",
+        "d96ff583-c015-57f3-9302-30183d1494c3"
+      ],
+      "supporting_sources": [
+        "6e1749d4-db74-57f0-b220-9d807f376771",
+        "c86009bc-5e6d-547f-8768-aca1af76916b"
+      ],
+      "related_passages": [],
+      "required_conditions": [],
+      "exceptions": [
+        "Müvafiq icbari növ üzrə başqa qanunun fərqli müddəası."
+      ],
+      "applicable_insurance_types": [
+        "compulsory_general",
+        "auditor_liability"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": null,
+      "evaluation_notes": "Both texts are required; this draft does not decide precedence in a concrete conflict.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "needs_expert_review"
+    },
+    {
+      "question_id": "AQ-ABSTENTION-001",
+      "category": "abstention",
+      "question": "Vaxtından əvvəl xitam verdiyim həyatın yığım sığortası müqaviləsinə görə mənə konkret neçə manat qaytarılacaq?",
+      "origin": "synthetic_scenario",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "NOT_FOUND",
+      "expected_answer": "Müqavilə və hesablamasız konkret qaytarılan məbləği müəyyən etmək mümkün deyil.",
+      "required_claims": [],
+      "supporting_passages": [],
+      "supporting_sources": [],
+      "related_passages": [
+        "74a5efb4-7e10-524f-8235-69183396be77"
+      ],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "life_savings"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": {
+        "code": "case_record_absent",
+        "missing_evidence": "Konkret müqavilə və sığortaçının hesablaması",
+        "answer": "Müqavilə və hesablamasız konkret qaytarılan məbləği müəyyən etmək mümkün deyil.",
+        "corpus_review": "§1.1.16 defines the amount type. The 12-document corpus contains no individual life policy or calculation record.",
+        "part": null
+      },
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-ABSTENTION-002",
+      "category": "abstention",
+      "question": "Hərbi qulluqçu kimi mənim adıma keçən rübdə faktiki nə qədər sığorta haqqı ödənilib?",
+      "origin": "synthetic_scenario",
+      "dataset_version": "1.0.0",
+      "proposed_split": "dev",
+      "sub_questions": [],
+      "expected_mode": "NOT_FOUND",
+      "expected_answer": "Şəxsi ödəniş qeydi olmadan rüb üzrə faktiki məbləğ müəyyən edilmir.",
+      "required_claims": [],
+      "supporting_passages": [],
+      "supporting_sources": [],
+      "related_passages": [
+        "c3a3d482-af94-5656-9821-ffe7bbbb7954"
+      ],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "military_personal"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": {
+        "code": "case_record_absent",
+        "missing_evidence": "Sığortaçının və ya sığortalının şəxsi ödəniş qeydi və rübün dəqiqləşdirilməsi",
+        "answer": "Şəxsi ödəniş qeydi olmadan rüb üzrə faktiki məbləğ müəyyən edilmir.",
+        "corpus_review": "§4-1.1.4 addresses access to calculated/paid premium information. No personal premium register is indexed.",
+        "part": null
+      },
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-ABSTENTION-003",
+      "category": "abstention",
+      "question": "Könüllü tibbi sığorta müqaviləmdə klinikaya konkret hansı məbləğin ödənilməsi razılaşdırılıb?",
+      "origin": "synthetic_scenario",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "NOT_FOUND",
+      "expected_answer": "Konkret razılaşdırılmış məbləğ müqavilə olmadan təsdiqlənmir.",
+      "required_claims": [],
+      "supporting_passages": [],
+      "supporting_sources": [],
+      "related_passages": [
+        "6db1c9cd-114e-5b1f-814f-e959483565f5"
+      ],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "voluntary_medical"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": {
+        "code": "case_record_absent",
+        "missing_evidence": "Konkret tibbi sığorta müqaviləsi və müvafiq ödəniş şərti",
+        "answer": "Konkret razılaşdırılmış məbləğ müqavilə olmadan təsdiqlənmir.",
+        "corpus_review": "§1.0.8 points to the contract for voluntary medical payment. Indexed legal texts contain no named person's contract.",
+        "part": null
+      },
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-ABSTENTION-004",
+      "category": "abstention",
+      "question": "Artıq tutulmuş məcburi dövlət sosial sığorta haqqım üzrə geri ödəmə ərizəmin hazırkı statusu nədir?",
+      "origin": "synthetic_scenario",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "NOT_FOUND",
+      "expected_answer": "Ərizənin iş qeydi olmadan onun faktiki statusunu müəyyən etmək mümkün deyil.",
+      "required_claims": [],
+      "supporting_passages": [],
+      "supporting_sources": [],
+      "related_passages": [
+        "d29a98d2-65ce-5186-98b5-f4b68778fede"
+      ],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "social"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": {
+        "code": "case_record_absent",
+        "missing_evidence": "Ərizənin qeydiyyat nömrəsi və səlahiyyətli orqanın iş qeydi",
+        "answer": "Ərizənin iş qeydi olmadan onun faktiki statusunu müəyyən etmək mümkün deyil.",
+        "corpus_review": "§9-1.2 concerns the refund procedure; there is no application-level case register in the corpus.",
+        "part": null
+      },
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    },
+    {
+      "question_id": "AQ-ABSTENTION-005",
+      "category": "abstention",
+      "question": "Avtomobilimə son icbari sığorta müqaviləsi üçün faktiki hansı sığorta tarixçəsi əmsalı təyin edilib?",
+      "origin": "synthetic_scenario",
+      "dataset_version": "1.0.0",
+      "proposed_split": "test",
+      "sub_questions": [],
+      "expected_mode": "NOT_FOUND",
+      "expected_answer": "Şəxsi müqavilə və tarixçə qeydi olmadan faktiki təyin edilmiş əmsal müəyyən edilmir.",
+      "required_claims": [],
+      "supporting_passages": [],
+      "supporting_sources": [],
+      "related_passages": [
+        "e000d5de-47c4-571e-ac49-61b17c4c53fb",
+        "2473b5d0-e8a8-5f02-a0d6-a30262b6ae6b"
+      ],
+      "required_conditions": [],
+      "exceptions": [],
+      "applicable_insurance_types": [
+        "motor_liability"
+      ],
+      "temporal_requirements": {
+        "kind": "indexed_text_only",
+        "requested_reference_date": null
+      },
+      "expected_abstention_reason": {
+        "code": "case_record_absent",
+        "missing_evidence": "Avtomobil üzrə konkret müqavilə, sığorta tarixçəsi və tətbiq edilmiş əmsalın qeydi",
+        "answer": "Şəxsi müqavilə və tarixçə qeydi olmadan faktiki təyin edilmiş əmsal müəyyən edilmir.",
+        "corpus_review": "§51.1 concerns the information system and the news gives general context. Neither contains the vehicle's contract or rating record.",
+        "part": null
+      },
+      "evaluation_notes": "Draft summary of the indexed provision.",
+      "source_verification_status": "snapshot_matched",
+      "expert_review_status": "pending_domain_expert"
+    }
+  ],
+  "corpus_content_sha256": "b3ba8274ff23b442c7ad078007ff0ca65de8d3ec6d0c51499a20b2f914cab40e"
+}

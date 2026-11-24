@@ -1,0 +1,1012 @@
+{
+  "schema_version": 1,
+  "expert_validated": false,
+  "snapshot_sha256": "3f88380b81d12e9d1e18831e6eb517caa9e54c02c504b0b73aad0e4e42162dec",
+  "source_excerpt_sha256": "f78928ea9013e8ade12a441c407dadd48547c0893bf681acdac96d256744edcd",
+  "authority": {
+    "7da056dd-d9f8-501d-9a06-556083e2a0ed": {
+      "class": "normative_legal_act",
+      "basis": "Named occupational compulsory insurance act 999-IIIQ.",
+      "anchors": [
+        "act_head"
+      ]
+    },
+    "e90086e8-2d04-5eab-9620-7ce769aca005": {
+      "class": "normative_legal_act",
+      "basis": "Social insurance act 250-IQ, with internal legal articles.",
+      "anchors": [
+        "social_head"
+      ]
+    },
+    "1248340c-65bf-5254-875a-36c09b8300f4": {
+      "class": "normative_legal_act",
+      "basis": "Medical insurance act 725-IQ, with internal legal articles.",
+      "anchors": [
+        "medical_head"
+      ]
+    },
+    "4e3b2353-e051-58b1-a63b-b4f0a785941e": {
+      "class": "normative_legal_act",
+      "basis": "Signature and commencement clause identify the statute 519-IIIQ.",
+      "anchors": [
+        "activity_head"
+      ]
+    },
+    "7283e2b5-a63e-5a4c-b648-32ec0118e2ce": {
+      "class": "government_resolution",
+      "basis": "Cabinet heading and amendment text identify Resolution No. 156.",
+      "anchors": [
+        "resolution_head",
+        "amendment_resolution"
+      ]
+    },
+    "01a4a500-13dd-5068-8890-b921643bf99a": {
+      "class": "academic_textbook",
+      "basis": "Title and academic approval expressly identify a higher-education textbook.",
+      "anchors": [
+        "textbook_title",
+        "textbook_approval"
+      ]
+    },
+    "d2714228-7dd4-536f-b244-7837533f5724": {
+      "class": "methodological_or_explanatory",
+      "basis": "The indexed artifact expressly describes itself as an explanatory news summary of changes.",
+      "anchors": [
+        "explanatory"
+      ]
+    },
+    "f528c2f5-3ae6-5bc1-b572-f483f2954417": {
+      "class": "other",
+      "basis": "News summary of reporting on possible changes, with no status as law or technical guidance.",
+      "anchors": [
+        "news"
+      ]
+    }
+  },
+  "sources": {
+    "termination": {
+      "passage_id": "a57a82bb-11a3-59b9-ad6d-331cbd732955",
+      "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+      "document_name": "sığorta 3.pdf",
+      "law_name": "İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında",
+      "article": "11",
+      "clause": "11.8",
+      "page": 10,
+      "version_id": null,
+      "snapshot_document_sha256": "40f789670821e85f878f989104a56b9cc4f228a420106cb712dae73ef3dc5e7e",
+      "text": "11.8. İcbari sığorta müqaviləsinə xitam verilməsi sığortaçını faydalanan şəxsə həmin müqavilənin qüvvədə olduğu dövr ərzində baş vermiş sığorta hadisələri üzrə sığorta ödənişini vermək öhdəliyindən azad etmir.",
+      "original_text": "11.8. İcbari sığorta müqaviləsinə xitam verilməsi sığortaçını faydalanan şəxsə həmin\nmüqavilənin qüvvədə olduğu dövr ərzində baş vermiş sığorta hadisələri üzrə sığorta\nödənişini vermək öhdəliyindən azad etmir."
+    },
+    "invalidity": {
+      "passage_id": "c95e7cf0-b028-552c-8655-c6dd8d9e7e2a",
+      "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+      "document_name": "sığorta 3.pdf",
+      "law_name": "İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında",
+      "article": "11",
+      "clause": "11.9",
+      "page": 10,
+      "version_id": null,
+      "snapshot_document_sha256": "40f789670821e85f878f989104a56b9cc4f228a420106cb712dae73ef3dc5e7e",
+      "text": "11.9. Azərbaycan Respublikası Mülki Məcəlləsinin 908-ci maddəsində nəzərdə tutulmuş əsaslar mövcud olduqda, sığorta müqaviləsi bağlanıldığı andan etibarsız hesab edilir. [17]",
+      "original_text": "11.9. Azərbaycan Respublikası Mülki Məcəlləsinin 908-ci maddəsində nəzərdə\ntutulmuş əsaslar mövcud olduqda, sığorta müqaviləsi bağlanıldığı andan etibarsız hesab\nedilir. [17]"
+    },
+    "employer": {
+      "passage_id": "b3845218-4ab9-57d4-93ca-9371f1e70c9b",
+      "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+      "document_name": "sığorta 3.pdf",
+      "law_name": "İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında",
+      "article": "7",
+      "clause": "7.3",
+      "page": 7,
+      "version_id": null,
+      "snapshot_document_sha256": "40f789670821e85f878f989104a56b9cc4f228a420106cb712dae73ef3dc5e7e",
+      "text": "7.3. Bu Qanunla sığorta etdirmək vəzifəsi daşıyan sığortalı həmin vəzifəni yerinə yetirmədikdə və ya icbari sığorta müqaviləsini qanunvericiliklə nəzərdə tutulmuş şərtlərlə müqayisədə sığorta olunanın vəziyyətini pisləşdirən şərtlərlə bağladıqda, sığorta hadisəsinin baş verdiyi halda bu Qanuna uyğun olaraq xeyrinə sığorta müqaviləsi bağlanmalı şəxslər qarşısında azı bu Qanunla müəyyən edilmiş sığorta təminatı həcmində öhdəlik daşıyır.",
+      "original_text": "7.3. Bu Qanunla sığorta etdirmək vəzifəsi daşıyan sığortalı həmin vəzifəni yerinə\nyetirmədikdə və ya icbari sığorta müqaviləsini qanunvericiliklə nəzərdə tutulmuş şərtlərlə\nmüqayisədə  sığorta  olunanın  vəziyyətini  pisləşdirən  şərtlərlə  bağladıqda,  sığorta\nhadisəsinin baş verdiyi halda bu Qanuna uyğun olaraq xeyrinə sığorta müqaviləsi\nbağlanmalı  şəxslər qarşısında  azı bu Qanunla müəyyən  edilmiş  sığorta  təminatı\nhəcmində öhdəlik daşıyır."
+    },
+    "medical_roles": {
+      "passage_id": "86c37fdf-2f40-52b0-bf62-65cfb32fc3e9",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document_name": "sığorts 4.pdf",
+      "law_name": "Tibbi sığorta haqqında",
+      "article": "15-2",
+      "clause": "15-2.2.1",
+      "page": 9,
+      "version_id": null,
+      "snapshot_document_sha256": "c8b9a1a1c71fbea43a5b5d6f87f27cf97abf8d1c2eab9ac00c6981b22e2062b0",
+      "text": "15-2.2.1. Azərbaycan Respublikasının Milli Məclisi, müvafiq icra hakimiyyəti orqanının müəyyən etdiyi orqan (qurum) tərəfindən vəzifəyə təyin olunan şəxslərə münasibətdə onların təyin olunduqları dövlət orqanı (qurumu), seçkili ödənişli vəzifə tutan şəxslərə münasibətdə isə onların seçildiyi dövlət və ya bələdiyyə orqanı (qurumu), Azərbaycan Respublikasının Əmək Məcəlləsinə uyğun olaraq bağlanmış və hüquqi qüvvəyə minmiş əmək müqaviləsinə əsasən işləyən şəxslərə (o cümlədən, digər əsaslara muzdlu işə cəlb olunan şəxslər) münasibətdə isə sığortalı qismində işəgötürənlər (işə cəlb edən şəxslər) çıxış edir;",
+      "original_text": "15-2.2.1. Azərbaycan  Respublikasının  Milli  Məclisi,  müvafiq  icra  hakimiyyəti\norqanının müəyyən  etdiyi orqan (qurum) tərəfindən vəzifəyə təyin olunan şəxslərə\nmünasibətdə onların təyin olunduqları dövlət orqanı (qurumu), seçkili ödənişli vəzifə tutan\nşəxslərə münasibətdə isə onların seçildiyi dövlət və ya bələdiyyə orqanı (qurumu),\nAzərbaycan Respublikasının Əmək Məcəlləsinə uyğun olaraq bağlanmış və hüquqi\nqüvvəyə minmiş əmək müqaviləsinə əsasən işləyən şəxslərə (o cümlədən, digər əsaslara\nmuzdlu işə cəlb olunan şəxslər) münasibətdə isə sığortalı qismində işəgötürənlər (işə cəlb\nedən şəxslər) çıxış edir;"
+    },
+    "land": {
+      "passage_id": "408840aa-b5ca-50b7-ba73-3cd0b289a405",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document_name": "sığorta 7.pdf",
+      "law_name": "Sosial sığorta haqqında",
+      "article": "14",
+      "clause": "14.5.1-1.9",
+      "page": 10,
+      "version_id": null,
+      "snapshot_document_sha256": "7d878c1f5cf7cf6c5168fe87cca913c2437f4ab7043327f0397df24f6f8615b0",
+      "text": "14.5.1-1.9. mülkiyyətində olan kənd təsərrüfatına yararlı torpaqları istifadə edən fiziki şəxslərin (digər sahələrdə işləyib məcburi dövlət sosial sığorta haqqı ödəyənlər istisna olmaqla) və ailə kəndli təsərrüfatlarının əmək qabiliyyətli (orqanizmin funksiyalarının 61-100 faiz pozulmasına görə əlilliyi müəyyən edilmiş şəxslər və 18 yaşınadək əlilliyi müəyyən edilmiş şəxslər istisna olmaqla, 15 yaşından “Əmək pensiyaları haqqında” Azərbaycan Respublikası Qanununun 7-ci maddəsi ilə müəyyən edilmiş yaş həddinədək olan şəxslər) ailə üzvlərinin hər biri üçün məcburi dövlət sosial sığorta haqqı torpağın sahəsindən asılı olaraq, minimum aylıq əməkhaqqının aşağıda göstərilən dərəcələri üzrə hesablanır: [40] 5 hektaradək olduqda – 2 faiz miqdarında; 5 hektardan 10 hektaradək olduqda – 6 faiz miqdarında; 10 hektardan yuxarı olduqda – 10 faiz miqdarında;",
+      "original_text": "14.5.1-1.9. mülkiyyətində olan kənd təsərrüfatına yararlı torpaqları istifadə edən\nfiziki şəxslərin (digər sahələrdə işləyib məcburi dövlət sosial sığorta haqqı ödəyənlər\nistisna  olmaqla)  və   ailə  kəndli  təsərrüfatlarının  əmək   qabiliyyətli  (orqanizmin\nfunksiyalarının 61-100 faiz pozulmasına görə  əlilliyi müəyyən edilmiş şəxslər və 18\nyaşınadək   əlilliyi müəyyən  edilmiş  şəxslər istisna  olmaqla,  15  yaşından “Əmək\npensiyaları haqqında” Azərbaycan Respublikası Qanununun 7-ci maddəsi ilə müəyyən\nedilmiş yaş həddinədək olan şəxslər) ailə üzvlərinin hər biri üçün məcburi dövlət sosial\nsığorta haqqı torpağın sahəsindən asılı olaraq, minimum aylıq əməkhaqqının aşağıda\ngöstərilən dərəcələri üzrə hesablanır: [40]\n    5 hektaradək olduqda – 2 faiz miqdarında;\n    5 hektardan 10 hektaradək olduqda – 6 faiz miqdarında;\n    10 hektardan yuxarı olduqda – 10 faiz miqdarında;"
+    },
+    "flat": {
+      "passage_id": "c1891f72-bb0d-5345-8f1e-81b8704eda12",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document_name": "sığorta 7.pdf",
+      "law_name": "Sosial sığorta haqqında",
+      "article": "14",
+      "clause": "14.5.6",
+      "page": 10,
+      "version_id": null,
+      "snapshot_document_sha256": "7d878c1f5cf7cf6c5168fe87cca913c2437f4ab7043327f0397df24f6f8615b0",
+      "text": "14.5.6. mülkiyyətində olan kənd təsərrüfatına yararlı torpaqları istifadə edən fiziki şəxslərin (digər sahələrdə işləyib məcburi dövlət sosial sığorta haqqı ödəyənlər istisna olmaqla) və ailə kəndli təsərrüfatlarının əmək qabiliyyətli (I və II qrup əlillər, həmçinin sağlamlıq imkanları məhdud uşaqlar istisna olmaqla, 15 yaşından \"Əmək pensiyaları haqqında” Azərbaycan Respublikası Qanununun 7-ci maddəsi ilə müəyyən edilmiş yaş həddinədək olan şəxslər) ailə üzvlərinin hər biri üçün (alınan əmlak və torpaq payı",
+      "original_text": "14.5.6. mülkiyyətində olan kənd təsərrüfatına yararlı torpaqları istifadə edən fiziki\nşəxslərin (digər sahələrdə işləyib məcburi dövlət sosial sığorta haqqı ödəyənlər istisna\nolmaqla) və ailə kəndli təsərrüfatlarının əmək qabiliyyətli (I və  II qrup əlillər, həmçinin\nsağlamlıq imkanları məhdud uşaqlar istisna olmaqla, 15 yaşından \"Əmək pensiyaları\nhaqqında” Azərbaycan Respublikası Qanununun 7-ci maddəsi ilə müəyyən edilmiş yaş\nhəddinədək olan şəxslər) ailə üzvlərinin hər  biri üçün (alınan əmlak və torpaq payı"
+    },
+    "flat_continuation": {
+      "passage_id": "9b926dd1-3311-593f-8ae4-35fe3bf13de0",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document_name": "sığorta 7.pdf",
+      "law_name": "Sosial sığorta haqqında",
+      "article": "14",
+      "clause": "14.5.6",
+      "page": 11,
+      "version_id": null,
+      "snapshot_document_sha256": "7d878c1f5cf7cf6c5168fe87cca913c2437f4ab7043327f0397df24f6f8615b0",
+      "text": "hesabına şəxsi yardımçı və digər təsərrüfatlar daxil olmaqla) minimum aylıq əməkhaqqının 6 faizi miqdarında. [43]",
+      "original_text": "hesabına  şəxsi  yardımçı  və  digər  təsərrüfatlar  daxil  olmaqla)  minimum  aylıq\nəməkhaqqının 6 faizi miqdarında. [43]"
+    },
+    "ordinary": {
+      "passage_id": "d4096dce-cfb5-5545-9b35-c52198767f26",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document_name": "sığorta 7.pdf",
+      "law_name": "Sosial sığorta haqqında",
+      "article": "14",
+      "clause": "14.6",
+      "page": 11,
+      "version_id": null,
+      "snapshot_document_sha256": "7d878c1f5cf7cf6c5168fe87cca913c2437f4ab7043327f0397df24f6f8615b0",
+      "text": "14.6. Bu Qanunun 14.5.1-1-ci maddəsində göstərilən fiziki şəxslər istisna olmaqla, məcburi dövlət sosial sığorta haqqı hər ay üçün hesablanır, əməkhaqqı və digər gəlirlər üzrə ödənişlərlə eyni vaxtda, lakin sonrakı ayın 15-dən gec olmayaraq, tam məbləğdə yalnız nağdsız hesablaşma qaydasında ödənilir. [44]",
+      "original_text": "14.6. Bu Qanunun 14.5.1-1-ci maddəsində göstərilən fiziki şəxslər istisna olmaqla,\nməcburi dövlət sosial sığorta haqqı hər ay üçün hesablanır, əməkhaqqı və digər gəlirlər\nüzrə ödənişlərlə eyni vaxtda, lakin sonrakı ayın 15-dən gec olmayaraq, tam məbləğdə\nyalnız nağdsız hesablaşma qaydasında ödənilir. [44]"
+    },
+    "special": {
+      "passage_id": "6a499933-0d44-5415-94d3-f6c519f4f6c9",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document_name": "sığorta 7.pdf",
+      "law_name": "Sosial sığorta haqqında",
+      "article": "14",
+      "clause": "14.6-1",
+      "page": 11,
+      "version_id": null,
+      "snapshot_document_sha256": "7d878c1f5cf7cf6c5168fe87cca913c2437f4ab7043327f0397df24f6f8615b0",
+      "text": "14.6-1. Bu Qanunun 14.5.1-1.1 – 14.5.1-1.9-cu və 14.5.1 1.11-ci maddələrində göstərilən fiziki şəxslər tərəfindən məcburi dövlət sosial sığorta haqqı “Sadələşdirilmiş vergi üzrə sabit məbləğin, məcburi dövlət sosial sığorta və icbari tibbi sığorta haqqının ödənilməsi haqqında qəbz” alınarkən, bu Qanunun 14.5.1.1-10-cu maddəsində göstərilən fiziki şəxslər tərəfindən isə “Fərqlənmə nişanı” alınarkən ödənilir. [45]",
+      "original_text": "14.6-1. Bu Qanunun 14.5.1-1.1 – 14.5.1-1.9-cu və 14.5.1 1.11-ci maddələrində\ngöstərilən fiziki şəxslər tərəfindən məcburi dövlət sosial sığorta haqqı “Sadələşdirilmiş\nvergi üzrə sabit məbləğin, məcburi dövlət sosial sığorta və icbari tibbi sığorta haqqının\nödənilməsi haqqında qəbz” alınarkən, bu Qanunun 14.5.1.1-10-cu maddəsində göstərilən\nfiziki şəxslər tərəfindən isə “Fərqlənmə nişanı” alınarkən ödənilir. [45]"
+    },
+    "act_head": {
+      "passage_id": "c7cd9193-c832-58b1-a08a-969ffd01eabf",
+      "document_id": "7da056dd-d9f8-501d-9a06-556083e2a0ed",
+      "document_name": "sığorta 3.pdf",
+      "law_name": "İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında",
+      "article": "1",
+      "clause": null,
+      "page": 1,
+      "version_id": null,
+      "snapshot_document_sha256": "40f789670821e85f878f989104a56b9cc4f228a420106cb712dae73ef3dc5e7e",
+      "text": "Maddə 1. İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə əmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında qanunvericilik",
+      "original_text": "Maddə 1. İstehsalatda bədbəxt hadisələr və peşə xəstəlikləri nəticəsində peşə\nəmək qabiliyyətinin itirilməsi hallarından icbari sığorta haqqında qanunvericilik"
+    },
+    "social_head": {
+      "passage_id": "cb496abb-e637-5ddc-8bdc-c64c3e4050a7",
+      "document_id": "e90086e8-2d04-5eab-9620-7ce769aca005",
+      "document_name": "sığorta 7.pdf",
+      "law_name": "Sosial sığorta haqqında",
+      "article": "1",
+      "clause": null,
+      "page": 1,
+      "version_id": null,
+      "snapshot_document_sha256": "7d878c1f5cf7cf6c5168fe87cca913c2437f4ab7043327f0397df24f6f8615b0",
+      "text": "Maddə 1. Əsas anlayışlar [2]",
+      "original_text": "M a d d ə 1. Əsas anlayışlar [2]"
+    },
+    "medical_head": {
+      "passage_id": "9e9c3c55-0d45-5b30-841a-834f2c0395d1",
+      "document_id": "1248340c-65bf-5254-875a-36c09b8300f4",
+      "document_name": "sığorts 4.pdf",
+      "law_name": "Tibbi sığorta haqqında",
+      "article": "1",
+      "clause": null,
+      "page": 1,
+      "version_id": null,
+      "snapshot_document_sha256": "c8b9a1a1c71fbea43a5b5d6f87f27cf97abf8d1c2eab9ac00c6981b22e2062b0",
+      "text": "Maddə 1 . Əsas anlayışlar [1]",
+      "original_text": "M a d d ə 1 . Əsas anlayışlar [1]"
+    },
+    "amendment": {
+      "passage_id": "6aadd683-e043-5a9c-9fdb-ba55f67afb42",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document_name": "sığorta 1.pdf",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "article": "135",
+      "clause": null,
+      "page": 87,
+      "version_id": null,
+      "snapshot_document_sha256": "50acab113772e0219fdcda4c0ae82f00cf89f24e34821b349ab00c5225a0c843",
+      "text": "6 27 iyun 2019-cu il tarixli 1618-VQD nömrəli Azərbaycan Respublikasının Qanunu (“Azərbaycan” qəzeti, 21 avqust 2019-cu il, № 181, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2019-cu il, №8, maddə 1362) yeni məzmunda 1.1.2-1-ci, 1.1.2-2-ci və 1.1.3-1-ci maddələr əlavə edilmişdir. (Bu Qanun 2020-ci il yanvarın 1-dən qüvvəyə minir.) 7 29 oktyabr 2013-cü il tarixli 806-IVQD nömrəli Azərbaycan Respublikasının Qanunu (“Respublika” qəzeti 17 dekabr 2013-cü il, № 277, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2013-cü il, № 12, maddə 1470) ilə 1.1.3-cü maddədə \"qanunvericiliklə\" sözü \"icbari sığorta qanunlarında\" sözləri ilə əvəz edilmişdir. 8 29 oktyabr 2013-cü il tarixli 806-IVQD nömrəli Azərbaycan Respublikasının Qanunu (“Respublika” qəzeti 17 dekabr 2013-cü il, № 277, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2013-cü il, № 12, maddə 1470) ilə 1.1.6-cı maddədə \"qanunvericiliyinə\" sözü \"qanunlarına\" sözü ilə əvəz edilmişdir.",
+      "original_text": "6 27 iyun 2019-cu il tarixli 1618-VQD nömrəli Azərbaycan Respublikasının Qanunu (“Azərbaycan”\nqəzeti, 21 avqust 2019-cu il, № 181, Azərbaycan Respublikasının Qanunvericilik Toplusu, 2019-cu il,\n№8, maddə 1362) yeni məzmunda 1.1.2-1-ci, 1.1.2-2-ci və 1.1.3-1-ci maddələr əlavə edilmişdir. (Bu Qanun\n2020-ci il yanvarın 1-dən qüvvəyə minir.)\n\n\n         7  29  oktyabr  2013-cü   il  tarixli 806-IVQD  nömrəli  Azərbaycan  Respublikasının Qanunu\n(“Respublika” qəzeti 17 dekabr 2013-cü  il, № 277, Azərbaycan Respublikasının Qanunvericilik\nToplusu, 2013-cü il, № 12, maddə 1470) ilə 1.1.3-cü maddədə \"qanunvericiliklə\" sözü \"icbari sığorta\nqanunlarında\" sözləri ilə əvəz edilmişdir.\n\n\n         8  29  oktyabr  2013-cü   il  tarixli 806-IVQD  nömrəli  Azərbaycan  Respublikasının Qanunu\n(“Respublika” qəzeti 17 dekabr 2013-cü  il, № 277, Azərbaycan Respublikasının Qanunvericilik\nToplusu, 2013-cü il, № 12, maddə 1470) ilə 1.1.6-cı maddədə \"qanunvericiliyinə\" sözü \"qanunlarına\"\nsözü ilə əvəz edilmişdir."
+    },
+    "activity_head": {
+      "passage_id": "2557ad80-b62c-5183-8183-33fe46b87df8",
+      "document_id": "4e3b2353-e051-58b1-a63b-b4f0a785941e",
+      "document_name": "sığorta 1.pdf",
+      "law_name": "Sığorta fəaliyyəti haqqında",
+      "article": "135",
+      "clause": null,
+      "page": 83,
+      "version_id": null,
+      "snapshot_document_sha256": "50acab113772e0219fdcda4c0ae82f00cf89f24e34821b349ab00c5225a0c843",
+      "text": "Maddə 135. Qanunun qüvvəyə minməsi Bu Qanun dərc edildiyi gündən qüvvəyə minir. İlham ƏLİYEV Azərbaycan Respublikasının Prezidenti Bakı şəhəri, 25 dekabr 2007-ci il № 519-IIIQ",
+      "original_text": "Maddə 135. Qanunun qüvvəyə minməsi\n\n\n     Bu Qanun dərc edildiyi gündən qüvvəyə minir.\n\n\n                                                                 İlham ƏLİYEV\n                                             Azərbaycan Respublikasının Prezidenti\n\n\nBakı şəhəri, 25 dekabr 2007-ci il\n   № 519-IIIQ"
+    },
+    "resolution_head": {
+      "passage_id": "6676baa0-6c11-515a-a7da-1ed397514c4a",
+      "document_id": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+      "document_name": "NK-2023-156.pdf",
+      "law_name": "NK-2023-156",
+      "article": null,
+      "clause": null,
+      "page": 1,
+      "version_id": null,
+      "snapshot_document_sha256": "974b6f397ec5f444e0fcbc83f218249f817d3c70be4c24bef88524ed7355579f",
+      "text": "AZƏRBAYCAN RESPUBLİKASININ NAZİRLƏR KABİNETİ Q Ə R A R",
+      "original_text": "AZƏRBAYCAN RESPUBLİKASININ\n        NAZİRLƏR KABİNETİ\n            Q Ə R A R"
+    },
+    "amendment_resolution": {
+      "passage_id": "b6d90268-962c-5c44-bcaf-ada21fccf639",
+      "document_id": "7283e2b5-a63e-5a4c-b648-32ec0118e2ce",
+      "document_name": "NK-2023-156.pdf",
+      "law_name": "NK-2023-156",
+      "article": null,
+      "clause": null,
+      "page": 3,
+      "version_id": null,
+      "snapshot_document_sha256": "974b6f397ec5f444e0fcbc83f218249f817d3c70be4c24bef88524ed7355579f",
+      "text": "3 edilmiş “İstehsalatda baş verən bədbəxt hadisələrin təhqiqi və uçota alınması Qaydaları”nda aşağıdakı dəyişikliklər edilsin: 2.1. 2.2-ci bəndin yeddinci abzasının ikinci cümləsinə “sənədlər” sözündən sonra “və məlumatlar” sözləri əlavə edilsin; 2.2. 3.5-ci bəndi üzrə: 2.2.1. birinci abzasa “sənədlər” sözündən sonra “və məlumatlar” sözləri əlavə edilsin; 2.2.2. on birinci abzasda “müqaviləsinin surəti” sözləri “müqaviləsi barədə məlumatlar (müqavilənin tarixi, tərəfləri və zərərçəkənin sığorta təminatı)” sözləri ilə əvəz edilsin. 3. Azərbaycan Respublikası Nazirlər Kabinetinin 2000-ci il 11 sentyabr tarixli 167 nömrəli Qərarı (Azərbaycan Respublikasının Qanunvericilik Toplusu, 2000, № 9, maddə 693; 2001, № 11, maddə 722; 2002, № 3, maddə 148, № 7, maddə 455, № 10, maddə 635; 2003, № 10, maddə 629; 2005, № 4, maddə 386, № 6, maddə 534, № 8, maddə 782, № 10, maddə 977, № 11, maddə 1061, № 12, maddələr 1228, 1231; 2006, № 3, maddə 297, № 8, maddə 731, № 9, maddə 830, № 10, maddə 902, № 11, maddə 994; 2008, № 2, maddə 108, № 4, maddə 316, № 8, maddə 787; 2009, № 2, maddə 148, № 10, maddələr 846, 849, № 12, maddə 1079; 2010, № 6, maddə 555; 2011, № 10, maddə 971; 2012, № 3, maddə 263,",
+      "original_text": "3\nedilmiş “İstehsalatda baş verən bədbəxt hadisələrin təhqiqi və uçota\nalınması Qaydaları”nda aşağıdakı dəyişikliklər edilsin:\n      2.1. 2.2-ci bəndin yeddinci abzasının ikinci cümləsinə “sənədlər”\nsözündən sonra “və məlumatlar” sözləri əlavə edilsin;\n      2.2. 3.5-ci bəndi üzrə:\n      2.2.1. birinci abzasa “sənədlər” sözündən sonra “və məlumatlar”\nsözləri əlavə edilsin;\n      2.2.2. on birinci abzasda “müqaviləsinin surəti” sözləri “müqaviləsi\nbarədə məlumatlar (müqavilənin tarixi, tərəfləri və zərərçəkənin sığorta\ntəminatı)” sözləri ilə əvəz edilsin.\n      3.  Azərbaycan  Respublikası  Nazirlər  Kabinetinin  2000-ci    il\n11 sentyabr  tarixli 167 nömrəli Qərarı (Azərbaycan Respublikasının\nQanunvericilik Toplusu, 2000, № 9, maddə 693; 2001, № 11, maddə 722;\n2002, № 3, maddə 148, № 7, maddə 455, № 10, maddə 635; 2003,\n№ 10, maddə 629; 2005, № 4, maddə 386, № 6, maddə 534, № 8, maddə\n782, № 10, maddə 977, № 11, maddə 1061, № 12, maddələr 1228, 1231;\n2006, № 3, maddə 297, № 8, maddə 731, № 9, maddə 830, № 10, maddə\n902, № 11, maddə 994; 2008, № 2, maddə 108, № 4, maddə 316, № 8,\nmaddə 787; 2009, № 2, maddə 148, № 10, maddələr 846, 849, № 12,\nmaddə 1079; 2010, № 6, maddə 555; 2011, № 10, maddə 971; 2012,\n№ 3, maddə 263,"
+    },
+    "textbook_title": {
+      "passage_id": "a5bc2843-5ea7-5874-8d71-4401f7a06237",
+      "document_id": "01a4a500-13dd-5068-8890-b921643bf99a",
+      "document_name": "Sığorta kitab.pdf",
+      "law_name": "Sığorta kitab",
+      "article": null,
+      "clause": null,
+      "page": 1,
+      "version_id": null,
+      "snapshot_document_sha256": "48a0ac0b7fab72a457686ddf8bf5c74a4246533556220043634181d3b1205c28",
+      "text": "СЫЬОРТА ИШИ (Али мяктябляр цчцн дярслик)",
+      "original_text": "СЫЬОРТА ИШИ\n   (Али мяктябляр цчцн дярслик)"
+    },
+    "textbook_approval": {
+      "passage_id": "f379f739-9af6-5514-b5b4-56259083411a",
+      "document_id": "01a4a500-13dd-5068-8890-b921643bf99a",
+      "document_name": "Sığorta kitab.pdf",
+      "law_name": "Sığorta kitab",
+      "article": null,
+      "clause": null,
+      "page": 1,
+      "version_id": null,
+      "snapshot_document_sha256": "48a0ac0b7fab72a457686ddf8bf5c74a4246533556220043634181d3b1205c28",
+      "text": "Азярбайъан Республикасы Тящсил Назирлийинин 12 феврал 2018-ъи ил тарихли Ф – 121 сайлы ямри иля гриф верилмиш вя али мяктяб тялябяляри цчцн дярслик кими тясдиг едилмишдир.",
+      "original_text": "Азярбайъан Республикасы Тящсил Назирлийинин\n      12 феврал 2018-ъи ил тарихли Ф – 121 сайлы ямри иля гриф\n       верилмиш вя али мяктяб тялябяляри цчцн дярслик кими\n       тясдиг едилмишдир."
+    },
+    "textbook_content": {
+      "passage_id": "86e6e015-2412-5bdd-9e4f-f3d85b2e1347",
+      "document_id": "01a4a500-13dd-5068-8890-b921643bf99a",
+      "document_name": "Sığorta kitab.pdf",
+      "law_name": "Sığorta kitab",
+      "article": null,
+      "clause": null,
+      "page": 82,
+      "version_id": null,
+      "snapshot_document_sha256": "48a0ac0b7fab72a457686ddf8bf5c74a4246533556220043634181d3b1205c28",
+      "text": "та етдирян шяхс бу просеся марагла йанашмалыдыр (йяни, сыьорта олунмуш шяхсин юлцмц заманы итирилян мадди хярълярин явязиня компенсасийа алмаг имканыны ялдя етмялидир). Бу принсип илк ола- раг 1774-ъц илдя Инэилтярядя гябул олунмуш “Фырылдагчылар щаг- гында акт”-да юз ифадясини тапмышдыр. Бу актда гейд едилмишдир ки, щяйатын сыьорта олунмасы мцгавилясини имзалайан щяр бир сыьорта олунан шяхс бу сыьорталанмыш щяйатда мараглы олмалыдыр. Бу нюв фяалиййят щяйатын сыьорта олунмасына спекулйатив характер вермиш- дир вя онун сыьорта зяманяти функсийалары иля цмуми шякилдя щеч бир ялагяси олмамышдыр. Тядриъян щяйатын сыьорта олунмасы бир чох дювлятлярин ганунвериъилик актларына да дахил едилмишдир. Сыьорта мараьынын, мцгавилянин имзаланма мцддятиндян, мцгавилянин гцввяйя минмяси мцддятиндян вя йа сыьортанын юдянилмяси мцддятиндян фяалиййят эюстярмяси иля баьлы мясяляляр мцбащися- ляря сябяб олмушду. Щал-щазырда мцяййян едилмишдир ки, сыьорта мараьы йалныз сыьорта мцгавилясинин имзаландыьы мцддятдян ети- барян зярури ящямиййятя малик олур.",
+      "original_text": "та етдирян шяхс бу просеся марагла йанашмалыдыр (йяни, сыьорта\nолунмуш шяхсин юлцмц заманы итирилян мадди хярълярин явязиня\nкомпенсасийа алмаг имканыны ялдя етмялидир). Бу принсип илк ола-\nраг 1774-ъц илдя Инэилтярядя гябул олунмуш “Фырылдагчылар щаг-\nгында акт”-да юз ифадясини тапмышдыр. Бу актда гейд едилмишдир ки,\nщяйатын сыьорта олунмасы мцгавилясини имзалайан щяр бир сыьорта\nолунан шяхс бу сыьорталанмыш щяйатда мараглы олмалыдыр. Бу нюв\nфяалиййят щяйатын сыьорта олунмасына спекулйатив характер вермиш-\nдир вя онун сыьорта зяманяти функсийалары иля цмуми шякилдя щеч\nбир ялагяси олмамышдыр. Тядриъян щяйатын сыьорта олунмасы бир чох\nдювлятлярин ганунвериъилик актларына да дахил едилмишдир. Сыьорта\nмараьынын, мцгавилянин имзаланма мцддятиндян, мцгавилянин\nгцввяйя минмяси мцддятиндян вя йа  сыьортанын юдянилмяси\nмцддятиндян фяалиййят эюстярмяси иля баьлы мясяляляр мцбащися-\nляря сябяб олмушду. Щал-щазырда мцяййян едилмишдир ки, сыьорта\nмараьы йалныз сыьорта мцгавилясинин имзаландыьы мцддятдян ети-\nбарян зярури ящямиййятя малик олур."
+    },
+    "explanatory": {
+      "passage_id": "05ca25b0-f931-5ff7-8977-6879c9019e70",
+      "document_id": "d2714228-7dd4-536f-b244-7837533f5724",
+      "document_name": "Trend-4197840-avtomobil-sigortasi-2026.txt",
+      "law_name": "Trend-4197840-avtomobil-sigortasi-2026",
+      "article": null,
+      "clause": null,
+      "page": null,
+      "version_id": null,
+      "snapshot_document_sha256": "31a588e1082d4c15430042552baf7a16d7d30748a15d7294cf49bc07b3adc799",
+      "text": "Trend, 16 iyun 2026. İcbari avtomobil sığortası üzrə sığorta haqqı qaydalarında dəyişikliklər haqqında xəbər xülasəsi. Mənbə: https://az.trend.az/business/4197840.html",
+      "original_text": "Trend, 16 iyun 2026. İcbari avtomobil sığortası üzrə sığorta haqqı qaydalarında dəyişikliklər haqqında xəbər xülasəsi.\nMənbə: https://az.trend.az/business/4197840.html"
+    },
+    "news": {
+      "passage_id": "0b8c41ca-1e30-50e2-8297-914234e2f8a9",
+      "document_id": "f528c2f5-3ae6-5bc1-b572-f483f2954417",
+      "document_name": "Trend-4201157-icbari-sigorta-meblegleri-2026.txt",
+      "law_name": "Trend-4201157-icbari-sigorta-meblegleri-2026",
+      "article": null,
+      "clause": null,
+      "page": null,
+      "version_id": null,
+      "snapshot_document_sha256": "7c0a4cc0b2794dd2aa9ab4f93db48a9ff9761d7440f4306ed964f9eb510eeb38",
+      "text": "Trend, 24 iyun 2026. İcbari sığortanın bəzi növləri üzrə sığorta məbləğlərinə yenidən baxılması haqqında xəbər xülasəsi. Mənbə: https://az.trend.az/business/4201157.html",
+      "original_text": "Trend, 24 iyun 2026. İcbari sığortanın bəzi növləri üzrə sığorta məbləğlərinə yenidən baxılması haqqında xəbər xülasəsi.\nMənbə: https://az.trend.az/business/4201157.html"
+    }
+  },
+  "cases": [
+    {
+      "id": "M01",
+      "dimension": "correct cited claim",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Positive control with source-bounded wording.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": true,
+        "mode": "FULL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "M02",
+      "dimension": "unsupported claim with assessment",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "Sığortaçı 30 gün ərzində ödəniş etməlidir.",
+      "note": "Supplied absence judgment checks the gate, rather than automatic legal entailment.",
+      "supplied_support": "absent",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "M03",
+      "dimension": "wrong insurance regime",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "medical_roles"
+      ],
+      "claim": "İşəgötürən istehsalat üzrə sığortalıdır.",
+      "note": "Medical provision cannot stand in for occupational evidence.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "allowed_documents": [
+        "sığorta 3.pdf"
+      ]
+    },
+    {
+      "id": "M04",
+      "dimension": "wrong beneficiary",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "Müqavilə qüvvədə olarkən hər bir şəxs ödəniş ala bilər.",
+      "note": "Explicit beneficiary control.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": "PARTIAL",
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": true
+      },
+      "required_conditions": {
+        "beneficiary": "faydalanan"
+      }
+    },
+    {
+      "id": "M05",
+      "dimension": "eligibility omitted",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "land"
+      ],
+      "claim": "Torpaq istifadəçisi minimum aylıq əməkhaqqına görə haqq ödəyir.",
+      "note": "Ownership, qualified family-farm membership and age limits were omitted.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": "PARTIAL",
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": true
+      },
+      "required_conditions": {
+        "owner": "mülkiyyət",
+        "family-farm": "ailə kəndli",
+        "age floor": "15 yaş",
+        "age ceiling": "pensiya"
+      }
+    },
+    {
+      "id": "M06",
+      "dimension": "exception omitted",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "ordinary"
+      ],
+      "claim": "Məcburi dövlət sosial sığorta haqqı növbəti ayın 15-dək ödənilir.",
+      "note": "§14.6 excludes §14.5.1-1 groups.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": "PARTIAL",
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": true
+      },
+      "required_conditions": {
+        "special group exception": "istisna"
+      }
+    },
+    {
+      "id": "M07",
+      "dimension": "wrong deadline with control",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "ordinary"
+      ],
+      "claim": "Haqq sonrakı ayın 20-dək ödənilir.",
+      "note": "The fixture supplies a forbidden deadline pattern.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "prohibited_patterns": {
+        "different deadline": "20-dək"
+      }
+    },
+    {
+      "id": "M08",
+      "dimension": "contract period wording",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "Xitamdan sonra baş verən hadisəyə görə ödəniş qalır.",
+      "note": "Source limits the preserved duty to events during the term. This line has no qualifying supported fragment.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": true
+      },
+      "required_conditions": {
+        "time in force": "qüvvədə olduğu dövrdə"
+      }
+    },
+    {
+      "id": "M09",
+      "dimension": "citation substitution",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "The packed passage ID is changed.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": false,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "binding_mutation": {
+        "chunk_id": "wrong"
+      }
+    },
+    {
+      "id": "M10",
+      "dimension": "citation version substitution",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Injected version is absent from the frozen record.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": false,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "binding_mutation": {
+        "version_id": "foreign-version"
+      }
+    },
+    {
+      "id": "M11",
+      "dimension": "assessed incomplete",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "employer"
+      ],
+      "claim": "İcbari sığorta hadisəsi baş verərsə, vəzifəni yerinə yetirməyən sığortalı azı qanuni təminat həcmində öhdəlik daşıyır.",
+      "note": "Supported liability fragment, but procedure was not assessed as complete.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": "PARTIAL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "incomplete": true
+    },
+    {
+      "id": "M12",
+      "dimension": "reviewed absence",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "Bu mətn ərizənin ünvanını göstərir.",
+      "note": "A supplied absence finding permits NOT_FOUND for the requested filing address in this control.",
+      "supplied_support": "absent",
+      "expected": {
+        "accepted_full": false,
+        "mode": "NOT_FOUND",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "supplied_absence": true
+    },
+    {
+      "id": "M13",
+      "dimension": "declared conflict",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination",
+        "invalidity"
+      ],
+      "claim": "Eyni hallara aid iki zidd sübut kimi yoxlanılır.",
+      "note": "Synthetic conflict flag exercises the gate. The statutes themselves concern different situations.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "supplied_conflict": true
+    },
+    {
+      "id": "M14",
+      "dimension": "correct ordinary and special groups",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "ordinary",
+        "special"
+      ],
+      "claim": "14.5.1-1 kateqoriyası istisna olmaqla haqq növbəti ayın 15-dək tam nağdsız ödənilir; xüsusi qruplar üçün qəbz və ya Fərqlənmə nişanı qaydası tətbiq edilir.",
+      "note": "Positive control for distinguishing general and special payment triggers.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": true,
+        "mode": "FULL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "required_conditions": {
+        "exception": "istisna",
+        "receipt": "qəbz",
+        "transport sign": "fərqlənmə nişanı"
+      }
+    },
+    {
+      "id": "M15",
+      "dimension": "paraphrased exception",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "ordinary"
+      ],
+      "claim": "14.5.1-1 üzrə şəxslər kənarda qalır; qalanlar haqqı hər ay hesablayır və gəlir ödənişi ilə eyni vaxtda, ən gec növbəti ayın 15-də tam nağdsız ödəyir.",
+      "note": "Kənarda qalır expresses the group exclusion, but the literal rule searches only for istisna.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": true,
+        "mode": "FULL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "required_conditions": {
+        "special group exception": "istisna"
+      }
+    },
+    {
+      "id": "M16",
+      "dimension": "unpaginated explanation binding",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "explanatory"
+      ],
+      "claim": "Bu sənəd xəbər xülasəsidir.",
+      "note": "The source describes itself as a news summary. Null page must not invalidate otherwise exact text.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": "PARTIAL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "incomplete": true
+    },
+    {
+      "id": "M17",
+      "dimension": "occupied statutory scope with explicitly scoped resolution",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "amendment_resolution"
+      ],
+      "claim": "Qərar araşdırma qaydasındakı sənəd və məlumat tələblərini dəyişir.",
+      "note": "Positive source-authority control about what the Cabinet resolution itself amends.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": true,
+        "mode": "FULL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "M18",
+      "dimension": "marker absent from packed sources",
+      "stratum": "mechanical_controls",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "The answer cites S1 but only S9 was packed.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": false,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "binding_mutation": {
+        "id": "S9"
+      }
+    },
+    {
+      "id": "S01",
+      "dimension": "unsupported optimistic assessment",
+      "stratum": "assumption_stress",
+      "sources": [
+        "termination"
+      ],
+      "claim": "Ödəniş 30 günə verilir.",
+      "note": "The passage has no payment deadline and the fixture deliberately supplies optimistic support.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "S02",
+      "dimension": "historical source used as current",
+      "stratum": "assumption_stress",
+      "sources": [
+        "flat",
+        "flat_continuation"
+      ],
+      "claim": "Torpağa görə hazırda hamıya 6 faiz tətbiq edilir.",
+      "note": "The audit verified visible strike-through on PDF pages 10–11. The indexed text lacks that formatting. This does not establish an end date.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "requested_reference_date": "2026-11-23",
+        "source_status": "struck_through",
+        "effective_date": null
+      }
+    },
+    {
+      "id": "S03",
+      "dimension": "active-looking rule without effective period",
+      "stratum": "assumption_stress",
+      "sources": [
+        "land"
+      ],
+      "claim": "14.5.1-1.9 2026-11-23 tarixində qüvvədədir.",
+      "note": "The fixture has no certified effective period for the requested date.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "requested_reference_date": "2026-11-23",
+        "provision_effective_date": null
+      }
+    },
+    {
+      "id": "S04",
+      "dimension": "textbook as normative",
+      "stratum": "assumption_stress",
+      "sources": [
+        "textbook_content"
+      ],
+      "claim": "Dərslik hazırda məcburi ödəniş hüququ yaradır.",
+      "note": "Academic approval does not make the textbook a legal act.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "S05",
+      "dimension": "mixed legal authority",
+      "stratum": "assumption_stress",
+      "sources": [
+        "termination",
+        "textbook_content"
+      ],
+      "claim": "Dərslik və qanun bütün müqavilələr üzrə xitamdan sonra ödənişi eyni qaydada məcburi edir.",
+      "note": "Mixed sources do not establish equal legal force or universal applicability.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "S06",
+      "dimension": "resolution substituted for statute",
+      "stratum": "assumption_stress",
+      "sources": [
+        "amendment_resolution",
+        "employer"
+      ],
+      "claim": "Qərarın 2.2.2-ci bəndi sığortalanmamış işçiyə ödəniş məbləğini müəyyən edir.",
+      "note": "The resolution amends investigation documentation. The conditional liability amount derives from occupational statute §7.3.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "S07",
+      "dimension": "publication mistaken for effectiveness",
+      "stratum": "assumption_stress",
+      "sources": [
+        "amendment"
+      ],
+      "claim": "1618-VQD əlavələri 21 avqust 2019-da qüvvəyə minib.",
+      "note": "Footnote 6 distinguishes publication 2019-08-21 from express effectiveness 2020-01-01.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "amendment_adoption_date": "2019-06-27",
+        "publication_date": "2019-08-21",
+        "provision_effective_date": "2020-01-01",
+        "requested_reference_date": "2019-09-01"
+      }
+    },
+    {
+      "id": "S08",
+      "dimension": "amendment adoption mistaken for effectiveness",
+      "stratum": "assumption_stress",
+      "sources": [
+        "amendment"
+      ],
+      "claim": "Əlavələr 27 iyun 2019-da qüvvədə idi.",
+      "note": "The stated adoption day is not the stated effective day.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "amendment_adoption_date": "2019-06-27",
+        "publication_date": "2019-08-21",
+        "provision_effective_date": "2020-01-01",
+        "requested_reference_date": "2019-06-27"
+      }
+    },
+    {
+      "id": "S09",
+      "dimension": "events compared with contract interval",
+      "stratum": "assumption_stress",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Hypothetical event is after termination. Text is correct in isolation but does not apply to the supplied event.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-01",
+        "insured_event_date": "2025-06-02",
+        "requested_reference_date": "2025-06-02"
+      }
+    },
+    {
+      "id": "S10",
+      "dimension": "date vocabulary escape",
+      "stratum": "assumption_stress",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Hypothetical event predates the contract start despite correct generic timing words.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-01",
+        "insured_event_date": "2024-12-31",
+        "requested_reference_date": "2025-06-02"
+      }
+    },
+    {
+      "id": "S11",
+      "dimension": "different legal situations conflated",
+      "stratum": "assumption_stress",
+      "sources": [
+        "termination",
+        "invalidity"
+      ],
+      "claim": "Bağlandığı andan etibarsız müqavilə də xitam verilmiş müqavilə kimi ödəniş hüququnu saxlayır.",
+      "note": "The two clauses describe different conditions. The verifier does not derive material conflict or scope from their text.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "S12",
+      "dimension": "incorrect deadline without supplied pattern",
+      "stratum": "assumption_stress",
+      "sources": [
+        "ordinary"
+      ],
+      "claim": "Adi qrupun ödənişi sonrakı ayın 20-dək edilməlidir.",
+      "note": "§14.6 expressly uses 15. No numeric rule or negative support judgment is supplied.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": false,
+        "mode": null,
+        "binding": true,
+        "scope_violation": true,
+        "missing_condition": false
+      }
+    },
+    {
+      "id": "S13",
+      "dimension": "explicit effective date distinguished from publication",
+      "stratum": "assumption_stress",
+      "sources": [
+        "amendment"
+      ],
+      "claim": "1618-VQD əlavələri 21 avqust 2019-da dərc edilib və 1 yanvar 2020-dən qüvvəyə minib.",
+      "note": "Positive comparison against S07 and S08, limited to what the dated note establishes.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": true,
+        "mode": "FULL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "amendment_adoption_date": "2019-06-27",
+        "publication_date": "2019-08-21",
+        "provision_effective_date": "2020-01-01",
+        "requested_reference_date": "2020-01-02"
+      }
+    },
+    {
+      "id": "S14",
+      "dimension": "covered event within hypothetical contract term",
+      "stratum": "assumption_stress",
+      "sources": [
+        "termination"
+      ],
+      "claim": "İstehsalatda icbari sığorta müqaviləsi qüvvədə olduğu dövrdə baş vermiş sığorta hadisəsi üzrə xitam sığortaçını faydalanana ödəniş vermək öhdəliyindən azad etmir.",
+      "note": "Positive comparison against S09 and S10 using the same claim wording and an in-term hypothetical event.",
+      "supplied_support": "complete",
+      "expected": {
+        "accepted_full": true,
+        "mode": "FULL",
+        "binding": true,
+        "scope_violation": false,
+        "missing_condition": false
+      },
+      "temporal_context": {
+        "contract_start": "2025-01-01",
+        "contract_termination": "2025-06-01",
+        "insured_event_date": "2025-05-01",
+        "requested_reference_date": "2025-06-02"
+      }
+    }
+  ]
+}

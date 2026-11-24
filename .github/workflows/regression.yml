@@ -1,0 +1,40 @@
+name: Application regression
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  backend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: App/requirements.txt
+      - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install -r App/requirements.txt httpx
+      - run: python -B -m unittest discover -s tests
+      - run: python -m evaluation.evaluate_platform ci --output ci-retrieval.json
+      - run: >-
+          python -c "from App import settings as s;
+          assert not any((s.CONTEXTUAL_HEADERS,s.LEGAL_EVIDENCE,s.STRUCTURED_ANSWERS,s.LEGAL_FAITHFULNESS,
+          s.QUERY_DECOMPOSITION,s.QUERY_ROUTING,s.QUERY_EXPANSION,s.QUERY_HYDE,s.LEGAL_RETRIEVAL_V2,
+          s.LEGAL_CLAIM_GUARDS,s.STAGED_LEGAL_SOURCES,s.LEGAL_PROVISION_RETRIEVAL,s.LEGAL_MULTIPART_COVERAGE)); assert s.RERANK_MODE == 'baseline'"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lexical-regression-${{ github.run_id }}
+          path: ci-retrieval.json
+          retention-days: 30
+  frontend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - run: bun install --frozen-lockfile
+      - run: bun run test

@@ -1,0 +1,476 @@
+{
+  "source": "s\u0131\u011forta.pdf",
+  "source_sha256": "ab02f287f057ba609a9fa8cb7499c43e02aeac7feeee5654d1b56a501bd53b2b",
+  "derivative_sha256": "8588eabe463d25c2b22d38c578c02ae149621a6b4a46dcfd920bd5c5427a9933",
+  "dpi": 200,
+  "languages": "aze+eng",
+  "pymupdf": "2.1",
+  "review_status": "pending visual/legal review",
+  "pages": [
+    {
+      "page": 1,
+      "extracted_chars": 4417,
+      "status": "ocr"
+    },
+    {
+      "page": 2,
+      "extracted_chars": 5114,
+      "status": "ocr"
+    },
+    {
+      "page": 3,
+      "extracted_chars": 4598,
+      "status": "ocr"
+    },
+    {
+      "page": 4,
+      "extracted_chars": 4529,
+      "status": "ocr"
+    },
+    {
+      "page": 5,
+      "extracted_chars": 3528,
+      "status": "ocr"
+    },
+    {
+      "page": 6,
+      "extracted_chars": 5101,
+      "status": "ocr"
+    },
+    {
+      "page": 7,
+      "extracted_chars": 4853,
+      "status": "ocr"
+    },
+    {
+      "page": 8,
+      "extracted_chars": 5617,
+      "status": "ocr"
+    },
+    {
+      "page": 9,
+      "extracted_chars": 5349,
+      "status": "ocr"
+    },
+    {
+      "page": 10,
+      "extracted_chars": 4552,
+      "status": "ocr"
+    },
+    {
+      "page": 11,
+      "extracted_chars": 4035,
+      "status": "ocr"
+    },
+    {
+      "page": 12,
+      "extracted_chars": 4414,
+      "status": "ocr"
+    },
+    {
+      "page": 13,
+      "extracted_chars": 4276,
+      "status": "ocr"
+    },
+    {
+      "page": 14,
+      "extracted_chars": 5070,
+      "status": "ocr"
+    },
+    {
+      "page": 15,
+      "extracted_chars": 4681,
+      "status": "ocr"
+    },
+    {
+      "page": 16,
+      "extracted_chars": 4769,
+      "status": "ocr"
+    },
+    {
+      "page": 17,
+      "extracted_chars": 5478,
+      "status": "ocr"
+    },
+    {
+      "page": 18,
+      "extracted_chars": 5101,
+      "status": "ocr"
+    },
+    {
+      "page": 19,
+      "extracted_chars": 4627,
+      "status": "ocr"
+    },
+    {
+      "page": 20,
+      "extracted_chars": 5526,
+      "status": "ocr"
+    },
+    {
+      "page": 21,
+      "extracted_chars": 4860,
+      "status": "ocr"
+    },
+    {
+      "page": 22,
+      "extracted_chars": 4198,
+      "status": "ocr"
+    },
+    {
+      "page": 23,
+      "extracted_chars": 1755,
+      "status": "ocr"
+    },
+    {
+      "page": 24,
+      "extracted_chars": 3243,
+      "status": "ocr"
+    },
+    {
+      "page": 25,
+      "extracted_chars": 3817,
+      "status": "ocr"
+    },
+    {
+      "page": 26,
+      "extracted_chars": 4074,
+      "status": "ocr"
+    },
+    {
+      "page": 27,
+      "extracted_chars": 4643,
+      "status": "ocr"
+    },
+    {
+      "page": 28,
+      "extracted_chars": 4261,
+      "status": "ocr"
+    },
+    {
+      "page": 29,
+      "extracted_chars": 4063,
+      "status": "ocr"
+    },
+    {
+      "page": 30,
+      "extracted_chars": 4571,
+      "status": "ocr"
+    },
+    {
+      "page": 31,
+      "extracted_chars": 3892,
+      "status": "ocr"
+    },
+    {
+      "page": 32,
+      "extracted_chars": 4519,
+      "status": "ocr"
+    },
+    {
+      "page": 33,
+      "extracted_chars": 4734,
+      "status": "ocr"
+    },
+    {
+      "page": 34,
+      "extracted_chars": 4656,
+      "status": "ocr"
+    },
+    {
+      "page": 35,
+      "extracted_chars": 4409,
+      "status": "ocr"
+    },
+    {
+      "page": 36,
+      "extracted_chars": 4569,
+      "status": "ocr"
+    },
+    {
+      "page": 37,
+      "extracted_chars": 5812,
+      "status": "ocr"
+    },
+    {
+      "page": 38,
+      "extracted_chars": 4798,
+      "status": "ocr"
+    },
+    {
+      "page": 39,
+      "extracted_chars": 4616,
+      "status": "ocr"
+    },
+    {
+      "page": 40,
+      "extracted_chars": 5154,
+      "status": "ocr"
+    },
+    {
+      "page": 41,
+      "extracted_chars": 5190,
+      "status": "ocr"
+    },
+    {
+      "page": 42,
+      "extracted_chars": 1952,
+      "status": "ocr"
+    },
+    {
+      "page": 43,
+      "extracted_chars": 2716,
+      "status": "ocr"
+    },
+    {
+      "page": 44,
+      "extracted_chars": 4177,
+      "status": "ocr"
+    },
+    {
+      "page": 45,
+      "extracted_chars": 4593,
+      "status": "ocr"
+    },
+    {
+      "page": 46,
+      "extracted_chars": 4973,
+      "status": "ocr"
+    },
+    {
+      "page": 47,
+      "extracted_chars": 4001,
+      "status": "ocr"
+    },
+    {
+      "page": 48,
+      "extracted_chars": 4296,
+      "status": "ocr"
+    },
+    {
+      "page": 49,
+      "extracted_chars": 4430,
+      "status": "ocr"
+    },
+    {
+      "page": 50,
+      "extracted_chars": 4029,
+      "status": "ocr"
+    },
+    {
+      "page": 51,
+      "extracted_chars": 4190,
+      "status": "ocr"
+    },
+    {
+      "page": 52,
+      "extracted_chars": 4767,
+      "status": "ocr"
+    },
+    {
+      "page": 53,
+      "extracted_chars": 5137,
+      "status": "ocr"
+    },
+    {
+      "page": 54,
+      "extracted_chars": 5306,
+      "status": "ocr"
+    },
+    {
+      "page": 55,
+      "extracted_chars": 5765,
+      "status": "ocr"
+    },
+    {
+      "page": 56,
+      "extracted_chars": 5854,
+      "status": "ocr"
+    },
+    {
+      "page": 57,
+      "extracted_chars": 4877,
+      "status": "ocr"
+    },
+    {
+      "page": 58,
+      "extracted_chars": 4916,
+      "status": "ocr"
+    },
+    {
+      "page": 59,
+      "extracted_chars": 4180,
+      "status": "ocr"
+    },
+    {
+      "page": 60,
+      "extracted_chars": 4586,
+      "status": "ocr"
+    },
+    {
+      "page": 61,
+      "extracted_chars": 3981,
+      "status": "ocr"
+    },
+    {
+      "page": 62,
+      "extracted_chars": 5143,
+      "status": "ocr"
+    },
+    {
+      "page": 63,
+      "extracted_chars": 5062,
+      "status": "ocr"
+    },
+    {
+      "page": 64,
+      "extracted_chars": 5374,
+      "status": "ocr"
+    },
+    {
+      "page": 65,
+      "extracted_chars": 5119,
+      "status": "ocr"
+    },
+    {
+      "page": 66,
+      "extracted_chars": 5476,
+      "status": "ocr"
+    },
+    {
+      "page": 67,
+      "extracted_chars": 2820,
+      "status": "ocr"
+    },
+    {
+      "page": 68,
+      "extracted_chars": 3551,
+      "status": "ocr"
+    },
+    {
+      "page": 69,
+      "extracted_chars": 4560,
+      "status": "ocr"
+    },
+    {
+      "page": 70,
+      "extracted_chars": 4542,
+      "status": "ocr"
+    },
+    {
+      "page": 71,
+      "extracted_chars": 5132,
+      "status": "ocr"
+    },
+    {
+      "page": 72,
+      "extracted_chars": 5163,
+      "status": "ocr"
+    },
+    {
+      "page": 73,
+      "extracted_chars": 4434,
+      "status": "ocr"
+    },
+    {
+      "page": 74,
+      "extracted_chars": 4162,
+      "status": "ocr"
+    },
+    {
+      "page": 75,
+      "extracted_chars": 3921,
+      "status": "ocr"
+    },
+    {
+      "page": 76,
+      "extracted_chars": 4348,
+      "status": "ocr"
+    },
+    {
+      "page": 77,
+      "extracted_chars": 5317,
+      "status": "ocr"
+    },
+    {
+      "page": 78,
+      "extracted_chars": 4370,
+      "status": "ocr"
+    },
+    {
+      "page": 79,
+      "extracted_chars": 5102,
+      "status": "ocr"
+    },
+    {
+      "page": 80,
+      "extracted_chars": 5223,
+      "status": "ocr"
+    },
+    {
+      "page": 81,
+      "extracted_chars": 5453,
+      "status": "ocr"
+    },
+    {
+      "page": 82,
+      "extracted_chars": 5204,
+      "status": "ocr"
+    },
+    {
+      "page": 83,
+      "extracted_chars": 5375,
+      "status": "ocr"
+    },
+    {
+      "page": 84,
+      "extracted_chars": 4037,
+      "status": "ocr"
+    },
+    {
+      "page": 85,
+      "extracted_chars": 4037,
+      "status": "ocr"
+    },
+    {
+      "page": 86,
+      "extracted_chars": 4567,
+      "status": "ocr"
+    },
+    {
+      "page": 87,
+      "extracted_chars": 4994,
+      "status": "ocr"
+    },
+    {
+      "page": 88,
+      "extracted_chars": 5400,
+      "status": "ocr"
+    },
+    {
+      "page": 89,
+      "extracted_chars": 5086,
+      "status": "ocr"
+    },
+    {
+      "page": 90,
+      "extracted_chars": 5233,
+      "status": "ocr"
+    },
+    {
+      "page": 91,
+      "extracted_chars": 5410,
+      "status": "ocr"
+    },
+    {
+      "page": 92,
+      "extracted_chars": 4857,
+      "status": "ocr"
+    },
+    {
+      "page": 93,
+      "extracted_chars": 3687,
+      "status": "ocr"
+    }
+  ]
+}

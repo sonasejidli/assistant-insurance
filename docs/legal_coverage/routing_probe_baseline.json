@@ -1,0 +1,1093 @@
+{
+  "method": "Offline intent planning only",
+  "summary": {
+    "exact": {
+      "total": 7,
+      "passed": 7
+    },
+    "paraphrase": {
+      "total": 35,
+      "passed": 22
+    },
+    "followup": {
+      "total": 7,
+      "passed": 7
+    },
+    "negative": {
+      "total": 5,
+      "passed": 5
+    },
+    "review": {
+      "total": 7,
+      "passed": 4
+    }
+  },
+  "rows": [
+    {
+      "kind": "exact",
+      "query": "Uşağın anadan olmasına görə birdəfəlik müavinət kimə verilir?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [
+        "Cabinet No. 189 §§4.1–4.4",
+        "Social Benefits Law arts. 4, 6, 7, 9"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Uşağın anadan olmasına görə birdəfəlik müavinət kimə verilir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Uşaq doğulanda birdəfəlik müavinəti kim alır?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [
+        "Cabinet No. 189 §§4.1–4.4",
+        "Social Benefits Law arts. 4, 6, 7, 9"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Uşaq doğulanda birdəfəlik müavinəti kim alır?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Yeni doğulan uşağa görə pulu ata götürə bilərmi?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [
+        "Cabinet No. 189 §§4.1–4.4",
+        "Social Benefits Law arts. 4, 6, 7, 9"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Yeni doğulan uşağa görə pulu ata götürə bilərmi?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Doğuma görə verilən birdəfəlik yardım anaya çatır?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [
+        "Cabinet No. 189 §§4.1–4.4",
+        "Social Benefits Law arts. 4, 6, 7, 9"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Doğuma görə verilən birdəfəlik yardım anaya çatır?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Körpə dünyaya gələndə birdəfəlik ödəniş kimə düşür?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [
+        "Cabinet No. 189 §§4.1–4.4",
+        "Social Benefits Law arts. 4, 6, 7, 9"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Körpə dünyaya gələndə birdəfəlik ödəniş kimə düşür?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Ana işləmirsə, uşağın doğulmasına görə müavinət kimə təyin olunur?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [
+        "Cabinet No. 189 §§4.1–4.4",
+        "Social Benefits Law arts. 4, 6, 7, 9"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Ana işləmirsə, uşağın doğulmasına görə müavinət kimə təyin olunur?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "followup",
+      "query": "Bəs ana sığortaolunan deyilsə?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [
+        "Cabinet No. 189 §§4.1–4.4",
+        "Social Benefits Law arts. 4, 6, 7, 9"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": null,
+      "route": "ambiguous_question",
+      "passed": true
+    },
+    {
+      "kind": "exact",
+      "query": "Ödənişdən imtina üçün hansı əsaslar var?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [
+        "Civil Code arts. 933–935",
+        "Compulsory Insurance Law arts. 17–18, 21"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Ödənişdən imtina üçün hansı əsaslar var?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Sığortaçı hansı hallarda ödəniş verməyə bilər?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [
+        "Civil Code arts. 933–935",
+        "Compulsory Insurance Law arts. 17–18, 21"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Sığortaçı hansı hallarda ödəniş verməyə bilər?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Kompensasiyadan imtina hansı səbəblərlə mümkündür?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [
+        "Civil Code arts. 933–935",
+        "Compulsory Insurance Law arts. 17–18, 21"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Kompensasiyadan imtina hansı səbəblərlə mümkündür?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Sığorta ödənişi hansı hallarda verilmir?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [
+        "Civil Code arts. 933–935",
+        "Compulsory Insurance Law arts. 17–18, 21"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Sığorta ödənişi hansı hallarda verilmir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Sənədlər çatışmırsa, sığorta şirkəti ödənişdən imtina edə bilər?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [
+        "Civil Code arts. 933–935",
+        "Compulsory Insurance Law arts. 17–18, 21"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Sənədlər çatışmırsa, sığorta şirkəti ödənişdən imtina edə bilər?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Hansı istisnalara görə sığorta tələbim rədd oluna bilər?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [
+        "Civil Code arts. 933–935",
+        "Compulsory Insurance Law arts. 17–18, 21"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Hansı istisnalara görə sığorta tələbim rədd oluna bilər?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "followup",
+      "query": "Bəs sənədlər sonradan təqdim edilsə?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [
+        "Civil Code arts. 933–935",
+        "Compulsory Insurance Law arts. 17–18, 21"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": null,
+      "route": "ambiguous_question",
+      "passed": true
+    },
+    {
+      "kind": "exact",
+      "query": "Müqavilə ləğv edilərsə, əvvəl baş verən hadisəyə görə ödəniş hüququm qalırmı?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2.0.12, 11.8, 18.11",
+        "Civil Code arts. 919–923"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Müqavilə ləğv edilərsə, əvvəl baş verən hadisəyə görə ödəniş hüququm qalırmı?",
+      "route": "legal_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Hadisə sığorta qüvvədə olanda baş verib, sonra müqaviləyə xitam verilib. Ödəniş düşür?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2.0.12, 11.8, 18.11",
+        "Civil Code arts. 919–923"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Hadisə sığorta qüvvədə olanda baş verib, sonra müqaviləyə xitam verilib. Ödəniş düşür?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Sığorta bitəndən sonra əvvəlki hadisə üçün müraciət edə bilərəm?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2.0.12, 11.8, 18.11",
+        "Civil Code arts. 919–923"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Sığorta bitəndən sonra əvvəlki hadisə üçün müraciət edə bilərəm?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Müqavilə xitamdan əvvəlki hadisəni əhatə edir?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2.0.12, 11.8, 18.11",
+        "Civil Code arts. 919–923"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Müqavilə xitamdan əvvəlki hadisəni əhatə edir?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Əvvəlki qəzaya görə müqavilə ləğv olunandan sonra kompensasiya verilirmi?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2.0.12, 11.8, 18.11",
+        "Civil Code arts. 919–923"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Əvvəlki qəzaya görə müqavilə ləğv olunandan sonra kompensasiya verilirmi?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Sığorta müqaviləsi bitdikdən sonra bildirdiyim, amma əvvəl baş vermiş hadisə ödənilirmi?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2.0.12, 11.8, 18.11",
+        "Civil Code arts. 919–923"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Sığorta müqaviləsi bitdikdən sonra bildirdiyim, amma əvvəl baş vermiş hadisə ödənilirmi?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "followup",
+      "query": "Bəs hadisəni xitamdan sonra xəbər vermişəmsə?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2.0.12, 11.8, 18.11",
+        "Civil Code arts. 919–923"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": null,
+      "route": "ambiguous_question",
+      "passed": true
+    },
+    {
+      "kind": "exact",
+      "query": "Əlillik müəyyən olunarsa, funksiyaların pozulma faizinə görə nə qədər ödənilir?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [
+        "Cabinet No. 187 and annex",
+        "Compulsory Insurance Law art. 14.2–14.3",
+        "Military Insurance Law arts. 4–5 when applicable"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Əlillik müəyyən olunarsa, funksiyaların pozulma faizinə görə nə qədər ödənilir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Əlilliyin funksiyaların pozulma faizinə görə məbləği necə müəyyən edilir?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [
+        "Cabinet No. 187 and annex",
+        "Compulsory Insurance Law art. 14.2–14.3",
+        "Military Insurance Law arts. 4–5 when applicable"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Əlilliyin funksiyaların pozulma faizinə görə məbləği necə müəyyən edilir?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Orqanizmin funksiyaları 70 faiz pozulubsa, sığorta necə hesablanır?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [
+        "Cabinet No. 187 and annex",
+        "Compulsory Insurance Law art. 14.2–14.3",
+        "Military Insurance Law arts. 4–5 when applicable"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Orqanizmin funksiyaları 70 faiz pozulubsa, sığorta necə hesablanır?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Əlillik faizi artdıqda kompensasiya necə dəyişir?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [
+        "Cabinet No. 187 and annex",
+        "Compulsory Insurance Law art. 14.2–14.3",
+        "Military Insurance Law arts. 4–5 when applicable"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Əlillik faizi artdıqda kompensasiya necə dəyişir?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Funksiya itkisi faizinə əsasən mənə nə qədər pul düşür?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [
+        "Cabinet No. 187 and annex",
+        "Compulsory Insurance Law art. 14.2–14.3",
+        "Military Insurance Law arts. 4–5 when applicable"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Funksiya itkisi faizinə əsasən mənə nə qədər pul düşür?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Elillik mueyyen olunarsa, funksiyalarin pozulma faizi uzre ne qeder odenilir?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [
+        "Cabinet No. 187 and annex",
+        "Compulsory Insurance Law art. 14.2–14.3",
+        "Military Insurance Law arts. 4–5 when applicable"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Elillik mueyyen olunarsa, funksiyalarin pozulma faizi uzre ne qeder odenilir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "followup",
+      "query": "Bəs sığorta məbləği məlum deyilsə?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [
+        "Cabinet No. 187 and annex",
+        "Compulsory Insurance Law art. 14.2–14.3",
+        "Military Insurance Law arts. 4–5 when applicable"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": null,
+      "route": "ambiguous_question",
+      "passed": true
+    },
+    {
+      "kind": "exact",
+      "query": "Əmək qabiliyyətinin müvəqqəti itirilməsinə görə (xəstəlik) müavinət almaq üçün nə qədər staj lazımdır?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [
+        "Cabinet No. 189 §§1.5, 2.1–2.13",
+        "Social Insurance Law arts. 1.1.9, 6, 16"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Əmək qabiliyyətinin müvəqqəti itirilməsinə görə (xəstəlik) müavinət almaq üçün nə qədər staj lazımdır?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Xəstəlik vərəqəsinə görə müavinət üçün neçə ay sığorta stajı tələb edilir?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [
+        "Cabinet No. 189 §§1.5, 2.1–2.13",
+        "Social Insurance Law arts. 1.1.9, 6, 16"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Xəstəlik vərəqəsinə görə müavinət üçün neçə ay sığorta stajı tələb edilir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Xəstəlik pulu almaq üçün neçə ay işləmək lazımdır?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [
+        "Cabinet No. 189 §§1.5, 2.1–2.13",
+        "Social Insurance Law arts. 1.1.9, 6, 16"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Xəstəlik pulu almaq üçün neçə ay işləmək lazımdır?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Müvəqqəti əmək qabiliyyətsizliyi üçün minimum sosial sığorta stajı nədir?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [
+        "Cabinet No. 189 §§1.5, 2.1–2.13",
+        "Social Insurance Law arts. 1.1.9, 6, 16"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Müvəqqəti əmək qabiliyyətsizliyi üçün minimum sosial sığorta stajı nədir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Xəstələnəndə müavinət almaq üçün nə qədər iş təcrübəsi olmalıdır?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [
+        "Cabinet No. 189 §§1.5, 2.1–2.13",
+        "Social Insurance Law arts. 1.1.9, 6, 16"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Xəstələnəndə müavinət almaq üçün nə qədər iş təcrübəsi olmalıdır?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Altı aydan az sığorta stajım varsa xəstəlik pulunu ala bilərəmmi?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [
+        "Cabinet No. 189 §§1.5, 2.1–2.13",
+        "Social Insurance Law arts. 1.1.9, 6, 16"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Altı aydan az sığorta stajım varsa xəstəlik pulunu ala bilərəmmi?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "followup",
+      "query": "Bəs stajın bir hissəsində sığorta haqqı ödənilməyibsə?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [
+        "Cabinet No. 189 §§1.5, 2.1–2.13",
+        "Social Insurance Law arts. 1.1.9, 6, 16"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": null,
+      "route": "ambiguous_question",
+      "passed": true
+    },
+    {
+      "kind": "exact",
+      "query": "İş yerində qəza baş verərsə, sığorta ödənişi almaq hüququm varmı?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2, 3, 7, 13–20",
+        "Labour Code art. 217",
+        "Cabinet No. 27 and annexes"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "İş yerində qəza baş verərsə, sığorta ödənişi almaq hüququm varmı?",
+      "route": "legal_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "İstehsalatda bədbəxt hadisədə xəsarət alan işçiyə sığorta ödənilirmi?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2, 3, 7, 13–20",
+        "Labour Code art. 217",
+        "Cabinet No. 27 and annexes"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "İstehsalatda bədbəxt hadisədə xəsarət alan işçiyə sığorta ödənilirmi?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "İşdə yaralandığım halda kompensasiya almaq hüququm var?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2, 3, 7, 13–20",
+        "Labour Code art. 217",
+        "Cabinet No. 27 and annexes"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "İşdə yaralandığım halda kompensasiya almaq hüququm var?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "İstehsalat zədəsinə görə hansı şərtlə ödəniş ala bilərəm?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2, 3, 7, 13–20",
+        "Labour Code art. 217",
+        "Cabinet No. 27 and annexes"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "İstehsalat zədəsinə görə hansı şərtlə ödəniş ala bilərəm?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "İş zamanı qəzaya düşsəm, icbari sığorta məni əhatə edirmi?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2, 3, 7, 13–20",
+        "Labour Code art. 217",
+        "Cabinet No. 27 and annexes"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "İş zamanı qəzaya düşsəm, icbari sığorta məni əhatə edirmi?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "İş qəzasından sonra sığorta pulu üçün hansı sənədlər tələb olunur?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2, 3, 7, 13–20",
+        "Labour Code art. 217",
+        "Cabinet No. 27 and annexes"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "İş qəzasından sonra sığorta pulu üçün hansı sənədlər tələb olunur?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "followup",
+      "query": "Bəs qəza haqqında İZ aktı tərtib edilməyibsə?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [
+        "Workplace Insurance Law arts. 2, 3, 7, 13–20",
+        "Labour Code art. 217",
+        "Cabinet No. 27 and annexes"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": null,
+      "route": "ambiguous_question",
+      "passed": true
+    },
+    {
+      "kind": "exact",
+      "query": "Ağır, az ağır və yüngül xəsarət arasında ödəniş fərqi nə qədərdir?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [
+        "Cabinet No. 269 §§1–3",
+        "Compulsory Insurance Law art. 14.2–14.3"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Ağır, az ağır və yüngül xəsarət arasında ödəniş fərqi nə qədərdir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Az ağır xəsarətlə ağır xəsarət üçün sığorta məbləği fərqlənirmi?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [
+        "Cabinet No. 269 §§1–3",
+        "Compulsory Insurance Law art. 14.2–14.3"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Az ağır xəsarətlə ağır xəsarət üçün sığorta məbləği fərqlənirmi?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Yüngül yaralanmaya görə ağır xəsarətdən az pul ödənilirmi?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [
+        "Cabinet No. 269 §§1–3",
+        "Compulsory Insurance Law art. 14.2–14.3"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Yüngül yaralanmaya görə ağır xəsarətdən az pul ödənilirmi?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Xəsarətin ağırlıq dərəcəsi sığorta ödənişini necə dəyişir?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [
+        "Cabinet No. 269 §§1–3",
+        "Compulsory Insurance Law art. 14.2–14.3"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Xəsarətin ağırlıq dərəcəsi sığorta ödənişini necə dəyişir?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Ağır və yüngül zədə üçün hansı faiz tətbiq olunur?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [
+        "Cabinet No. 269 §§1–3",
+        "Compulsory Insurance Law art. 14.2–14.3"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Ağır və yüngül zədə üçün hansı faiz tətbiq olunur?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "paraphrase",
+      "query": "Agir, az agir ve yungul xesaretde pul ferqi ne qederdir?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [
+        "Cabinet No. 269 §§1–3",
+        "Compulsory Insurance Law art. 14.2–14.3"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Agir, az agir ve yungul xesaretde pul ferqi ne qederdir?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "followup",
+      "query": "Bəs xəsarət əlilliyə səbəb olubsa?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [
+        "Cabinet No. 269 §§1–3",
+        "Compulsory Insurance Law art. 14.2–14.3"
+      ],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": null,
+      "route": "ambiguous_question",
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "query": "Fransanın paytaxtı haradır?",
+      "expected_domain": null,
+      "expected_provisions": [],
+      "expected_routes": [
+        "out_of_scope"
+      ],
+      "rule": null,
+      "standalone": "Fransanın paytaxtı haradır?",
+      "route": "out_of_scope",
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "query": "Sabah hava necə olacaq?",
+      "expected_domain": null,
+      "expected_provisions": [],
+      "expected_routes": [
+        "out_of_scope"
+      ],
+      "rule": "out_of_scope",
+      "standalone": "Sabah hava necə olacaq?",
+      "route": "out_of_scope",
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "query": "Plov necə bişirilir?",
+      "expected_domain": null,
+      "expected_provisions": [],
+      "expected_routes": [
+        "out_of_scope"
+      ],
+      "rule": null,
+      "standalone": "Plov necə bişirilir?",
+      "route": "out_of_scope",
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "query": "Əlillik zamanı funksiyaların pozulma faizi necə ölçülür?",
+      "expected_domain": null,
+      "expected_provisions": [],
+      "expected_routes": [
+        "out_of_scope"
+      ],
+      "rule": null,
+      "standalone": "Əlillik zamanı funksiyaların pozulma faizi necə ölçülür?",
+      "route": "out_of_scope",
+      "passed": true
+    },
+    {
+      "kind": "negative",
+      "query": "Bu restoranda yeməyə görə nə qədər ödənilir?",
+      "expected_domain": null,
+      "expected_provisions": [],
+      "expected_routes": [
+        "out_of_scope"
+      ],
+      "rule": null,
+      "standalone": "Bu restoranda yeməyə görə nə qədər ödənilir?",
+      "route": "out_of_scope",
+      "passed": true
+    },
+    {
+      "kind": "review",
+      "query": "2025-ci ilin mayında doğulan uşağa aid qayda hansıdır?",
+      "expected_domain": "childbirth_benefit",
+      "expected_provisions": [],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "2025-ci ilin mayında doğulan uşağa aid qayda hansıdır?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "review",
+      "query": "İmtina məktubunda sənədin çatışmadığı yazılıb. Bu kifayətdirmi?",
+      "expected_domain": "payment_refusal",
+      "expected_provisions": [],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "İmtina məktubunda sənədin çatışmadığı yazılıb. Bu kifayətdirmi?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "review",
+      "query": "Hadisə müqavilə bitəndən bir gün sonra baş verib. Bildiriş vaxtı nəticəni dəyişirmi?",
+      "expected_domain": "prior_event_after_termination",
+      "expected_provisions": [],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": null,
+      "standalone": "Hadisə müqavilə bitəndən bir gün sonra baş verib. Bildiriş vaxtı nəticəni dəyişirmi?",
+      "route": "out_of_scope",
+      "passed": false
+    },
+    {
+      "kind": "review",
+      "query": "Sığorta məbləği 10 000 manat, funksiyaların pozulması 60 faizdir. Nə qədər düşür?",
+      "expected_domain": "functional_impairment_payment",
+      "expected_provisions": [],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Sığorta məbləği 10 000 manat, funksiyaların pozulması 60 faizdir. Nə qədər düşür?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "review",
+      "query": "Sığorta stajım beş aydır, amma əvvəl başqa işdə çalışmışam. Həmin müddət sayılır?",
+      "expected_domain": "temporary_incapacity_tenure",
+      "expected_provisions": [],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Sığorta stajım beş aydır, amma əvvəl başqa işdə çalışmışam. Həmin müddət sayılır?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "review",
+      "query": "İşdəki qəza ilə bağlı işəgötürən akt hazırlamayıb. Hansı normativ qayda tətbiq olunur?",
+      "expected_domain": "occupational_accident_entitlement",
+      "expected_provisions": [],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "İşdəki qəza ilə bağlı işəgötürən akt hazırlamayıb. Hansı normativ qayda tətbiq olunur?",
+      "route": "insurance_question",
+      "passed": true
+    },
+    {
+      "kind": "review",
+      "query": "Xəsarət az ağırdır, amma sonradan əlillik müəyyən edilib. Hansı ödəniş tətbiq olunur?",
+      "expected_domain": "injury_severity_payment",
+      "expected_provisions": [],
+      "expected_routes": [
+        "insurance_question",
+        "legal_question",
+        "ambiguous_question"
+      ],
+      "rule": "insurance_question",
+      "standalone": "Xəsarət az ağırdır, amma sonradan əlillik müəyyən edilib. Hansı ödəniş tətbiq olunur?",
+      "route": "insurance_question",
+      "passed": true
+    }
+  ]
+}
